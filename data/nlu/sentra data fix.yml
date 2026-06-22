@@ -1,0 +1,401 @@
+version: "3.1"
+
+nlu:
+
+- intent: tanya_ukm_sentra
+  examples: |
+    - Apa itu UKM Sentra?
+    - Sentra itu apa?
+    - Bisa jelaskan UKM Sentra?
+    - Sentra jenis organisasi apa?
+    - UKM Sentra fokus bidang kegiatan apa?
+    - Apa itu Sentra di kampus?
+    - Jelaskan tentang Sentra
+    - Sentra itu komunitas apa?
+    - Saya ingin tahu tentang Sentra?
+    - Apa itu komunitas teater Sentra?
+
+- intent: fungsi_ukm_sentra
+  examples: |
+    - peranan organisasi ini bagi mahasiswa apa?
+    - fungsi utama organisasi ini apa?
+    - Apa fungsi UKM Sentra?
+    - Apa fungsi Sentra bagi mahasiswa?
+    - Sentra berfungsi sebagai apa?
+    - Fungsi Sentra?
+    - Apakah fungsi Sentra?
+
+- intent: tujuan_ukm_sentra
+  examples: |
+    - tujuan utama dibentuknya organisasi ini apa?
+    - organisasi ini dibuat untuk tujuan apa?
+    - Apa tujuan Sentra?
+    - Tujuan UKM Sentra apa?
+    - Sentra dibuat tujuan utama organisasi ini apa?
+    - Apa manfaat ikut Sentra?
+    - Sentra tujuan utama organisasi ini apa?
+    - Tujuan kegiatan Sentra apa?
+    - Sentra bertujuan apa?
+    - Apa kegunaan Sentra?
+    - Tujuan utama Sentra?
+    - Apakah untuk teater?
+    - Sentra membantu apa?
+
+- intent: misi_ukm_sentra
+  examples: |
+    - program misi utama organisasi ini apa?
+    - apa fokus misi organisasi ini?
+    - Apa misi Sentra?
+    - Misi Sentra?
+    - Apa saja misi Sentra?
+    - Misi Sentra apa?
+    - Misi Sentra apa saja?
+
+- intent: visi_ukm_sentra
+  examples: |
+    - arah visi organisasi ini bagaimana?
+    - visi utama organisasi ini apa?
+    - Apa visi Sentra?
+    - Visi Sentra?
+    - Apa saja visi Sentra?
+    - Visi Sentra apa?
+    - Visi Sentra apa saja?
+
+- intent: bidang_ukm_sentra
+  examples: |
+    - Sentra fokus bidang kegiatan apa?
+    - Bidang UKM Sentra apa?
+    - Apakah Sentra teater?
+    - Sentra fokus apa?
+    - UKM Sentra fokus utama kegiatan apa?
+    - Apakah Sentra organisasi seni?
+    - Sentra bidangnya apa?
+    - Fokus utama Sentra?
+    - Apakah tentang teater?
+    - Sentra terkait seni?
+    - Sentra mencakup apa saja?
+    - Apakah belajar akting?
+    - Sentra termasuk komunitas teater?
+    - Sentra fokus seni?
+    - Bidang utama Sentra?
+
+- intent: boleh_gabung_sentra
+  examples: |
+    - Siapa saja boleh gabung Sentra?
+    - Apakah semua mahasiswa bisa join?
+    - Boleh semua fakultas ikut?
+    - Siapa yang bisa join Sentra?
+    - Apakah terbuka untuk semua?
+    - Mahasiswa baru boleh ikut?
+    - Apakah lintas jurusan boleh?
+    - Sentra untuk siapa saja?
+    - Apakah semua semester boleh?
+    - Apakah umum bisa join?
+    - Siapa target anggota Sentra?
+    - Apakah bebas gabung?
+    - Siapa saja bisa daftar?
+    - Apakah Sentra terbuka untuk semua?
+    - Boleh pemula ikut?
+
+- intent: cara_daftar_sentra
+  examples: |
+    - Bagaimana cara daftar Sentra?
+    - Cara join Sentra?
+    - Gimana cara masuk Sentra?
+    - Daftar Sentra lewat apa?
+    - Bagaimana proses pendaftaran?
+    - Cara gabung Sentra gimana?
+    - Saya ingin daftar Sentra
+    - Apa langkah daftar Sentra?
+    - Daftar Sentra dimana?
+    - Join lewat gform?
+    - Cara ikut Sentra?
+    - Prosedur masuk Sentra?
+    - Cara registrasi Sentra?
+    - Masuk Sentra bagaimana?
+    - Cara daftar UKM Sentra?
+
+- intent: biaya_daftar_sentra
+  examples: |
+    - Biaya Sentra berapa?
+    - Daftar Sentra bayar berapa?
+    - Apakah ada biaya Sentra?
+    - Biaya registrasi Sentra berapa?
+    - Masuk Sentra bayar berapa?
+    - Apakah Sentra gratis?
+    - Biaya join Sentra berapa?
+    - Registrasi Sentra berapa?
+    - Apakah ada uang pendaftaran?
+    - Daftar Sentra perlu bayar?
+    - Berapa uang masuk Sentra?
+    - Biaya anggota Sentra?
+    - Sentra ada biaya?
+    - Join Sentra bayar?
+    - Harga daftar Sentra?
+
+- intent: status_pendaftaran_sentra
+  examples: |
+    - Apakah Sentra buka pendaftaran?
+    - Sentra masih buka?
+    - Kapan pendaftaran Sentra dibuka?
+    - Apakah bisa daftar sekarang?
+    - Pendaftaran Sentra tutup atau belum?
+    - Apakah masih bisa join?
+    - Sentra open recruitment?
+    - Kapan open Sentra?
+    - Apakah Sentra sedang open?
+    - Jadwal pendaftaran Sentra kapan?
+    - Sentra buka anggota baru?
+    - Apakah rekrutmen Sentra aktif?
+    - Kapan bisa daftar Sentra?
+    - Apakah Sentra menerima anggota baru?
+    - Sentra buka saat PMB?
+
+- intent: syarat_anggota_sentra
+  examples: |
+    - Apa syarat masuk Sentra?
+    - Syarat join Sentra apa?
+    - Persyaratan Sentra?
+    - Masuk Sentra harus apa?
+    - Syarat jadi anggota?
+    - Apa ketentuan Sentra?
+    - Syarat gabung Sentra?
+    - Apa yang harus dipenuhi?
+    - Syarat ikut Sentra?
+    - Persyaratan umum Sentra?
+    - Apakah ada syarat khusus?
+    - Berdasarkan kualitas kerja?
+    - Syarat pendaftaran Sentra?
+    - Ketentuan anggota Sentra?
+    - Apa saja syaratnya?
+
+- intent: seleksi_sentra
+  examples: |
+    - Apakah ada seleksi Sentra?
+    - Sentra pakai seleksi?
+    - Harus tes masuk Sentra?
+    - Ada audisi Sentra?
+    - Seleksi masuk Sentra?
+    - Apakah wajib tes?
+    - Proses seleksi Sentra?
+    - Ada tahap seleksi?
+    - Apakah langsung diterima?
+    - Seleksi berdasarkan apa?
+    - Dinilai dari kualitas kerja?
+    - Ada penilaian kemampuan?
+    - Seleksi diperlukan?
+    - Bagaimana seleksi Sentra?
+    - Ada evaluasi anggota?
+
+- intent: divisi_sentra
+  examples: |
+    - Divisi Sentra apa saja?
+    - Ada bidang apa saja?
+    - Divisi dalam Sentra?
+    - Divisi apa saja?
+    - Divisi internal?
+    - Bagian organisasi?
+    - Unit dalam UKM?
+    - Divisi apa saja?
+
+- intent: struktur_sentra
+  examples: |
+    - Struktur organisasi?
+    - Struktur UKM?
+    - Struktur kepengurusan?
+    - Struktur bidang?
+    - Struktur lengkap?
+    - Struktur divisi?
+
+
+- intent: kegiatan_sentra
+  examples: |
+    - Kegiatan Sentra apa saja?
+    - Aktivitas Sentra apa?
+    - Sentra ada kegiatan apa?
+    - Program Sentra apa?
+    - Apa saja kegiatan Sentra?
+    - Event Sentra apa?
+    - Aktivitas UKM Sentra?
+    - Sentra sering ngapain?
+    - Kegiatan rutin Sentra?
+    - Program kerja Sentra?
+    - Apa yang dilakukan Sentra?
+    - Kegiatan anggota Sentra?
+    - Sentra ada event apa?
+    - Aktivitas Sentra sehari-hari?
+    - Apa saja aktivitas Sentra?
+
+- intent: jenis_kegiatan_sentra
+  examples: |
+    - Apa itu house warming?
+    - Apa itu workshop Sentra?
+    - Apa itu pementasan inagurasi?
+    - Apa itu pementasan tunggal?
+    - Jenis kegiatan Sentra?
+    - Program teater apa saja?
+    - Aktivitas akting apa?
+    - Kegiatan belajar teater?
+    - Ada pelatihan akting?
+    - Program utama Sentra?
+    - Kegiatan pementasan?
+    - Event teater?
+    - Apa saja jenis kegiatan?
+    - Program edukasi Sentra?
+    - Kegiatan seni apa?
+
+- intent: jadwal_kegiatan_sentra
+  examples: |
+    - Jadwal Sentra kapan?
+    - Sentra kegiatan kapan?
+    - Jadwal kegiatan Sentra?
+    - Sentra aktif kapan?
+    - Kapan workshop?
+    - Jadwal rutin Sentra?
+    - Sentra ada kegiatan kapan?
+    - Kapan pementasan?
+    - Jadwal acara Sentra?
+    - Jadwal kegiatan?
+    - Kapan aktif?
+    - Jadwal program?
+    - Kapan kegiatan utama?
+    - Jadwal tahunan?
+    - Waktu kegiatan?
+
+- intent: durasi_kegiatan_sentra
+  examples: |
+    - Berapa lama kegiatan Sentra?
+    - Durasi workshop Sentra?
+    - Kegiatan berapa jam?
+    - Lama kegiatan Sentra?
+    - Workshop berapa lama?
+    - Durasi pertemuan?
+    - Satu sesi berapa lama?
+    - Waktu kegiatan?
+    - Berapa jam per kegiatan?
+    - Sentra berapa lama?
+    - Lama kegiatan?
+    - Durasi acara?
+    - Waktu workshop?
+    - Durasi kegiatan?
+    - Berapa lama per sesi?
+
+- intent: lokasi_kegiatan_sentra
+  examples: |
+    - Kegiatan Sentra dimana?
+    - Lokasi Sentra dimana?
+    - Workshop dimana?
+    - Pementasan dimana?
+    - Tempat kegiatan Sentra?
+    - Sentra dilakukan dimana?
+    - Lokasi villa bogor?
+    - Tempat pementasan tunggal?
+    - Dimana lokasi Sentra?
+    - Tempat kegiatan?
+    - Lokasi workshop?
+    - Pementasan di gedung kesenian jakarta?
+    - Tempat latihan?
+    - Lokasi kegiatan?
+    - Sentra di mana?
+
+- intent: event_sentra
+  examples: |
+    - Event Sentra apa saja?
+    - Ada acara apa saja?
+    - Program Sentra apa?
+    - Apa itu house warming?
+    - Apa itu pementasan?
+    - Event Sentra apa saja?
+    - Acara Sentra apa?
+    - Program besar Sentra?
+    - Event tahunan Sentra?
+    - Ada kegiatan khusus?
+    - Event teater Sentra?
+    - Kegiatan besar Sentra?
+    - Acara utama Sentra?
+    - Event penting Sentra?
+    - Program spesial Sentra?
+
+- intent: jadwal_event_sentra
+  examples: |
+    - House warming kapan?
+    - Workshop kapan?
+    - Pementasan kapan?
+    - Jadwal event Sentra?
+    - Event bulan apa?
+    - Kapan acara Sentra?
+    - Jadwal kegiatan besar?
+    - Event diadakan kapan?
+    - Jadwal workshop?
+    - Kapan pementasan tunggal?
+    - Event tahunan kapan?
+    - Jadwal event?
+    - Kapan acara utama?
+    - Jadwal acara?
+    - Event kapan?
+
+- intent: fasilitas_sentra
+  examples: |
+    - Fasilitas Sentra apa?
+    - Apa saja fasilitasnya?
+    - Ada ruang sekretariat?
+    - Fasilitas lengkap?
+    - Apa yang disediakan?
+    - Fasilitas UKM Sentra?
+    - Apakah ada ruangan?
+    - Tempat kumpul ada?
+    - Ada basecamp?
+    - Fasilitas teater?
+    - Apa saja fasilitasnya?
+    - Ruang latihan ada?
+    - Tempat organisasi?
+    - Fasilitas pendukung?
+    - Ada tempat kegiatan?
+
+- intent: lokasi_sekre_sentra
+  examples: |
+    - biasanya lokasi ruang sekretariat dimana
+    - boleh tanya lokasi ruang sekretariat dimana
+    - info lokasi ruang sekretariat dimana
+    - lokasi ruang sekretariat dimana
+    - sekretariat Sentra dimana
+    - sekretariat Sentra lantai berapa
+    - Sentra sekretariatnya di lantai berapa
+    - ruang sekre Sentra dimana
+    - ruang sekre Sentra lantai berapa
+
+- intent: benefit_sentra
+  examples: |
+    - Manfaat Sentra apa?
+    - Keuntungan ikut Sentra?
+    - Benefit Sentra?
+    - Apa yang didapat?
+    - Untung ikut Sentra?
+    - Kelebihan Sentra?
+    - Kenapa ikut Sentra?
+    - Apa manfaat Sentra?
+    - Join Sentra dapat apa?
+    - Apa benefit Sentra?
+    - Sentra membantu apa?
+    - Kegunaan Sentra?
+    - Apa hasil ikut Sentra?
+    - Sentra berguna?
+    - Manfaat join Sentra?
+
+- intent: media_informasi_sentra
+  examples: |
+    - IG Sentra apa?
+    - Instagram Sentra?
+    - Kontak Sentra?
+    - Sosial media Sentra?
+    - Cara hubungi Sentra?
+    - Info Sentra dimana?
+    - Akun Sentra?
+    - Follow Sentra dimana?
+    - Media Sentra apa?
+    - Kontak resmi Sentra?
+    - DM Sentra?
+    - IG resmi Sentra?
+    - Tanya lewat IG?
+    - Info online Sentra?
+    - Kontak via Instagram?

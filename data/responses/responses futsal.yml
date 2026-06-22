@@ -1,0 +1,148 @@
+responses:
+
+  utter_tanya_ukm_futsal:
+  - text: |
+      UKM Futsal Universitas Tarumanagara adalah unit kegiatan mahasiswa yang bergerak di bidang olahraga, khususnya futsal. 
+      UKM ini menjadi wadah bagi mahasiswa yang memiliki minat dan bakat di futsal untuk berlatih, berkembang, dan membangun kebersamaan.
+
+  utter_fungsi_ukm_futsal:
+  - text: |
+      Fungsi UKM Futsal adalah sebagai wadah pengembangan kemampuan bermain futsal, 
+      meningkatkan kerja sama tim, serta menyalurkan minat dan bakat mahasiswa di bidang olahraga.
+
+  utter_tujuan_ukm_futsal:
+  - text: |
+      Tujuan UKM Futsal adalah untuk mewadahi mahasiswa agar dapat berlatih, berkembang, 
+      serta mengikuti kompetisi guna membawa nama baik Universitas Tarumanagara.
+
+  utter_misi_ukm_futsal:
+  - text: |
+      Misi UKM Futsal adalah meningkatkan kemampuan anggota, membangun kerja sama tim, 
+      serta aktif dalam kompetisi antar universitas dan turnamen lainnya.
+
+  utter_visi_ukm_futsal:
+  - text: |
+      Visi UKM Futsal adalah menjadi tim futsal kampus yang aktif, kompetitif, dan mampu berprestasi di berbagai ajang.
+
+  utter_bidang_ukm_futsal:
+  - text: |
+      UKM Futsal bergerak di bidang olahraga, khususnya futsal.
+
+  utter_boleh_gabung_futsal:
+  - text: |
+      UKM Futsal terbuka untuk semua mahasiswa yang memiliki minat atau ketertarikan di olahraga futsal.
+
+  utter_cara_daftar_futsal:
+  - text: |
+      Cara mendaftar UKM Futsal:
+      - Melalui Open House
+      - Mengisi form pendaftaran resmi saat pendaftaran UKM dibuka
+
+  utter_biaya_daftar_futsal:
+  - text: |
+      Informasi biaya pendaftaran UKM Futsal tidak disebutkan secara spesifik. 
+      Silakan cek informasi terbaru melalui media sosial resmi.
+
+  utter_status_pendaftaran_futsal:
+  - text: |
+      Pendaftaran UKM Futsal biasanya dibuka saat awal PMB. 
+      Untuk periode penutupan, silakan cek update terbaru di Instagram resmi.
+
+  utter_syarat_anggota_futsal:
+  - text: |
+      Syarat bergabung:
+      - Memiliki minat atau hobi di futsal
+      - Terbuka untuk semua mahasiswa
+
+  utter_kemampuan_anggota_futsal:
+  - text: |
+      Tidak harus jago futsal untuk bergabung. 
+      Pemula tetap bisa ikut selama memiliki minat dan kemauan untuk belajar.
+
+  utter_divisi_futsal:
+  - text: |
+      Struktur/divisi UKM Futsal meliputi:
+      - Media Kreatif
+      - Humas
+      - Technical Development
+      - Field Logistics
+
+  utter_struktur_futsal:
+  - text: |
+      Struktur UKM Futsal terdiri dari badan pengurus harian inti dan beberapa divisi seperti humas, Media Kreatif, Technical Development, dan Field Logistics.
+
+  utter_kegiatan_futsal:
+  - text: |
+      Kegiatan UKM Futsal meliputi:
+      - Latihan rutin
+      - Kompetisi dan event futsal
+
+  utter_latihan_rutin_futsal:
+  - text: |
+      UKM Futsal memiliki latihan rutin yang dilakukan secara berkala.
+
+  utter_sparring_futsal:
+  - text: |
+      UKM Futsal juga melakukan sparring sebagai latihan tanding untuk meningkatkan kemampuan tim.
+
+  utter_liga_futsal:
+  - text: |
+      UKM Futsal memiliki program kompetisi seperti:
+      - Liga Maba
+      - Tarumanagara Champions League
+      - TSAC
+
+  utter_jenis_kegiatan_futsal:
+  - text: |
+      Jenis kegiatan UKM Futsal meliputi:
+      - Latihan rutin
+      - Sparring
+      - Liga dan turnamen
+      - Event futsal
+
+  utter_jadwal_kegiatan_futsal:
+  - text: |
+      Jadwal kegiatan UKM Futsal biasanya berlangsung pada malam hari, sekitar pukul 19.00 - 21.00.
+
+  utter_durasi_kegiatan_futsal:
+  - text: |
+      Durasi kegiatan atau latihan UKM Futsal biasanya sekitar 2 jam per sesi.
+
+  utter_lokasi_kegiatan_futsal:
+  - text: |
+      Lokasi kegiatan UKM Futsal tidak tetap dan dapat berpindah-pindah, 
+      karena menggunakan lapangan sewa.
+
+  utter_event_futsal:
+  - text: |
+      Event UKM Futsal meliputi:
+      - Liga Maba
+      - Tarumanagara Champions League
+
+  utter_jadwal_event_futsal:
+  - text: |
+      Jadwal keseluruhan event UKM Futsal akan diumumkan melalui media sosial resmi.
+
+  utter_fasilitas_futsal:
+  - text: |
+      Fasilitas UKM Futsal meliputi:
+      - Sekretariat
+      - Bola futsal
+      - Peralatan futsal
+
+  utter_lokasi_sekre_futsal:
+  - text: | 
+      Lokasi ruang sekretariat Futsal terletak di Untar Kampus 1, Gedung M, Lantai 2
+
+  utter_benefit_futsal:
+  - text: |
+      Manfaat bergabung di UKM Futsal:
+      - Mengembangkan skill bermain futsal
+      - Menambah relasi dan pengalaman
+      - Kesempatan mengikuti kompetisi
+      - Melatih kerja sama tim dan sportivitas
+
+  utter_media_informasi_futsal:
+  - text: |
+      Untuk informasi lebih lanjut:
+      - Instagram: @futsaluntar

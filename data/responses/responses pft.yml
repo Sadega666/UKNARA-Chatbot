@@ -1,0 +1,109 @@
+responses:
+
+  utter_tanya_ukm_pft:
+    - text: |
+        UKM PFT (Photography Tarumanagara) merupakan Unit Kegiatan Mahasiswa yang bergerak di bidang fotografi. UKM ini menjadi wadah bagi mahasiswa untuk mengembangkan minat dan bakat dalam dunia fotografi serta memahami penggunaan kamera secara teknis dan kreatif.
+
+  utter_fungsi_ukm_pft:
+    - text: |
+        Fungsi UKM PFT adalah sebagai sarana pengembangan soft skill dan hard skill mahasiswa, khususnya dalam bidang fotografi, serta sebagai wadah untuk menyalurkan kreativitas dan meningkatkan pengalaman organisasi.
+
+  utter_tujuan_ukm_pft:
+    - text: |
+        Tujuan UKM PFT adalah memberikan pengalaman dalam bidang fotografi dan organisasi, serta membantu anggota dalam mengembangkan kemampuan teknis maupun artistik dalam pengambilan gambar.
+
+  utter_misi_ukm_pft:
+    - text: |
+        Misi UKM PFT adalah mengembangkan kemampuan anggota dalam bidang fotografi, meningkatkan kreativitas visual, serta membangun lingkungan belajar yang aktif dan kolaboratif.
+
+  utter_visi_ukm_pft:
+    - text: |
+        Visi UKM PFT adalah menjadi wadah pengembangan fotografi yang aktif, kreatif, dan inovatif bagi mahasiswa Universitas Tarumanagara.
+
+  utter_bidang_ukm_pft:
+    - text: |
+        UKM PFT bergerak di bidang fotografi, meliputi kegiatan pengambilan gambar, pengolahan foto, serta pembelajaran teknik penggunaan kamera.
+
+  utter_boleh_gabung_pft:
+    - text: |
+        UKM PFT terbuka untuk seluruh mahasiswa Universitas Tarumanagara tanpa batasan tertentu. Mahasiswa juga diperbolehkan untuk mengikuti lebih dari satu UKM secara bersamaan.
+
+  utter_cara_daftar_pft:
+    - text: |
+        Pendaftaran UKM PFT dilakukan dengan mengisi formulir pendaftaran (Google Form) yang biasanya dibuka pada periode PMB dan Open House.
+
+  utter_biaya_daftar_pft:
+    - text: |
+        Biaya pendaftaran UKM PFT sebesar Rp250.000 yang digunakan untuk menunjang kegiatan dan fasilitas anggota.
+
+  utter_status_pendaftaran_pft:
+    - text: |
+        Pendaftaran UKM PFT biasanya dibuka pada saat periode PMB dan Open House (OH). Untuk informasi terbaru, dapat memantau media sosial resmi UKM PFT.
+
+  utter_syarat_anggota_pft:
+    - text: |
+        Persyaratan untuk menjadi anggota UKM PFT antara lain memiliki komitmen untuk mengikuti kegiatan serta diwajibkan mengikuti kegiatan Makrab (Malam Keakraban).
+
+  utter_kemampuan_anggota_pft:
+    - text: |
+        Calon anggota UKM PFT diharapkan memiliki minat atau insting dalam bidang fotografi. Namun, kemampuan dapat dikembangkan selama mengikuti kegiatan di UKM ini.
+
+  utter_keanggotaan_pft:
+    - text: |
+        Anggota UKM PFT diperbolehkan untuk mengikuti UKM atau organisasi lain. Keanggotaan bersifat fleksibel selama tetap dapat menjaga komitmen terhadap kegiatan.
+
+  utter_divisi_pft:
+    - text: |
+        UKM PFT memiliki beberapa divisi atau bidang yang mendukung jalannya organisasi, seperti divisi operasional dan kegiatan, yang disesuaikan dengan kebutuhan organisasi.
+
+  utter_struktur_pft:
+    - text: |
+        Struktur organisasi UKM PFT terdiri dari, badan pengurus harian inti serta beberapa divisi yang bertanggung jawab dalam menjalankan program kerja UKM.
+
+  utter_kegiatan_pft:
+    - text: |
+        Kegiatan UKM PFT meliputi hunting foto, workshop fotografi, bedah foto, serta kegiatan besar seperti Makrab, Handiksar, dan PFT Fest.
+
+  utter_hunting_bulanan_pft:
+    - text: |
+        UKM PFT memiliki kegiatan rutin berupa hunting foto bulanan yang dilakukan di berbagai lokasi untuk melatih kemampuan fotografi anggota secara langsung.
+
+  utter_jenis_kegiatan_pft:
+    - text: |
+        Jenis kegiatan UKM PFT meliputi hunting foto, workshop fotografi, dan sesi bedah foto yang bertujuan untuk meningkatkan kemampuan teknis dan estetika anggota.
+
+  utter_jadwal_kegiatan_pft:
+    - text: |
+        Jadwal kegiatan UKM PFT bervariasi, seperti hunting bulanan yang dilaksanakan di luar kampus, workshop di sekretariat, serta event besar yang diadakan pada waktu tertentu.
+
+  utter_durasi_kegiatan_pft:
+    - text: |
+        Durasi kegiatan UKM PFT bervariasi, seperti hunting foto berlangsung sekitar 3–4 jam, sedangkan workshop biasanya berlangsung selama 2–3 jam.
+
+  utter_lokasi_kegiatan_pft:
+    - text: |
+        Kegiatan UKM PFT dilaksanakan di berbagai lokasi, seperti hunting foto di area Blok M dan Chillax Sudirman, serta workshop di sekretariat UKM.
+
+  utter_event_pft:
+    - text: |
+        UKM PFT memiliki beberapa event utama seperti Makrab, Handiksar, dan PFT Fest yang menjadi bagian penting dalam pengembangan anggota.
+
+  utter_jadwal_event_pft:
+    - text: |
+        Jadwal event UKM PFT antara lain Makrab yang biasanya diadakan pada bulan September atau Oktober di Puncak, serta PFT Fest yang diselenggarakan di area kampus sekitar bulan Juni.
+
+  utter_fasilitas_pft:
+    - text: |
+        UKM PFT menyediakan berbagai fasilitas pendukung seperti kamera, tripod, dan lighting untuk menunjang kegiatan fotografi anggota.
+
+  utter_lokasi_sekre_pft:
+  - text: | 
+      Lokasi ruang sekretariat PFT terletak di Untar Kampus 1, Gedung M, Lantai 2
+
+  utter_benefit_pft:
+    - text: |
+        Manfaat bergabung dengan UKM PFT antara lain meningkatkan kemampuan fotografi, menambah pengalaman organisasi, serta memperluas relasi antar mahasiswa.
+
+  utter_media_informasi_pft:
+    - text: |
+        Informasi terbaru mengenai UKM PFT dapat diperoleh melalui media sosial Instagram resmi @pft_untar

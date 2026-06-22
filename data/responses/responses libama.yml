@@ -1,0 +1,154 @@
+responses:
+
+  utter_tanya_ukm_libama:
+  - text: |
+      UKM LIBAMA adalah Unit Kegiatan Mahasiswa yang bergerak di bidang olahraga, khususnya basket. 
+      UKM ini menjadi wadah bagi mahasiswa untuk menyalurkan minat dan bakat di olahraga basket.
+
+  utter_fungsi_ukm_libama:
+  - text: |
+      Fungsi UKM LIBAMA adalah sebagai sarana pengembangan kemampuan mahasiswa di bidang basket, 
+      sekaligus melatih kerja sama tim, disiplin, dan sportivitas.
+
+  utter_tujuan_ukm_libama:
+  - text: |
+      Tujuan UKM LIBAMA adalah menjadi wadah bagi mahasiswa untuk mengembangkan minat dan bakat di bidang olahraga basket.
+
+  utter_misi_ukm_libama:
+  - text: |
+      Misi UKM LIBAMA adalah mengembangkan kemampuan bermain basket anggota, 
+      meningkatkan kerja sama tim, serta aktif dalam kegiatan latihan dan pertandingan.
+
+  utter_visi_ukm_libama:
+  - text: |
+      Visi UKM LIBAMA adalah menjadi UKM basket yang aktif, kompetitif, dan mampu mengembangkan potensi mahasiswa secara maksimal.
+
+  utter_bidang_ukm_libama:
+  - text: |
+      UKM LIBAMA bergerak di bidang olahraga, khususnya basket.
+
+  utter_boleh_gabung_libama:
+  - text: |
+      UKM LIBAMA terbuka untuk seluruh mahasiswa aktif dari berbagai fakultas dan jurusan.
+
+  utter_cara_daftar_libama:
+  - text: |
+      Cara mendaftar UKM LIBAMA:
+      - Mengisi data diri melalui Google Form
+      - Mengikuti pendaftaran saat PMB atau Open House
+
+  utter_biaya_daftar_libama:
+  - text: |
+      Informasi biaya pendaftaran UKM LIBAMA tidak disebutkan secara khusus. 
+      Silakan cek informasi terbaru melalui media resmi LIBAMA.
+
+  utter_status_pendaftaran_libama:
+  - text: |
+      Pendaftaran UKM LIBAMA biasanya dibuka saat PMB dan Open House. 
+      Untuk update terbaru, cek Instagram resmi LIBAMA.
+
+  utter_syarat_anggota_libama:
+  - text: |
+      Syarat bergabung UKM LIBAMA:
+      - Mahasiswa aktif
+      - Bersedia mengikuti kepanitiaan
+      - Memiliki komitmen dalam kegiatan UKM
+
+  utter_kemampuan_anggota_libama:
+  - text: |
+      Tidak harus jago basket untuk bergabung di LIBAMA. 
+      Yang penting punya minat, kemauan belajar, dan komitmen untuk berkembang.
+
+  utter_divisi_libama:
+  - text: |
+      Divisi di UKM LIBAMA meliputi:
+      - Humas
+      - Publikasi dan Dokumentasi
+      - Atlet
+      - Perlengkapan
+
+  utter_struktur_libama:
+  - text: |
+      Struktur UKM LIBAMA terdiri dari badan pengurus harian inti dan beberapa divisi seperti humas, publikasi dan dokumentasi (pubdok), atlet, dan perlengkapan (perkap).
+
+  utter_kegiatan_libama:
+  - text: |
+      Kegiatan UKM LIBAMA meliputi:
+      - Latihan rutin
+      - Fun game
+      - Sparring internal dan eksternal
+      - Basket Cup
+
+  utter_latihan_rutin_libama:
+  - text: |
+      Latihan rutin UKM LIBAMA dilaksanakan:
+      - Senin, Selasa, dan Rabu
+      - Pukul 13.00 - 17.00
+
+  utter_sparring_libama:
+  - text: |
+      UKM LIBAMA mengadakan sparring baik internal maupun eksternal sebagai latihan tanding dan meningkatkan kemampuan bermain.
+
+  utter_turnamen_libama:
+  - text: |
+      UKM LIBAMA mengikuti dan menyelenggarakan kompetisi seperti Basket Cup sebagai ajang mengasah kemampuan dan pengalaman.
+
+  utter_jenis_kegiatan_libama:
+  - text: |
+      Jenis kegiatan UKM LIBAMA meliputi:
+      - Latihan rutin
+      - Fun game
+      - Sparring
+      - Turnamen (Basket Cup)
+
+  utter_jadwal_kegiatan_libama:
+  - text: |
+      Jadwal kegiatan UKM LIBAMA:
+      - Senin, Selasa, dan Rabu
+      - Pukul 13.00 - 17.00
+
+  utter_durasi_kegiatan_libama:
+  - text: |
+      Durasi kegiatan atau latihan UKM LIBAMA sekitar 4 jam per sesi.
+
+  utter_lokasi_kegiatan_libama:
+  - text: |
+      Kegiatan UKM LIBAMA dilaksanakan di:
+      - Untar Arena 1
+      - Untar Arena 2
+
+  utter_event_libama:
+  - text: |
+      Event UKM LIBAMA meliputi:
+      - Sparring internal dan eksternal
+      - Basket Cup
+
+  utter_jadwal_event_libama:
+  - text: |
+      Jadwal event seperti sparring dan Basket Cup akan diumumkan melalui media sosial resmi LIBAMA.
+
+  utter_fasilitas_libama:
+  - text: |
+      Fasilitas UKM LIBAMA meliputi:
+      - Lapangan basket
+      - Perlengkapan olahraga
+      - Sekretariat
+
+  utter_lokasi_sekre_libama:
+  - text: | 
+      Lokasi ruang sekretariat adhyatmaka terletak di Untar Kampus 1, Gedung M, Lantai 2
+
+
+  utter_benefit_libama:
+  - text: |
+      Manfaat bergabung di UKM LIBAMA:
+      - Meningkatkan skill bermain basket
+      - Menambah relasi dan pengalaman
+      - Kesempatan mengikuti pertandingan
+      - Melatih kerja sama tim dan sportivitas
+
+  utter_media_informasi_libama:
+  - text: |
+      Untuk informasi lebih lanjut:
+      - Update melalui Instagram resmi LIBAMA @untarbasketball
+      - Contact Person: ID Line (vvallndry)

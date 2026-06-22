@@ -1,0 +1,384 @@
+version: "3.1"
+
+nlu:
+
+- intent: tanya_ukm_wmkt
+  examples: |
+    - Apa itu UKM WMKT?
+    - WMKT itu apa?
+    - Bisa jelaskan UKM WMKT?
+    - WMKT jenis organisasi apa?
+    - UKM WMKT fokus bidang kegiatan apa?
+    - Apa itu WMKT di kampus?
+    - Jelaskan tentang WMKT
+    - WMKT itu komunitas apa?
+    - Saya ingin tahu tentang WMKT
+    - WMKT fokusnya apa?
+    - Apa peran WMKT di kampus?
+    - WMKT itu tujuan utama organisasi ini apa?
+    - UKM WMKT aktivitas utama yang dilakukan apa?
+    - Apa itu UKM kedisiplinan WMKT?
+
+- intent: fungsi_ukm_wmkt
+  examples: |
+    - peranan organisasi ini bagi mahasiswa apa?
+    - fungsi utama organisasi ini apa?
+    - Apa fungsi UKM WMKT?
+    - Apa fungsi WMKT bagi mahasiswa?
+    - WMKT berfungsi sebagai apa?
+    - Fungsi WMKT?
+    - Apakah fungsi WMKT?
+
+- intent: tujuan_ukm_wmkt
+  examples: |
+    - tujuan utama dibentuknya organisasi ini apa?
+    - organisasi ini dibuat untuk tujuan apa?
+    - Apa tujuan WMKT?
+    - Tujuan UKM WMKT apa?
+    - WMKT dibuat tujuan utama organisasi ini apa?
+    - WMKT tujuan utama organisasi ini apa?
+    - Tujuan kegiatan WMKT apa?
+    - WMKT bertujuan apa?
+    - Apa kegunaan WMKT?
+    - Tujuan utama WMKT?
+    - WMKT membantu apa?
+
+- intent: misi_ukm_wmkt
+  examples: |
+    - program misi utama organisasi ini apa?
+    - apa fokus misi organisasi ini?
+    - Apa misi WMKT?
+    - Misi WMKT?
+    - Apa saja misi WMKT?
+    - Misi WMKT apa?
+    - Misi WMKT apa saja?
+
+- intent: visi_ukm_wmkt
+  examples: |
+    - arah visi organisasi ini bagaimana?
+    - visi utama organisasi ini apa?
+    - Apa visi WMKT?
+    - Visi WMKT?
+    - Apa saja visi WMKT?
+    - Visi WKMT apa?
+    - Visi WMKT apa saja?
+
+- intent: bidang_ukm_wmkt
+  examples: |
+    - WMKT fokus bidang kegiatan apa?
+    - Bidang UKM WMKT apa?
+    - Apakah WMKT tentang disiplin?
+    - WMKT fokus apa?
+    - UKM WMKT fokus utama kegiatan apa?
+    - Apakah WMKT organisasi kepemimpinan?
+    - WMKT bidangnya apa?
+    - Fokus utama WMKT?
+    - Apakah tentang karakter?
+    - WMKT terkait kepemimpinan?
+    - WMKT mencakup apa saja?
+    - Apakah belajar leadership?
+    - WMKT termasuk organisasi karakter?
+    - WMKT fokus mental?
+    - Bidang utama WMKT?
+
+- intent: boleh_gabung_wmkt
+  examples: |
+    - Siapa saja boleh gabung WMKT?
+    - Apakah semua mahasiswa bisa join?
+    - Boleh semua fakultas ikut?
+    - Siapa yang bisa join WMKT?
+    - Apakah terbuka untuk semua?
+    - Mahasiswa baru boleh ikut?
+    - Apakah lintas jurusan boleh?
+    - WMKT untuk siapa saja?
+    - Apakah semua semester boleh?
+    - Apakah umum bisa join?
+    - Siapa target anggota WMKT?
+    - Apakah bebas gabung?
+    - Siapa saja bisa daftar?
+    - Apakah WMKT terbuka untuk semua?
+    - Semua mahasiswa boleh ikut?
+
+- intent: cara_daftar_wmkt
+  examples: |
+    - Bagaimana cara daftar WMKT?
+    - Cara join WMKT?
+    - Gimana cara masuk WMKT?
+    - Daftar WMKT lewat apa?
+    - Bagaimana proses pendaftaran?
+    - Cara gabung WMKT gimana?
+    - Saya ingin daftar WMKT
+    - Apa langkah daftar WMKT?
+    - Daftar WMKT dimana?
+    - Join lewat gform?
+    - Cara ikut WMKT?
+    - Prosedur masuk WMKT?
+    - Cara registrasi WMKT?
+    - Masuk WMKT bagaimana?
+    - Cara daftar UKM WMKT?
+
+- intent: biaya_daftar_wmkt
+  examples: |
+    - Biaya WMKT berapa?
+    - Daftar WMKT bayar berapa?
+    - Apakah ada biaya WMKT?
+    - Biaya registrasi WMKT berapa?
+    - Masuk WMKT bayar berapa?
+    - Apakah WMKT gratis?
+    - Biaya join WMKT berapa?
+    - Registrasi WMKT berapa?
+    - Apakah ada uang pendaftaran?
+    - Daftar WMKT perlu bayar?
+    - Berapa uang masuk WMKT?
+    - Biaya anggota WMKT?
+    - WMKT ada biaya?
+    - Join WMKT bayar?
+    - Gratis atau tidak?
+
+- intent: status_pendaftaran_wmkt
+  examples: |
+    - Apakah WMKT buka pendaftaran?
+    - WMKT masih buka?
+    - Kapan pendaftaran WMKT dibuka?
+    - Apakah bisa daftar sekarang?
+    - Pendaftaran WMKT tutup atau belum?
+    - Apakah masih bisa join?
+    - WMKT open recruitment?
+    - Kapan open WMKT?
+    - Apakah WMKT sedang open?
+    - Jadwal pendaftaran WMKT kapan?
+    - WMKT buka anggota baru?
+    - Apakah rekrutmen WMKT aktif?
+    - Kapan bisa daftar WMKT?
+    - Apakah WMKT menerima anggota baru?
+    - WMKT buka saat PMB?
+
+- intent: syarat_anggota_wmkt
+  examples: |
+    - Apa syarat masuk WMKT?
+    - Syarat join WMKT apa?
+    - Persyaratan WMKT?
+    - Masuk WMKT harus apa?
+    - Syarat jadi anggota?
+    - Apa ketentuan WMKT?
+    - Syarat gabung WMKT?
+    - Apa yang harus dipenuhi?
+    - Syarat ikut WMKT?
+    - Persyaratan umum WMKT?
+    - Apakah ada syarat khusus?
+    - Harus ikut diksar?
+    - Syarat pendaftaran WMKT?
+    - Ketentuan anggota WMKT?
+    - Apa saja syaratnya?
+
+- intent: komitmen_wmkt
+  examples: |
+    - Apakah harus komitmen tinggi?
+    - Komitmen di WMKT seperti apa?
+    - Harus disiplin?
+    - Apakah wajib aktif?
+    - Komitmen anggota WMKT?
+    - Harus ikut semua kegiatan?
+    - Apakah wajib aktif organisasi?
+    - Komitmen penting?
+    - Harus konsisten?
+    - Apakah harus serius?
+    - Komitmen bagaimana?
+    - Apakah harus loyal?
+    - Komitmen anggota?
+    - Harus tanggung jawab?
+    - Komitmen WMKT apa?
+
+- intent: divisi_wmkt
+  examples: |
+    - Divisi WMKT apa saja?
+    - Ada bidang apa saja?
+    - Divisi dalam LTMU?
+    - Divisi apa saja?
+    - Divisi internal?
+    - Bagian organisasi?
+    - Unit dalam UKM?
+    - Divisi apa saja?
+
+- intent: struktur_wmkt
+  examples: |
+    - Struktur organisasi?
+    - Struktur UKM?
+    - Struktur kepengurusan?
+    - Struktur bidang?
+    - Struktur lengkap?
+    - Struktur divisi?
+
+- intent: kegiatan_wmkt
+  examples: |
+    - Kegiatan WMKT apa saja?
+    - Aktivitas WMKT apa?
+    - WMKT ada kegiatan apa?
+    - Program WMKT apa?
+    - Apa saja kegiatan WMKT?
+    - Event WMKT apa?
+    - Aktivitas UKM WMKT?
+    - WMKT sering ngapain?
+    - Kegiatan rutin WMKT?
+    - Program kerja WMKT?
+    - Apa yang dilakukan WMKT?
+    - Kegiatan anggota WMKT?
+    - WMKT ada event apa?
+    - Aktivitas WMKT sehari-hari?
+    - Apa saja aktivitas WMKT?
+
+- intent: jenis_kegiatan_wmkt
+  examples: |
+    - Apa itu diksar WMKT?
+    - Apa itu KKM?
+    - Apa itu HUT WMKT?
+    - Jenis kegiatan WMKT?
+    - Program karakter apa saja?
+    - Aktivitas pelatihan apa?
+    - Kegiatan disiplin apa?
+    - Ada kegiatan pelatihan?
+    - Program utama WMKT?
+    - Kegiatan kepemimpinan apa?
+    - Event organisasi?
+    - Apa saja jenis kegiatan?
+    - Program edukasi WMKT?
+    - Kegiatan fisik apa?
+    - Aktivitas pelatihan apa saja?
+
+- intent: jadwal_kegiatan_wmkt
+  examples: |
+    - Jadwal WMKT kapan?
+    - WMKT kegiatan kapan?
+    - Jadwal kegiatan WMKT?
+    - WMKT aktif kapan?
+    - Jadwal diksar kapan?
+    - Jadwal rutin WMKT?
+    - WMKT ada kegiatan kapan?
+    - Kapan KKM?
+    - Jadwal acara WMKT?
+    - Jadwal kegiatan?
+    - Kapan aktif?
+    - Jadwal program?
+    - Kapan kegiatan utama?
+    - Jadwal tahunan?
+    - Waktu kegiatan?
+
+- intent: lokasi_kegiatan_wmkt
+  examples: |
+    - Kegiatan WMKT dimana?
+    - Lokasi WMKT dimana?
+    - Diksar dimana?
+    - Tempat kegiatan WMKT?
+    - WMKT dilakukan dimana?
+    - Lokasi puncak bogor?
+    - Tempat pelatihan?
+    - Dimana lokasi WMKT?
+    - Tempat kegiatan?
+    - Lokasi KKM?
+    - Tempat kegiatan sosial?
+    - Lokasi kegiatan?
+    - WMKT di mana?
+    - Tempat pertemuan?
+    - Kegiatan di Untar dimana?
+
+- intent: event_wmkt
+  examples: |
+    - Event WMKT apa saja?
+    - Ada acara apa saja?
+    - Program WMKT apa?
+    - Apa itu diksar?
+    - Apa itu KKM?
+    - Event WMKT apa saja?
+    - Acara WMKT apa?
+    - Program besar WMKT?
+    - Event tahunan WMKT?
+    - Ada kegiatan khusus?
+    - Event kepemimpinan?
+    - Kegiatan besar WMKT?
+    - Acara utama WMKT?
+    - Event penting WMKT?
+    - Program spesial WMKT?
+
+- intent: jadwal_event_wmkt
+  examples: |
+    - Diksar kapan?
+    - KKM kapan?
+    - HUT WMKT kapan?
+    - Jadwal event WMKT?
+    - Event bulan apa?
+    - Kapan acara WMKT?
+    - Jadwal kegiatan besar?
+    - Event diadakan kapan?
+    - Jadwal pelatihan?
+    - Kapan kegiatan utama?
+    - Event tahunan kapan?
+    - Jadwal event?
+    - Kapan acara khusus?
+    - Jadwal acara?
+    - Event kapan?
+
+- intent: fasilitas_wmkt
+  examples: |
+    - Fasilitas WMKT apa?
+    - Apa saja fasilitasnya?
+    - Ada ruang sekretariat?
+    - Fasilitas lengkap?
+    - Apa yang disediakan?
+    - Fasilitas UKM WMKT?
+    - Apakah ada ruangan?
+    - Tempat kumpul ada?
+    - Ada basecamp?
+    - Fasilitas pelatihan?
+    - Apa saja fasilitasnya?
+    - Ruang kegiatan ada?
+    - Tempat organisasi?
+    - Fasilitas pendukung?
+    - Ada tempat latihan?
+
+- intent: lokasi_sekre_wmkt
+  examples: |
+    - biasanya lokasi ruang sekretariat dimana
+    - boleh tanya lokasi ruang sekretariat dimana
+    - info lokasi ruang sekretariat dimana
+    - lokasi ruang sekretariat dimana
+    - sekretariat WMKT dimana
+    - sekretariat WMKT lantai berapa
+    - WMKT sekretariatnya di lantai berapa
+    - ruang sekre WMKT dimana
+    - ruang sekre WMKT lantai berapa
+
+- intent: benefit_wmkt
+  examples: |
+    - Manfaat WMKT apa?
+    - Keuntungan ikut WMKT?
+    - Benefit WMKT?
+    - Apa yang didapat?
+    - Untung ikut WMKT?
+    - Kelebihan WMKT?
+    - Kenapa ikut WMKT?
+    - Apa manfaat WMKT?
+    - Join WMKT dapat apa?
+    - Apa benefit WMKT?
+    - WMKT membantu apa?
+    - Kegunaan WMKT?
+    - Apa hasil ikut WMKT?
+    - WMKT berguna?
+    - Manfaat join WMKT?
+
+- intent: media_informasi_wmkt
+  examples: |
+    - IG WMKT apa?
+    - Instagram WMKT?
+    - Kontak WMKT?
+    - Sosial media WMKT?
+    - Cara hubungi WMKT?
+    - Info WMKT dimana?
+    - Akun WMKT?
+    - Follow WMKT dimana?
+    - Media WMKT apa?
+    - Kontak resmi WMKT?
+    - DM WMKT?
+    - IG resmi WMKT?
+    - Nomor admin?
+    - Info online WMKT?
+    - Kontak via Instagram?

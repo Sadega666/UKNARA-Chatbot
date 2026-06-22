@@ -1,0 +1,430 @@
+version: "3.1"
+
+nlu:
+
+- intent: tanya_ukm_pft
+  examples: |
+    - Apa itu UKM PFT?
+    - PFT itu apa?
+    - Bisa jelaskan UKM PFT?
+    - PFT jenis organisasi apa?
+    - UKM PFT fokus bidang kegiatan apa?
+    - Apa itu PFT di kampus?
+    - Jelaskan tentang PFT
+    - PFT itu komunitas apa?
+    - Saya ingin tahu tentang PFT
+    - PFT fokusnya apa?
+    - Apa peran PFT di kampus?
+    - PFT itu tujuan utama organisasi ini apa?
+    - UKM PFT aktivitas utama yang dilakukan apa?
+    - Apa itu komunitas fotografi PFT?
+
+- intent: fungsi_ukm_pft
+  examples: |
+    - peranan organisasi ini bagi mahasiswa apa?
+    - fungsi utama organisasi ini apa?
+    - Apa fungsi UKM PFT?
+    - Apa fungsi PFT bagi mahasiswa?
+    - PFT berfungsi sebagai apa?
+    - Fungsi PFT?
+    - Apakah fungsi PFT?
+
+- intent: tujuan_ukm_pft
+  examples: |
+    - tujuan utama dibentuknya organisasi ini apa?
+    - organisasi ini dibuat untuk tujuan apa?
+    - Apa tujuan PFT?
+    - Tujuan UKM PFT apa?
+    - PFT dibuat tujuan utama organisasi ini apa?
+    - Apa manfaat ikut PFT?
+    - PFT tujuan utama organisasi ini apa?
+    - Tujuan kegiatan PFT apa?
+    - PFT bertujuan apa?
+    - Apa kegunaan PFT?
+    - Tujuan utama PFT?
+    - Apakah untuk belajar fotografi?
+    - PFT membantu apa?
+
+- intent: misi_ukm_pft
+  examples: |
+    - program misi utama organisasi ini apa?
+    - apa fokus misi organisasi ini?
+    - Apa misi PFT?
+    - Misi PFT?
+    - Apa saja misi PFT?
+    - Misi PFT apa?
+    - Misi PFT apa saja?
+
+- intent: visi_ukm_pft
+  examples: |
+    - arah visi organisasi ini bagaimana?
+    - visi utama organisasi ini apa?
+    - Apa visi PFT?
+    - Visi PFT?
+    - Apa saja visi PFT?
+    - Visi PFT apa?
+    - Visi PFT apa saja?
+
+- intent: bidang_ukm_pft
+  examples: |
+    - PFT fokus bidang kegiatan apa?
+    - Bidang UKM PFT apa?
+    - Apakah PFT fotografi?
+    - PFT fokus apa?
+    - UKM PFT fokus utama kegiatan apa?
+    - Apakah PFT organisasi fotografi?
+    - PFT bidangnya apa?
+    - Fokus utama PFT?
+    - Apakah tentang kamera?
+    - PFT terkait fotografi?
+    - PFT mencakup apa saja?
+    - Apakah belajar foto?
+    - PFT termasuk komunitas foto?
+    - PFT fokus kamera?
+    - Bidang utama PFT?
+
+- intent: boleh_gabung_pft
+  examples: |
+    - Siapa saja boleh gabung PFT?
+    - Apakah semua mahasiswa bisa join?
+    - Boleh semua fakultas ikut?
+    - Siapa yang bisa join PFT?
+    - Apakah terbuka untuk semua?
+    - Mahasiswa baru boleh ikut?
+    - Apakah lintas jurusan boleh?
+    - PFT untuk siapa saja?
+    - Apakah semua semester boleh?
+    - Apakah umum bisa join?
+    - Siapa target anggota PFT?
+    - Apakah bebas gabung?
+    - Siapa saja bisa daftar?
+    - Apakah PFT terbuka untuk semua?
+    - Tidak ada batasan join?
+
+- intent: cara_daftar_pft
+  examples: |
+    - Bagaimana cara daftar PFT?
+    - Cara join PFT?
+    - Gimana cara masuk PFT?
+    - Daftar PFT lewat apa?
+    - Bagaimana proses pendaftaran?
+    - Cara gabung PFT gimana?
+    - Saya ingin daftar PFT
+    - Apa langkah daftar PFT?
+    - Daftar PFT dimana?
+    - Join lewat gform?
+    - Cara ikut PFT?
+    - Prosedur masuk PFT?
+    - Cara registrasi PFT?
+    - Masuk PFT bagaimana?
+    - Cara daftar UKM PFT?
+
+- intent: biaya_daftar_pft
+  examples: |
+    - Biaya PFT berapa?
+    - Daftar PFT bayar berapa?
+    - Apakah ada biaya PFT?
+    - Biaya registrasi PFT berapa?
+    - Masuk PFT bayar berapa?
+    - Apakah PFT gratis?
+    - Biaya join PFT berapa?
+    - Registrasi PFT berapa?
+    - Apakah ada uang pendaftaran?
+    - Daftar PFT perlu bayar?
+    - Berapa uang masuk PFT?
+    - Biaya anggota PFT?
+    - PFT ada biaya?
+    - Join PFT bayar?
+    - Harga daftar PFT?
+
+- intent: status_pendaftaran_pft
+  examples: |
+    - Apakah PFT buka pendaftaran?
+    - PFT masih buka?
+    - Kapan pendaftaran PFT dibuka?
+    - Apakah bisa daftar sekarang?
+    - Pendaftaran PFT tutup atau belum?
+    - Apakah masih bisa join?
+    - PFT open recruitment?
+    - Kapan open PFT?
+    - Apakah PFT sedang open?
+    - Jadwal pendaftaran PFT kapan?
+    - PFT buka anggota baru?
+    - Apakah rekrutmen PFT aktif?
+    - Kapan bisa daftar PFT?
+    - Apakah PFT menerima anggota baru?
+    - PFT buka saat PMB?
+
+- intent: syarat_anggota_pft
+  examples: |
+    - Apa syarat masuk PFT?
+    - Syarat join PFT apa?
+    - Persyaratan PFT?
+    - Masuk PFT harus apa?
+    - Syarat jadi anggota?
+    - Apa ketentuan PFT?
+    - Syarat gabung PFT?
+    - Apa yang harus dipenuhi?
+    - Syarat ikut PFT?
+    - Persyaratan umum PFT?
+    - Apakah ada syarat khusus?
+    - Harus ikut makrab?
+    - Syarat pendaftaran PFT?
+    - Ketentuan anggota PFT?
+    - Apa saja syaratnya?
+
+- intent: kemampuan_anggota_pft
+  examples: |
+    - Apakah harus bisa fotografi?
+    - Perlu skill foto?
+    - Harus jago kamera?
+    - Apakah pemula boleh?
+    - Skill apa yang dibutuhkan?
+    - Harus punya insting fotografi?
+    - Perlu pengalaman foto?
+    - Apakah harus punya basic?
+    - Kemampuan apa yang diperlukan?
+    - Harus punya kamera?
+    - Wajib bisa foto?
+    - Apakah skill penting?
+    - Apakah ada syarat skill?
+    - Bisa belajar dari nol?
+    - Kemampuan anggota bagaimana?
+
+- intent: keanggotaan_pft
+  examples: |
+    - Apakah boleh ikut UKM lain?
+    - Bisa ikut lebih dari satu UKM?
+    - Apakah bebas ikut kegiatan?
+    - Apakah ada batasan?
+    - Boleh double UKM?
+    - Apakah harus fokus satu UKM?
+    - Apakah fleksibel?
+    - Apakah boleh ikut banyak kegiatan?
+    - Boleh ikut organisasi lain?
+    - Apakah ada larangan?
+    - Bisa ikut UKM lain juga?
+    - Apakah bebas organisasi?
+    - Boleh aktif di tempat lain?
+    - Apakah tidak dibatasi?
+    - Fleksibel ikut UKM lain?
+
+- intent: divisi_pft
+  examples: |
+    - Divisi PFT apa saja?
+    - Ada bidang apa saja?
+    - Divisi dalam PFT?
+    - Divisi apa saja?
+    - Divisi internal?
+    - Bagian organisasi?
+    - Unit dalam UKM?
+    - Divisi apa saja?
+
+- intent: struktur_pft
+  examples: |
+    - Struktur organisasi?
+    - Struktur UKM?
+    - Struktur kepengurusan?
+    - Struktur bidang?
+    - Struktur lengkap?
+    - Struktur divisi?
+
+- intent: kegiatan_pft
+  examples: |
+    - Kegiatan PFT apa saja?
+    - Aktivitas PFT apa?
+    - PFT ada kegiatan apa?
+    - Program PFT apa?
+    - Apa saja kegiatan PFT?
+    - Event PFT apa?
+    - Aktivitas UKM PFT?
+    - PFT sering ngapain?
+    - Kegiatan rutin PFT?
+    - Program kerja PFT?
+    - Apa yang dilakukan PFT?
+    - Kegiatan anggota PFT?
+    - PFT ada event apa?
+    - Aktivitas PFT sehari-hari?
+    - Apa saja aktivitas PFT?
+
+- intent: hunting_bulanan_pft
+  examples: |
+    - Apa ada latihan rutin?
+    - Apa saja kegiatan rutinnya?
+    - Apakah ada kegiatan rutin?
+    - Ada latihan rutin?
+    - Ada kegiatan rutin?
+
+- intent: jenis_kegiatan_pft
+  examples: |
+    - Apa itu hunting foto?
+    - Apa itu workshop fotografi?
+    - Apa itu bedah foto?
+    - Kegiatan hunting itu apa?
+    - Workshop di PFT apa?
+    - Bedah foto itu bagaimana?
+    - Jenis kegiatan PFT?
+    - Program belajar foto apa saja?
+    - Kegiatan utama fotografi?
+    - Aktivitas belajar foto?
+    - Apa saja jenis kegiatan?
+    - Program edukasi PFT?
+    - Kegiatan fotografi apa?
+    - Ada pelatihan foto?
+    - Kegiatan belajar kamera?
+
+- intent: jadwal_kegiatan_pft
+  examples: |
+    - Jadwal PFT kapan?
+    - Kapan hunting foto?
+    - Workshop kapan?
+    - Jadwal kegiatan PFT?
+    - PFT aktif kapan?
+    - Kapan kegiatan rutin?
+    - Jadwal bulanan?
+    - Hari kegiatan?
+    - Kapan pertemuan?
+    - Jadwal belajar?
+    - Jadwal hunting?
+    - Jadwal workshop?
+    - Kapan event PFT?
+    - Jadwal kegiatan?
+    - Waktu kegiatan?
+
+- intent: durasi_kegiatan_pft
+  examples: |
+    - Berapa lama kegiatan PFT?
+    - Durasi hunting foto?
+    - Workshop berapa jam?
+    - Lama kegiatan PFT?
+    - Hunting berapa lama?
+    - Durasi workshop?
+    - Satu sesi berapa lama?
+    - Waktu kegiatan?
+    - Berapa jam per kegiatan?
+    - PFT berapa lama?
+    - Lama kegiatan?
+    - Durasi kelas?
+    - Waktu workshop?
+    - Durasi hunting?
+    - Berapa lama per sesi?
+
+- intent: lokasi_kegiatan_pft
+  examples: |
+    - Kegiatan PFT dimana?
+    - Lokasi hunting foto?
+    - Hunting di mana?
+    - Workshop dimana?
+    - Tempat kegiatan PFT?
+    - PFT dilakukan dimana?
+    - Lokasi kegiatan PFT?
+    - Tempat hunting?
+    - Dimana lokasi PFT?
+    - Tempat kegiatan?
+    - Lokasi workshop?
+    - Hunting di blok m?
+    - Hunting di chillax?
+    - Tempat belajar?
+    - Lokasi kegiatan?
+
+- intent: event_pft
+  examples: |
+    - Event PFT apa saja?
+    - Ada acara apa saja?
+    - Program PFT apa?
+    - Apa itu PFT Fest?
+    - Apa itu Makrab?
+    - Apa itu Handiksar?
+    - Event PFT apa saja?
+    - Acara PFT apa?
+    - Program besar PFT?
+    - Event tahunan PFT?
+    - Ada kegiatan khusus?
+    - Event fotografi?
+    - Kegiatan besar PFT?
+    - Acara utama PFT?
+    - Event penting PFT?
+
+- intent: jadwal_event_pft
+  examples: |
+    - PFT Fest kapan?
+    - Makrab kapan?
+    - Jadwal event PFT?
+    - Event bulan apa?
+    - Kapan acara PFT?
+    - Jadwal kegiatan besar?
+    - Event diadakan kapan?
+    - Jadwal Makrab?
+    - Kapan PFT Fest?
+    - Event tahunan kapan?
+    - Jadwal event?
+    - Kapan Handiksar?
+    - Jadwal kegiatan besar?
+    - Event kapan?
+    - Jadwal acara?
+
+- intent: fasilitas_pft
+  examples: |
+    - Fasilitas PFT apa?
+    - Apa saja fasilitasnya?
+    - Ada kamera?
+    - Ada tripod?
+    - Ada lighting?
+    - Fasilitas lengkap?
+    - Apa yang disediakan?
+    - Fasilitas UKM PFT?
+    - Apakah ada alat?
+    - Tempat kumpul ada?
+    - Fasilitas fotografi?
+    - Apa saja alatnya?
+    - Peralatan kamera ada?
+    - Fasilitas pendukung?
+    - Ada alat foto?
+
+- intent: lokasi_sekre_pft
+  examples: |
+    - biasanya lokasi ruang sekretariat dimana
+    - boleh tanya lokasi ruang sekretariat dimana
+    - info lokasi ruang sekretariat dimana
+    - lokasi ruang sekretariat dimana
+    - sekretariat PFT dimana
+    - sekretariat PFT lantai berapa
+    - PFT sekretariatnya di lantai berapa
+    - ruang sekre PFT dimana
+    - ruang sekre PFT lantai berapa
+
+- intent: benefit_pft
+  examples: |
+    - Manfaat PFT apa?
+    - Keuntungan ikut PFT?
+    - Benefit PFT?
+    - Apa yang didapat?
+    - Untung ikut PFT?
+    - Kelebihan PFT?
+    - Kenapa ikut PFT?
+    - Apa manfaat PFT?
+    - Join PFT dapat apa?
+    - Apa benefit PFT?
+    - PFT membantu apa?
+    - Kegunaan PFT?
+    - Apa hasil ikut PFT?
+    - PFT berguna?
+    - Manfaat join PFT?
+
+- intent: media_informasi_pft
+  examples: |
+    - IG PFT apa?
+    - Instagram PFT?
+    - Kontak PFT?
+    - Nomor PFT?
+    - Sosial media PFT?
+    - Cara hubungi PFT?
+    - Info PFT dimana?
+    - Akun PFT?
+    - Follow PFT dimana?
+    - Media PFT apa?
+    - Kontak resmi PFT?
+    - DM PFT?
+    - IG resmi PFT?
+    - Nomor admin?
+    - Info online PFT?

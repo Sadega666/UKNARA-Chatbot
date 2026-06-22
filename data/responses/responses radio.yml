@@ -1,0 +1,134 @@
+responses:
+
+  utter_tanya_ukm_radio:
+  - text: |
+      UKM Radio merupakan Unit Kegiatan Mahasiswa yang bergerak di bidang penyiaran dan broadcasting, seperti penyampaian informasi dan berita melalui media radio kampus. 
+      UKM ini menjadi wadah bagi mahasiswa untuk mengembangkan kemampuan dalam dunia siaran serta memperoleh pengalaman praktis di bidang broadcasting.
+
+  utter_fungsi_ukm_radio:
+  - text: |
+      UKM Radio berfungsi sebagai wadah pengembangan minat dan bakat mahasiswa di bidang penyiaran, serta sebagai media informasi kampus yang dikelola oleh mahasiswa.
+
+  utter_tujuan_ukm_radio:
+  - text: |
+      Tujuan UKM Radio adalah untuk menciptakan pengalaman siaran bagi mahasiswa, serta meningkatkan kemampuan komunikasi dan broadcasting secara praktis.
+
+  utter_misi_ukm_radio:
+  - text: |
+      Misi UKM Radio adalah mengembangkan kemampuan anggota dalam bidang penyiaran, meningkatkan kualitas konten siaran, serta membangun kerja sama tim dalam organisasi.
+
+  utter_visi_ukm_radio:
+  - text: |
+      Visi UKM Radio adalah menjadi organisasi penyiaran kampus yang aktif, kreatif, dan profesional dalam menghasilkan konten siaran yang informatif dan menarik.
+
+  utter_bidang_ukm_radio:
+  - text: |
+      UKM Radio bergerak di bidang penyiaran dan broadcasting, yang mencakup kegiatan siaran, peliputan berita, produksi konten audio, serta komunikasi media.
+
+  utter_boleh_gabung_radio:
+  - text: |
+      UKM Radio terbuka untuk seluruh mahasiswa. Mahasiswa dari berbagai fakultas dan maksimal semester 3 dapat bergabung selama memenuhi persyaratan yang berlaku.
+
+  utter_cara_daftar_radio:
+  - text: |
+      Pendaftaran UKM Radio dilakukan dengan mengisi formulir pendaftaran (Google Form) pada periode Agustus hingga September, kemudian mengikuti tahap interview seputar penyiaran.
+
+  utter_biaya_daftar_radio:
+  - text: |
+      Biaya pendaftaran UKM Radio sekitar Rp50.000 yang dibayarkan saat proses registrasi.
+
+  utter_status_pendaftaran_radio:
+  - text: |
+      Pendaftaran UKM Radio biasanya dibuka pada bulan Agustus hingga September, bertepatan dengan periode awal tahun ajaran baru.
+
+  utter_seleksi_radio:
+  - text: |
+      Proses seleksi UKM Radio meliputi tahap interview yang berkaitan dengan kemampuan dan pemahaman dasar mengenai penyiaran.
+
+  utter_syarat_anggota_radio:
+  - text: |
+      Syarat menjadi anggota UKM Radio adalah bersedia menjalani masa kepengurusan selama 2 tahun serta memahami dan menjalankan peran sesuai dengan divisi yang dipilih.
+
+  utter_kemampuan_anggota_radio:
+  - text: |
+      Calon anggota tidak diwajibkan memiliki kemampuan penyiaran sejak awal, namun diharapkan memiliki minat di bidang komunikasi dan bersedia untuk belajar.
+
+  utter_divisi_radio:
+  - text: |
+      UKM Radio memiliki beberapa divisi, yaitu:
+      - Program Director
+      - Music Division
+      - Public Relation
+      - Reportase
+      - General Division
+
+  utter_struktur_radio:
+  - text: |
+      Struktur organisasi UKM Radio terdiri dari badan pengurus harian inti dan berbagai divisi seperti Program Director, Music Division, Public Relation, Reportase, dan General Division.
+
+  utter_kegiatan_radio:
+  - text: |
+      Kegiatan UKM Radio meliputi siaran rutin, rapat kerja, penerimaan calon anggota baru (PPCB), pendidikan dasar (Diksar), Stupan, ULTAFOMS, serta RAC.
+
+  utter_siaran_radio:
+  - text: |
+      UKM Radio memiliki kegiatan rutin berupa siaran yang dilakukan secara berkala sebagai sarana praktik anggota dalam dunia broadcasting.
+
+  utter_jenis_kegiatan_radio:
+  - text: |
+      Jenis kegiatan UKM Radio meliputi:
+      - Siaran radio
+      - Pendidikan dasar (Diksar)
+      - Stupan
+      - ULTAFOMS
+      - RAC (Radio Anniversary Celebration)
+      - Penerimaan calon anggota (PPCB)
+
+  utter_jadwal_kegiatan_radio:
+  - text: |
+      Kegiatan UKM Radio berlangsung setiap hari pukul 10.00 hingga 20.00 di area Hall B dan C Untar 2 lantai 3.
+
+  utter_durasi_kegiatan_radio:
+  - text: |
+      Durasi kegiatan UKM Radio menyesuaikan dengan jenis aktivitas, dimana siaran berlangsung dalam beberapa jam sesuai jadwal operasional harian.
+
+  utter_lokasi_kegiatan_radio:
+  - text: |
+      Kegiatan UKM Radio dilaksanakan di Hall B dan C Untar 2 lantai 3 yang menjadi pusat aktivitas dan studio siaran.
+
+  utter_event_radio:
+  - text: |
+      Event utama UKM Radio meliputi:
+      - Rapat Kerja
+      - PPCB (Penerimaan Peserta Calon Crew Baru)
+      - Diksar
+      - Stupan
+      - ULTAFOMS
+      - RAC
+
+  utter_jadwal_event_radio:
+  - text: |
+      Jadwal event UKM Radio antara lain:
+      - Rapat Kerja: Agustus
+      - PPCB: Agustus – Oktober
+      - Diksar: November (3 hari 2 malam)
+      - Stupan: Desember
+      - ULTAFOMS: April
+      - RAC: Mei
+
+  utter_fasilitas_radio:
+  - text: |
+      Fasilitas UKM Radio meliputi ruang siaran, komputer, pantry, serta berbagai peralatan audio pendukung kegiatan broadcasting.
+
+  utter_benefit_radio:
+  - text: |
+      Manfaat bergabung dengan UKM Radio antara lain:
+      - Mendapatkan pengalaman dalam dunia penyiaran
+      - Mengembangkan kemampuan komunikasi dan public speaking
+      - Melatih kerja sama tim
+      - Memperoleh pengalaman organisasi
+
+  utter_media_informasi_radio:
+  - text: |
+      Informasi terbaru UKM Radio dapat diakses melalui media sosial seperti Instagram, TikTok, X, dan website resmi. 
+      Untuk informasi lebih lanjut dapat menghubungi contact person: Carrisa (089623240685).

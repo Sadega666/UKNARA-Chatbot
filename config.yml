@@ -1,0 +1,33 @@
+recipe: default.v1
+
+language: id
+
+pipeline:
+- name: WhitespaceTokenizer
+- name: RegexFeaturizer
+- name: LexicalSyntacticFeaturizer
+- name: CountVectorsFeaturizer
+- name: CountVectorsFeaturizer
+  analyzer: char_wb
+  min_ngram: 1
+  max_ngram: 4
+- name: RegexEntityExtractor
+  use_lookup_tables: true
+  use_regexes: true
+- name: DIETClassifier
+  epochs: 100
+- name: EntitySynonymMapper
+- name: ResponseSelector
+  retrieval_intent: faq
+  epochs: 100
+- name: FallbackClassifier
+  threshold: 0.4
+  ambiguity_threshold: 0.1
+policies:
+- name: RulePolicy
+- name: MemoizationPolicy
+  max_history: 5
+- name: TEDPolicy
+  max_history: 10
+  epochs: 100
+assistant_id: 20260524-190457-crazy-romano

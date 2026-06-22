@@ -1,0 +1,184 @@
+version: "3.1"
+
+responses:
+
+  utter_tanya_ukm_adhyatmaka:
+  - text: |
+      UKM Adhyatmaka adalah organisasi mahasiswa berbasis rohani Katolik di kampus. 
+      UKM ini menjadi tempat bagi mahasiswa Katolik untuk berkumpul, berkenalan, dan mempererat hubungan dengan sesama. 
+      Tujuan utamanya adalah untuk memuliakan Tuhan melalui berbagai kegiatan rohani.
+
+  utter_fungsi_ukm_adhyatmaka:
+  - text: |
+      Fungsi UKM Adhyatmaka adalah sebagai wadah pembinaan iman dan spiritual mahasiswa, 
+      serta tempat untuk membangun komunitas yang saling mendukung dalam kehidupan rohani.
+
+  utter_tujuan_ukm_adhyatmaka:
+  - text: |
+      Tujuan utama UKM Adhyatmaka adalah memuliakan Tuhan serta membantu mahasiswa 
+      dalam memperdalam iman dan membangun relasi dengan sesama.
+
+  utter_misi_adhyatmaka:
+  - text: |
+      Misi UKM Adhyatmaka adalah menyelenggarakan kegiatan rohani seperti doa bersama, 
+      pendalaman iman, dan pelayanan agar mahasiswa dapat bertumbuh secara spiritual.
+
+  utter_visi_adhyatmaka:
+  - text: |
+      Visi UKM Adhyatmaka adalah menjadi komunitas rohani yang aktif, 
+      solid, dan mampu membawa mahasiswa lebih dekat kepada Tuhan.
+
+  utter_bidang_ukm_adhyatmaka:
+  - text: |
+      UKM Adhyatmaka bergerak di bidang keagamaan (rohani Katolik), 
+      dengan fokus pada kegiatan ibadah, pelayanan, dan pengembangan iman.
+
+  utter_boleh_gabung_adhyatmaka:
+  - text: |
+      UKM Adhyatmaka terbuka untuk mahasiswa Katolik, 
+      namun mahasiswa non-Katolik juga diperbolehkan untuk bergabung dan mengikuti kegiatan.
+
+  utter_cara_daftar_adhyatmaka:
+  - text: |
+      Cara daftar UKM Adhyatmaka cukup mudah, yaitu dengan mengisi data diri melalui Google Form (GForm) yang disediakan.
+
+  utter_biaya_daftar_adhyatmaka:
+  - text: |
+      Pendaftaran UKM Adhyatmaka tidak dikenakan biaya alias gratis.
+
+  utter_status_pendaftaran_adhyatmaka:
+  - text: |
+      Pendaftaran UKM Adhyatmaka dibuka sepanjang waktu, 
+      jadi kamu bisa bergabung kapan saja tanpa batas periode tertentu.
+
+  utter_syarat_anggota_adhyatmaka:
+  - text: |
+      Tidak ada syarat khusus untuk bergabung di UKM Adhyatmaka. 
+      Semua mahasiswa dapat ikut serta tanpa persyaratan tertentu.
+
+  utter_keanggotaan_adhyatmaka:
+  - text: |
+      Keanggotaan di UKM Adhyatmaka bersifat fleksibel. 
+      Kamu tetap diperbolehkan mengikuti UKM lain tanpa batasan.
+
+  utter_kegiatan_adhyatmaka:
+  - text: |
+      Kegiatan UKM Adhyatmaka meliputi:
+      - Persekutuan doa
+      - Katekumen
+      - Legiomaria
+      - Welcoming party
+      - Retret dan rekoleksi
+      - Perayaan Natal, Paskah, dan misa
+      - Bakti sosial (baksos)
+      - Ziarah
+
+  utter_kegiatan_rutin_adhyatmaka:
+  - text: |
+      Kegiatan rutin UKM Adhyatmaka meliputi:
+      - Persekutuan doa (setiap Sabtu)
+      - Katekumen (Sabtu)
+      - Legiomaria (Selasa/Kamis)
+      Durasi kegiatan sekitar 1–2 jam.
+
+  utter_persekutuan_adhyatmaka:
+  - text: |
+      Persekutuan doa adalah kegiatan berkumpul untuk berdoa bersama, 
+      berbagi pengalaman iman, dan mempererat kebersamaan antar anggota.
+
+  utter_katekumen_adhyatmaka:
+  - text: |
+      Katekumen adalah kegiatan pembelajaran iman Katolik, 
+      biasanya ditujukan bagi yang ingin memperdalam atau mempersiapkan diri dalam ajaran gereja.
+
+  utter_legiomaria_adhyatmaka:
+  - text: |
+      Legiomaria adalah kegiatan pelayanan rohani yang berfokus pada doa, 
+      pengabdian, dan pelayanan kepada sesama.
+
+  utter_jadwal_rutin_adhyatmaka:
+  - text: |
+      Jadwal kegiatan rutin:
+      - Persekutuan doa: Sabtu (1–2 jam)
+      - Katekumen: Sabtu (1–2 jam)
+      - Legiomaria: Selasa/Kamis (1–2 jam)
+
+  utter_durasi_kegiatan_adhyatmaka:
+  - text: |
+      Rata-rata durasi kegiatan UKM Adhyatmaka adalah sekitar 1–2 jam per sesi.
+
+  utter_lokasi_kegiatan_adhyatmaka:
+  - text: |
+      Kegiatan UKM Adhyatmaka biasanya dilaksanakan di dalam kampus, 
+      seperti di auditorium lantai 8 Gedung M, serta lokasi tertentu untuk kegiatan khusus seperti retret dan ziarah.
+
+  utter_event_adhyatmaka:
+  - text: |
+      Event utama UKM Adhyatmaka antara lain:
+      - Welcoming Party (Agustus)
+      - Retret Hidup Dalam Roh Kudus (Oktober)
+      - FLOOR/LK (Oktober)
+      - Perayaan Natal & Misa (Desember)
+      - Bakti Sosial (Januari)
+      - Rekoleksi (Februari)
+      - Pekan Suci & Paskah (Februari/Maret)
+      - Ziarah (Mei)
+
+  utter_jadwal_retret_adhyatmaka:
+  - text: |
+      Retret biasanya dilaksanakan pada bulan Oktober selama 3 hari 2 malam di Puncak.
+
+  utter_jadwal_natal_adhyatmaka:
+  - text: |
+      Perayaan Natal diadakan pada bulan Desember di Auditorium lantai 8 Gedung M.
+
+  utter_jadwal_paskah_adhyatmaka:
+  - text: |
+      Perayaan Paskah biasanya diadakan pada bulan Februari atau Maret di Auditorium lantai 8 Gedung M.
+
+  utter_jadwal_misa_adhyatmaka:
+  - text: |
+      Misa biasanya dilaksanakan saat event besar seperti Natal dan Pekan Suci, 
+      dengan durasi sekitar 1 jam di Auditorium Gedung M.
+
+  utter_jadwal_ziarah_adhyatmaka:
+  - text: |
+      Kegiatan ziarah biasanya dilaksanakan pada bulan Mei dan berlangsung selama satu hari penuh di Goa Maria.
+
+  utter_jadwal_baksos_adhyatmaka:
+  - text: |
+      Kegiatan bakti sosial (baksos) biasanya dilaksanakan pada bulan Januari.
+
+  utter_divisi_adhyatmaka:
+  - text: |
+      Divisi UKM Adhyatmaka terbagi menjadi:
+      - Bidang 1: Liturgi, Persekutuan Doa, Pendalaman Iman, Katekumen, Legiomaria
+      - Bidang 2: Media & Informasi, Kreatif Ministri, Paduan Suara
+      - Bidang 3: Komisariat
+
+  utter_struktur_adhyatmaka:
+  - text: |
+      Struktur UKM Adhyatmaka terdiri dari badan pengurus harian inti dan pembagian ke dalam beberapa bidang/divisi 
+      yang mengelola kegiatan rohani, media, dan koordinasi anggota.
+
+  utter_fasilitas_adhyatmaka:
+  - text: |
+      Fasilitas UKM Adhyatmaka berupa ruang sekretariat yang digunakan untuk berkumpul dan koordinasi kegiatan.
+
+  utter_lokasi_sekre_adhyatmaka:
+  - text: | 
+      Lokasi ruang sekretariat adhyatmaka terletak di Lantai 2, Gedung M, Untar Kampus 1.
+
+  utter_benefit_adhyatmaka:
+  - text: |
+      Manfaat bergabung di UKM Adhyatmaka:
+      - Memperdalam iman dan spiritualitas
+      - Menambah relasi dan komunitas
+      - Mengembangkan diri dalam pelayanan
+      - Mendapat pengalaman rohani yang bermakna
+
+  utter_media_informasi_adhyatmaka:
+  - text: |
+      Informasi terbaru UKM Adhyatmaka dapat diakses melalui Instagram resmi @adhyatmakauntar
+      Kamu juga bisa menghubungi contact person:
+      +62 858-9311-1320 (Priciella Priska)

@@ -1,0 +1,168 @@
+version: "3.1"
+
+responses:
+
+  utter_tanya_ukm_tec:
+    - text: |
+        UKM TEC adalah unit kegiatan mahasiswa di Untar yang bergerak di bidang bahasa Inggris. 
+        TEC berfokus untuk mengenalkan dan mengembangkan kemampuan bahasa Inggris mahasiswa melalui pembelajaran dan praktik langsung.
+
+  utter_fungsi_ukm_tec:
+    - text: |
+        Fungsi UKM TEC adalah sebagai wadah bagi mahasiswa untuk belajar dan mengembangkan kemampuan bahasa Inggris, baik dalam speaking, listening, grammar, maupun skill lainnya.
+
+  utter_tujuan_ukm_tec:
+    - text: |
+        Tujuan UKM TEC adalah membantu mahasiswa meningkatkan kemampuan bahasa Inggris serta memberikan pengalaman belajar yang interaktif dan aplikatif.
+
+  utter_misi_ukm_tec:
+    - text: |
+        Saat ini belum ada informasi spesifik mengenai misi UKM TEC. 
+        Namun secara umum TEC berfokus pada pengembangan kemampuan bahasa Inggris mahasiswa melalui kegiatan belajar dan praktik.
+
+  utter_visi_ukm_tec:
+    - text: |
+        Saat ini belum ada informasi spesifik mengenai visi UKM TEC. 
+        TEC berorientasi pada pengembangan kemampuan bahasa Inggris mahasiswa secara berkelanjutan.
+
+  utter_bidang_ukm_tec:
+    - text: |
+        UKM TEC bergerak di bidang pendidikan dan pengembangan bahasa Inggris. 
+        Kegiatannya berfokus pada pembelajaran, praktik komunikasi, dan peningkatan kemampuan bahasa Inggris mahasiswa.
+
+  utter_boleh_gabung_tec:
+    - text: |
+        UKM TEC terbuka untuk seluruh mahasiswa Untar dari berbagai fakultas dan jurusan. 
+        Mahasiswa baru maupun mahasiswa aktif semua semester dapat bergabung.
+
+  utter_cara_daftar_tec:
+    - text: |
+        Cara mendaftar UKM TEC cukup mudah:
+        1. Mengisi formulir pendaftaran (Google Form)
+        2. Melengkapi data diri sesuai ketentuan
+        3. Mengikuti arahan dan informasi dari panitia TEC
+
+  utter_biaya_daftar_tec:
+    - text: |
+        Biaya pendaftaran UKM TEC sekitar Rp25.000. 
+        Informasi detail biaya biasanya diumumkan saat open recruitment berlangsung.
+
+  utter_status_pendaftaran_tec:
+    - text: |
+        Informasi pembukaan pendaftaran UKM TEC biasanya diumumkan melalui media sosial resmi TEC. 
+        Silakan cek Instagram atau LINE resmi TEC untuk update terbaru mengenai open recruitment.
+
+  utter_syarat_anggota_tec:
+    - text: |
+        Syarat menjadi anggota UKM TEC:
+        - Mahasiswa aktif Untar
+        - Mengikuti proses pendaftaran TEC
+        - Bersedia mengikuti kegiatan dan aturan organisasi
+        - Mengikuti kegiatan LDK atau orientasi anggota
+
+  utter_divisi_tec:
+    - text: |
+        UKM TEC memiliki beberapa divisi untuk mendukung kegiatan organisasi. 
+        Informasi detail mengenai divisi biasanya dijelaskan saat open recruitment atau kegiatan pengenalan anggota baru.
+
+  utter_struktur_tec:
+    - text: |
+        Struktur organisasi UKM TEC terdiri dari pengurus inti dan beberapa divisi yang membantu jalannya kegiatan organisasi. 
+        Detail struktur kepengurusan dapat dilihat melalui media sosial atau informasi resmi TEC.
+
+  utter_fasilitas_tec:
+    - text: |
+        Fasilitas UKM TEC meliputi:
+        - Ruang sekretariat
+        - Media pembelajaran bahasa Inggris
+        - Kegiatan online melalui Google Meet
+        - Tempat diskusi dan sharing antar anggota
+
+  utter_lokasi_sekre_tec:
+    - text: | 
+        Lokasi ruang sekretariat TEC terletak di Untar Kampus 1, Gedung M, Lantai 2
+
+  utter_kelas_tec:
+    - text: |
+        Kelas UKM TEC biasanya diadakan:
+        - 2 kali dalam seminggu
+        - Hari Jumat dan Sabtu
+        - Jadwal dapat berubah sesuai periode kegiatan
+
+  utter_durasi_kegiatan_tec:
+    - text: |
+        Durasi kegiatan atau kelas UKM TEC sekitar 2 jam setiap pertemuan. 
+        Waktu kegiatan dapat disesuaikan dengan materi dan program yang berlangsung.
+
+  utter_lokasi_kegiatan_tec:
+    - text: |
+        Kegiatan UKM TEC dilakukan secara:
+        - Offline di Cafe Aftercoffee
+        - Online melalui Google Meet
+        - Program kerja tertentu dilaksanakan di lingkungan Untar
+
+  utter_kegiatan_tec:
+    - text: |
+        Kegiatan UKM TEC meliputi:
+        - Kelas bahasa Inggris rutin
+        - Program TOEFL
+        - Anniversary TEC
+        - Bonding antar anggota
+        - Event khusus seperti NEON
+
+  utter_materi_tec:
+    - text: |
+        Materi yang dipelajari di UKM TEC meliputi:
+        - Speaking
+        - Listening
+        - Grammar
+        - Vocabulary
+        - Public speaking
+        - Latihan TOEFL
+        Materi disesuaikan dengan kebutuhan dan level anggota.
+
+  utter_materi_toefl_tec:
+    - text: |
+        UKM TEC menyediakan materi TOEFL untuk membantu anggota meningkatkan kemampuan bahasa Inggris. 
+        Materi meliputi listening, structure, dan reading comprehension.
+
+  utter_tes_toefl_tec:
+    - text: |
+        UKM TEC juga memiliki program atau kegiatan yang berkaitan dengan tes TOEFL sebagai sarana latihan dan pengembangan kemampuan bahasa Inggris anggota.
+
+  utter_jadwal_tes_toefl_tec:
+    - text: |
+        Jadwal tes TOEFL UKM TEC biasanya diumumkan melalui media sosial atau informasi resmi TEC. 
+        Pelaksanaan TOEFL dapat dilakukan beberapa kali dalam periode tertentu.
+
+  utter_jenis_kelas_tec:
+    - text: |
+        UKM TEC menyediakan beberapa jenis pembelajaran seperti:
+        - Kelas speaking
+        - Listening
+        - Grammar
+        - TOEFL preparation
+        - Public speaking
+        Jenis kelas dapat berbeda sesuai program yang berjalan.
+
+  utter_kelas_online_offline_tec:
+    - text: |
+        Kegiatan belajar UKM TEC dilakukan secara hybrid:
+        - Online melalui Google Meet
+        - Offline di lokasi tertentu seperti cafe atau lingkungan kampus
+
+  utter_benefit_tec:
+    - text: |
+        Benefit mengikuti UKM TEC:
+        - Meningkatkan kemampuan bahasa Inggris
+        - Menambah relasi dan networking
+        - Mendapat pengalaman organisasi
+        - Belajar public speaking dan komunikasi
+        - Mendapat pengalaman belajar yang interaktif
+
+  utter_media_informasi_tec:
+    - text: |
+        Informasi UKM TEC dapat diakses melalui:
+        - Instagram resmi @tec_untar
+        - Official LINE account TEC
+        - DM Instagram TEC untuk pertanyaan lebih lanjut

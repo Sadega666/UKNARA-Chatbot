@@ -1,0 +1,192 @@
+version: "3.1"
+
+responses:
+
+  utter_tanya_ukm_marsipala:
+  - text: |
+      Marsipala adalah UKM yang bergerak di bidang gemar alam dan pelestarian lingkungan hidup 🌿🏔️.
+      UKM ini fokus pada kegiatan outdoor seperti hiking, climbing, rafting, dan eksplorasi alam, sekaligus membentuk karakter, kepemimpinan, dan solidaritas antar anggota.
+
+  utter_fungsi_ukm_marsipala:
+  - text: |
+      Fungsi Marsipala adalah sebagai wadah bagi mahasiswa untuk:
+      - Mengembangkan kemampuan di bidang alam bebas 🌄
+      - Melatih fisik dan mental 💪
+      - Meningkatkan kepedulian terhadap lingkungan 🌱
+      - Membangun teamwork dan kepemimpinan 🤝
+
+  utter_tujuan_ukm_marsipala:
+  - text: |
+      Tujuan Marsipala adalah untuk:
+      - Membentuk karakter yang tangguh dan disiplin
+      - Mengembangkan jiwa kepemimpinan
+      - Meningkatkan kecintaan terhadap alam dan lingkungan
+      - Memberikan pengalaman langsung melalui kegiatan alam
+
+  utter_misi_ukm_marsipala:
+  - text: |
+      Misi Marsipala meliputi:
+      - Mengadakan kegiatan eksplorasi alam secara rutin
+      - Melatih keterampilan teknis seperti climbing, caving, dan rafting
+      - Menumbuhkan kesadaran lingkungan
+      - Membangun solidaritas antar anggota
+
+  utter_visi_ukm_marsipala:
+  - text: |
+      Visi Marsipala adalah menjadi UKM gemar alam yang aktif, solid, dan berkontribusi dalam pelestarian lingkungan serta pengembangan mahasiswa.
+
+  utter_bidang_ukm_marsipala:
+  - text: |
+      Marsipala bergerak di bidang gemar alam dan lingkungan 🌿.
+      Fokus kegiatannya meliputi:
+      - Hiking / pendakian gunung
+      - Climbing (panjat tebing)
+      - Caving (susur gua)
+      - Rafting (arung jeram)
+
+  utter_boleh_gabung_marsipala:
+  - text: |
+      Marsipala terbuka untuk mahasiswa 👍
+      Umumnya:
+      - Terbuka untuk berbagai jurusan
+      - Mahasiswa baru maupun lama boleh ikut
+      - Yang penting punya minat di kegiatan alam 🌄
+
+  utter_cara_daftar_marsipala:
+  - text: |
+      Cara daftar Marsipala:
+      1. Mengisi formulir (biasanya via Google Form)
+      2. Mengikuti open recruitment saat PMB / Open House
+      3. Mengikuti tahap wawancara
+      4. Mengikuti Diksar (Pendidikan Dasar)
+
+  utter_biaya_daftar_marsipala:
+  - text: |
+      Untuk biaya pendaftaran Marsipala biasanya akan diinformasikan saat open recruitment.
+      Umumnya biaya digunakan untuk kegiatan seperti Diksar dan operasional.
+
+  utter_status_pendaftaran_marsipala:
+  - text: |
+      Pendaftaran Marsipala biasanya dibuka saat:
+      - PMB (Penerimaan Mahasiswa Baru)
+      - Open House UKM
+      
+      Untuk info terbaru, cek media sosial resmi ya 👍
+
+  utter_syarat_anggota_marsipala:
+  - text: |
+      Syarat masuk Marsipala:
+      - Mengikuti Diksar
+      - Memiliki komitmen tinggi
+      - Siap mengikuti kegiatan outdoor
+      - Memiliki minat di bidang alam 🌿
+
+  utter_komitmen_marsipala:
+  - text: |
+      Sebagai anggota Marsipala, kamu diharapkan:
+      - Aktif mengikuti kegiatan
+      - Memiliki komitmen dan tanggung jawab
+      - Siap bekerja sama dalam tim
+      - Mengikuti kegiatan wajib seperti Diksar
+
+  utter_divisi_marsipala:
+  - text: |
+      Divisi dalam Marsipala umumnya meliputi:
+      - Divisi Caving
+      - Divisi Climbing
+      - Divisi Rafting
+      - Divisi Hiking
+      - Humas
+      - Logistik
+
+  utter_struktur_marsipala:
+  - text: |
+      Struktur organisasi Marsipala terdiri dari:
+      - Ketua
+      - Wakil Ketua
+      - Sekretaris & Bendahara
+      - Divisi-divisi (Caving, Climbing, Rafting, Hiking, dll)
+
+  utter_kegiatan_marsipala:
+  - text: |
+      Kegiatan Marsipala meliputi:
+      - Latihan bulanan
+      - Diksar (Pendidikan Dasar)
+      - Open Trip
+      - Pendalaman Divisi
+      - Open House
+      - Kegiatan sosial seperti donor darah
+
+  utter_latihan_bulanan_marsipala:
+  - text: |
+      Marsipala memiliki kegiatan rutin berupa latihan bulanan 🗓️
+      Kegiatan ini bertujuan untuk:
+      - Melatih fisik dan teknik
+      - Menjaga kekompakan anggota
+
+  utter_jenis_kegiatan_marsipala:
+  - text: |
+      Jenis kegiatan Marsipala antara lain:
+      - Diksar (pelatihan dasar wajib)
+      - Open Trip (jalan-jalan alam bersama)
+      - Pendalaman Divisi
+      - Kegiatan eksplorasi alam
+      - Kegiatan lingkungan 🌱
+
+  utter_jadwal_kegiatan_marsipala:
+  - text: |
+      Jadwal kegiatan Marsipala biasanya:
+      - Rutin bulanan
+      - Event besar di waktu tertentu (Open House, Diksar, dll)
+      
+      Jadwal detail akan diinformasikan oleh pengurus.
+
+  utter_lokasi_kegiatan_marsipala:
+  - text: |
+      Lokasi kegiatan Marsipala biasanya:
+      - Area kampus (untuk teori)
+      - Gunung / alam terbuka (untuk praktik)
+      - Wilayah Jawa Barat & sekitarnya 🌄
+
+  utter_event_marsipala:
+  - text: |
+      Event Marsipala meliputi:
+      - Open House
+      - Diksar
+      - Open Trip
+      - Kegiatan sosial (donor darah)
+      - Eksplorasi alam
+
+  utter_jadwal_event_marsipala:
+  - text: |
+      Jadwal event Marsipala biasanya:
+      - Open House: awal semester
+      - Diksar: setelah rekrutmen
+      - Event lainnya menyesuaikan program kerja
+
+  utter_fasilitas_marsipala:
+  - text: |
+      Fasilitas yang disediakan Marsipala:
+      - Peralatan hiking 🥾
+      - Peralatan climbing 🧗
+      - Peralatan caving
+      - Peralatan rafting
+      
+      Beberapa alat bisa dipinjam sesuai kebutuhan kegiatan.
+
+  utter_benefit_marsipala:
+  - text: |
+      Benefit ikut Marsipala:
+      - Pengalaman langsung di alam 🌄
+      - Skill survival & teknik outdoor
+      - Relasi dan teamwork
+      - Mental dan fisik yang lebih kuat
+      - Pengalaman seru dan menantang
+
+  utter_media_informasi_marsipala:
+  - text: |
+      Untuk informasi lebih lanjut tentang Marsipala:
+      - Bisa cek Instagram resmi @marsipala_untar📱
+      - Atau hubungi pengurus saat Open House
+      
+      Info terbaru biasanya selalu diupdate di media sosial.

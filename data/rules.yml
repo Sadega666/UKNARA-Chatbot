@@ -1,0 +1,3553 @@
+version: "3.1"
+
+rules:
+
+- rule: rule_audisi_citrapesona
+  steps:
+  - intent: audisi_citrapesona
+  - action: utter_audisi_citrapesona
+
+- rule: rule_benefit_adhyatmaka
+  steps:
+  - intent: benefit_adhyatmaka
+  - action: utter_benefit_adhyatmaka
+
+- rule: rule_benefit_bar
+  steps:
+  - intent: benefit_bar
+  - action: utter_benefit_bar
+
+- rule: rule_benefit_citrapesona
+  steps:
+  - intent: benefit_citrapesona
+  - action: utter_benefit_citrapesona
+
+- rule: rule_benefit_dharmayana
+  steps:
+  - intent: benefit_dharmayana
+  - action: utter_benefit_dharmayana
+
+- rule: rule_benefit_festa
+  steps:
+  - intent: benefit_festa
+  - action: utter_benefit_festa
+
+- rule: rule_benefit_fut
+  steps:
+  - intent: benefit_fut
+  - action: utter_benefit_fut
+
+- rule: rule_benefit_futsal
+  steps:
+  - intent: benefit_futsal
+  - action: utter_benefit_futsal
+
+- rule: rule_benefit_jujitsu
+  steps:
+  - intent: benefit_jujitsu
+  - action: utter_benefit_jujitsu
+
+- rule: rule_benefit_kbmk
+  steps:
+  - intent: benefit_kbmk
+  - action: utter_benefit_kbmk
+
+- rule: rule_benefit_lbut
+  steps:
+  - intent: benefit_lbut
+  - action: utter_benefit_lbut
+
+- rule: rule_benefit_libama
+  steps:
+  - intent: benefit_libama
+  - action: utter_benefit_libama
+
+- rule: rule_benefit_livosta
+  steps:
+  - intent: benefit_livosta
+  - action: utter_benefit_livosta
+
+- rule: rule_benefit_ltmu
+  steps:
+  - intent: benefit_ltmu
+  - action: utter_benefit_ltmu
+
+- rule: rule_benefit_mahupa
+  steps:
+  - intent: benefit_mahupa
+  - action: utter_benefit_mahupa
+
+- rule: rule_benefit_marsipala
+  steps:
+  - intent: benefit_marsipala
+  - action: utter_benefit_marsipala
+
+- rule: rule_benefit_mega
+  steps:
+  - intent: benefit_mega
+  - action: utter_benefit_mega
+
+- rule: rule_benefit_pft
+  steps:
+  - intent: benefit_pft
+  - action: utter_benefit_pft
+
+- rule: rule_benefit_pout
+  steps:
+  - intent: benefit_pout
+  - action: utter_benefit_pout
+
+- rule: rule_benefit_psut
+  steps:
+  - intent: benefit_psut
+  - action: utter_benefit_psut
+
+- rule: rule_benefit_radio
+  steps:
+  - intent: benefit_radio
+  - action: utter_benefit_radio
+
+- rule: rule_benefit_sentra
+  steps:
+  - intent: benefit_sentra
+  - action: utter_benefit_sentra
+
+- rule: rule_benefit_soushin
+  steps:
+  - intent: benefit_soushin
+  - action: utter_benefit_soushin
+
+- rule: rule_benefit_taekwondo
+  steps:
+  - intent: benefit_taekwondo
+  - action: utter_benefit_taekwondo
+
+- rule: rule_benefit_tec
+  steps:
+  - intent: benefit_tec
+  - action: utter_benefit_tec
+
+- rule: rule_benefit_wmkt
+  steps:
+  - intent: benefit_wmkt
+  - action: utter_benefit_wmkt
+
+- rule: rule_benefit_wushu
+  steps:
+  - intent: benefit_wushu
+  - action: utter_benefit_wushu
+
+- rule: rule_biaya_daftar_adhyatmaka
+  steps:
+  - intent: biaya_daftar_adhyatmaka
+  - action: utter_biaya_daftar_adhyatmaka
+
+- rule: rule_biaya_daftar_bar
+  steps:
+  - intent: biaya_daftar_bar
+  - action: utter_biaya_daftar_bar
+
+- rule: rule_biaya_daftar_citrapesona
+  steps:
+  - intent: biaya_daftar_citrapesona
+  - action: utter_biaya_daftar_citrapesona
+
+- rule: rule_biaya_daftar_dharmayana
+  steps:
+  - intent: biaya_daftar_dharmayana
+  - action: utter_biaya_daftar_dharmayana
+
+- rule: rule_biaya_daftar_festa
+  steps:
+  - intent: biaya_daftar_festa
+  - action: utter_biaya_daftar_festa
+
+- rule: rule_biaya_daftar_fut
+  steps:
+  - intent: biaya_daftar_fut
+  - action: utter_biaya_daftar_fut
+
+- rule: rule_biaya_daftar_futsal
+  steps:
+  - intent: biaya_daftar_futsal
+  - action: utter_biaya_daftar_futsal
+
+- rule: rule_biaya_daftar_jujitsu
+  steps:
+  - intent: biaya_daftar_jujitsu
+  - action: utter_biaya_daftar_jujitsu
+
+- rule: rule_biaya_daftar_kbmk
+  steps:
+  - intent: biaya_daftar_kbmk
+  - action: utter_biaya_daftar_kbmk
+
+- rule: rule_biaya_daftar_lbut
+  steps:
+  - intent: biaya_daftar_lbut
+  - action: utter_biaya_daftar_lbut
+
+- rule: rule_biaya_daftar_libama
+  steps:
+  - intent: biaya_daftar_libama
+  - action: utter_biaya_daftar_libama
+
+- rule: rule_biaya_daftar_livosta
+  steps:
+  - intent: biaya_daftar_livosta
+  - action: utter_biaya_daftar_livosta
+
+- rule: rule_biaya_daftar_ltmu
+  steps:
+  - intent: biaya_daftar_ltmu
+  - action: utter_biaya_daftar_ltmu
+
+- rule: rule_biaya_daftar_mahupa
+  steps:
+  - intent: biaya_daftar_mahupa
+  - action: utter_biaya_daftar_mahupa
+
+- rule: rule_biaya_daftar_marsipala
+  steps:
+  - intent: biaya_daftar_marsipala
+  - action: utter_biaya_daftar_marsipala
+
+- rule: rule_biaya_daftar_mega
+  steps:
+  - intent: biaya_daftar_mega
+  - action: utter_biaya_daftar_mega
+
+- rule: rule_biaya_daftar_pft
+  steps:
+  - intent: biaya_daftar_pft
+  - action: utter_biaya_daftar_pft
+
+- rule: rule_biaya_daftar_pout
+  steps:
+  - intent: biaya_daftar_pout
+  - action: utter_biaya_daftar_pout
+
+- rule: rule_biaya_daftar_psut
+  steps:
+  - intent: biaya_daftar_psut
+  - action: utter_biaya_daftar_psut
+
+- rule: rule_biaya_daftar_radio
+  steps:
+  - intent: biaya_daftar_radio
+  - action: utter_biaya_daftar_radio
+
+- rule: rule_biaya_daftar_sentra
+  steps:
+  - intent: biaya_daftar_sentra
+  - action: utter_biaya_daftar_sentra
+
+- rule: rule_biaya_daftar_soushin
+  steps:
+  - intent: biaya_daftar_soushin
+  - action: utter_biaya_daftar_soushin
+
+- rule: rule_biaya_daftar_taekwondo
+  steps:
+  - intent: biaya_daftar_taekwondo
+  - action: utter_biaya_daftar_taekwondo
+
+- rule: rule_biaya_daftar_tec
+  steps:
+  - intent: biaya_daftar_tec
+  - action: utter_biaya_daftar_tec
+
+- rule: rule_biaya_daftar_wmkt
+  steps:
+  - intent: biaya_daftar_wmkt
+  - action: utter_biaya_daftar_wmkt
+
+- rule: rule_biaya_daftar_wushu
+  steps:
+  - intent: biaya_daftar_wushu
+  - action: utter_biaya_daftar_wushu
+
+- rule: rule_bidang_ukm_adhyatmaka
+  steps:
+  - intent: bidang_ukm_adhyatmaka
+  - action: utter_bidang_ukm_adhyatmaka
+
+- rule: rule_bidang_ukm_bar
+  steps:
+  - intent: bidang_ukm_bar
+  - action: utter_bidang_ukm_bar
+
+- rule: rule_bidang_ukm_citrapesona
+  steps:
+  - intent: bidang_ukm_citrapesona
+  - action: utter_bidang_ukm_citrapesona
+
+- rule: rule_bidang_ukm_dharmayana
+  steps:
+  - intent: bidang_ukm_dharmayana
+  - action: utter_bidang_ukm_dharmayana
+
+- rule: rule_bidang_ukm_festa
+  steps:
+  - intent: bidang_ukm_festa
+  - action: utter_bidang_ukm_festa
+
+- rule: rule_bidang_ukm_fut
+  steps:
+  - intent: bidang_ukm_fut
+  - action: utter_bidang_ukm_fut
+
+- rule: rule_bidang_ukm_futsal
+  steps:
+  - intent: bidang_ukm_futsal
+  - action: utter_bidang_ukm_futsal
+
+- rule: rule_bidang_ukm_jujitsu
+  steps:
+  - intent: bidang_ukm_jujitsu
+  - action: utter_bidang_ukm_jujitsu
+
+- rule: rule_bidang_ukm_kbmk
+  steps:
+  - intent: bidang_ukm_kbmk
+  - action: utter_bidang_ukm_kbmk
+
+- rule: rule_bidang_ukm_lbut
+  steps:
+  - intent: bidang_ukm_lbut
+  - action: utter_bidang_ukm_lbut
+
+- rule: rule_bidang_ukm_libama
+  steps:
+  - intent: bidang_ukm_libama
+  - action: utter_bidang_ukm_libama
+
+- rule: rule_bidang_ukm_livosta
+  steps:
+  - intent: bidang_ukm_livosta
+  - action: utter_bidang_ukm_livosta
+
+- rule: rule_bidang_ukm_ltmu
+  steps:
+  - intent: bidang_ukm_ltmu
+  - action: utter_bidang_ukm_ltmu
+
+- rule: rule_bidang_ukm_mahupa
+  steps:
+  - intent: bidang_ukm_mahupa
+  - action: utter_bidang_ukm_mahupa
+
+- rule: rule_bidang_ukm_marsipala
+  steps:
+  - intent: bidang_ukm_marsipala
+  - action: utter_bidang_ukm_marsipala
+
+- rule: rule_bidang_ukm_mega
+  steps:
+  - intent: bidang_ukm_mega
+  - action: utter_bidang_ukm_mega
+
+- rule: rule_bidang_ukm_pft
+  steps:
+  - intent: bidang_ukm_pft
+  - action: utter_bidang_ukm_pft
+
+- rule: rule_bidang_ukm_pout
+  steps:
+  - intent: bidang_ukm_pout
+  - action: utter_bidang_ukm_pout
+
+- rule: rule_bidang_ukm_psut
+  steps:
+  - intent: bidang_ukm_psut
+  - action: utter_bidang_ukm_psut
+
+- rule: rule_bidang_ukm_radio
+  steps:
+  - intent: bidang_ukm_radio
+  - action: utter_bidang_ukm_radio
+
+- rule: rule_bidang_ukm_sentra
+  steps:
+  - intent: bidang_ukm_sentra
+  - action: utter_bidang_ukm_sentra
+
+- rule: rule_bidang_ukm_soushin
+  steps:
+  - intent: bidang_ukm_soushin
+  - action: utter_bidang_ukm_soushin
+
+- rule: rule_bidang_ukm_taekwondo
+  steps:
+  - intent: bidang_ukm_taekwondo
+  - action: utter_bidang_ukm_taekwondo
+
+- rule: rule_bidang_ukm_tec
+  steps:
+  - intent: bidang_ukm_tec
+  - action: utter_bidang_ukm_tec
+
+- rule: rule_bidang_ukm_wmkt
+  steps:
+  - intent: bidang_ukm_wmkt
+  - action: utter_bidang_ukm_wmkt
+
+- rule: rule_bidang_ukm_wushu
+  steps:
+  - intent: bidang_ukm_wushu
+  - action: utter_bidang_ukm_wushu
+
+- rule: rule_boleh_gabung_adhyatmaka
+  steps:
+  - intent: boleh_gabung_adhyatmaka
+  - action: utter_boleh_gabung_adhyatmaka
+
+- rule: rule_boleh_gabung_bar
+  steps:
+  - intent: boleh_gabung_bar
+  - action: utter_boleh_gabung_bar
+
+- rule: rule_boleh_gabung_citrapesona
+  steps:
+  - intent: boleh_gabung_citrapesona
+  - action: utter_boleh_gabung_citrapesona
+
+- rule: rule_boleh_gabung_dharmayana
+  steps:
+  - intent: boleh_gabung_dharmayana
+  - action: utter_boleh_gabung_dharmayana
+
+- rule: rule_boleh_gabung_festa
+  steps:
+  - intent: boleh_gabung_festa
+  - action: utter_boleh_gabung_festa
+
+- rule: rule_boleh_gabung_fut
+  steps:
+  - intent: boleh_gabung_fut
+  - action: utter_boleh_gabung_fut
+
+- rule: rule_boleh_gabung_futsal
+  steps:
+  - intent: boleh_gabung_futsal
+  - action: utter_boleh_gabung_futsal
+
+- rule: rule_boleh_gabung_jujitsu
+  steps:
+  - intent: boleh_gabung_jujitsu
+  - action: utter_boleh_gabung_jujitsu
+
+- rule: rule_boleh_gabung_kbmk
+  steps:
+  - intent: boleh_gabung_kbmk
+  - action: utter_boleh_gabung_kbmk
+
+- rule: rule_boleh_gabung_lbut
+  steps:
+  - intent: boleh_gabung_lbut
+  - action: utter_boleh_gabung_lbut
+
+- rule: rule_boleh_gabung_libama
+  steps:
+  - intent: boleh_gabung_libama
+  - action: utter_boleh_gabung_libama
+
+- rule: rule_boleh_gabung_livosta
+  steps:
+  - intent: boleh_gabung_livosta
+  - action: utter_boleh_gabung_livosta
+
+- rule: rule_boleh_gabung_ltmu
+  steps:
+  - intent: boleh_gabung_ltmu
+  - action: utter_boleh_gabung_ltmu
+
+- rule: rule_boleh_gabung_mahupa
+  steps:
+  - intent: boleh_gabung_mahupa
+  - action: utter_boleh_gabung_mahupa
+
+- rule: rule_boleh_gabung_marsipala
+  steps:
+  - intent: boleh_gabung_marsipala
+  - action: utter_boleh_gabung_marsipala
+
+- rule: rule_boleh_gabung_mega
+  steps:
+  - intent: boleh_gabung_mega
+  - action: utter_boleh_gabung_mega
+
+- rule: rule_boleh_gabung_pft
+  steps:
+  - intent: boleh_gabung_pft
+  - action: utter_boleh_gabung_pft
+
+- rule: rule_boleh_gabung_pout
+  steps:
+  - intent: boleh_gabung_pout
+  - action: utter_boleh_gabung_pout
+
+- rule: rule_boleh_gabung_psut
+  steps:
+  - intent: boleh_gabung_psut
+  - action: utter_boleh_gabung_psut
+
+- rule: rule_boleh_gabung_radio
+  steps:
+  - intent: boleh_gabung_radio
+  - action: utter_boleh_gabung_radio
+
+- rule: rule_boleh_gabung_sentra
+  steps:
+  - intent: boleh_gabung_sentra
+  - action: utter_boleh_gabung_sentra
+
+- rule: rule_boleh_gabung_soushin
+  steps:
+  - intent: boleh_gabung_soushin
+  - action: utter_boleh_gabung_soushin
+
+- rule: rule_boleh_gabung_taekwondo
+  steps:
+  - intent: boleh_gabung_taekwondo
+  - action: utter_boleh_gabung_taekwondo
+
+- rule: rule_boleh_gabung_tec
+  steps:
+  - intent: boleh_gabung_tec
+  - action: utter_boleh_gabung_tec
+
+- rule: rule_boleh_gabung_wmkt
+  steps:
+  - intent: boleh_gabung_wmkt
+  - action: utter_boleh_gabung_wmkt
+
+- rule: rule_boleh_gabung_wushu
+  steps:
+  - intent: boleh_gabung_wushu
+  - action: utter_boleh_gabung_wushu
+
+- rule: rule_cara_daftar_adhyatmaka
+  steps:
+  - intent: cara_daftar_adhyatmaka
+  - action: utter_cara_daftar_adhyatmaka
+
+- rule: rule_cara_daftar_bar
+  steps:
+  - intent: cara_daftar_bar
+  - action: utter_cara_daftar_bar
+
+- rule: rule_cara_daftar_citrapesona
+  steps:
+  - intent: cara_daftar_citrapesona
+  - action: utter_cara_daftar_citrapesona
+
+- rule: rule_cara_daftar_dharmayana
+  steps:
+  - intent: cara_daftar_dharmayana
+  - action: utter_cara_daftar_dharmayana
+
+- rule: rule_cara_daftar_festa
+  steps:
+  - intent: cara_daftar_festa
+  - action: utter_cara_daftar_festa
+
+- rule: rule_cara_daftar_fut
+  steps:
+  - intent: cara_daftar_fut
+  - action: utter_cara_daftar_fut
+
+- rule: rule_cara_daftar_futsal
+  steps:
+  - intent: cara_daftar_futsal
+  - action: utter_cara_daftar_futsal
+
+- rule: rule_cara_daftar_jujitsu
+  steps:
+  - intent: cara_daftar_jujitsu
+  - action: utter_cara_daftar_jujitsu
+
+- rule: rule_cara_daftar_kbmk
+  steps:
+  - intent: cara_daftar_kbmk
+  - action: utter_cara_daftar_kbmk
+
+- rule: rule_cara_daftar_lbut
+  steps:
+  - intent: cara_daftar_lbut
+  - action: utter_cara_daftar_lbut
+
+- rule: rule_cara_daftar_libama
+  steps:
+  - intent: cara_daftar_libama
+  - action: utter_cara_daftar_libama
+
+- rule: rule_cara_daftar_livosta
+  steps:
+  - intent: cara_daftar_livosta
+  - action: utter_cara_daftar_livosta
+
+- rule: rule_cara_daftar_ltmu
+  steps:
+  - intent: cara_daftar_ltmu
+  - action: utter_cara_daftar_ltmu
+
+- rule: rule_cara_daftar_mahupa
+  steps:
+  - intent: cara_daftar_mahupa
+  - action: utter_cara_daftar_mahupa
+
+- rule: rule_cara_daftar_marsipala
+  steps:
+  - intent: cara_daftar_marsipala
+  - action: utter_cara_daftar_marsipala
+
+- rule: rule_cara_daftar_mega
+  steps:
+  - intent: cara_daftar_mega
+  - action: utter_cara_daftar_mega
+
+- rule: rule_cara_daftar_pft
+  steps:
+  - intent: cara_daftar_pft
+  - action: utter_cara_daftar_pft
+
+- rule: rule_cara_daftar_pout
+  steps:
+  - intent: cara_daftar_pout
+  - action: utter_cara_daftar_pout
+
+- rule: rule_cara_daftar_psut
+  steps:
+  - intent: cara_daftar_psut
+  - action: utter_cara_daftar_psut
+
+- rule: rule_cara_daftar_radio
+  steps:
+  - intent: cara_daftar_radio
+  - action: utter_cara_daftar_radio
+
+- rule: rule_cara_daftar_sentra
+  steps:
+  - intent: cara_daftar_sentra
+  - action: utter_cara_daftar_sentra
+
+- rule: rule_cara_daftar_soushin
+  steps:
+  - intent: cara_daftar_soushin
+  - action: utter_cara_daftar_soushin
+
+- rule: rule_cara_daftar_taekwondo
+  steps:
+  - intent: cara_daftar_taekwondo
+  - action: utter_cara_daftar_taekwondo
+
+- rule: rule_cara_daftar_tec
+  steps:
+  - intent: cara_daftar_tec
+  - action: utter_cara_daftar_tec
+
+- rule: rule_cara_daftar_wmkt
+  steps:
+  - intent: cara_daftar_wmkt
+  - action: utter_cara_daftar_wmkt
+
+- rule: rule_cara_daftar_wushu
+  steps:
+  - intent: cara_daftar_wushu
+  - action: utter_cara_daftar_wushu
+
+- rule: rule_cup_livosta
+  steps:
+  - intent: cup_livosta
+  - action: utter_cup_livosta
+
+- rule: rule_cup_ltmu
+  steps:
+  - intent: cup_ltmu
+  - action: utter_cup_ltmu
+
+- rule: rule_divisi_adhyatmaka
+  steps:
+  - intent: divisi_adhyatmaka
+  - action: utter_divisi_adhyatmaka
+
+- rule: rule_divisi_bar
+  steps:
+  - intent: divisi_bar
+  - action: utter_divisi_bar
+
+- rule: rule_divisi_citrapesona
+  steps:
+  - intent: divisi_citrapesona
+  - action: utter_divisi_citrapesona
+
+- rule: rule_divisi_dharmayana
+  steps:
+  - intent: divisi_dharmayana
+  - action: utter_divisi_dharmayana
+
+- rule: rule_divisi_festa
+  steps:
+  - intent: divisi_festa
+  - action: utter_divisi_festa
+
+- rule: rule_divisi_fut
+  steps:
+  - intent: divisi_fut
+  - action: utter_divisi_fut
+
+- rule: rule_divisi_futsal
+  steps:
+  - intent: divisi_futsal
+  - action: utter_divisi_futsal
+
+- rule: rule_divisi_jujitsu
+  steps:
+  - intent: divisi_jujitsu
+  - action: utter_divisi_jujitsu
+
+- rule: rule_divisi_kbmk
+  steps:
+  - intent: divisi_kbmk
+  - action: utter_divisi_kbmk
+
+- rule: rule_divisi_lbut
+  steps:
+  - intent: divisi_lbut
+  - action: utter_divisi_lbut
+
+- rule: rule_divisi_libama
+  steps:
+  - intent: divisi_libama
+  - action: utter_divisi_libama
+
+- rule: rule_divisi_livosta
+  steps:
+  - intent: divisi_livosta
+  - action: utter_divisi_livosta
+
+- rule: rule_divisi_ltmu
+  steps:
+  - intent: divisi_ltmu
+  - action: utter_divisi_ltmu
+
+- rule: rule_divisi_mahupa
+  steps:
+  - intent: divisi_mahupa
+  - action: utter_divisi_mahupa
+
+- rule: rule_divisi_marsipala
+  steps:
+  - intent: divisi_marsipala
+  - action: utter_divisi_marsipala
+
+- rule: rule_divisi_mega
+  steps:
+  - intent: divisi_mega
+  - action: utter_divisi_mega
+
+- rule: rule_divisi_pft
+  steps:
+  - intent: divisi_pft
+  - action: utter_divisi_pft
+
+- rule: rule_divisi_pout
+  steps:
+  - intent: divisi_pout
+  - action: utter_divisi_pout
+
+- rule: rule_divisi_psut
+  steps:
+  - intent: divisi_psut
+  - action: utter_divisi_psut
+
+- rule: rule_divisi_radio
+  steps:
+  - intent: divisi_radio
+  - action: utter_divisi_radio
+
+- rule: rule_divisi_sentra
+  steps:
+  - intent: divisi_sentra
+  - action: utter_divisi_sentra
+
+- rule: rule_divisi_soushin
+  steps:
+  - intent: divisi_soushin
+  - action: utter_divisi_soushin
+
+- rule: rule_divisi_taekwondo
+  steps:
+  - intent: divisi_taekwondo
+  - action: utter_divisi_taekwondo
+
+- rule: rule_divisi_tec
+  steps:
+  - intent: divisi_tec
+  - action: utter_divisi_tec
+
+- rule: rule_divisi_wmkt
+  steps:
+  - intent: divisi_wmkt
+  - action: utter_divisi_wmkt
+
+- rule: rule_divisi_wushu
+  steps:
+  - intent: divisi_wushu
+  - action: utter_divisi_wushu
+
+- rule: rule_durasi_kegiatan_adhyatmaka
+  steps:
+  - intent: durasi_kegiatan_adhyatmaka
+  - action: utter_durasi_kegiatan_adhyatmaka
+
+- rule: rule_durasi_kegiatan_bar
+  steps:
+  - intent: durasi_kegiatan_bar
+  - action: utter_durasi_kegiatan_bar
+
+- rule: rule_durasi_kegiatan_citrapesona
+  steps:
+  - intent: durasi_kegiatan_citrapesona
+  - action: utter_durasi_kegiatan_citrapesona
+
+- rule: rule_durasi_kegiatan_dharmayana
+  steps:
+  - intent: durasi_kegiatan_dharmayana
+  - action: utter_durasi_kegiatan_dharmayana
+
+- rule: rule_durasi_kegiatan_festa
+  steps:
+  - intent: durasi_kegiatan_festa
+  - action: utter_durasi_kegiatan_festa
+
+- rule: rule_durasi_kegiatan_futsal
+  steps:
+  - intent: durasi_kegiatan_futsal
+  - action: utter_durasi_kegiatan_futsal
+
+- rule: rule_durasi_kegiatan_jujitsu
+  steps:
+  - intent: durasi_kegiatan_jujitsu
+  - action: utter_durasi_kegiatan_jujitsu
+
+- rule: rule_durasi_kegiatan_lbut
+  steps:
+  - intent: durasi_kegiatan_lbut
+  - action: utter_durasi_kegiatan_lbut
+
+- rule: rule_durasi_kegiatan_libama
+  steps:
+  - intent: durasi_kegiatan_libama
+  - action: utter_durasi_kegiatan_libama
+
+- rule: rule_durasi_kegiatan_livosta
+  steps:
+  - intent: durasi_kegiatan_livosta
+  - action: utter_durasi_kegiatan_livosta
+
+- rule: rule_durasi_kegiatan_ltmu
+  steps:
+  - intent: durasi_kegiatan_ltmu
+  - action: utter_durasi_kegiatan_ltmu
+
+- rule: rule_durasi_kegiatan_pft
+  steps:
+  - intent: durasi_kegiatan_pft
+  - action: utter_durasi_kegiatan_pft
+
+- rule: rule_durasi_kegiatan_pout
+  steps:
+  - intent: durasi_kegiatan_pout
+  - action: utter_durasi_kegiatan_pout
+
+- rule: rule_durasi_kegiatan_psut
+  steps:
+  - intent: durasi_kegiatan_psut
+  - action: utter_durasi_kegiatan_psut
+
+- rule: rule_durasi_kegiatan_radio
+  steps:
+  - intent: durasi_kegiatan_radio
+  - action: utter_durasi_kegiatan_radio
+
+- rule: rule_durasi_kegiatan_sentra
+  steps:
+  - intent: durasi_kegiatan_sentra
+  - action: utter_durasi_kegiatan_sentra
+
+- rule: rule_durasi_kegiatan_soushin
+  steps:
+  - intent: durasi_kegiatan_soushin
+  - action: utter_durasi_kegiatan_soushin
+
+- rule: rule_durasi_kegiatan_taekwondo
+  steps:
+  - intent: durasi_kegiatan_taekwondo
+  - action: utter_durasi_kegiatan_taekwondo
+
+- rule: rule_durasi_kegiatan_tec
+  steps:
+  - intent: durasi_kegiatan_tec
+  - action: utter_durasi_kegiatan_tec
+
+- rule: rule_durasi_kegiatan_wushu
+  steps:
+  - intent: durasi_kegiatan_wushu
+  - action: utter_durasi_kegiatan_wushu
+
+- rule: rule_event_adhyatmaka
+  steps:
+  - intent: event_adhyatmaka
+  - action: utter_event_adhyatmaka
+
+- rule: rule_event_bar
+  steps:
+  - intent: event_bar
+  - action: utter_event_bar
+
+- rule: rule_event_citrapesona
+  steps:
+  - intent: event_citrapesona
+  - action: utter_event_citrapesona
+
+- rule: rule_event_dharmayana
+  steps:
+  - intent: event_dharmayana
+  - action: utter_event_dharmayana
+
+- rule: rule_event_festa
+  steps:
+  - intent: event_festa
+  - action: utter_event_festa
+
+- rule: rule_event_fut
+  steps:
+  - intent: event_fut
+  - action: utter_event_fut
+
+- rule: rule_event_futsal
+  steps:
+  - intent: event_futsal
+  - action: utter_event_futsal
+
+- rule: rule_event_gathering_citrapesona
+  steps:
+  - intent: event_gathering_citrapesona
+  - action: utter_event_gathering_citrapesona
+
+- rule: rule_event_jujitsu
+  steps:
+  - intent: event_jujitsu
+  - action: utter_event_jujitsu
+
+- rule: rule_event_kbmk
+  steps:
+  - intent: event_kbmk
+  - action: utter_event_kbmk
+
+- rule: rule_event_lbut
+  steps:
+  - intent: event_lbut
+  - action: utter_event_lbut
+
+- rule: rule_event_libama
+  steps:
+  - intent: event_libama
+  - action: utter_event_libama
+
+- rule: rule_event_livosta
+  steps:
+  - intent: event_livosta
+  - action: utter_event_livosta
+
+- rule: rule_event_ltmu
+  steps:
+  - intent: event_ltmu
+  - action: utter_event_ltmu
+
+- rule: rule_event_mahupa
+  steps:
+  - intent: event_mahupa
+  - action: utter_event_mahupa
+
+- rule: rule_event_marsipala
+  steps:
+  - intent: event_marsipala
+  - action: utter_event_marsipala
+
+- rule: rule_event_mega
+  steps:
+  - intent: event_mega
+  - action: utter_event_mega
+
+- rule: rule_event_pft
+  steps:
+  - intent: event_pft
+  - action: utter_event_pft
+
+- rule: rule_event_pout
+  steps:
+  - intent: event_pout
+  - action: utter_event_pout
+
+- rule: rule_event_psut
+  steps:
+  - intent: event_psut
+  - action: utter_event_psut
+
+- rule: rule_event_radio
+  steps:
+  - intent: event_radio
+  - action: utter_event_radio
+
+- rule: rule_event_sentra
+  steps:
+  - intent: event_sentra
+  - action: utter_event_sentra
+
+- rule: rule_event_soushin
+  steps:
+  - intent: event_soushin
+  - action: utter_event_soushin
+
+- rule: rule_event_tnf_citrapesona
+  steps:
+  - intent: event_tnf_citrapesona
+  - action: utter_event_tnf_citrapesona
+
+- rule: rule_event_wushu
+  steps:
+  - intent: event_wushu
+  - action: utter_event_wushu
+
+- rule: rule_fasilitas_tec
+  steps:
+  - intent: fasilitas_tec
+  - action: utter_fasilitas_tec
+
+- rule: rule_fasilitas_adhyatmaka
+  steps:
+  - intent: fasilitas_adhyatmaka
+  - action: utter_fasilitas_adhyatmaka
+
+- rule: rule_fasilitas_bar
+  steps:
+  - intent: fasilitas_bar
+  - action: utter_fasilitas_bar
+
+- rule: rule_fasilitas_citrapesona
+  steps:
+  - intent: fasilitas_citrapesona
+  - action: utter_fasilitas_citrapesona
+
+- rule: rule_fasilitas_dharmayana
+  steps:
+  - intent: fasilitas_dharmayana
+  - action: utter_fasilitas_dharmayana
+
+- rule: rule_fasilitas_festa
+  steps:
+  - intent: fasilitas_festa
+  - action: utter_fasilitas_festa
+
+- rule: rule_fasilitas_fut
+  steps:
+  - intent: fasilitas_fut
+  - action: utter_fasilitas_fut
+
+- rule: rule_fasilitas_futsal
+  steps:
+  - intent: fasilitas_futsal
+  - action: utter_fasilitas_futsal
+
+- rule: rule_fasilitas_jujitsu
+  steps:
+  - intent: fasilitas_jujitsu
+  - action: utter_fasilitas_jujitsu
+
+- rule: rule_fasilitas_kbmk
+  steps:
+  - intent: fasilitas_kbmk
+  - action: utter_fasilitas_kbmk
+
+- rule: rule_fasilitas_lbut
+  steps:
+  - intent: fasilitas_lbut
+  - action: utter_fasilitas_lbut
+
+- rule: rule_fasilitas_libama
+  steps:
+  - intent: fasilitas_libama
+  - action: utter_fasilitas_libama
+
+- rule: rule_fasilitas_livosta
+  steps:
+  - intent: fasilitas_livosta
+  - action: utter_fasilitas_livosta
+
+- rule: rule_fasilitas_ltmu
+  steps:
+  - intent: fasilitas_ltmu
+  - action: utter_fasilitas_ltmu
+
+- rule: rule_fasilitas_mahupa
+  steps:
+  - intent: fasilitas_mahupa
+  - action: utter_fasilitas_mahupa
+
+- rule: rule_fasilitas_marsipala
+  steps:
+  - intent: fasilitas_marsipala
+  - action: utter_fasilitas_marsipala
+
+- rule: rule_fasilitas_mega
+  steps:
+  - intent: fasilitas_mega
+  - action: utter_fasilitas_mega
+
+- rule: rule_fasilitas_pft
+  steps:
+  - intent: fasilitas_pft
+  - action: utter_fasilitas_pft
+
+- rule: rule_fasilitas_pout
+  steps:
+  - intent: fasilitas_pout
+  - action: utter_fasilitas_pout
+
+- rule: rule_fasilitas_psut
+  steps:
+  - intent: fasilitas_psut
+  - action: utter_fasilitas_psut
+
+- rule: rule_fasilitas_radio
+  steps:
+  - intent: fasilitas_radio
+  - action: utter_fasilitas_radio
+
+- rule: rule_fasilitas_sentra
+  steps:
+  - intent: fasilitas_sentra
+  - action: utter_fasilitas_sentra
+
+- rule: rule_fasilitas_soushin
+  steps:
+  - intent: fasilitas_soushin
+  - action: utter_fasilitas_soushin
+
+- rule: rule_fasilitas_taekwondo
+  steps:
+  - intent: fasilitas_taekwondo
+  - action: utter_fasilitas_taekwondo
+
+- rule: rule_fasilitas_wmkt
+  steps:
+  - intent: fasilitas_wmkt
+  - action: utter_fasilitas_wmkt
+
+- rule: rule_fasilitas_wushu
+  steps:
+  - intent: fasilitas_wushu
+  - action: utter_fasilitas_wushu
+
+- rule: rule_fungames_livosta
+  steps:
+  - intent: fungames_livosta
+  - action: utter_fungames_livosta
+
+- rule: rule_fungames_ltmu
+  steps:
+  - intent: fungames_ltmu
+  - action: utter_fungames_ltmu
+
+- rule: rule_fungsi_ukm_psut
+  steps:
+  - intent: fungsi_ukm_psut
+  - action: utter_fungsi_ukm_psut
+
+- rule: rule_fungsi_ukm_adhyatmaka
+  steps:
+  - intent: fungsi_ukm_adhyatmaka
+  - action: utter_fungsi_ukm_adhyatmaka
+
+- rule: rule_fungsi_ukm_bar
+  steps:
+  - intent: fungsi_ukm_bar
+  - action: utter_fungsi_ukm_bar
+
+- rule: rule_fungsi_ukm_citrapesona
+  steps:
+  - intent: fungsi_ukm_citrapesona
+  - action: utter_fungsi_ukm_citrapesona
+
+- rule: rule_fungsi_ukm_dharmayana
+  steps:
+  - intent: fungsi_ukm_dharmayana
+  - action: utter_fungsi_ukm_dharmayana
+
+- rule: rule_fungsi_ukm_festa
+  steps:
+  - intent: fungsi_ukm_festa
+  - action: utter_fungsi_ukm_festa
+
+- rule: rule_fungsi_ukm_fut
+  steps:
+  - intent: fungsi_ukm_fut
+  - action: utter_fungsi_ukm_fut
+
+- rule: rule_fungsi_ukm_futsal
+  steps:
+  - intent: fungsi_ukm_futsal
+  - action: utter_fungsi_ukm_futsal
+
+- rule: rule_fungsi_ukm_jujitsu
+  steps:
+  - intent: fungsi_ukm_jujitsu
+  - action: utter_fungsi_ukm_jujitsu
+
+- rule: rule_fungsi_ukm_kbmk
+  steps:
+  - intent: fungsi_ukm_kbmk
+  - action: utter_fungsi_ukm_kbmk
+
+- rule: rule_fungsi_ukm_lbut
+  steps:
+  - intent: fungsi_ukm_lbut
+  - action: utter_fungsi_ukm_lbut
+
+- rule: rule_fungsi_ukm_libama
+  steps:
+  - intent: fungsi_ukm_libama
+  - action: utter_fungsi_ukm_libama
+
+- rule: rule_fungsi_ukm_livosta
+  steps:
+  - intent: fungsi_ukm_livosta
+  - action: utter_fungsi_ukm_livosta
+
+- rule: rule_fungsi_ukm_ltmu
+  steps:
+  - intent: fungsi_ukm_ltmu
+  - action: utter_fungsi_ukm_ltmu
+
+- rule: rule_fungsi_ukm_mahupa
+  steps:
+  - intent: fungsi_ukm_mahupa
+  - action: utter_fungsi_ukm_mahupa
+
+- rule: rule_fungsi_ukm_marsipala
+  steps:
+  - intent: fungsi_ukm_marsipala
+  - action: utter_fungsi_ukm_marsipala
+
+- rule: rule_fungsi_ukm_mega
+  steps:
+  - intent: fungsi_ukm_mega
+  - action: utter_fungsi_ukm_mega
+
+- rule: rule_fungsi_ukm_pft
+  steps:
+  - intent: fungsi_ukm_pft
+  - action: utter_fungsi_ukm_pft
+
+- rule: rule_fungsi_ukm_pout
+  steps:
+  - intent: fungsi_ukm_pout
+  - action: utter_fungsi_ukm_pout
+
+- rule: rule_fungsi_ukm_radio
+  steps:
+  - intent: fungsi_ukm_radio
+  - action: utter_fungsi_ukm_radio
+
+- rule: rule_fungsi_ukm_sentra
+  steps:
+  - intent: fungsi_ukm_sentra
+  - action: utter_fungsi_ukm_sentra
+
+- rule: rule_fungsi_ukm_soushin
+  steps:
+  - intent: fungsi_ukm_soushin
+  - action: utter_fungsi_ukm_soushin
+
+- rule: rule_fungsi_ukm_taekwondo
+  steps:
+  - intent: fungsi_ukm_taekwondo
+  - action: utter_fungsi_ukm_taekwondo
+
+- rule: rule_fungsi_ukm_tec
+  steps:
+  - intent: fungsi_ukm_tec
+  - action: utter_fungsi_ukm_tec
+
+- rule: rule_fungsi_ukm_wmkt
+  steps:
+  - intent: fungsi_ukm_wmkt
+  - action: utter_fungsi_ukm_wmkt
+
+- rule: rule_fungsi_ukm_wushu
+  steps:
+  - intent: fungsi_ukm_wushu
+  - action: utter_fungsi_ukm_wushu
+
+- rule: rule_hunting_bulanan_pft
+  steps:
+  - intent: hunting_bulanan_pft
+  - action: utter_hunting_bulanan_pft
+
+- rule: rule_jadwal_FMG_festa
+  steps:
+  - intent: jadwal_FMG_festa
+  - action: utter_jadwal_FMG_festa
+
+- rule: rule_jadwal_FWP_festa
+  steps:
+  - intent: jadwal_FWP_festa
+  - action: utter_jadwal_FWP_festa
+
+- rule: rule_jadwal_baksos_adhyatmaka
+  steps:
+  - intent: jadwal_baksos_adhyatmaka
+  - action: utter_jadwal_baksos_adhyatmaka
+
+- rule: rule_jadwal_baksos_festa
+  steps:
+  - intent: jadwal_baksos_festa
+  - action: utter_jadwal_baksos_festa
+
+- rule: rule_jadwal_event_bar
+  steps:
+  - intent: jadwal_event_bar
+  - action: utter_jadwal_event_bar
+
+- rule: rule_jadwal_event_citrapesona
+  steps:
+  - intent: jadwal_event_citrapesona
+  - action: utter_jadwal_event_citrapesona
+
+- rule: rule_jadwal_event_dharmayana
+  steps:
+  - intent: jadwal_event_dharmayana
+  - action: utter_jadwal_event_dharmayana
+
+- rule: rule_jadwal_event_fut
+  steps:
+  - intent: jadwal_event_fut
+  - action: utter_jadwal_event_fut
+
+- rule: rule_jadwal_event_futsal
+  steps:
+  - intent: jadwal_event_futsal
+  - action: utter_jadwal_event_futsal
+
+- rule: rule_jadwal_event_jujitsu
+  steps:
+  - intent: jadwal_event_jujitsu
+  - action: utter_jadwal_event_jujitsu
+
+- rule: rule_jadwal_event_kbmk
+  steps:
+  - intent: jadwal_event_kbmk
+  - action: utter_jadwal_event_kbmk
+
+- rule: rule_jadwal_event_lbut
+  steps:
+  - intent: jadwal_event_lbut
+  - action: utter_jadwal_event_lbut
+
+- rule: rule_jadwal_event_libama
+  steps:
+  - intent: jadwal_event_libama
+  - action: utter_jadwal_event_libama
+
+- rule: rule_jadwal_event_livosta
+  steps:
+  - intent: jadwal_event_livosta
+  - action: utter_jadwal_event_livosta
+
+- rule: rule_jadwal_event_ltmu
+  steps:
+  - intent: jadwal_event_ltmu
+  - action: utter_jadwal_event_ltmu
+
+- rule: rule_jadwal_event_mahupa
+  steps:
+  - intent: jadwal_event_mahupa
+  - action: utter_jadwal_event_mahupa
+
+- rule: rule_jadwal_event_marsipala
+  steps:
+  - intent: jadwal_event_marsipala
+  - action: utter_jadwal_event_marsipala
+
+- rule: rule_jadwal_event_mega
+  steps:
+  - intent: jadwal_event_mega
+  - action: utter_jadwal_event_mega
+
+- rule: rule_jadwal_event_pft
+  steps:
+  - intent: jadwal_event_pft
+  - action: utter_jadwal_event_pft
+
+- rule: rule_jadwal_event_pout
+  steps:
+  - intent: jadwal_event_pout
+  - action: utter_jadwal_event_pout
+
+- rule: rule_jadwal_event_psut
+  steps:
+  - intent: jadwal_event_psut
+  - action: utter_jadwal_event_psut
+
+- rule: rule_jadwal_event_radio
+  steps:
+  - intent: jadwal_event_radio
+  - action: utter_jadwal_event_radio
+
+- rule: rule_jadwal_event_sentra
+  steps:
+  - intent: jadwal_event_sentra
+  - action: utter_jadwal_event_sentra
+
+- rule: rule_jadwal_event_soushin
+  steps:
+  - intent: jadwal_event_soushin
+  - action: utter_jadwal_event_soushin
+
+- rule: rule_jadwal_event_wushu
+  steps:
+  - intent: jadwal_event_wushu
+  - action: utter_jadwal_event_wushu
+
+- rule: rule_jadwal_gathering_citrapesona
+  steps:
+  - intent: jadwal_gathering_citrapesona
+  - action: utter_jadwal_gathering_citrapesona
+
+- rule: rule_jadwal_kegiatan_futsal
+  steps:
+  - intent: jadwal_kegiatan_futsal
+  - action: utter_jadwal_kegiatan_futsal
+
+- rule: rule_jadwal_kegiatan_lbut
+  steps:
+  - intent: jadwal_kegiatan_lbut
+  - action: utter_jadwal_kegiatan_lbut
+
+- rule: rule_jadwal_kegiatan_libama
+  steps:
+  - intent: jadwal_kegiatan_libama
+  - action: utter_jadwal_kegiatan_libama
+
+- rule: rule_jadwal_kegiatan_livosta
+  steps:
+  - intent: jadwal_kegiatan_livosta
+  - action: utter_jadwal_kegiatan_livosta
+
+- rule: rule_jadwal_kegiatan_ltmu
+  steps:
+  - intent: jadwal_kegiatan_ltmu
+  - action: utter_jadwal_kegiatan_ltmu
+
+- rule: rule_jadwal_kegiatan_mahupa
+  steps:
+  - intent: jadwal_kegiatan_mahupa
+  - action: utter_jadwal_kegiatan_mahupa
+
+- rule: rule_jadwal_kegiatan_marsipala
+  steps:
+  - intent: jadwal_kegiatan_marsipala
+  - action: utter_jadwal_kegiatan_marsipala
+
+- rule: rule_jadwal_kegiatan_pft
+  steps:
+  - intent: jadwal_kegiatan_pft
+  - action: utter_jadwal_kegiatan_pft
+
+- rule: rule_jadwal_kegiatan_psut
+  steps:
+  - intent: jadwal_kegiatan_psut
+  - action: utter_jadwal_kegiatan_psut
+
+- rule: rule_jadwal_kegiatan_radio
+  steps:
+  - intent: jadwal_kegiatan_radio
+  - action: utter_jadwal_kegiatan_radio
+
+- rule: rule_jadwal_kegiatan_sentra
+  steps:
+  - intent: jadwal_kegiatan_sentra
+  - action: utter_jadwal_kegiatan_sentra
+
+- rule: rule_jadwal_kegiatan_soushin
+  steps:
+  - intent: jadwal_kegiatan_soushin
+  - action: utter_jadwal_kegiatan_soushin
+
+- rule: rule_jadwal_kegiatan_wmkt
+  steps:
+  - intent: jadwal_kegiatan_wmkt
+  - action: utter_jadwal_kegiatan_wmkt
+
+- rule: rule_jadwal_kejuaraan_taekwondo
+  steps:
+  - intent: jadwal_kejuaraan_taekwondo
+  - action: utter_jadwal_kejuaraan_taekwondo
+
+- rule: rule_jadwal_latihan_bar
+  steps:
+  - intent: jadwal_latihan_bar
+  - action: utter_jadwal_latihan_bar
+
+- rule: rule_jadwal_latihan_citrapesona
+  steps:
+  - intent: jadwal_latihan_citrapesona
+  - action: utter_jadwal_latihan_citrapesona
+
+- rule: rule_jadwal_latihan_festa
+  steps:
+  - intent: jadwal_latihan_festa
+  - action: utter_jadwal_latihan_festa
+
+- rule: rule_jadwal_latihan_jujitsu
+  steps:
+  - intent: jadwal_latihan_jujitsu
+  - action: utter_jadwal_latihan_jujitsu
+
+- rule: rule_jadwal_latihan_mega
+  steps:
+  - intent: jadwal_latihan_mega
+  - action: utter_jadwal_latihan_mega
+
+- rule: rule_jadwal_latihan_taekwondo
+  steps:
+  - intent: jadwal_latihan_taekwondo
+  - action: utter_jadwal_latihan_taekwondo
+
+- rule: rule_jadwal_latihan_wushu
+  steps:
+  - intent: jadwal_latihan_wushu
+  - action: utter_jadwal_latihan_wushu
+
+- rule: rule_jadwal_misa_adhyatmaka
+  steps:
+  - intent: jadwal_misa_adhyatmaka
+  - action: utter_jadwal_misa_adhyatmaka
+
+- rule: rule_jadwal_natal_adhyatmaka
+  steps:
+  - intent: jadwal_natal_adhyatmaka
+  - action: utter_jadwal_natal_adhyatmaka
+
+- rule: rule_jadwal_paskah_adhyatmaka
+  steps:
+  - intent: jadwal_paskah_adhyatmaka
+  - action: utter_jadwal_paskah_adhyatmaka
+
+- rule: rule_jadwal_retret_adhyatmaka
+  steps:
+  - intent: jadwal_retret_adhyatmaka
+  - action: utter_jadwal_retret_adhyatmaka
+
+- rule: rule_jadwal_rutin_pout
+  steps:
+  - intent: jadwal_rutin_pout
+  - action: utter_jadwal_rutin_pout
+
+- rule: rule_jadwal_rutin_adhyatmaka
+  steps:
+  - intent: jadwal_rutin_adhyatmaka
+  - action: utter_jadwal_rutin_adhyatmaka
+
+- rule: rule_jadwal_rutin_dharmayana
+  steps:
+  - intent: jadwal_rutin_dharmayana
+  - action: utter_jadwal_rutin_dharmayana
+
+- rule: rule_jadwal_rutin_fut
+  steps:
+  - intent: jadwal_rutin_fut
+  - action: utter_jadwal_rutin_fut
+
+- rule: rule_jadwal_rutin_kbmk
+  steps:
+  - intent: jadwal_rutin_kbmk
+  - action: utter_jadwal_rutin_kbmk
+
+- rule: rule_jadwal_tes_toefl_tec
+  steps:
+  - intent: jadwal_tes_toefl_tec
+  - action: utter_jadwal_tes_toefl_tec
+
+- rule: rule_jadwal_tnf_citrapesona
+  steps:
+  - intent: jadwal_tnf_citrapesona
+  - action: utter_jadwal_tnf_citrapesona
+
+- rule: rule_jadwal_ujian_taekwondo
+  steps:
+  - intent: jadwal_ujian_taekwondo
+  - action: utter_jadwal_ujian_taekwondo
+
+- rule: rule_jadwal_ziarah_adhyatmaka
+  steps:
+  - intent: jadwal_ziarah_adhyatmaka
+  - action: utter_jadwal_ziarah_adhyatmaka
+
+- rule: rule_jenis_kegiatan_dharmayana
+  steps:
+  - intent: jenis_kegiatan_dharmayana
+  - action: utter_jenis_kegiatan_dharmayana
+
+- rule: rule_jenis_kegiatan_festa
+  steps:
+  - intent: jenis_kegiatan_festa
+  - action: utter_jenis_kegiatan_festa
+
+- rule: rule_jenis_kegiatan_fut
+  steps:
+  - intent: jenis_kegiatan_fut
+  - action: utter_jenis_kegiatan_fut
+
+- rule: rule_jenis_kegiatan_futsal
+  steps:
+  - intent: jenis_kegiatan_futsal
+  - action: utter_jenis_kegiatan_futsal
+
+- rule: rule_jenis_kegiatan_kbmk
+  steps:
+  - intent: jenis_kegiatan_kbmk
+  - action: utter_jenis_kegiatan_kbmk
+
+- rule: rule_jenis_kegiatan_lbut
+  steps:
+  - intent: jenis_kegiatan_lbut
+  - action: utter_jenis_kegiatan_lbut
+
+- rule: rule_jenis_kegiatan_libama
+  steps:
+  - intent: jenis_kegiatan_libama
+  - action: utter_jenis_kegiatan_libama
+
+- rule: rule_jenis_kegiatan_livosta
+  steps:
+  - intent: jenis_kegiatan_livosta
+  - action: utter_jenis_kegiatan_livosta
+
+- rule: rule_jenis_kegiatan_ltmu
+  steps:
+  - intent: jenis_kegiatan_ltmu
+  - action: utter_jenis_kegiatan_ltmu
+
+- rule: rule_jenis_kegiatan_mahupa
+  steps:
+  - intent: jenis_kegiatan_mahupa
+  - action: utter_jenis_kegiatan_mahupa
+
+- rule: rule_jenis_kegiatan_marsipala
+  steps:
+  - intent: jenis_kegiatan_marsipala
+  - action: utter_jenis_kegiatan_marsipala
+
+- rule: rule_jenis_kegiatan_mega
+  steps:
+  - intent: jenis_kegiatan_mega
+  - action: utter_jenis_kegiatan_mega
+
+- rule: rule_jenis_kegiatan_pft
+  steps:
+  - intent: jenis_kegiatan_pft
+  - action: utter_jenis_kegiatan_pft
+
+- rule: rule_jenis_kegiatan_pout
+  steps:
+  - intent: jenis_kegiatan_pout
+  - action: utter_jenis_kegiatan_pout
+
+- rule: rule_jenis_kegiatan_psut
+  steps:
+  - intent: jenis_kegiatan_psut
+  - action: utter_jenis_kegiatan_psut
+
+- rule: rule_jenis_kegiatan_radio
+  steps:
+  - intent: jenis_kegiatan_radio
+  - action: utter_jenis_kegiatan_radio
+
+- rule: rule_jenis_kegiatan_sentra
+  steps:
+  - intent: jenis_kegiatan_sentra
+  - action: utter_jenis_kegiatan_sentra
+
+- rule: rule_jenis_kegiatan_wmkt
+  steps:
+  - intent: jenis_kegiatan_wmkt
+  - action: utter_jenis_kegiatan_wmkt
+
+- rule: rule_jenis_kelas_tec
+  steps:
+  - intent: jenis_kelas_tec
+  - action: utter_jenis_kelas_tec
+
+- rule: rule_katekumen_adhyatmaka
+  steps:
+  - intent: katekumen_adhyatmaka
+  - action: utter_katekumen_adhyatmaka
+
+- rule: rule_keanggotaan_adhyatmaka
+  steps:
+  - intent: keanggotaan_adhyatmaka
+  - action: utter_keanggotaan_adhyatmaka
+
+- rule: rule_keanggotaan_livosta
+  steps:
+  - intent: keanggotaan_livosta
+  - action: utter_keanggotaan_livosta
+
+- rule: rule_keanggotaan_ltmu
+  steps:
+  - intent: keanggotaan_ltmu
+  - action: utter_keanggotaan_ltmu
+
+- rule: rule_keanggotaan_pft
+  steps:
+  - intent: keanggotaan_pft
+  - action: utter_keanggotaan_pft
+
+- rule: rule_keanggotaan_taekwondo
+  steps:
+  - intent: keanggotaan_taekwondo
+  - action: utter_keanggotaan_taekwondo
+
+- rule: rule_kegiatan_adhyatmaka
+  steps:
+  - intent: kegiatan_adhyatmaka
+  - action: utter_kegiatan_adhyatmaka
+
+- rule: rule_kegiatan_bar
+  steps:
+  - intent: kegiatan_bar
+  - action: utter_kegiatan_bar
+
+- rule: rule_kegiatan_citrapesona
+  steps:
+  - intent: kegiatan_citrapesona
+  - action: utter_kegiatan_citrapesona
+
+- rule: rule_kegiatan_dharmayana
+  steps:
+  - intent: kegiatan_dharmayana
+  - action: utter_kegiatan_dharmayana
+
+- rule: rule_kegiatan_festa
+  steps:
+  - intent: kegiatan_festa
+  - action: utter_kegiatan_festa
+
+- rule: rule_kegiatan_fut
+  steps:
+  - intent: kegiatan_fut
+  - action: utter_kegiatan_fut
+
+- rule: rule_kegiatan_futsal
+  steps:
+  - intent: kegiatan_futsal
+  - action: utter_kegiatan_futsal
+
+- rule: rule_kegiatan_jujitsu
+  steps:
+  - intent: kegiatan_jujitsu
+  - action: utter_kegiatan_jujitsu
+
+- rule: rule_kegiatan_kbmk
+  steps:
+  - intent: kegiatan_kbmk
+  - action: utter_kegiatan_kbmk
+
+- rule: rule_kegiatan_latihan_festa
+  steps:
+  - intent: kegiatan_latihan_festa
+  - action: utter_kegiatan_latihan_festa
+
+- rule: rule_kegiatan_latihan_jujitsu
+  steps:
+  - intent: kegiatan_latihan_jujitsu
+  - action: utter_kegiatan_latihan_jujitsu
+
+- rule: rule_kegiatan_latihan_taekwondo
+  steps:
+  - intent: kegiatan_latihan_taekwondo
+  - action: utter_kegiatan_latihan_taekwondo
+
+- rule: rule_kegiatan_latihan_wushu
+  steps:
+  - intent: kegiatan_latihan_wushu
+  - action: utter_kegiatan_latihan_wushu
+
+- rule: rule_kegiatan_lbut
+  steps:
+  - intent: kegiatan_lbut
+  - action: utter_kegiatan_lbut
+
+- rule: rule_kegiatan_libama
+  steps:
+  - intent: kegiatan_libama
+  - action: utter_kegiatan_libama
+
+- rule: rule_kegiatan_livosta
+  steps:
+  - intent: kegiatan_livosta
+  - action: utter_kegiatan_livosta
+
+- rule: rule_kegiatan_ltmu
+  steps:
+  - intent: kegiatan_ltmu
+  - action: utter_kegiatan_ltmu
+
+- rule: rule_kegiatan_mahupa
+  steps:
+  - intent: kegiatan_mahupa
+  - action: utter_kegiatan_mahupa
+
+- rule: rule_kegiatan_marsipala
+  steps:
+  - intent: kegiatan_marsipala
+  - action: utter_kegiatan_marsipala
+
+- rule: rule_kegiatan_mega
+  steps:
+  - intent: kegiatan_mega
+  - action: utter_kegiatan_mega
+
+- rule: rule_kegiatan_pft
+  steps:
+  - intent: kegiatan_pft
+  - action: utter_kegiatan_pft
+
+- rule: rule_kegiatan_pout
+  steps:
+  - intent: kegiatan_pout
+  - action: utter_kegiatan_pout
+
+- rule: rule_kegiatan_psut
+  steps:
+  - intent: kegiatan_psut
+  - action: utter_kegiatan_psut
+
+- rule: rule_kegiatan_radio
+  steps:
+  - intent: kegiatan_radio
+  - action: utter_kegiatan_radio
+
+- rule: rule_kegiatan_rutin_pout
+  steps:
+  - intent: kegiatan_rutin_pout
+  - action: utter_kegiatan_rutin_pout
+
+- rule: rule_kegiatan_rutin_adhyatmaka
+  steps:
+  - intent: kegiatan_rutin_adhyatmaka
+  - action: utter_kegiatan_rutin_adhyatmaka
+
+- rule: rule_kegiatan_rutin_bar
+  steps:
+  - intent: kegiatan_rutin_bar
+  - action: utter_kegiatan_rutin_bar
+
+- rule: rule_kegiatan_rutin_citrapesona
+  steps:
+  - intent: kegiatan_rutin_citrapesona
+  - action: utter_kegiatan_rutin_citrapesona
+
+- rule: rule_kegiatan_rutin_dharmayana
+  steps:
+  - intent: kegiatan_rutin_dharmayana
+  - action: utter_kegiatan_rutin_dharmayana
+
+- rule: rule_kegiatan_rutin_fut
+  steps:
+  - intent: kegiatan_rutin_fut
+  - action: utter_kegiatan_rutin_fut
+
+- rule: rule_kegiatan_rutin_kbmk
+  steps:
+  - intent: kegiatan_rutin_kbmk
+  - action: utter_kegiatan_rutin_kbmk
+
+- rule: rule_kegiatan_sentra
+  steps:
+  - intent: kegiatan_sentra
+  - action: utter_kegiatan_sentra
+
+- rule: rule_kegiatan_soushin
+  steps:
+  - intent: kegiatan_soushin
+  - action: utter_kegiatan_soushin
+
+- rule: rule_kegiatan_taekwondo
+  steps:
+  - intent: kegiatan_taekwondo
+  - action: utter_kegiatan_taekwondo
+
+- rule: rule_kegiatan_tec
+  steps:
+  - intent: kegiatan_tec
+  - action: utter_kegiatan_tec
+
+- rule: rule_kegiatan_wmkt
+  steps:
+  - intent: kegiatan_wmkt
+  - action: utter_kegiatan_wmkt
+
+- rule: rule_kegiatan_wushu
+  steps:
+  - intent: kegiatan_wushu
+  - action: utter_kegiatan_wushu
+
+- rule: rule_kejuaraan_taekwondo
+  steps:
+  - intent: kejuaraan_taekwondo
+  - action: utter_kejuaraan_taekwondo
+
+- rule: rule_kelas_online_offline_tec
+  steps:
+  - intent: kelas_online_offline_tec
+  - action: utter_kelas_online_offline_tec
+
+- rule: rule_kelas_soushin
+  steps:
+  - intent: kelas_soushin
+  - action: utter_kelas_soushin
+
+- rule: rule_kelas_tec
+  steps:
+  - intent: kelas_tec
+  - action: utter_kelas_tec
+
+- rule: rule_kemampuan_anggota_bar
+  steps:
+  - intent: kemampuan_anggota_bar
+  - action: utter_kemampuan_anggota_bar
+
+- rule: rule_kemampuan_anggota_citrapesona
+  steps:
+  - intent: kemampuan_anggota_citrapesona
+  - action: utter_kemampuan_anggota_citrapesona
+
+- rule: rule_kemampuan_anggota_dharmayana
+  steps:
+  - intent: kemampuan_anggota_dharmayana
+  - action: utter_kemampuan_anggota_dharmayana
+
+- rule: rule_kemampuan_anggota_futsal
+  steps:
+  - intent: kemampuan_anggota_futsal
+  - action: utter_kemampuan_anggota_futsal
+
+- rule: rule_kemampuan_anggota_lbut
+  steps:
+  - intent: kemampuan_anggota_lbut
+  - action: utter_kemampuan_anggota_lbut
+
+- rule: rule_kemampuan_anggota_libama
+  steps:
+  - intent: kemampuan_anggota_libama
+  - action: utter_kemampuan_anggota_libama
+
+- rule: rule_kemampuan_anggota_pft
+  steps:
+  - intent: kemampuan_anggota_pft
+  - action: utter_kemampuan_anggota_pft
+
+- rule: rule_kemampuan_anggota_pout
+  steps:
+  - intent: kemampuan_anggota_pout
+  - action: utter_kemampuan_anggota_pout
+
+- rule: rule_kemampuan_anggota_psut
+  steps:
+  - intent: kemampuan_anggota_psut
+  - action: utter_kemampuan_anggota_psut
+
+- rule: rule_kemampuan_anggota_radio
+  steps:
+  - intent: kemampuan_anggota_radio
+  - action: utter_kemampuan_anggota_radio
+
+- rule: rule_kemampuan_anggota_soushin
+  steps:
+  - intent: kemampuan_anggota_soushin
+  - action: utter_kemampuan_anggota_soushin
+
+- rule: rule_kemampuan_anggota_wushu
+  steps:
+  - intent: kemampuan_anggota_wushu
+  - action: utter_kemampuan_anggota_wushu
+
+- rule: rule_komitmen_fut
+  steps:
+  - intent: komitmen_fut
+  - action: utter_komitmen_fut
+
+- rule: rule_komitmen_jujitsu
+  steps:
+  - intent: komitmen_jujitsu
+  - action: utter_komitmen_jujitsu
+
+- rule: rule_komitmen_kbmk
+  steps:
+  - intent: komitmen_kbmk
+  - action: utter_komitmen_kbmk
+
+- rule: rule_komitmen_livosta
+  steps:
+  - intent: komitmen_livosta
+  - action: utter_komitmen_livosta
+
+- rule: rule_komitmen_ltmu
+  steps:
+  - intent: komitmen_ltmu
+  - action: utter_komitmen_ltmu
+
+- rule: rule_komitmen_mahupa
+  steps:
+  - intent: komitmen_mahupa
+  - action: utter_komitmen_mahupa
+
+- rule: rule_komitmen_marsipala
+  steps:
+  - intent: komitmen_marsipala
+  - action: utter_komitmen_marsipala
+
+- rule: rule_komitmen_mega
+  steps:
+  - intent: komitmen_mega
+  - action: utter_komitmen_mega
+
+- rule: rule_komitmen_wmkt
+  steps:
+  - intent: komitmen_wmkt
+  - action: utter_komitmen_wmkt
+
+- rule: rule_latihan_bulanan_mahupa
+  steps:
+  - intent: latihan_bulanan_mahupa
+  - action: utter_latihan_bulanan_mahupa
+
+- rule: rule_latihan_bulanan_marsipala
+  steps:
+  - intent: latihan_bulanan_marsipala
+  - action: utter_latihan_bulanan_marsipala
+
+- rule: rule_latihan_bulanan_mega
+  steps:
+  - intent: latihan_bulanan_mega
+  - action: utter_latihan_bulanan_mega
+
+- rule: rule_latihan_psut
+  steps:
+  - intent: latihan_psut
+  - action: utter_latihan_psut
+
+- rule: rule_latihan_rutin_futsal
+  steps:
+  - intent: latihan_rutin_futsal
+  - action: utter_latihan_rutin_futsal
+
+- rule: rule_latihan_rutin_lbut
+  steps:
+  - intent: latihan_rutin_lbut
+  - action: utter_latihan_rutin_lbut
+
+- rule: rule_latihan_rutin_libama
+  steps:
+  - intent: latihan_rutin_libama
+  - action: utter_latihan_rutin_libama
+
+- rule: rule_latihan_rutin_livosta
+  steps:
+  - intent: latihan_rutin_livosta
+  - action: utter_latihan_rutin_livosta
+
+- rule: rule_latihan_rutin_ltmu
+  steps:
+  - intent: latihan_rutin_ltmu
+  - action: utter_latihan_rutin_ltmu
+
+- rule: rule_legiomaria_adhyatmaka
+  steps:
+  - intent: legiomaria_adhyatmaka
+  - action: utter_legiomaria_adhyatmaka
+
+- rule: rule_liga_futsal
+  steps:
+  - intent: liga_futsal
+  - action: utter_liga_futsal
+
+- rule: rule_lokasi_kegiatan_adhyatmaka
+  steps:
+  - intent: lokasi_kegiatan_adhyatmaka
+  - action: utter_lokasi_kegiatan_adhyatmaka
+
+- rule: rule_lokasi_kegiatan_bar
+  steps:
+  - intent: lokasi_kegiatan_bar
+  - action: utter_lokasi_kegiatan_bar
+
+- rule: rule_lokasi_kegiatan_citrapesona
+  steps:
+  - intent: lokasi_kegiatan_citrapesona
+  - action: utter_lokasi_kegiatan_citrapesona
+
+- rule: rule_lokasi_kegiatan_dharmayana
+  steps:
+  - intent: lokasi_kegiatan_dharmayana
+  - action: utter_lokasi_kegiatan_dharmayana
+
+- rule: rule_lokasi_kegiatan_festa
+  steps:
+  - intent: lokasi_kegiatan_festa
+  - action: utter_lokasi_kegiatan_festa
+
+- rule: rule_lokasi_kegiatan_fut
+  steps:
+  - intent: lokasi_kegiatan_fut
+  - action: utter_lokasi_kegiatan_fut
+
+- rule: rule_lokasi_kegiatan_futsal
+  steps:
+  - intent: lokasi_kegiatan_futsal
+  - action: utter_lokasi_kegiatan_futsal
+
+- rule: rule_lokasi_kegiatan_jujitsu
+  steps:
+  - intent: lokasi_kegiatan_jujitsu
+  - action: utter_lokasi_kegiatan_jujitsu
+
+- rule: rule_lokasi_kegiatan_kbmk
+  steps:
+  - intent: lokasi_kegiatan_kbmk
+  - action: utter_lokasi_kegiatan_kbmk
+
+- rule: rule_lokasi_kegiatan_lbut
+  steps:
+  - intent: lokasi_kegiatan_lbut
+  - action: utter_lokasi_kegiatan_lbut
+
+- rule: rule_lokasi_kegiatan_libama
+  steps:
+  - intent: lokasi_kegiatan_libama
+  - action: utter_lokasi_kegiatan_libama
+
+- rule: rule_lokasi_kegiatan_livosta
+  steps:
+  - intent: lokasi_kegiatan_livosta
+  - action: utter_lokasi_kegiatan_livosta
+
+- rule: rule_lokasi_kegiatan_ltmu
+  steps:
+  - intent: lokasi_kegiatan_ltmu
+  - action: utter_lokasi_kegiatan_ltmu
+
+- rule: rule_lokasi_kegiatan_mahupa
+  steps:
+  - intent: lokasi_kegiatan_mahupa
+  - action: utter_lokasi_kegiatan_mahupa
+
+- rule: rule_lokasi_kegiatan_marsipala
+  steps:
+  - intent: lokasi_kegiatan_marsipala
+  - action: utter_lokasi_kegiatan_marsipala
+
+- rule: rule_lokasi_kegiatan_mega
+  steps:
+  - intent: lokasi_kegiatan_mega
+  - action: utter_lokasi_kegiatan_mega
+
+- rule: rule_lokasi_kegiatan_pft
+  steps:
+  - intent: lokasi_kegiatan_pft
+  - action: utter_lokasi_kegiatan_pft
+
+- rule: rule_lokasi_kegiatan_pout
+  steps:
+  - intent: lokasi_kegiatan_pout
+  - action: utter_lokasi_kegiatan_pout
+
+- rule: rule_lokasi_kegiatan_psut
+  steps:
+  - intent: lokasi_kegiatan_psut
+  - action: utter_lokasi_kegiatan_psut
+
+- rule: rule_lokasi_kegiatan_radio
+  steps:
+  - intent: lokasi_kegiatan_radio
+  - action: utter_lokasi_kegiatan_radio
+
+- rule: rule_lokasi_kegiatan_sentra
+  steps:
+  - intent: lokasi_kegiatan_sentra
+  - action: utter_lokasi_kegiatan_sentra
+
+- rule: rule_lokasi_kegiatan_soushin
+  steps:
+  - intent: lokasi_kegiatan_soushin
+  - action: utter_lokasi_kegiatan_soushin
+
+- rule: rule_lokasi_kegiatan_taekwondo
+  steps:
+  - intent: lokasi_kegiatan_taekwondo
+  - action: utter_lokasi_kegiatan_taekwondo
+
+- rule: rule_lokasi_kegiatan_tec
+  steps:
+  - intent: lokasi_kegiatan_tec
+  - action: utter_lokasi_kegiatan_tec
+
+- rule: rule_lokasi_kegiatan_wmkt
+  steps:
+  - intent: lokasi_kegiatan_wmkt
+  - action: utter_lokasi_kegiatan_wmkt
+
+- rule: rule_lokasi_kegiatan_wushu
+  steps:
+  - intent: lokasi_kegiatan_wushu
+  - action: utter_lokasi_kegiatan_wushu
+
+- rule: rule_lokasi_sekre_adhyatmaka
+  steps:
+  - intent: lokasi_sekre_adhyatmaka
+  - action: utter_lokasi_sekre_adhyatmaka
+
+- rule: rule_lokasi_sekre_bar
+  steps:
+  - intent: lokasi_sekre_bar
+  - action: utter_lokasi_sekre_bar
+
+- rule: rule_lokasi_sekre_citrapesona
+  steps:
+  - intent: lokasi_sekre_citrapesona
+  - action: utter_lokasi_sekre_citrapesona
+
+- rule: rule_lokasi_sekre_dharmayana
+  steps:
+  - intent: lokasi_sekre_dharmayana
+  - action: utter_lokasi_sekre_dharmayana
+
+- rule: rule_lokasi_sekre_festa
+  steps:
+  - intent: lokasi_sekre_festa
+  - action: utter_lokasi_sekre_festa
+
+- rule: rule_lokasi_sekre_fut
+  steps:
+  - intent: lokasi_sekre_fut
+  - action: utter_lokasi_sekre_fut
+
+- rule: rule_lokasi_sekre_futsal
+  steps:
+  - intent: lokasi_sekre_futsal
+  - action: utter_lokasi_sekre_futsal
+
+- rule: rule_lokasi_sekre_jujitsu
+  steps:
+  - intent: lokasi_sekre_jujitsu
+  - action: utter_lokasi_sekre_jujitsu
+
+- rule: rule_lokasi_sekre_kbmk
+  steps:
+  - intent: lokasi_sekre_kbmk
+  - action: utter_lokasi_sekre_kbmk
+
+- rule: rule_lokasi_sekre_lbut
+  steps:
+  - intent: lokasi_sekre_lbut
+  - action: utter_lokasi_sekre_lbut
+
+- rule: rule_lokasi_sekre_libama
+  steps:
+  - intent: lokasi_sekre_libama
+  - action: utter_lokasi_sekre_libama
+
+- rule: rule_lokasi_sekre_livosta
+  steps:
+  - intent: lokasi_sekre_livosta
+  - action: utter_lokasi_sekre_livosta
+
+- rule: rule_lokasi_sekre_ltmu
+  steps:
+  - intent: lokasi_sekre_ltmu
+  - action: utter_lokasi_sekre_ltmu
+
+- rule: rule_lokasi_sekre_pft
+  steps:
+  - intent: lokasi_sekre_pft
+  - action: utter_lokasi_sekre_pft
+
+- rule: rule_lokasi_sekre_pout
+  steps:
+  - intent: lokasi_sekre_pout
+  - action: utter_lokasi_sekre_pout
+
+- rule: rule_lokasi_sekre_psut
+  steps:
+  - intent: lokasi_sekre_psut
+  - action: utter_lokasi_sekre_psut
+
+- rule: rule_lokasi_sekre_sentra
+  steps:
+  - intent: lokasi_sekre_sentra
+  - action: utter_lokasi_sekre_sentra
+
+- rule: rule_lokasi_sekre_soushin
+  steps:
+  - intent: lokasi_sekre_soushin
+  - action: utter_lokasi_sekre_soushin
+
+- rule: rule_lokasi_sekre_taekwondo
+  steps:
+  - intent: lokasi_sekre_taekwondo
+  - action: utter_lokasi_sekre_taekwondo
+
+- rule: rule_lokasi_sekre_tec
+  steps:
+  - intent: lokasi_sekre_tec
+  - action: utter_lokasi_sekre_tec
+
+- rule: rule_lokasi_sekre_wmkt
+  steps:
+  - intent: lokasi_sekre_wmkt
+  - action: utter_lokasi_sekre_wmkt
+
+- rule: rule_lokasi_sekre_wushu
+  steps:
+  - intent: lokasi_sekre_wushu
+  - action: utter_lokasi_sekre_wushu
+
+- rule: rule_materi_tec
+  steps:
+  - intent: materi_tec
+  - action: utter_materi_tec
+
+- rule: rule_materi_toefl_tec
+  steps:
+  - intent: materi_toefl_tec
+  - action: utter_materi_toefl_tec
+
+- rule: rule_media_informasi_adhyatmaka
+  steps:
+  - intent: media_informasi_adhyatmaka
+  - action: utter_media_informasi_adhyatmaka
+
+- rule: rule_media_informasi_bar
+  steps:
+  - intent: media_informasi_bar
+  - action: utter_media_informasi_bar
+
+- rule: rule_media_informasi_citrapesona
+  steps:
+  - intent: media_informasi_citrapesona
+  - action: utter_media_informasi_citrapesona
+
+- rule: rule_media_informasi_dharmayana
+  steps:
+  - intent: media_informasi_dharmayana
+  - action: utter_media_informasi_dharmayana
+
+- rule: rule_media_informasi_festa
+  steps:
+  - intent: media_informasi_festa
+  - action: utter_media_informasi_festa
+
+- rule: rule_media_informasi_fut
+  steps:
+  - intent: media_informasi_fut
+  - action: utter_media_informasi_fut
+
+- rule: rule_media_informasi_futsal
+  steps:
+  - intent: media_informasi_futsal
+  - action: utter_media_informasi_futsal
+
+- rule: rule_media_informasi_jujitsu
+  steps:
+  - intent: media_informasi_jujitsu
+  - action: utter_media_informasi_jujitsu
+
+- rule: rule_media_informasi_kbmk
+  steps:
+  - intent: media_informasi_kbmk
+  - action: utter_media_informasi_kbmk
+
+- rule: rule_media_informasi_lbut
+  steps:
+  - intent: media_informasi_lbut
+  - action: utter_media_informasi_lbut
+
+- rule: rule_media_informasi_libama
+  steps:
+  - intent: media_informasi_libama
+  - action: utter_media_informasi_libama
+
+- rule: rule_media_informasi_livosta
+  steps:
+  - intent: media_informasi_livosta
+  - action: utter_media_informasi_livosta
+
+- rule: rule_media_informasi_ltmu
+  steps:
+  - intent: media_informasi_ltmu
+  - action: utter_media_informasi_ltmu
+
+- rule: rule_media_informasi_mahupa
+  steps:
+  - intent: media_informasi_mahupa
+  - action: utter_media_informasi_mahupa
+
+- rule: rule_media_informasi_marsipala
+  steps:
+  - intent: media_informasi_marsipala
+  - action: utter_media_informasi_marsipala
+
+- rule: rule_media_informasi_mega
+  steps:
+  - intent: media_informasi_mega
+  - action: utter_media_informasi_mega
+
+- rule: rule_media_informasi_pft
+  steps:
+  - intent: media_informasi_pft
+  - action: utter_media_informasi_pft
+
+- rule: rule_media_informasi_pout
+  steps:
+  - intent: media_informasi_pout
+  - action: utter_media_informasi_pout
+
+- rule: rule_media_informasi_psut
+  steps:
+  - intent: media_informasi_psut
+  - action: utter_media_informasi_psut
+
+- rule: rule_media_informasi_radio
+  steps:
+  - intent: media_informasi_radio
+  - action: utter_media_informasi_radio
+
+- rule: rule_media_informasi_sentra
+  steps:
+  - intent: media_informasi_sentra
+  - action: utter_media_informasi_sentra
+
+- rule: rule_media_informasi_soushin
+  steps:
+  - intent: media_informasi_soushin
+  - action: utter_media_informasi_soushin
+
+- rule: rule_media_informasi_taekwondo
+  steps:
+  - intent: media_informasi_taekwondo
+  - action: utter_media_informasi_taekwondo
+
+- rule: rule_media_informasi_tec
+  steps:
+  - intent: media_informasi_tec
+  - action: utter_media_informasi_tec
+
+- rule: rule_media_informasi_wmkt
+  steps:
+  - intent: media_informasi_wmkt
+  - action: utter_media_informasi_wmkt
+
+- rule: rule_media_informasi_wushu
+  steps:
+  - intent: media_informasi_wushu
+  - action: utter_media_informasi_wushu
+
+- rule: rule_misi_adhyatmaka
+  steps:
+  - intent: misi_adhyatmaka
+  - action: utter_misi_adhyatmaka
+
+- rule: rule_misi_bar
+  steps:
+  - intent: misi_bar
+  - action: utter_misi_bar
+
+- rule: rule_misi_citrapesona
+  steps:
+  - intent: misi_citrapesona
+  - action: utter_misi_citrapesona
+
+- rule: rule_misi_dharmayana
+  steps:
+  - intent: misi_dharmayana
+  - action: utter_misi_dharmayana
+
+- rule: rule_misi_festa
+  steps:
+  - intent: misi_festa
+  - action: utter_misi_festa
+
+- rule: rule_misi_fut
+  steps:
+  - intent: misi_fut
+  - action: utter_misi_fut
+
+- rule: rule_misi_jujitsu
+  steps:
+  - intent: misi_jujitsu
+  - action: utter_misi_jujitsu
+
+- rule: rule_misi_kbmk
+  steps:
+  - intent: misi_kbmk
+  - action: utter_misi_kbmk
+
+- rule: rule_misi_pout
+  steps:
+  - intent: misi_pout
+  - action: utter_misi_pout
+
+- rule: rule_misi_taekwondo
+  steps:
+  - intent: misi_taekwondo
+  - action: utter_misi_taekwondo
+
+- rule: rule_misi_ukm_soushin
+  steps:
+  - intent: misi_ukm_soushin
+  - action: utter_misi_ukm_soushin
+
+- rule: rule_misi_ukm_futsal
+  steps:
+  - intent: misi_ukm_futsal
+  - action: utter_misi_ukm_futsal
+
+- rule: rule_misi_ukm_lbut
+  steps:
+  - intent: misi_ukm_lbut
+  - action: utter_misi_ukm_lbut
+
+- rule: rule_misi_ukm_libama
+  steps:
+  - intent: misi_ukm_libama
+  - action: utter_misi_ukm_libama
+
+- rule: rule_misi_ukm_livosta
+  steps:
+  - intent: misi_ukm_livosta
+  - action: utter_misi_ukm_livosta
+
+- rule: rule_misi_ukm_ltmu
+  steps:
+  - intent: misi_ukm_ltmu
+  - action: utter_misi_ukm_ltmu
+
+- rule: rule_misi_ukm_mahupa
+  steps:
+  - intent: misi_ukm_mahupa
+  - action: utter_misi_ukm_mahupa
+
+- rule: rule_misi_ukm_marsipala
+  steps:
+  - intent: misi_ukm_marsipala
+  - action: utter_misi_ukm_marsipala
+
+- rule: rule_misi_ukm_mega
+  steps:
+  - intent: misi_ukm_mega
+  - action: utter_misi_ukm_mega
+
+- rule: rule_misi_ukm_pft
+  steps:
+  - intent: misi_ukm_pft
+  - action: utter_misi_ukm_pft
+
+- rule: rule_misi_ukm_psut
+  steps:
+  - intent: misi_ukm_psut
+  - action: utter_misi_ukm_psut
+
+- rule: rule_misi_ukm_radio
+  steps:
+  - intent: misi_ukm_radio
+  - action: utter_misi_ukm_radio
+
+- rule: rule_misi_ukm_sentra
+  steps:
+  - intent: misi_ukm_sentra
+  - action: utter_misi_ukm_sentra
+
+- rule: rule_misi_ukm_tec
+  steps:
+  - intent: misi_ukm_tec
+  - action: utter_misi_ukm_tec
+
+- rule: rule_misi_ukm_wmkt
+  steps:
+  - intent: misi_ukm_wmkt
+  - action: utter_misi_ukm_wmkt
+
+- rule: rule_misi_wushu
+  steps:
+  - intent: misi_wushu
+  - action: utter_misi_wushu
+
+- rule: rule_perpisahan
+  steps:
+  - intent: perpisahan
+  - action: utter_perpisahan
+
+- rule: rule_persekutuan_adhyatmaka
+  steps:
+  - intent: persekutuan_adhyatmaka
+  - action: utter_persekutuan_adhyatmaka
+
+- rule: rule_prestasi_bar
+  steps:
+  - intent: prestasi_bar
+  - action: utter_prestasi_bar
+
+- rule: rule_prestasi_citrapesona
+  steps:
+  - intent: prestasi_citrapesona
+  - action: utter_prestasi_citrapesona
+
+- rule: rule_prestasi_taekwondo
+  steps:
+  - intent: prestasi_taekwondo
+  - action: utter_prestasi_taekwondo
+
+- rule: rule_salam
+  steps:
+  - intent: salam
+  - action: utter_salam
+
+- rule: rule_seleksi_dharmayana
+  steps:
+  - intent: seleksi_dharmayana
+  - action: utter_seleksi_dharmayana
+
+- rule: rule_seleksi_festa
+  steps:
+  - intent: seleksi_festa
+  - action: utter_seleksi_festa
+
+- rule: rule_seleksi_pout
+  steps:
+  - intent: seleksi_pout
+  - action: utter_seleksi_pout
+
+- rule: rule_seleksi_psut
+  steps:
+  - intent: seleksi_psut
+  - action: utter_seleksi_psut
+
+- rule: rule_seleksi_radio
+  steps:
+  - intent: seleksi_radio
+  - action: utter_seleksi_radio
+
+- rule: rule_seleksi_sentra
+  steps:
+  - intent: seleksi_sentra
+  - action: utter_seleksi_sentra
+
+- rule: rule_siaran_radio
+  steps:
+  - intent: siaran_radio
+  - action: utter_siaran_radio
+
+- rule: rule_sparring_futsal
+  steps:
+  - intent: sparring_futsal
+  - action: utter_sparring_futsal
+
+- rule: rule_sparring_lbut
+  steps:
+  - intent: sparring_lbut
+  - action: utter_sparring_lbut
+
+- rule: rule_sparring_libama
+  steps:
+  - intent: sparring_libama
+  - action: utter_sparring_libama
+
+- rule: rule_status_pendaftaran_adhyatmaka
+  steps:
+  - intent: status_pendaftaran_adhyatmaka
+  - action: utter_status_pendaftaran_adhyatmaka
+
+- rule: rule_status_pendaftaran_bar
+  steps:
+  - intent: status_pendaftaran_bar
+  - action: utter_status_pendaftaran_bar
+
+- rule: rule_status_pendaftaran_citrapesona
+  steps:
+  - intent: status_pendaftaran_citrapesona
+  - action: utter_status_pendaftaran_citrapesona
+
+- rule: rule_status_pendaftaran_dharmayana
+  steps:
+  - intent: status_pendaftaran_dharmayana
+  - action: utter_status_pendaftaran_dharmayana
+
+- rule: rule_status_pendaftaran_festa
+  steps:
+  - intent: status_pendaftaran_festa
+  - action: utter_status_pendaftaran_festa
+
+- rule: rule_status_pendaftaran_fut
+  steps:
+  - intent: status_pendaftaran_fut
+  - action: utter_status_pendaftaran_fut
+
+- rule: rule_status_pendaftaran_futsal
+  steps:
+  - intent: status_pendaftaran_futsal
+  - action: utter_status_pendaftaran_futsal
+
+- rule: rule_status_pendaftaran_jujitsu
+  steps:
+  - intent: status_pendaftaran_jujitsu
+  - action: utter_status_pendaftaran_jujitsu
+
+- rule: rule_status_pendaftaran_kbmk
+  steps:
+  - intent: status_pendaftaran_kbmk
+  - action: utter_status_pendaftaran_kbmk
+
+- rule: rule_status_pendaftaran_lbut
+  steps:
+  - intent: status_pendaftaran_lbut
+  - action: utter_status_pendaftaran_lbut
+
+- rule: rule_status_pendaftaran_libama
+  steps:
+  - intent: status_pendaftaran_libama
+  - action: utter_status_pendaftaran_libama
+
+- rule: rule_status_pendaftaran_livosta
+  steps:
+  - intent: status_pendaftaran_livosta
+  - action: utter_status_pendaftaran_livosta
+
+- rule: rule_status_pendaftaran_ltmu
+  steps:
+  - intent: status_pendaftaran_ltmu
+  - action: utter_status_pendaftaran_ltmu
+
+- rule: rule_status_pendaftaran_mahupa
+  steps:
+  - intent: status_pendaftaran_mahupa
+  - action: utter_status_pendaftaran_mahupa
+
+- rule: rule_status_pendaftaran_marsipala
+  steps:
+  - intent: status_pendaftaran_marsipala
+  - action: utter_status_pendaftaran_marsipala
+
+- rule: rule_status_pendaftaran_mega
+  steps:
+  - intent: status_pendaftaran_mega
+  - action: utter_status_pendaftaran_mega
+
+- rule: rule_status_pendaftaran_pft
+  steps:
+  - intent: status_pendaftaran_pft
+  - action: utter_status_pendaftaran_pft
+
+- rule: rule_status_pendaftaran_pout
+  steps:
+  - intent: status_pendaftaran_pout
+  - action: utter_status_pendaftaran_pout
+
+- rule: rule_status_pendaftaran_psut
+  steps:
+  - intent: status_pendaftaran_psut
+  - action: utter_status_pendaftaran_psut
+
+- rule: rule_status_pendaftaran_radio
+  steps:
+  - intent: status_pendaftaran_radio
+  - action: utter_status_pendaftaran_radio
+
+- rule: rule_status_pendaftaran_sentra
+  steps:
+  - intent: status_pendaftaran_sentra
+  - action: utter_status_pendaftaran_sentra
+
+- rule: rule_status_pendaftaran_soushin
+  steps:
+  - intent: status_pendaftaran_soushin
+  - action: utter_status_pendaftaran_soushin
+
+- rule: rule_status_pendaftaran_taekwondo
+  steps:
+  - intent: status_pendaftaran_taekwondo
+  - action: utter_status_pendaftaran_taekwondo
+
+- rule: rule_status_pendaftaran_tec
+  steps:
+  - intent: status_pendaftaran_tec
+  - action: utter_status_pendaftaran_tec
+
+- rule: rule_status_pendaftaran_wmkt
+  steps:
+  - intent: status_pendaftaran_wmkt
+  - action: utter_status_pendaftaran_wmkt
+
+- rule: rule_status_pendaftaran_wushu
+  steps:
+  - intent: status_pendaftaran_wushu
+  - action: utter_status_pendaftaran_wushu
+
+- rule: rule_struktur_adhyatmaka
+  steps:
+  - intent: struktur_adhyatmaka
+  - action: utter_struktur_adhyatmaka
+
+- rule: rule_struktur_bar
+  steps:
+  - intent: struktur_bar
+  - action: utter_struktur_bar
+
+- rule: rule_struktur_citrapesona
+  steps:
+  - intent: struktur_citrapesona
+  - action: utter_struktur_citrapesona
+
+- rule: rule_struktur_dharmayana
+  steps:
+  - intent: struktur_dharmayana
+  - action: utter_struktur_dharmayana
+
+- rule: rule_struktur_festa
+  steps:
+  - intent: struktur_festa
+  - action: utter_struktur_festa
+
+- rule: rule_struktur_fut
+  steps:
+  - intent: struktur_fut
+  - action: utter_struktur_fut
+
+- rule: rule_struktur_futsal
+  steps:
+  - intent: struktur_futsal
+  - action: utter_struktur_futsal
+
+- rule: rule_struktur_jujitsu
+  steps:
+  - intent: struktur_jujitsu
+  - action: utter_struktur_jujitsu
+
+- rule: rule_struktur_kbmk
+  steps:
+  - intent: struktur_kbmk
+  - action: utter_struktur_kbmk
+
+- rule: rule_struktur_lbut
+  steps:
+  - intent: struktur_lbut
+  - action: utter_struktur_lbut
+
+- rule: rule_struktur_libama
+  steps:
+  - intent: struktur_libama
+  - action: utter_struktur_libama
+
+- rule: rule_struktur_livosta
+  steps:
+  - intent: struktur_livosta
+  - action: utter_struktur_livosta
+
+- rule: rule_struktur_ltmu
+  steps:
+  - intent: struktur_ltmu
+  - action: utter_struktur_ltmu
+
+- rule: rule_struktur_mahupa
+  steps:
+  - intent: struktur_mahupa
+  - action: utter_struktur_mahupa
+
+- rule: rule_struktur_marsipala
+  steps:
+  - intent: struktur_marsipala
+  - action: utter_struktur_marsipala
+
+- rule: rule_struktur_mega
+  steps:
+  - intent: struktur_mega
+  - action: utter_struktur_mega
+
+- rule: rule_struktur_pft
+  steps:
+  - intent: struktur_pft
+  - action: utter_struktur_pft
+
+- rule: rule_struktur_pout
+  steps:
+  - intent: struktur_pout
+  - action: utter_struktur_pout
+
+- rule: rule_struktur_psut
+  steps:
+  - intent: struktur_psut
+  - action: utter_struktur_psut
+
+- rule: rule_struktur_radio
+  steps:
+  - intent: struktur_radio
+  - action: utter_struktur_radio
+
+- rule: rule_struktur_sentra
+  steps:
+  - intent: struktur_sentra
+  - action: utter_struktur_sentra
+
+- rule: rule_struktur_soushin
+  steps:
+  - intent: struktur_soushin
+  - action: utter_struktur_soushin
+
+- rule: rule_struktur_taekwondo
+  steps:
+  - intent: struktur_taekwondo
+  - action: utter_struktur_taekwondo
+
+- rule: rule_struktur_tec
+  steps:
+  - intent: struktur_tec
+  - action: utter_struktur_tec
+
+- rule: rule_struktur_wmkt
+  steps:
+  - intent: struktur_wmkt
+  - action: utter_struktur_wmkt
+
+- rule: rule_struktur_wushu
+  steps:
+  - intent: struktur_wushu
+  - action: utter_struktur_wushu
+
+- rule: rule_syarat_anggota_adhyatmaka
+  steps:
+  - intent: syarat_anggota_adhyatmaka
+  - action: utter_syarat_anggota_adhyatmaka
+
+- rule: rule_syarat_anggota_bar
+  steps:
+  - intent: syarat_anggota_bar
+  - action: utter_syarat_anggota_bar
+
+- rule: rule_syarat_anggota_citrapesona
+  steps:
+  - intent: syarat_anggota_citrapesona
+  - action: utter_syarat_anggota_citrapesona
+
+- rule: rule_syarat_anggota_dharmayana
+  steps:
+  - intent: syarat_anggota_dharmayana
+  - action: utter_syarat_anggota_dharmayana
+
+- rule: rule_syarat_anggota_festa
+  steps:
+  - intent: syarat_anggota_festa
+  - action: utter_syarat_anggota_festa
+
+- rule: rule_syarat_anggota_fut
+  steps:
+  - intent: syarat_anggota_fut
+  - action: utter_syarat_anggota_fut
+
+- rule: rule_syarat_anggota_futsal
+  steps:
+  - intent: syarat_anggota_futsal
+  - action: utter_syarat_anggota_futsal
+
+- rule: rule_syarat_anggota_jujitsu
+  steps:
+  - intent: syarat_anggota_jujitsu
+  - action: utter_syarat_anggota_jujitsu
+
+- rule: rule_syarat_anggota_kbmk
+  steps:
+  - intent: syarat_anggota_kbmk
+  - action: utter_syarat_anggota_kbmk
+
+- rule: rule_syarat_anggota_lbut
+  steps:
+  - intent: syarat_anggota_lbut
+  - action: utter_syarat_anggota_lbut
+
+- rule: rule_syarat_anggota_libama
+  steps:
+  - intent: syarat_anggota_libama
+  - action: utter_syarat_anggota_libama
+
+- rule: rule_syarat_anggota_livosta
+  steps:
+  - intent: syarat_anggota_livosta
+  - action: utter_syarat_anggota_livosta
+
+- rule: rule_syarat_anggota_ltmu
+  steps:
+  - intent: syarat_anggota_ltmu
+  - action: utter_syarat_anggota_ltmu
+
+- rule: rule_syarat_anggota_mahupa
+  steps:
+  - intent: syarat_anggota_mahupa
+  - action: utter_syarat_anggota_mahupa
+
+- rule: rule_syarat_anggota_marsipala
+  steps:
+  - intent: syarat_anggota_marsipala
+  - action: utter_syarat_anggota_marsipala
+
+- rule: rule_syarat_anggota_mega
+  steps:
+  - intent: syarat_anggota_mega
+  - action: utter_syarat_anggota_mega
+
+- rule: rule_syarat_anggota_pft
+  steps:
+  - intent: syarat_anggota_pft
+  - action: utter_syarat_anggota_pft
+
+- rule: rule_syarat_anggota_pout
+  steps:
+  - intent: syarat_anggota_pout
+  - action: utter_syarat_anggota_pout
+
+- rule: rule_syarat_anggota_psut
+  steps:
+  - intent: syarat_anggota_psut
+  - action: utter_syarat_anggota_psut
+
+- rule: rule_syarat_anggota_radio
+  steps:
+  - intent: syarat_anggota_radio
+  - action: utter_syarat_anggota_radio
+
+- rule: rule_syarat_anggota_sentra
+  steps:
+  - intent: syarat_anggota_sentra
+  - action: utter_syarat_anggota_sentra
+
+- rule: rule_syarat_anggota_soushin
+  steps:
+  - intent: syarat_anggota_soushin
+  - action: utter_syarat_anggota_soushin
+
+- rule: rule_syarat_anggota_taekwondo
+  steps:
+  - intent: syarat_anggota_taekwondo
+  - action: utter_syarat_anggota_taekwondo
+
+- rule: rule_syarat_anggota_tec
+  steps:
+  - intent: syarat_anggota_tec
+  - action: utter_syarat_anggota_tec
+
+- rule: rule_syarat_anggota_wmkt
+  steps:
+  - intent: syarat_anggota_wmkt
+  - action: utter_syarat_anggota_wmkt
+
+- rule: rule_syarat_anggota_wushu
+  steps:
+  - intent: syarat_anggota_wushu
+  - action: utter_syarat_anggota_wushu
+
+- rule: rule_tanya_fungsi_ukm
+  steps:
+  - intent: tanya_fungsi_ukm
+  - action: utter_tanya_fungsi_ukm
+
+- rule: rule_tanya_jenis_ukm
+  steps:
+  - intent: tanya_jenis_ukm
+  - action: utter_tanya_jenis_ukm
+
+- rule: rule_tanya_jumlah_ukm_untar
+  steps:
+  - intent: tanya_jumlah_ukm_untar
+  - action: utter_tanya_jumlah_ukm_untar
+
+- rule: rule_tanya_keuntungan_ikut_ukm
+  steps:
+  - intent: tanya_keuntungan_ikut_ukm
+  - action: utter_tanya_keuntungan_ikut_ukm
+
+- rule: rule_tanya_kewajiban_ikut_ukm
+  steps:
+  - intent: tanya_kewajiban_ikut_ukm
+  - action: utter_tanya_kewajiban_ikut_ukm
+
+- rule: rule_tanya_manfaat_ikut_ukm
+  steps:
+  - intent: tanya_manfaat_ikut_ukm
+  - action: utter_tanya_manfaat_ikut_ukm
+
+- rule: rule_tanya_pengertian_ukm
+  steps:
+  - intent: tanya_pengertian_ukm
+  - action: utter_tanya_pengertian_ukm
+
+- rule: rule_tanya_tujuan_ukm
+  steps:
+  - intent: tanya_tujuan_ukm
+  - action: utter_tanya_tujuan_ukm
+
+- rule: rule_tanya_ukm_adhyatmaka
+  steps:
+  - intent: tanya_ukm_adhyatmaka
+  - action: utter_tanya_ukm_adhyatmaka
+
+- rule: rule_tanya_ukm_bakat_minat
+  steps:
+  - intent: tanya_ukm_bakat_minat
+  - action: utter_tanya_ukm_bakat_minat
+
+- rule: rule_tanya_ukm_bar
+  steps:
+  - intent: tanya_ukm_bar
+  - action: utter_tanya_ukm_bar
+
+- rule: rule_tanya_ukm_bela_diri
+  steps:
+  - intent: tanya_ukm_bela_diri
+  - action: utter_tanya_ukm_bela_diri
+
+- rule: rule_tanya_ukm_citrapesona
+  steps:
+  - intent: tanya_ukm_citrapesona
+  - action: utter_tanya_ukm_citrapesona
+
+- rule: rule_tanya_ukm_dharmayana
+  steps:
+  - intent: tanya_ukm_dharmayana
+  - action: utter_tanya_ukm_dharmayana
+
+- rule: rule_tanya_ukm_festa
+  steps:
+  - intent: tanya_ukm_festa
+  - action: utter_tanya_ukm_festa
+
+- rule: rule_tanya_ukm_fut
+  steps:
+  - intent: tanya_ukm_fut
+  - action: utter_tanya_ukm_fut
+
+- rule: rule_tanya_ukm_futsal
+  steps:
+  - intent: tanya_ukm_futsal
+  - action: utter_tanya_ukm_futsal
+
+- rule: rule_tanya_ukm_jujitsu
+  steps:
+  - intent: tanya_ukm_jujitsu
+  - action: utter_tanya_ukm_jujitsu
+
+- rule: rule_tanya_ukm_kbmk
+  steps:
+  - intent: tanya_ukm_kbmk
+  - action: utter_tanya_ukm_kbmk
+
+- rule: rule_tanya_ukm_keagamaan
+  steps:
+  - intent: tanya_ukm_keagamaan
+  - action: utter_tanya_ukm_keagamaan
+
+- rule: rule_tanya_ukm_lbut
+  steps:
+  - intent: tanya_ukm_lbut
+  - action: utter_tanya_ukm_lbut
+
+- rule: rule_tanya_ukm_libama
+  steps:
+  - intent: tanya_ukm_libama
+  - action: utter_tanya_ukm_libama
+
+- rule: rule_tanya_ukm_livosta
+  steps:
+  - intent: tanya_ukm_livosta
+  - action: utter_tanya_ukm_livosta
+
+- rule: rule_tanya_ukm_ltmu
+  steps:
+  - intent: tanya_ukm_ltmu
+  - action: utter_tanya_ukm_ltmu
+
+- rule: rule_tanya_ukm_mahupa
+  steps:
+  - intent: tanya_ukm_mahupa
+  - action: utter_tanya_ukm_mahupa
+
+- rule: rule_tanya_ukm_mapala
+  steps:
+  - intent: tanya_ukm_mapala
+  - action: utter_tanya_ukm_mapala
+
+- rule: rule_tanya_ukm_marsipala
+  steps:
+  - intent: tanya_ukm_marsipala
+  - action: utter_tanya_ukm_marsipala
+
+- rule: rule_tanya_ukm_mega
+  steps:
+  - intent: tanya_ukm_mega
+  - action: utter_tanya_ukm_mega
+
+- rule: rule_tanya_ukm_olahraga
+  steps:
+  - intent: tanya_ukm_olahraga
+  - action: utter_tanya_ukm_olahraga
+
+- rule: rule_tanya_ukm_pft
+  steps:
+  - intent: tanya_ukm_pft
+  - action: utter_tanya_ukm_pft
+
+- rule: rule_tanya_ukm_pout
+  steps:
+  - intent: tanya_ukm_pout
+  - action: utter_tanya_ukm_pout
+
+- rule: rule_tanya_ukm_psut
+  steps:
+  - intent: tanya_ukm_psut
+  - action: utter_tanya_ukm_psut
+
+- rule: rule_tanya_ukm_radio
+  steps:
+  - intent: tanya_ukm_radio
+  - action: utter_tanya_ukm_radio
+
+- rule: rule_tanya_ukm_sentra
+  steps:
+  - intent: tanya_ukm_sentra
+  - action: utter_tanya_ukm_sentra
+
+- rule: rule_tanya_ukm_soushin
+  steps:
+  - intent: tanya_ukm_soushin
+  - action: utter_tanya_ukm_soushin
+
+- rule: rule_tanya_ukm_taekwondo
+  steps:
+  - intent: tanya_ukm_taekwondo
+  - action: utter_tanya_ukm_taekwondo
+
+- rule: rule_tanya_ukm_tec
+  steps:
+  - intent: tanya_ukm_tec
+  - action: utter_tanya_ukm_tec
+
+- rule: rule_tanya_ukm_wmkt
+  steps:
+  - intent: tanya_ukm_wmkt
+  - action: utter_tanya_ukm_wmkt
+
+- rule: rule_tanya_ukm_wushu
+  steps:
+  - intent: tanya_ukm_wushu
+  - action: utter_tanya_ukm_wushu
+
+- rule: rule_terima_kasih
+  steps:
+  - intent: terima_kasih
+  - action: utter_terima_kasih
+
+- rule: rule_tes_toefl_tec
+  steps:
+  - intent: tes_toefl_tec
+  - action: utter_tes_toefl_tec
+
+- rule: rule_tujuan_ukm_adhyatmaka
+  steps:
+  - intent: tujuan_ukm_adhyatmaka
+  - action: utter_tujuan_ukm_adhyatmaka
+
+- rule: rule_tujuan_ukm_bar
+  steps:
+  - intent: tujuan_ukm_bar
+  - action: utter_tujuan_ukm_bar
+
+- rule: rule_tujuan_ukm_citrapesona
+  steps:
+  - intent: tujuan_ukm_citrapesona
+  - action: utter_tujuan_ukm_citrapesona
+
+- rule: rule_tujuan_ukm_dharmayana
+  steps:
+  - intent: tujuan_ukm_dharmayana
+  - action: utter_tujuan_ukm_dharmayana
+
+- rule: rule_tujuan_ukm_festa
+  steps:
+  - intent: tujuan_ukm_festa
+  - action: utter_tujuan_ukm_festa
+
+- rule: rule_tujuan_ukm_fut
+  steps:
+  - intent: tujuan_ukm_fut
+  - action: utter_tujuan_ukm_fut
+
+- rule: rule_tujuan_ukm_futsal
+  steps:
+  - intent: tujuan_ukm_futsal
+  - action: utter_tujuan_ukm_futsal
+
+- rule: rule_tujuan_ukm_jujitsu
+  steps:
+  - intent: tujuan_ukm_jujitsu
+  - action: utter_tujuan_ukm_jujitsu
+
+- rule: rule_tujuan_ukm_kbmk
+  steps:
+  - intent: tujuan_ukm_kbmk
+  - action: utter_tujuan_ukm_kbmk
+
+- rule: rule_tujuan_ukm_lbut
+  steps:
+  - intent: tujuan_ukm_lbut
+  - action: utter_tujuan_ukm_lbut
+
+- rule: rule_tujuan_ukm_libama
+  steps:
+  - intent: tujuan_ukm_libama
+  - action: utter_tujuan_ukm_libama
+
+- rule: rule_tujuan_ukm_livosta
+  steps:
+  - intent: tujuan_ukm_livosta
+  - action: utter_tujuan_ukm_livosta
+
+- rule: rule_tujuan_ukm_ltmu
+  steps:
+  - intent: tujuan_ukm_ltmu
+  - action: utter_tujuan_ukm_ltmu
+
+- rule: rule_tujuan_ukm_mahupa
+  steps:
+  - intent: tujuan_ukm_mahupa
+  - action: utter_tujuan_ukm_mahupa
+
+- rule: rule_tujuan_ukm_marsipala
+  steps:
+  - intent: tujuan_ukm_marsipala
+  - action: utter_tujuan_ukm_marsipala
+
+- rule: rule_tujuan_ukm_mega
+  steps:
+  - intent: tujuan_ukm_mega
+  - action: utter_tujuan_ukm_mega
+
+- rule: rule_tujuan_ukm_pft
+  steps:
+  - intent: tujuan_ukm_pft
+  - action: utter_tujuan_ukm_pft
+
+- rule: rule_tujuan_ukm_pout
+  steps:
+  - intent: tujuan_ukm_pout
+  - action: utter_tujuan_ukm_pout
+
+- rule: rule_tujuan_ukm_psut
+  steps:
+  - intent: tujuan_ukm_psut
+  - action: utter_tujuan_ukm_psut
+
+- rule: rule_tujuan_ukm_radio
+  steps:
+  - intent: tujuan_ukm_radio
+  - action: utter_tujuan_ukm_radio
+
+- rule: rule_tujuan_ukm_sentra
+  steps:
+  - intent: tujuan_ukm_sentra
+  - action: utter_tujuan_ukm_sentra
+
+- rule: rule_tujuan_ukm_soushin
+  steps:
+  - intent: tujuan_ukm_soushin
+  - action: utter_tujuan_ukm_soushin
+
+- rule: rule_tujuan_ukm_taekwondo
+  steps:
+  - intent: tujuan_ukm_taekwondo
+  - action: utter_tujuan_ukm_taekwondo
+
+- rule: rule_tujuan_ukm_tec
+  steps:
+  - intent: tujuan_ukm_tec
+  - action: utter_tujuan_ukm_tec
+
+- rule: rule_tujuan_ukm_wmkt
+  steps:
+  - intent: tujuan_ukm_wmkt
+  - action: utter_tujuan_ukm_wmkt
+
+- rule: rule_tujuan_ukm_wushu
+  steps:
+  - intent: tujuan_ukm_wushu
+  - action: utter_tujuan_ukm_wushu
+
+- rule: rule_turnamen_lbut
+  steps:
+  - intent: turnamen_lbut
+  - action: utter_turnamen_lbut
+
+- rule: rule_turnamen_libama
+  steps:
+  - intent: turnamen_libama
+  - action: utter_turnamen_libama
+
+- rule: rule_ujian_kenaikan_tingkat
+  steps:
+  - intent: ujian_kenaikan_tingkat
+  - action: utter_ujian_kenaikan_tingkat
+
+- rule: rule_visi_adhyatmaka
+  steps:
+  - intent: visi_adhyatmaka
+  - action: utter_visi_adhyatmaka
+
+- rule: rule_visi_bar
+  steps:
+  - intent: visi_bar
+  - action: utter_visi_bar
+
+- rule: rule_visi_citrapesona
+  steps:
+  - intent: visi_citrapesona
+  - action: utter_visi_citrapesona
+
+- rule: rule_visi_dharmayana
+  steps:
+  - intent: visi_dharmayana
+  - action: utter_visi_dharmayana
+
+- rule: rule_visi_festa
+  steps:
+  - intent: visi_festa
+  - action: utter_visi_festa
+
+- rule: rule_visi_fut
+  steps:
+  - intent: visi_fut
+  - action: utter_visi_fut
+
+- rule: rule_visi_jujitsu
+  steps:
+  - intent: visi_jujitsu
+  - action: utter_visi_jujitsu
+
+- rule: rule_visi_kbmk
+  steps:
+  - intent: visi_kbmk
+  - action: utter_visi_kbmk
+
+- rule: rule_visi_pout
+  steps:
+  - intent: visi_pout
+  - action: utter_visi_pout
+
+- rule: rule_visi_taekwondo
+  steps:
+  - intent: visi_taekwondo
+  - action: utter_visi_taekwondo
+
+- rule: rule_visi_ukm_futsal
+  steps:
+  - intent: visi_ukm_futsal
+  - action: utter_visi_ukm_futsal
+
+- rule: rule_visi_ukm_lbut
+  steps:
+  - intent: visi_ukm_lbut
+  - action: utter_visi_ukm_lbut
+
+- rule: rule_visi_ukm_libama
+  steps:
+  - intent: visi_ukm_libama
+  - action: utter_visi_ukm_libama
+
+- rule: rule_visi_ukm_livosta
+  steps:
+  - intent: visi_ukm_livosta
+  - action: utter_visi_ukm_livosta
+
+- rule: rule_visi_ukm_ltmu
+  steps:
+  - intent: visi_ukm_ltmu
+  - action: utter_visi_ukm_ltmu
+
+- rule: rule_visi_ukm_mahupa
+  steps:
+  - intent: visi_ukm_mahupa
+  - action: utter_visi_ukm_mahupa
+
+- rule: rule_visi_ukm_marsipala
+  steps:
+  - intent: visi_ukm_marsipala
+  - action: utter_visi_ukm_marsipala
+
+- rule: rule_visi_ukm_mega
+  steps:
+  - intent: visi_ukm_mega
+  - action: utter_visi_ukm_mega
+
+- rule: rule_visi_ukm_pft
+  steps:
+  - intent: visi_ukm_pft
+  - action: utter_visi_ukm_pft
+
+- rule: rule_visi_ukm_psut
+  steps:
+  - intent: visi_ukm_psut
+  - action: utter_visi_ukm_psut
+
+- rule: rule_visi_ukm_radio
+  steps:
+  - intent: visi_ukm_radio
+  - action: utter_visi_ukm_radio
+
+- rule: rule_visi_ukm_sentra
+  steps:
+  - intent: visi_ukm_sentra
+  - action: utter_visi_ukm_sentra
+
+- rule: rule_visi_ukm_soushin
+  steps:
+  - intent: visi_ukm_soushin
+  - action: utter_visi_ukm_soushin
+
+- rule: rule_visi_ukm_tec
+  steps:
+  - intent: visi_ukm_tec
+  - action: utter_visi_ukm_tec
+
+- rule: rule_visi_ukm_wmkt
+  steps:
+  - intent: visi_ukm_wmkt
+  - action: utter_visi_ukm_wmkt
+
+- rule: rule_visi_wushu
+  steps:
+  - intent: visi_wushu
+  - action: utter_visi_wushu
+
+- rule: Handle fallback
+  steps:
+    - intent: nlu_fallback
+    - action: utter_fallback

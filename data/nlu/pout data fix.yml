@@ -1,0 +1,430 @@
+version: "3.1"
+
+nlu:
+
+- intent: tanya_ukm_pout
+  examples: |
+    - Apa itu UKM POUT?
+    - POUT itu apa?
+    - Bisa jelaskan UKM POUT?
+    - POUT jenis organisasi apa?
+    - UKM POUT fokus bidang kegiatan apa?
+    - Apa itu POUT di kampus?
+    - Jelaskan tentang POUT
+    - POUT itu komunitas apa?
+    - Saya ingin tahu tentang POUT
+    - POUT fokusnya apa?
+    - Apa peran POUT di kampus?
+    - POUT itu tujuan utama organisasi ini apa?
+    - UKM POUT aktivitas utama yang dilakukan apa?
+    - Apa itu persekutuan oikumene?
+
+- intent: fungsi_ukm_pout
+  examples: |
+    - peranan organisasi ini bagi mahasiswa apa?
+    - fungsi utama organisasi ini apa?
+    - Apa fungsi POUT?
+    - Fungsi POUT bagi mahasiswa?
+    - POUT berfungsi sebagai apa?
+    - Fungsi POUT?
+    - Apakah fungsi POUT?
+
+- intent: tujuan_ukm_pout
+  examples: |
+    - tujuan utama dibentuknya organisasi ini apa?
+    - organisasi ini dibuat untuk tujuan apa?
+    - Apa tujuan POUT?
+    - Tujuan UKM POUT apa?
+    - POUT dibuat tujuan utama organisasi ini apa?
+    - Apa manfaat ikut POUT?
+    - POUT tujuan utama organisasi ini apa?
+    - Apa fungsi POUT bagi mahasiswa?
+    - Tujuan kegiatan POUT apa?
+    - POUT bertujuan apa?
+    - Apa kegunaan POUT?
+    - Tujuan utama POUT?
+    - Apakah untuk pelayanan?
+    - POUT membantu apa?
+
+- intent: misi_pout
+  examples: |
+    - program misi utama organisasi ini apa?
+    - apa fokus misi organisasi ini?
+    - Apa misi POUT?
+    - Misi POUT?
+    - Apa saja misi POUT?
+    - Misi POUT apa?
+    - Misi POUT apa saja?
+
+- intent: visi_pout
+  examples: |
+    - arah visi organisasi ini bagaimana?
+    - visi utama organisasi ini apa?
+    - Apa visi POUT?
+    - Visi POUT?
+    - Apa saja visi POUT?
+    - Visi POUT apa?
+    - Visi POUT apa saja?
+
+- intent: bidang_ukm_pout
+  examples: |
+    - POUT fokus bidang kegiatan apa?
+    - Bidang UKM POUT apa?
+    - Apakah POUT keagamaan?
+    - POUT fokus apa?
+    - UKM POUT fokus utama kegiatan apa?
+    - Apakah POUT organisasi Kristen?
+    - POUT bidangnya apa?
+    - Fokus utama POUT?
+    - Apakah tentang persekutuan?
+    - POUT terkait agama?
+    - POUT mencakup apa saja?
+    - Apakah belajar firman?
+    - POUT termasuk organisasi rohani?
+    - POUT fokus spiritual?
+    - Bidang utama POUT?
+
+- intent: boleh_gabung_pout
+  examples: |
+    - Siapa saja boleh gabung POUT?
+    - Apakah semua mahasiswa bisa join?
+    - Boleh non Kristen ikut?
+    - Siapa yang bisa join POUT?
+    - Apakah terbuka untuk semua?
+    - Mahasiswa baru boleh ikut?
+    - Apakah lintas jurusan boleh?
+    - POUT untuk siapa saja?
+    - Apakah semua semester boleh?
+    - Apakah umum bisa join?
+    - Siapa target anggota POUT?
+    - Apakah bebas gabung?
+    - Siapa saja bisa daftar?
+    - Apakah POUT terbuka untuk semua?
+    - Apakah hanya Kristen saja?
+
+- intent: cara_daftar_pout
+  examples: |
+    - Bagaimana cara daftar POUT?
+    - Cara join POUT?
+    - Gimana cara masuk POUT?
+    - Daftar POUT lewat apa?
+    - Bagaimana proses pendaftaran?
+    - Cara gabung POUT gimana?
+    - Saya ingin daftar POUT
+    - Apa langkah daftar POUT?
+    - Daftar POUT dimana?
+    - Join lewat gform?
+    - Cara ikut POUT?
+    - Prosedur masuk POUT?
+    - Cara registrasi POUT?
+    - Masuk POUT bagaimana?
+    - Cara daftar UKM POUT?
+
+- intent: biaya_daftar_pout
+  examples: |
+    - Biaya POUT berapa?
+    - Daftar POUT bayar berapa?
+    - Apakah ada biaya POUT?
+    - Biaya registrasi POUT berapa?
+    - Masuk POUT bayar berapa?
+    - Apakah POUT gratis?
+    - Biaya join POUT berapa?
+    - Registrasi POUT berapa?
+    - Apakah ada uang pendaftaran?
+    - Daftar POUT perlu bayar?
+    - Berapa uang masuk POUT?
+    - Biaya anggota POUT?
+    - POUT ada biaya?
+    - Join POUT bayar?
+    - Gratis atau tidak?
+
+- intent: status_pendaftaran_pout
+  examples: |
+    - Apakah POUT buka pendaftaran?
+    - POUT masih buka?
+    - Kapan pendaftaran POUT dibuka?
+    - Apakah bisa daftar sekarang?
+    - Pendaftaran POUT tutup atau belum?
+    - Apakah masih bisa join?
+    - POUT open recruitment?
+    - Kapan open POUT?
+    - Apakah POUT sedang open?
+    - Jadwal pendaftaran POUT kapan?
+    - POUT buka anggota baru?
+    - Apakah rekrutmen POUT aktif?
+    - Kapan bisa daftar POUT?
+    - Apakah POUT menerima anggota baru?
+    - POUT buka bulan apa?
+
+- intent: seleksi_pout
+  examples: |
+    - Apakah ada tes POUT?
+    - POUT pakai seleksi?
+    - Harus tes masuk POUT?
+    - Ada tes rohani?
+    - Seleksi masuk POUT?
+    - Apakah wajib tes?
+    - Proses seleksi POUT?
+    - Ada tahap seleksi?
+    - Apakah langsung diterima?
+    - Tes karunia rohani itu apa?
+    - Bagaimana seleksi?
+    - Seleksi diperlukan?
+    - Masuk harus tes?
+    - Ada penilaian?
+    - Bagaimana seleksi POUT?
+
+- intent: syarat_anggota_pout
+  examples: |
+    - Apa syarat masuk POUT?
+    - Syarat join POUT apa?
+    - Persyaratan POUT?
+    - Masuk POUT harus apa?
+    - Syarat jadi anggota?
+    - Apa ketentuan POUT?
+    - Syarat gabung POUT?
+    - Apa yang harus dipenuhi?
+    - Syarat ikut POUT?
+    - Persyaratan umum POUT?
+    - Apakah ada syarat khusus?
+    - Harus komitmen?
+    - Syarat pendaftaran POUT?
+    - Ketentuan anggota POUT?
+    - Apa saja syaratnya?
+
+- intent: kemampuan_anggota_pout
+  examples: |
+    - Apakah perlu skill khusus?
+    - Harus paham agama?
+    - Perlu pengalaman organisasi?
+    - Skill apa yang dibutuhkan?
+    - Harus punya pengalaman?
+    - Apakah pemula boleh?
+    - Harus aktif pelayanan?
+    - Perlu kemampuan tertentu?
+    - Skill rohani apa?
+    - Harus punya kemampuan khusus?
+    - Apakah skill penting?
+    - Bisa belajar dari nol?
+    - Apakah ada syarat skill?
+    - Kemampuan anggota bagaimana?
+    - Skill untuk pelayanan?
+
+- intent: divisi_pout
+  examples: |
+    - Divisi POUT apa saja?
+    - Ada bidang apa saja?
+    - Divisi dalam POUT?
+    - Divisi apa saja?
+    - Divisi internal?
+    - Bagian organisasi?
+    - Unit dalam UKM?
+    - Divisi apa saja?
+
+- intent: struktur_pout
+  examples: |
+    - Struktur organisasi?
+    - Struktur UKM?
+    - Struktur kepengurusan?
+    - Struktur bidang?
+    - Struktur lengkap?
+    - Struktur divisi?
+
+- intent: kegiatan_pout
+  examples: |
+    - Kegiatan POUT apa saja?
+    - Aktivitas POUT apa?
+    - POUT ada kegiatan apa?
+    - Program POUT apa?
+    - Apa saja kegiatan POUT?
+    - Event POUT apa?
+    - Aktivitas UKM POUT?
+    - POUT sering ngapain?
+    - Kegiatan rutin POUT?
+    - Program kerja POUT?
+    - Apa yang dilakukan POUT?
+    - Kegiatan anggota POUT?
+    - POUT ada event apa?
+    - Aktivitas POUT sehari-hari?
+    - Apa saja aktivitas POUT?
+
+- intent: kegiatan_rutin_pout
+  examples: |
+    - Adakah doa rutin?
+    - Apa kegiatan rutin POUT?
+    - Apakah ada kegiatan rutin?
+    - Apa saja kegiatan rutin?
+    - Ada kegiatan rutin apa?
+    - Kegiatan rohani apa saja?
+    - Apa saja kegiatan iman?
+    - Apakah ada pendalaman iman?
+    - Ada kegiatan ibadah?
+    - Apa kegiatan keagamaannya?
+    - Apa kegiatan rohaninya?
+
+- intent: jenis_kegiatan_pout
+  examples: |
+    - Jenis kegiatan POUT?
+    - Program rohani apa saja?
+    - Aktivitas persekutuan apa?
+    - Kegiatan ibadah apa?
+    - Ada kegiatan doa?
+    - Program utama POUT?
+    - Kegiatan keagamaan apa?
+    - Event rohani?
+    - Apa saja jenis kegiatan?
+    - Program edukasi POUT?
+    - Kegiatan spiritual apa?
+    - Aktivitas pelayanan?
+
+- intent: jadwal_rutin_pout
+  examples: |
+    - Jadwal persekutuan jumat kapan?
+    - Kegiatan rutin hari apa?
+    - Jadwal rutin?
+    - Kapan persekutuan jumat?
+    - Jadwal persekutuan?
+    - Persekutuan kapan?
+    - Hari apa saja kegiatan rutin?
+    - Jadwal mingguan?
+    - Kegiatan dilakukan kapan?
+    - Jadwal rutin?
+    - Hari kegiatan?
+    - Jadwal rutin kapan?
+    - Jadwal ibadah?
+
+- intent: durasi_kegiatan_pout
+  examples: |
+    - Berapa lama kegiatan POUT?
+    - Durasi persekutuan?
+    - Kegiatan berapa jam?
+    - Lama kegiatan POUT?
+    - Ibadah berapa lama?
+    - Durasi pertemuan?
+    - Satu sesi berapa lama?
+    - Waktu kegiatan?
+    - Berapa jam per kegiatan?
+    - POUT berapa lama?
+    - Lama kegiatan?
+    - Durasi ibadah?
+    - Waktu persekutuan?
+    - Durasi kegiatan?
+    - Berapa lama per sesi?
+
+- intent: lokasi_kegiatan_pout
+  examples: |
+    - Kegiatan POUT dimana?
+    - Lokasi POUT dimana?
+    - Persekutuan dimana?
+    - Tempat kegiatan POUT?
+    - POUT dilakukan dimana?
+    - Tempat ibadah?
+    - Dimana lokasi POUT?
+    - Tempat kegiatan?
+    - Lokasi persekutuan?
+    - Tempat pelayanan?
+    - Lokasi kegiatan?
+    - POUT di mana?
+    - Tempat pertemuan?
+
+- intent: event_pout
+  examples: |
+    - Event POUT apa saja?
+    - Ada acara apa saja?
+    - Program POUT apa?
+    - Apa itu POUT Camp?
+    - Apa itu Natal POUT?
+    - Event POUT apa saja?
+    - Acara POUT apa?
+    - Program besar POUT?
+    - Event tahunan POUT?
+    - Ada kegiatan khusus?
+    - Event rohani POUT?
+    - Kegiatan besar POUT?
+    - Acara utama POUT?
+    - Event penting POUT?
+    - Program spesial POUT?
+
+- intent: jadwal_event_pout
+  examples: |
+    - Natal POUT kapan?
+    - Paskah POUT kapan?
+    - POUT Camp kapan?
+    - Jadwal event POUT?
+    - Event bulan apa?
+    - Kapan acara POUT?
+    - Jadwal kegiatan besar?
+    - Event diadakan kapan?
+    - Jadwal welcoming day?
+    - Kapan acara utama?
+    - Event tahunan kapan?
+    - Jadwal event?
+    - Kapan acara khusus?
+    - Jadwal acara?
+    - Event kapan?
+
+- intent: fasilitas_pout
+  examples: |
+    - Fasilitas POUT apa?
+    - Apa saja fasilitasnya?
+    - Ada ruang persekutuan?
+    - Fasilitas lengkap?
+    - Apa yang disediakan?
+    - Fasilitas UKM POUT?
+    - Apakah ada ruangan?
+    - Tempat kumpul ada?
+    - Ada basecamp?
+    - Fasilitas ibadah?
+    - Apa saja fasilitasnya?
+    - Ruang kegiatan ada?
+    - Tempat organisasi?
+    - Fasilitas pendukung?
+    - Ada tempat persekutuan?
+
+- intent: lokasi_sekre_pout
+  examples: |
+    - biasanya lokasi ruang sekretariat dimana
+    - boleh tanya lokasi ruang sekretariat dimana
+    - info lokasi ruang sekretariat dimana
+    - lokasi ruang sekretariat dimana
+    - sekretariat POUT dimana
+    - sekretariat POUT lantai berapa
+    - POUT sekretariatnya di lantai berapa
+    - ruang sekre POUT dimana
+    - ruang sekre POUT lantai berapa
+
+- intent: benefit_pout
+  examples: |
+    - Manfaat POUT apa?
+    - Keuntungan ikut POUT?
+    - Benefit POUT?
+    - Apa yang didapat?
+    - Untung ikut POUT?
+    - Kelebihan POUT?
+    - Kenapa ikut POUT?
+    - Apa manfaat POUT?
+    - Join POUT dapat apa?
+    - Apa benefit POUT?
+    - POUT membantu apa?
+    - Kegunaan POUT?
+    - Apa hasil ikut POUT?
+    - POUT berguna?
+    - Manfaat join POUT?
+
+- intent: media_informasi_pout
+  examples: |
+    - IG POUT apa?
+    - Instagram POUT?
+    - Kontak POUT?
+    - Nomor POUT?
+    - Sosial media POUT?
+    - Cara hubungi POUT?
+    - Info POUT dimana?
+    - Akun POUT?
+    - Follow POUT dimana?
+    - Media POUT apa?
+    - Kontak resmi POUT?
+    - DM POUT?
+    - IG resmi POUT?
+    - Nomor admin?
+    - Info online POUT?

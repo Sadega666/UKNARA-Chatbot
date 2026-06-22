@@ -1,0 +1,564 @@
+version: "3.1"
+
+nlu:
+
+- intent: tanya_ukm_livosta
+  examples: |
+    - Livosta itu apaan sih?
+    - UKM Livosta tuh kayak gimana sih?
+    - Livosta di kampus ngapain aja sih?
+    - Livosta itu buat apa sih?
+    - Livosta tuh isinya apa aja?
+    - Apa itu UKM Livosta?
+    - Livosta itu apa?
+    - Bisa jelaskan UKM Livosta?
+    - Livosta jenis organisasi apa?
+    - UKM Livosta fokus bidang kegiatan apa?
+    - Apa itu Livosta di kampus?
+    - Jelaskan tentang Livosta
+    - Livosta itu komunitas apa?
+    - Saya ingin tahu tentang Livosta
+
+- intent: fungsi_ukm_livosta
+  examples: |
+    - peranan organisasi ini bagi mahasiswa apa?
+    - fungsi utama organisasi ini apa?
+    - Livosta gunanya apa sih?
+    - Peran Livosta buat mahasiswa apa?
+    - Livosta itu kepake buat apa?
+    - Fungsi Livosta di kampus apa ya?
+    - Livosta bantu apa sih?
+    - Apa fungsi UKM Livosta?
+    - Apa fungsi Livosta bagi mahasiswa?
+    - Livosta berfungsi sebagai apa?
+    - Fungsi Livosta?
+    - Apakah fungsi Livosta?
+
+- intent: tujuan_ukm_livosta
+  examples: |
+    - tujuan utama dibentuknya organisasi ini apa?
+    - organisasi ini dibuat untuk tujuan apa?
+    - Livosta tujuannya apa sih?
+    - Ikut Livosta biar apa?
+    - Livosta itu pengen capai apa?
+    - Tujuan ikut Livosta apa ya?
+    - Livosta itu buat pengembangan apa sih?
+    - Apa tujuan Livosta?
+    - Tujuan UKM Livosta apa?
+    - Livosta dibuat tujuan utama organisasi ini apa?
+    - Livosta tujuan utama organisasi ini apa?
+    - Tujuan kegiatan Livosta apa?
+    - Livosta bertujuan apa?
+    - Apa kegunaan Livosta?
+    - Tujuan utama Livosta?
+    - Apakah untuk olahraga voli?
+    - Livosta membantu apa?
+
+- intent: misi_ukm_livosta
+  examples: |
+    - program misi utama organisasi ini apa?
+    - apa fokus misi organisasi ini?
+    - Misi Livosta itu apa sih?
+    - Livosta punya misi apa aja?
+    - Fokus utama Livosta apa?
+    - Misi tim Livosta apa ya?
+    - Target Livosta itu apa?
+    - Apa misi Livosta?
+    - Misi Livosta?
+    - Apa saja misi Livosta?
+    - Misi Livosta apa?
+    - Misi Livosta apa saja?
+
+- intent: visi_ukm_livosta
+  examples: |
+    - arah visi organisasi ini bagaimana?
+    - visi utama organisasi ini apa?
+    - Visi Livosta itu apa sih?
+    - Livosta mau jadi apa kedepannya?
+    - Tujuan jangka panjang Livosta apa?
+    - Arah Livosta itu kemana?
+    - Cita-cita Livosta apa?
+    - Apa visi Livosta?
+    - Visi Livosta?
+    - Apa saja visi Livosta?
+    - Visi Livosta apa?
+    - Visi Livosta apa saja?
+
+- intent: bidang_ukm_livosta
+  examples: |
+    - Livosta itu fokusnya voli ya?
+    - UKM Livosta itu olahraga banget ya?
+    - Livosta lebih ke kompetisi ya?
+    - Livosta itu olahraga tim kan?
+    - Fokusnya ke fisik dan game ya?
+    - Livosta fokus bidang kegiatan apa?
+    - Bidang UKM Livosta apa?
+    - Apakah Livosta olahraga?
+    - Livosta fokus apa?
+    - UKM Livosta fokus utama kegiatan apa?
+    - Apakah Livosta organisasi voli?
+    - Livosta bidangnya apa?
+    - Fokus utama Livosta?
+    - Apakah tentang olahraga?
+    - Livosta terkait voli?
+    - Livosta mencakup apa saja?
+    - Apakah latihan voli?
+    - Livosta termasuk UKM olahraga?
+    - Livosta fokus fisik?
+    - Bidang utama Livosta?
+
+- intent: boleh_gabung_livosta
+  examples: |
+    - Semua orang bisa masuk Livosta ga?
+    - Anak baru boleh ikut Livosta ga?
+    - Bebas join Livosta ga sih?
+    - Semua jurusan bisa ikut ga?
+    - Yang ga jago boleh masuk ga?
+    - Siapa saja boleh gabung Livosta?
+    - Apakah semua mahasiswa bisa join?
+    - Boleh semua fakultas ikut?
+    - Siapa yang bisa join Livosta?
+    - Apakah terbuka untuk semua?
+    - Mahasiswa baru boleh ikut?
+    - Apakah lintas jurusan boleh?
+    - Livosta untuk siapa saja?
+    - Apakah semua semester boleh?
+    - Apakah umum bisa join?
+    - Siapa target anggota Livosta?
+    - Apakah bebas gabung?
+    - Siapa saja bisa daftar?
+    - Apakah Livosta terbuka untuk semua?
+    - Semua mahasiswa boleh ikut?
+
+- intent: cara_daftar_livosta
+  examples: |
+    - Cara masuk Livosta gimana sih?
+    - Mau join Livosta harus ngapain?
+    - Daftar Livosta ribet ga?
+    - Ikut Livosta mulai dari mana?
+    - Gimana biar bisa gabung Livosta?
+    - Bagaimana cara daftar Livosta?
+    - Cara join Livosta?
+    - Gimana cara masuk Livosta?
+    - Daftar Livosta lewat apa?
+    - Bagaimana proses pendaftaran?
+    - Cara gabung Livosta gimana?
+    - Saya ingin daftar Livosta
+    - Apa langkah daftar Livosta?
+    - Daftar Livosta dimana?
+    - Join lewat gform?
+    - Cara ikut Livosta?
+    - Prosedur masuk Livosta?
+    - Cara registrasi Livosta?
+    - Masuk Livosta bagaimana?
+    - Cara daftar UKM Livosta?
+
+- intent: biaya_daftar_livosta
+  examples: |
+    - Masuk Livosta bayar ga sih?
+    - Join Livosta mahal ga?
+    - Livosta gratis atau bayar?
+    - Ada biaya latihan ga?
+    - Ikut Livosta butuh uang berapa?
+    - Biaya Livosta berapa?
+    - Daftar Livosta bayar berapa?
+    - Apakah ada biaya Livosta?
+    - Biaya registrasi Livosta berapa?
+    - Masuk Livosta bayar berapa?
+    - Apakah Livosta gratis?
+    - Biaya join Livosta berapa?
+    - Registrasi Livosta berapa?
+    - Apakah ada uang pendaftaran?
+    - Daftar Livosta perlu bayar?
+    - Berapa uang masuk Livosta?
+    - Biaya anggota Livosta?
+    - Livosta ada biaya?
+    - Join Livosta bayar?
+    - Harga daftar Livosta?
+
+- intent: status_pendaftaran_livosta
+  examples: |
+    - Livosta lagi buka ga sih?
+    - Masih bisa daftar Livosta ga?
+    - Sekarang Livosta open ga?
+    - Lagi nerima anggota baru ga?
+    - Rekrutmen Livosta masih ada?
+    - Apakah Livosta buka pendaftaran?
+    - Livosta masih buka?
+    - Kapan pendaftaran Livosta dibuka?
+    - Apakah bisa daftar sekarang?
+    - Pendaftaran Livosta tutup atau belum?
+    - Apakah masih bisa join?
+    - Livosta open recruitment?
+    - Kapan open Livosta?
+    - Apakah Livosta sedang open?
+    - Jadwal pendaftaran Livosta kapan?
+    - Livosta buka anggota baru?
+    - Apakah rekrutmen Livosta aktif?
+    - Kapan bisa daftar Livosta?
+    - Apakah Livosta menerima anggota baru?
+    - Livosta buka saat PMB?
+
+- intent: syarat_anggota_livosta
+  examples: |
+    - Masuk Livosta syaratnya apa sih?
+    - Harus bisa voli dulu ga?
+    - Ada syarat khusus ga?
+    - Gabung Livosta harus apa aja?
+    - Perlu pengalaman ga?
+    - Apa syarat masuk Livosta?
+    - Syarat join Livosta apa?
+    - Persyaratan Livosta?
+    - Masuk Livosta harus apa?
+    - Syarat jadi anggota?
+    - Apa ketentuan Livosta?
+    - Syarat gabung Livosta?
+    - Apa yang harus dipenuhi?
+    - Syarat ikut Livosta?
+    - Persyaratan umum Livosta?
+    - Apakah ada syarat khusus?
+    - Harus ikut kepanitiaan?
+    - Syarat pendaftaran Livosta?
+    - Ketentuan anggota Livosta?
+    - Apa saja syaratnya?
+
+- intent: keanggotaan_livosta
+  examples: |
+    - Apakah boleh ikut UKM lain?
+    - Bisa ikut lebih dari satu UKM?
+    - Apakah bebas ikut kegiatan lain?
+    - Apakah ada Batasan?
+    - Boleh double UKM?
+    - Apakah harus fokus satu UKM?
+    - Apakah fleksibel?
+    - Apakah boleh ikut banyak kegiatan?
+    - Boleh ikut organisasi lain?
+    - Bisa ikut UKM lain juga?
+    - Boleh aktif di UKM lain?
+    - Fleksibel ikut UKM lain?
+
+- intent: komitmen_livosta
+  examples: |
+    - Apakah harus komitmen di Livosta?
+    - Komitmen Livosta seperti apa?
+    - Harus rutin latihan?
+    - Apakah wajib aktif?
+    - Komitmen anggota Livosta?
+    - Harus ikut kegiatan?
+    - Apakah wajib ikut panitia?
+    - Komitmen penting?
+    - Harus konsisten latihan?
+    - Apakah harus disiplin?
+    - Komitmen bagaimana?
+    - Apakah harus serius?
+    - Komitmen anggota?
+    - Harus tanggung jawab?
+    - Komitmen Livosta apa?
+
+- intent: divisi_livosta
+  examples: |
+    - Di Livosta ada divisi apa aja sih?
+    - Ada pembagian tim ga?
+    - Divisi Livosta gimana?
+    - Ada tim inti ga?
+    - Struktur timnya gimana?
+    - Divisi Livosta apa saja?
+    - Ada bidang apa saja?
+    - Divisi dalam Livosta?
+    - Divisi apa saja?
+    - Divisi internal?
+    - Bagian organisasi?
+    - Unit dalam UKM?
+    - Divisi apa saja?
+
+- intent: struktur_livosta
+  examples: |
+    - Struktur Livosta gimana sih?
+    - Kepengurusannya kayak apa?
+    - Ada ketua tim ga?
+    - Susunan organisasinya gimana?
+    - Struktur organisasi?
+    - Struktur UKM?
+    - Struktur kepengurusan?
+    - Struktur bidang?
+    - Struktur lengkap?
+    - Struktur divisi?
+
+- intent: kegiatan_livosta
+  examples: |
+    - Livosta biasanya ngapain aja sih?
+    - Anak Livosta sering latihan apa?
+    - Ada pertandingan juga ga?
+    - Kegiatan Livosta seru ga?
+    - Livosta sering main apa?
+    - Kegiatan Livosta apa saja?
+    - Aktivitas Livosta apa?
+    - Livosta ada kegiatan apa?
+    - Program Livosta apa?
+    - Apa saja kegiatan Livosta?
+    - Event Livosta apa?
+    - Aktivitas UKM Livosta?
+    - Livosta sering ngapain?
+    - Kegiatan rutin Livosta?
+    - Program kerja Livosta?
+    - Apa yang dilakukan Livosta?
+    - Kegiatan anggota Livosta?
+    - Livosta ada event apa?
+    - Aktivitas Livosta sehari-hari?
+    - Apa saja aktivitas Livosta?
+
+- intent: latihan_rutin_livosta
+  examples: |
+    - Ada latihan rutin ga sih?
+    - Livosta rutin latihan ga?
+    - Latihan tiap minggu ada?
+    - Sering latihan ga?
+    - Jadwal rutinnya ada ga?
+    - Apa ada latihan rutin?
+    - Apa saja kegiatan rutinnya?
+    - Apakah ada kegiatan rutin?
+    - Ada latihan rutin?
+    - Ada kegiatan rutin?
+
+- intent: fungames_livosta
+  examples: |
+    - Ada Fun Games lawan tim lain ga?
+    - Livosta sering Fun Games ga?
+    - Bisa tanding ga?
+    - Ada uji coba pertandingan ga?
+    - Fun Games rutin ada?
+    - Apa ada Fun Games?
+    - Apa saja kegiatan Fun Games?
+    - Apakah ada kegiatan Fun Games?
+    - Ada Fun Games?
+    - Ada kegiatan Fun Games?
+
+- intent: cup_livosta
+  examples: |
+    - Livosta ikut Cup ga?
+    - Ada lomba voli ga?
+    - Ikut kompetisi antar kampus ga?
+    - Ada event tanding ga?
+    - Livosta sering ikut lomba ga?
+    - Apa ada Cup?
+    - Apa saja kegiatan Cup?
+    - Apakah ada kegiatan Cup?
+    - Ada Cup?
+    - Ada kegiatan Cup?
+
+- intent: jenis_kegiatan_livosta
+  examples: |
+    - Kegiatan Livosta ada apa aja sih?
+    - Ada latihan sama turnamen ya?
+    - Jenis kegiatannya apa aja?
+    - Program Livosta apa aja?
+    - Kegiatan olahraga apa aja?
+    - Jenis kegiatan Livosta?
+    - Program olahraga apa saja?
+    - Aktivitas latihan apa?
+    - Kegiatan voli apa?
+    - Ada pertandingan?
+    - Program utama Livosta?
+    - Event olahraga?
+    - Apa saja jenis kegiatan?
+    - Program latihan Livosta?
+    - Kegiatan kompetisi?
+    - Aktivitas olahraga apa saja?
+
+- intent: jadwal_kegiatan_livosta
+  examples: |
+    - Livosta biasanya latihan kapan sih?
+    - Jadwal kegiatannya gimana?
+    - Latihan hari apa?
+    - Kapan aktifnya?
+    - Kegiatannya sering kapan?
+    - Jadwal Livosta kapan?
+    - Livosta latihan hari apa?
+    - Jadwal kegiatan Livosta?
+    - Livosta aktif kapan?
+    - Jadwal latihan kapan?
+    - Jadwal rutin Livosta?
+    - Livosta ada kegiatan kapan?
+    - Kapan latihan voli?
+    - Jadwal acara Livosta?
+    - Jadwal kegiatan?
+    - Kapan aktif?
+    - Jadwal program?
+    - Kapan kegiatan utama?
+    - Jadwal mingguan?
+    - Waktu kegiatan?
+
+- intent: durasi_kegiatan_livosta
+  examples: |
+    - Latihan Livosta berapa jam sih?
+    - Sekali latihan lama ga?
+    - Durasi latihan biasanya berapa?
+    - Main voli berapa lama?
+    - Satu sesi berapa jam?
+    - Berapa lama latihan Livosta?
+    - Durasi latihan?
+    - Kegiatan berapa jam?
+    - Lama kegiatan Livosta?
+    - Latihan berapa lama?
+    - Durasi per sesi?
+    - Satu sesi berapa lama?
+    - Waktu kegiatan?
+    - Berapa jam per latihan?
+    - Livosta berapa lama?
+    - Lama kegiatan?
+    - Durasi olahraga?
+    - Waktu latihan?
+    - Durasi kegiatan?
+    - Berapa lama per sesi?
+
+- intent: lokasi_kegiatan_livosta
+  examples: |
+    - Livosta biasanya latihan dimana sih?
+    - Dimana latihan voli?
+    - Main voli di lapangan mana?
+    - Tempat latihannya dimana?
+    - Sering latihan dimana?
+    - Lokasi Livosta dimana ya?
+    - Kegiatan Livosta dimana?
+    - Lokasi Livosta dimana?
+    - Latihan dimana?
+    - Tempat kegiatan Livosta?
+    - Livosta dilakukan dimana?
+    - Lokasi Untar Arena?
+    - Tempat latihan?
+    - Dimana lokasi Livosta?
+    - Tempat kegiatan?
+    - Lokasi latihan Livosta?
+    - Tempat olahraga?
+    - Lokasi kegiatan?
+    - Livosta di mana?
+    - Tempat pertemuan?
+    - Kegiatan di Bogor dimana?
+
+- intent: event_livosta
+  examples: |
+    - Livosta ada event apa aja sih?
+    - Ada turnamen ga?
+    - Event besarnya apa?
+    - Livosta sering ikut lomba apa?
+    - Ada kompetisi seru ga?
+    - Event Livosta apa saja?
+    - Ada acara apa saja?
+    - Program Livosta apa?
+    - Apa itu cup internal?
+    - Apa itu makrab?
+    - Event Livosta apa saja?
+    - Acara Livosta apa?
+    - Program besar Livosta?
+    - Event tahunan Livosta?
+    - Ada kegiatan khusus?
+    - Event olahraga?
+    - Kegiatan besar Livosta?
+    - Acara utama Livosta?
+    - Event penting Livosta?
+    - Program spesial Livosta?
+
+- intent: jadwal_event_livosta
+  examples: |
+    - Turnamen Livosta kapan sih?
+    - Event Livosta kapan?
+    - Jadwal lombanya kapan?
+    - Kompetisi diadakan kapan?
+    - Event terdekat kapan?
+    - Makrab Livosta kapan?
+    - Cup internal kapan?
+    - Jadwal event Livosta?
+    - Event bulan apa?
+    - Kapan acara Livosta?
+    - Jadwal kegiatan besar?
+    - Event diadakan kapan?
+    - Jadwal kompetisi?
+    - Kapan kegiatan utama?
+    - Event tahunan kapan?
+    - Jadwal event?
+    - Kapan acara khusus?
+    - Jadwal acara?
+    - Event kapan?
+    - Jadwal makrab?
+
+- intent: fasilitas_livosta
+  examples: |
+    - Livosta nyediain bola ga?
+    - Ada ring sama alat ga?
+    - Fasilitasnya lengkap ga?
+    - Bisa pinjam alat ga?
+    - Tempat latihan disediain ga?
+    - Fasilitas Livosta apa?
+    - Apa saja fasilitasnya?
+    - Ada lapangan?
+    - Ada perlengkapan?
+    - Ada sekretariat?
+    - Fasilitas lengkap?
+    - Apa yang disediakan?
+    - Fasilitas UKM Livosta?
+    - Apakah ada tempat latihan?
+    - Tempat olahraga ada?
+    - Fasilitas voli?
+    - Apa saja alatnya?
+    - Peralatan olahraga ada?
+    - Fasilitas pendukung?
+    - Ada tempat kumpul?
+
+- intent: lokasi_sekre_livosta
+  examples: |
+    - biasanya lokasi ruang sekretariat dimana
+    - boleh tanya lokasi ruang sekretariat dimana
+    - info lokasi ruang sekretariat dimana
+    - lokasi ruang sekretariat dimana
+    - sekretariat Livosta dimana
+    - sekretariat Livosta lantai berapa
+    - Livosta sekretariatnya di lantai berapa
+    - ruang sekre Livosta dimana
+    - ruang sekre Livosta lantai berapa
+
+- intent: benefit_livosta
+  examples: |
+    - Ikut Livosta dapet apa sih?
+    - Bisa jadi lebih jago ga?
+    - Benefit Livosta apa aja?
+    - Worth it ga ikut Livosta?
+    - Bisa ikut lomba ga?
+    - Manfaat Livosta apa?
+    - Keuntungan ikut Livosta?
+    - Benefit Livosta?
+    - Apa yang didapat?
+    - Untung ikut Livosta?
+    - Kelebihan Livosta?
+    - Kenapa ikut Livosta?
+    - Apa manfaat Livosta?
+    - Join Livosta dapat apa?
+    - Apa benefit Livosta?
+    - Livosta membantu apa?
+    - Kegunaan Livosta?
+    - Apa hasil ikut Livosta?
+    - Livosta berguna?
+    - Manfaat join Livosta?
+
+- intent: media_informasi_livosta
+  examples: |
+    - IG Livosta apa sih?
+    - Bisa hubungi Livosta dimana?
+    - Ada kontak admin ga?
+    - Follow Livosta dimana?
+    - Info Livosta liat dimana?
+    - IG Livosta apa?
+    - Instagram Livosta?
+    - Kontak Livosta?
+    - Nomor Livosta?
+    - Sosial media Livosta?
+    - Cara hubungi Livosta?
+    - Info Livosta dimana?
+    - Akun Livosta?
+    - Follow Livosta dimana?
+    - Media Livosta apa?
+    - Kontak resmi Livosta?
+    - DM Livosta?
+    - IG resmi Livosta?
+    - Nomor admin?
+    - Info online Livosta?
+

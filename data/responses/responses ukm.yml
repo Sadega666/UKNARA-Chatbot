@@ -1,0 +1,61 @@
+responses:
+
+  utter_tanya_pengertian_ukm:
+    - text: "UKM atau Unit Kegiatan Mahasiswa adalah organisasi di kampus yang menjadi wadah bagi mahasiswa untuk mengembangkan minat, bakat, kreativitas, serta kemampuan non-akademik."
+    - text: "Unit Kegiatan Mahasiswa (UKM) merupakan organisasi kemahasiswaan yang dibentuk untuk mendukung kegiatan mahasiswa di bidang tertentu seperti olahraga, seni, kerohanian, hingga teknologi."
+    - text: "UKM adalah wadah kegiatan mahasiswa di luar perkuliahan yang bertujuan untuk mengembangkan kemampuan, pengalaman, dan relasi antar mahasiswa."
+
+  utter_tanya_fungsi_ukm:
+    - text: "Fungsi UKM adalah sebagai sarana pengembangan minat, bakat, kreativitas, serta kemampuan organisasi mahasiswa."
+    - text: "UKM berfungsi untuk membantu mahasiswa mengembangkan soft skill, memperluas relasi, dan menyalurkan hobi atau minat tertentu."
+    - text: "Selain sebagai tempat berkegiatan, UKM juga berfungsi membentuk karakter, kerja sama tim, dan jiwa kepemimpinan mahasiswa."
+
+  utter_tanya_tujuan_ukm:
+    - text: "Tujuan UKM adalah untuk mewadahi minat dan bakat mahasiswa agar dapat berkembang secara optimal di bidang akademik maupun non-akademik."
+    - text: "UKM dibentuk untuk mendukung pengembangan kemampuan mahasiswa, baik dalam organisasi, kepemimpinan, maupun keterampilan khusus."
+    - text: "Tujuan adanya UKM yaitu menciptakan lingkungan kampus yang aktif, kreatif, dan mendukung pengembangan diri mahasiswa."
+
+  utter_tanya_jenis_ukm:
+    - text: "Jenis UKM di kampus biasanya terdiri dari UKM olahraga, seni, kerohanian, bela diri, pecinta alam dan lain-lain."
+    - text: "Beberapa contoh UKM yaitu futsal, basket, paduan suara, mapala, rohani, tari, fotografi"
+    - text: "UKM memiliki berbagai bidang sesuai minat mahasiswa, seperti olahraga, seni budaya, organisasi sosial, hingga pecinta alam"
+
+  utter_tanya_manfaat_ikut_ukm:
+    - text: "Mengikuti UKM dapat membantu mahasiswa mengembangkan soft skill, menambah pengalaman, dan memperluas relasi pertemanan."
+    - text: "Manfaat ikut UKM antara lain meningkatkan kemampuan komunikasi, kerja sama tim, kepemimpinan, dan manajemen waktu."
+    - text: "UKM juga bermanfaat untuk menyalurkan minat dan bakat sekaligus menambah pengalaman organisasi selama kuliah."
+
+  utter_tanya_keuntungan_ikut_ukm:
+    - text: "Keuntungan mengikuti UKM adalah mendapatkan pengalaman organisasi, relasi baru, dan pengembangan kemampuan diri."
+    - text: "Mahasiswa yang aktif di UKM biasanya memiliki kemampuan komunikasi dan kepemimpinan yang lebih baik."
+    - text: "Keuntungan bagi mahasiswa yang aktif mengikuti ukm adalah mendapatkan sertifikat untuk dokumen pendukung kelulusan dan membuka jaringan kepada orang orang baru."  
+
+  utter_tanya_kewajiban_ikut_ukm:
+    - text: "Mengikuti UKM biasanya tidak bersifat wajib, namun sangat dianjurkan untuk menambah pengalaman dan kemampuan mahasiswa."
+    - text: "Mahasiswa tidak diwajibkan mengikuti UKM, tetapi ikut dengan mengikutinya dapat memberikan banyak manfaat selama masa kuliah."
+    - text: "UKM bersifat pilihan sesuai minat masing-masing mahasiswa."
+
+  utter_tanya_jumlah_ukm_untar:
+    - text: "Universitas Tarumanagara memiliki berbagai Unit Kegiatan Mahasiswa (UKM) dengan total sebanyak 26 UKM"
+    - text: "UNTAR menyediakan banyak pilihan UKM yang saat ini berjumlah 26 UKM untuk mendukung pengembangan bakat dan minat mahasiswa."
+    - text: "Terdapat 26 UKM di UNTAR yang dapat diikuti mahasiswa sesuai minat dan passion masing-masing."
+
+  utter_tanya_ukm_olahraga:
+    - text: "UKM olahraga biasanya meliputi Futsal, LIBAMA, LBUT, LIVOSTA dan LTMU."
+    - text: "Beberapa contoh UKM olahraga di kampus yaitu LIBAMA, Futsal, LIVOSTA, LBUT dan LTMU."
+
+  utter_tanya_ukm_keagamaan:
+    - text: "UKM keagamaan terdiri dari FUT, Adhyatmaka, POUT, Dharmayana dan KBMK."
+    - text: "Contoh UKM keagamaan biasanya meliputi FUT, Adhyatmaka, POUT, Dharmayana dan KBMK."
+
+  utter_tanya_ukm_mapala:
+    - text: "Mapala adalah UKM pecinta alam yang terdiri dari MAHUPA, MARSIPALA dan MEGA"
+    - text: "UKM Mapala menjadi wadah bagi mahasiswa di UNTAR memiliki 3, yaitu MAHUPA, MARSIPALA dan MEGA"
+ 
+  utter_tanya_ukm_bakat_minat:
+    - text: "UKM bakat dan minat merupakan wadah mahasiswa untuk mengembangkan kemampuan di bidang bakat minat, diantaranya ada BAR, WMKT, Sentra, PSUT, Citra Pesona, Shousin, PFT, FESTA, Radio Untar, TEC."
+    - text: "Contoh UKM bakat minat antara lain BAR, WMKT, Sentra, PSUT, CP, Shousin, PFT, FESTA, Radio Untar, TEC."
+  utter_tanya_ukm_bela_diri:
+    - text: "UKM bela diri biasanya mencakup Wushu, Taekwondo, Jujitsu."
+    - text: "UKM bela diri bertujuan untuk melatih kedisiplinan, kesehatan fisik, dan kemampuan mempertahankan diri."
+    - text: "Mahasiswa dapat mengikuti berbagai organisasi bela diri sesuai minat seperti Wushu, Taekwondo, Jujitsu."

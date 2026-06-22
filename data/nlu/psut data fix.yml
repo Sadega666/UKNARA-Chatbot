@@ -1,0 +1,430 @@
+version: "3.1"
+
+nlu:
+
+- intent: tanya_ukm_psut
+  examples: |
+    - Apa itu UKM PSUT?
+    - PSUT itu apa?
+    - Bisa jelaskan UKM PSUT?
+    - PSUT jenis organisasi apa?
+    - UKM PSUT fokus bidang kegiatan apa?
+    - Apa itu PSUT di kampus?
+    - Jelaskan tentang PSUT
+    - PSUT itu komunitas apa?
+    - Saya ingin tahu tentang PSUT
+    - PSUT fokusnya apa?
+    - Apa peran PSUT di kampus?
+    - PSUT itu tujuan utama organisasi ini apa?
+    - UKM PSUT aktivitas utama yang dilakukan apa?
+    - Apa itu komunitas paduan suara PSUT?
+
+- intent: fungsi_ukm_psut
+  examples: |
+    - peranan organisasi ini bagi mahasiswa apa?
+    - fungsi utama organisasi ini apa?
+    - Apa fungsi UKM PSUT?
+    - Apa fungsi PSUT bagi mahasiswa?
+    - PSUT berfungsi sebagai apa?
+    - Fungsi PSUT?
+    - Apakah fungsi PSUT?
+
+- intent: tujuan_ukm_psut
+  examples: |
+    - tujuan utama dibentuknya organisasi ini apa?
+    - organisasi ini dibuat untuk tujuan apa?
+    - Apa tujuan PSUT?
+    - Tujuan UKM PSUT apa?
+    - PSUT dibuat tujuan utama organisasi ini apa?
+    - Apa manfaat ikut PSUT?
+    - PSUT tujuan utama organisasi ini apa?
+    - Tujuan kegiatan PSUT apa?
+    - PSUT bertujuan apa?
+    - Apa kegunaan PSUT?
+    - Tujuan utama PSUT?
+    - Apakah untuk melatih vokal?
+    - PSUT membantu apa?
+
+- intent: misi_ukm_psut
+  examples: |
+    - program misi utama organisasi ini apa?
+    - apa fokus misi organisasi ini?
+    - Apa misi PSUT?
+    - Misi PSUT?
+    - Apa saja misi PSUT?
+    - Misi PSUT apa?
+    - Misi PSUT apa saja?
+
+- intent: visi_ukm_psut
+  examples: |
+    - arah visi organisasi ini bagaimana?
+    - visi utama organisasi ini apa?
+    - Apa visi PSUT?
+    - Visi PSUT?
+    - Apa saja visi PSUT?
+    - Visi PSUT apa?
+    - Visi PSUT apa saja?
+
+- intent: bidang_ukm_psut
+  examples: |
+    - PSUT fokus bidang kegiatan apa?
+    - Bidang UKM PSUT apa?
+    - Apakah PSUT paduan suara?
+    - PSUT fokus apa?
+    - UKM PSUT fokus utama kegiatan apa?
+    - Apakah PSUT organisasi musik?
+    - PSUT bidangnya apa?
+    - Fokus utama PSUT?
+    - Apakah tentang vokal?
+    - PSUT terkait musik?
+    - PSUT mencakup apa saja?
+    - Apakah belajar nyanyi?
+    - PSUT termasuk komunitas musik?
+    - PSUT fokus vokal?
+    - Bidang utama PSUT?
+
+- intent: boleh_gabung_psut
+  examples: |
+    - Siapa saja boleh gabung PSUT?
+    - Apakah semua mahasiswa bisa join?
+    - Boleh semua fakultas ikut?
+    - Siapa yang bisa join PSUT?
+    - Apakah terbuka untuk semua?
+    - Mahasiswa baru boleh ikut?
+    - Apakah lintas jurusan boleh?
+    - PSUT untuk siapa saja?
+    - Apakah semua semester boleh?
+    - Apakah umum bisa join?
+    - Siapa target anggota PSUT?
+    - Apakah bebas gabung?
+    - Siapa saja bisa daftar?
+    - Apakah PSUT terbuka untuk semua?
+    - Apakah ada batas semester?
+
+- intent: cara_daftar_psut
+  examples: |
+    - Bagaimana cara daftar PSUT?
+    - Cara join PSUT?
+    - Gimana cara masuk PSUT?
+    - Daftar PSUT lewat apa?
+    - Bagaimana proses pendaftaran?
+    - Cara gabung PSUT gimana?
+    - Saya ingin daftar PSUT
+    - Apa langkah daftar PSUT?
+    - Daftar PSUT dimana?
+    - Join lewat gform?
+    - Cara ikut PSUT?
+    - Prosedur masuk PSUT?
+    - Cara registrasi PSUT?
+    - Masuk PSUT bagaimana?
+    - Cara daftar UKM PSUT?
+
+- intent: biaya_daftar_psut
+  examples: |
+    - Biaya PSUT berapa?
+    - Daftar PSUT bayar berapa?
+    - Apakah ada biaya PSUT?
+    - Biaya registrasi PSUT berapa?
+    - Masuk PSUT bayar berapa?
+    - Apakah PSUT gratis?
+    - Biaya join PSUT berapa?
+    - Registrasi PSUT berapa?
+    - Apakah ada uang pendaftaran?
+    - Daftar PSUT perlu bayar?
+    - Berapa uang masuk PSUT?
+    - Biaya anggota PSUT?
+    - PSUT ada biaya?
+    - Join PSUT bayar?
+    - Harga daftar PSUT?
+
+- intent: status_pendaftaran_psut
+  examples: |
+    - Apakah PSUT buka pendaftaran?
+    - PSUT masih buka?
+    - Kapan pendaftaran PSUT dibuka?
+    - Apakah bisa daftar sekarang?
+    - Pendaftaran PSUT tutup atau belum?
+    - Apakah masih bisa join?
+    - PSUT open recruitment?
+    - Kapan open PSUT?
+    - Apakah PSUT sedang open?
+    - Jadwal pendaftaran PSUT kapan?
+    - PSUT buka anggota baru?
+    - Apakah rekrutmen PSUT aktif?
+    - Kapan bisa daftar PSUT?
+    - Apakah PSUT menerima anggota baru?
+    - PSUT buka saat PMB?
+
+- intent: seleksi_psut
+  examples: |
+    - Apakah ada audisi PSUT?
+    - PSUT pakai seleksi?
+    - Harus tes masuk PSUT?
+    - Ada wawancara PSUT?
+    - Seleksi masuk PSUT?
+    - Apakah wajib audisi?
+    - Proses seleksi PSUT?
+    - Ada tahap seleksi?
+    - Apakah langsung diterima?
+    - PSUT ada tes vokal?
+    - Tes nada ada?
+    - Seleksi range vokal?
+    - Apakah diuji tempo?
+    - Tes musik PSUT?
+    - Bagaimana seleksi PSUT?
+
+- intent: syarat_anggota_psut
+  examples: |
+    - Apa syarat masuk PSUT?
+    - Syarat join PSUT apa?
+    - Persyaratan PSUT?
+    - Masuk PSUT harus apa?
+    - Syarat jadi anggota?
+    - Apa ketentuan PSUT?
+    - Syarat gabung PSUT?
+    - Apa yang harus dipenuhi?
+    - Syarat ikut PSUT?
+    - Persyaratan umum PSUT?
+    - Apakah ada syarat khusus?
+    - Harus punya pengalaman organisasi?
+    - Syarat pendaftaran PSUT?
+    - Ketentuan anggota PSUT?
+    - Apa saja syaratnya?
+
+- intent: kemampuan_anggota_psut
+  examples: |
+    - Apakah harus bisa nyanyi?
+    - Perlu skill vokal?
+    - Harus jago nyanyi?
+    - Apakah pemula boleh?
+    - Skill apa yang dibutuhkan?
+    - Harus punya teknik vokal?
+    - Perlu pengalaman paduan suara?
+    - Apakah harus punya basic?
+    - Kemampuan apa yang diperlukan?
+    - Harus bisa nada?
+    - Wajib bisa nyanyi?
+    - Apakah skill penting?
+    - Apakah ada syarat skill?
+    - Bisa belajar dari nol?
+    - Kemampuan anggota bagaimana?
+
+- intent: divisi_psut
+  examples: |
+    - Divisi PSUT apa saja?
+    - Ada bidang apa saja?
+    - Divisi dalam PSUT?
+    - Divisi apa saja?
+    - Divisi internal?
+    - Bagian organisasi?
+    - Unit dalam UKM?
+    - Divisi apa saja?
+
+- intent: struktur_psut
+  examples: |
+    - Struktur organisasi?
+    - Struktur UKM?
+    - Struktur kepengurusan?
+    - Struktur bidang?
+    - Struktur lengkap?
+    - Struktur divisi?
+
+- intent: kegiatan_psut
+  examples: |
+    - Kegiatan PSUT apa saja?
+    - Aktivitas PSUT apa?
+    - PSUT ada kegiatan apa?
+    - Program PSUT apa?
+    - Apa saja kegiatan PSUT?
+    - Event PSUT apa?
+    - Aktivitas UKM PSUT?
+    - PSUT sering ngapain?
+    - Kegiatan rutin PSUT?
+    - Program kerja PSUT?
+    - Apa yang dilakukan PSUT?
+    - Kegiatan anggota PSUT?
+    - PSUT ada event apa?
+    - Aktivitas PSUT sehari-hari?
+    - Apa saja aktivitas PSUT?
+
+- intent: latihan_rutin_psut
+  examples: |
+    - Apa PSUT ada latihan rutin?
+    - Apa saja kegiatan rutin PSUT?
+    - Apakah PSUT ada kegiatan rutin?
+    - PSUT Ada latihan rutin?
+    - PSUT Ada kegiatan rutin?
+
+- intent: jenis_kegiatan_psut
+  examples: |
+    - Apa itu les vokal?
+    - Apa itu konser PSUT?
+    - Apa itu makrab?
+    - PSUT ikut lomba apa?
+    - Jenis kegiatan PSUT?
+    - Program musik apa saja?
+    - Aktivitas vokal apa?
+    - Kegiatan belajar nyanyi?
+    - Ada pelatihan vokal?
+    - Program utama PSUT?
+    - Kegiatan konser?
+    - Event musik?
+    - Apa saja jenis kegiatan?
+    - Program edukasi PSUT?
+    - Kegiatan paduan suara?
+
+- intent: jadwal_kegiatan_psut
+  examples: |
+    - Jadwal PSUT kapan?
+    - PSUT latihan hari apa?
+    - Jadwal kegiatan PSUT?
+    - PSUT aktif kapan?
+    - Hari kegiatan PSUT?
+    - Kapan latihan?
+    - Jadwal rutin PSUT?
+    - PSUT seminggu berapa kali?
+    - Hari apa saja kegiatan?
+    - Jadwal latihan PSUT?
+    - PSUT ada kegiatan kapan?
+    - Kapan pertemuan?
+    - Jadwal belajar?
+    - Jadwal mingguan?
+    - Waktu kegiatan?
+
+- intent: durasi_kegiatan_psut
+  examples: |
+    - Berapa lama kegiatan PSUT?
+    - Durasi latihan PSUT?
+    - Kegiatan berapa jam?
+    - Lama kegiatan PSUT?
+    - PSUT latihan berapa lama?
+    - Durasi pertemuan?
+    - Satu sesi berapa lama?
+    - Waktu kegiatan?
+    - Berapa jam per latihan?
+    - PSUT berapa lama?
+    - Lama kegiatan?
+    - Durasi kelas?
+    - Waktu latihan?
+    - Durasi kegiatan?
+    - Berapa lama per sesi?
+
+- intent: lokasi_kegiatan_psut
+  examples: |
+    - Kegiatan PSUT dimana?
+    - Lokasi PSUT dimana?
+    - Latihan dimana?
+    - Tempat kegiatan PSUT?
+    - PSUT dilakukan dimana?
+    - Lokasi graha swara dimana?
+    - Tempat latihan?
+    - Dimana lokasi PSUT?
+    - Tempat kegiatan?
+    - Lokasi latihan PSUT?
+    - Tempat belajar?
+    - Latihan di gedung M?
+    - Lokasi kegiatan?
+    - PSUT di mana?
+    - Tempat pertemuan?
+
+- intent: event_psut
+  examples: |
+    - Event PSUT apa saja?
+    - Ada acara apa saja?
+    - Program PSUT apa?
+    - Apa itu konser PSUT?
+    - PSUT ikut lomba apa?
+    - Event PSUT apa saja?
+    - Acara PSUT apa?
+    - Program besar PSUT?
+    - Event tahunan PSUT?
+    - Ada kegiatan khusus?
+    - Event musik PSUT?
+    - Kegiatan besar PSUT?
+    - Acara utama PSUT?
+    - Event penting PSUT?
+    - Program spesial PSUT?
+
+- intent: jadwal_event_psut
+  examples: |
+    - Makrab PSUT kapan?
+    - Les vokal kapan?
+    - Konser kapan?
+    - Jadwal event PSUT?
+    - Event bulan apa?
+    - Kapan acara PSUT?
+    - Jadwal kegiatan besar?
+    - Event diadakan kapan?
+    - Jadwal makrab?
+    - Kapan lomba?
+    - Event tahunan kapan?
+    - Jadwal event?
+    - Kapan konser?
+    - Jadwal acara?
+    - Event kapan?
+
+- intent: fasilitas_psut
+  examples: |
+    - Fasilitas PSUT apa?
+    - Apa saja fasilitasnya?
+    - Ada ruang sekretariat?
+    - Ada les vokal?
+    - Ada master class?
+    - Fasilitas lengkap?
+    - Apa yang disediakan?
+    - Fasilitas UKM PSUT?
+    - Apakah ada ruangan?
+    - Tempat kumpul ada?
+    - Fasilitas vokal?
+    - Apa saja fasilitasnya?
+    - Program pelatihan ada?
+    - Fasilitas pendukung?
+    - Ada kelas vokal?
+
+- intent: lokasi_sekre_psut
+  examples: |
+    - biasanya lokasi ruang sekretariat dimana
+    - boleh tanya lokasi ruang sekretariat dimana
+    - info lokasi ruang sekretariat dimana
+    - lokasi ruang sekretariat dimana
+    - sekretariat PSUT dimana
+    - sekretariat PSUT lantai berapa
+    - PSUT sekretariatnya di lantai berapa
+    - ruang sekre PSUT dimana
+    - ruang sekre PSUT lantai berapa
+
+- intent: benefit_psut
+  examples: |
+    - Manfaat PSUT apa?
+    - Keuntungan ikut PSUT?
+    - Benefit PSUT?
+    - Apa yang didapat?
+    - Untung ikut PSUT?
+    - Kelebihan PSUT?
+    - Kenapa ikut PSUT?
+    - Apa manfaat PSUT?
+    - Join PSUT dapat apa?
+    - Apa benefit PSUT?
+    - PSUT membantu apa?
+    - Kegunaan PSUT?
+    - Apa hasil ikut PSUT?
+    - PSUT berguna?
+    - Manfaat join PSUT?
+
+- intent: media_informasi_psut
+  examples: |
+    - IG PSUT apa?
+    - Instagram PSUT?
+    - Kontak PSUT?
+    - Nomor PSUT?
+    - Sosial media PSUT?
+    - Cara hubungi PSUT?
+    - Info PSUT dimana?
+    - Akun PSUT?
+    - Follow PSUT dimana?
+    - Media PSUT apa?
+    - Kontak resmi PSUT?
+    - DM PSUT?
+    - IG resmi PSUT?
+    - Nomor admin?
+    - Info online PSUT?

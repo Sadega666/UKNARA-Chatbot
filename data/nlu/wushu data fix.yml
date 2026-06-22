@@ -1,0 +1,292 @@
+version: "3.1"
+
+nlu:
+
+- intent: tanya_ukm_wushu
+  examples: |
+    - Wushu itu apaan sih?
+    - UKM Wushu tuh kayak gimana sih?
+    - Wushu di kampus ngapain aja sih?
+    - Wushu itu buat apa sih?
+    - Tim Wushu   kampus itu gimana?
+    - Wushu tuh kegiatan apa sih?
+    - Wushu di Untar ngapain aja?
+    - UKM Wushu itu isinya apa?
+    - Apa itu UKM Wushu?
+    - Wushu itu apa?
+    - Bisa jelaskan UKM Wushu?
+    - Wushu jenis organisasi apa?
+    - Apa itu Wushu di kampus?
+    - Jelaskan tentang Wushu
+    - Wushu itu komunitas apa?
+    - Saya ingin tahu tentang Wushu
+    - Apa itu olahraga Wushu?
+
+- intent: fungsi_ukm_wushu
+  examples: |
+    - peranan organisasi ini bagi mahasiswa apa?
+    - fungsi utama organisasi ini apa?
+    - Wushu gunanya apa sih?
+    - Ikut wushu kepake buat apa?
+    - Wushu itu ada manfaatnya ga sih?
+    - Peran wushu di kampus apa?
+    - Wushu itu ngaruh apa sih?
+    - Apa fungsi Wushu?
+    - Fungsi Wushu bagi mahasiswa?
+    - Wushu berfungsi sebagai apa?
+    - Fungsi Wushu?
+    - Apakah fungsi Wushu?
+
+- intent: tujuan_ukm_wushu
+  examples: |
+    - tujuan utama dibentuknya organisasi ini apa?
+    - organisasi ini dibuat untuk tujuan apa?
+    - Wushu tujuannya apa sih?
+    - Ikut wushu biar apa?
+    - Wushu itu pengen capai apa?
+    - Ikut wushu dapet apa?
+    - Wushu buat ngembangin apa sih?
+    - Apa tujuan Wushu?
+    - Tujuan UKM Wushu apa?
+    - Wushu dibuat tujuan utama organisasi ini apa?
+    - Apa manfaat ikut Wushu?
+    - Wushu tujuan utama organisasi ini apa?
+    - Apa fungsi Wushu bagi mahasiswa?
+    - Tujuan kegiatan Wushu apa?
+    - Wushu bertujuan apa?
+    - Apa kegunaan Wushu?
+    - Tujuan utama Wushu?
+
+- intent: misi_wushu
+  examples: |
+    - program misi utama organisasi ini apa?
+    - apa fokus misi organisasi ini?
+    - Misi wushu itu apa sih?
+    - Wushu punya misi apa aja?
+    - Fokus utama wushu apa?
+    - Target wushu itu apa?
+    - Wushu mau ngapain sih tujuannya?
+    - Apa misi Wushu?
+    - Misi Wushu?
+    - Apa saja misi Wushu?
+
+- intent: visi_wushu
+  examples: |
+    - arah visi organisasi ini bagaimana?
+    - visi utama organisasi ini apa?
+    - Visi wushu itu apa sih?
+    - Wushu mau jadi apa kedepannya?
+    - Cita-cita wushu apa?
+    - Arah wushu itu kemana?
+    - Wushu pengen berkembang kemana?
+    - Apa visi Wushu?
+    - Visi Wushu?
+    - Apa saja visi Wushu?
+
+- intent: bidang_ukm_wushu
+  examples: |
+    - Wushu itu bela diri ya?
+    - Wushu lebih ke olahraga atau seni sih?
+    - Wushu itu fokusnya apa?
+    - Wushu ada sanda ya?
+    - Wushu itu olahraga keras ga?
+    - Wushu fokus bidang kegiatan apa?
+    - Bidang UKM Wushu apa?
+    - Apakah Wushu bela diri?
+    - Wushu fokus apa?
+    - UKM Wushu fokus utama kegiatan apa?
+
+- intent: boleh_gabung_wushu
+  examples: |
+    - Semua orang bisa masuk wushu ga?
+    - Anak baru boleh ikut wushu ga?
+    - Pemula boleh join ga?
+    - Yang belum bisa boleh ikut?
+    - Semua jurusan bisa ikut ga?
+    - Siapa saja boleh gabung Wushu?
+    - Apakah semua mahasiswa bisa join?
+    - Boleh semua fakultas ikut?
+    - Siapa yang bisa join Wushu?
+
+- intent: cara_daftar_wushu
+  examples: |
+    - Cara masuk wushu gimana sih?
+    - Mau join wushu harus ngapain?
+    - Daftar wushu ribet ga?
+    - Ikut wushu mulai dari mana?
+    - Link daftarnya ada ga?
+    - Bagaimana cara daftar Wushu?
+    - Cara join Wushu?
+    - Gimana cara masuk Wushu?
+    - Daftar Wushu lewat apa?
+
+- intent: biaya_daftar_wushu
+  examples: |
+    - Masuk wushu bayar ga sih?
+    - Join wushu mahal ga?
+    - Wushu gratis atau bayar?
+    - Ada biaya bulanan ga?
+    - Ikut wushu keluar duit berapa?
+    - Biaya Wushu berapa?
+    - Daftar Wushu bayar berapa?
+    - Apakah ada biaya Wushu?
+
+- intent: status_pendaftaran_wushu
+  examples: |
+    - Wushu lagi buka ga sih?
+    - Masih bisa daftar wushu ga?
+    - Sekarang open ga?
+    - Lagi nerima anggota baru ga?
+    - Pendaftaran masih ada?
+    - Apakah Wushu buka pendaftaran?
+    - Wushu masih buka?
+    - Kapan pendaftaran Wushu dibuka?
+
+- intent: syarat_anggota_wushu
+  examples: |
+    - Masuk wushu syaratnya apa sih?
+    - Harus bisa dulu ga?
+    - Ada syarat khusus ga?
+    - Perlu skill tertentu ga?
+    - Harus ikut seleksi ga?
+    - Apa syarat masuk Wushu?
+    - Syarat join Wushu apa?
+    - Persyaratan Wushu?
+
+- intent: kemampuan_anggota_wushu
+  examples: |
+    - Harus jago wushu ga sih?
+    - Perlu skill khusus ga?
+    - Bisa dari nol ga?
+    - Harus punya pengalaman?
+    - Pemula boleh ikut?
+    - Apakah harus jago Wushu?
+    - Perlu skill khusus?
+    - Harus bisa bela diri?
+
+- intent: divisi_wushu
+  examples: |
+    - Di wushu ada divisi apa aja sih?
+    - Ada pembagian tim ga?
+    - Struktur divisinya gimana?
+    - Ada bidang khusus ga?
+    - Divisinya apa aja?
+    - Divisi wushu apa saja?
+
+- intent: struktur_wushu
+  examples: |
+    - Struktur wushu gimana sih?
+    - Kepengurusannya kayak apa?
+    - Ada ketua dan divisi ya?
+    - Susunan organisasinya gimana?
+    - Struktur lengkapnya apa aja?
+    - Struktur organisasi?
+
+- intent: kegiatan_wushu
+  examples: |
+    - Wushu biasanya ngapain aja sih?
+    - Kegiatannya seru ga?
+    - Ada latihan sama sparring ya?
+    - Anak wushu sering ngapain?
+    - Ada event juga ga?
+    - Kegiatan Wushu apa saja?
+    - Aktivitas Wushu apa?
+
+- intent: kegiatan_latihan_wushu
+  examples: |
+    - Ada latihan rutin ga sih?
+    - Latihan tiap minggu ada?
+    - Sering latihan ga?
+    - Jadwal rutinnya gimana?
+    - Latihan wajib ga?
+    - Adakah latihan rutin?
+    - Apa kegiatan rutin Wushu?
+
+- intent: jadwal_latihan_wushu
+  examples: |
+    - Wushu latihan kapan sih?
+    - Jadwalnya hari apa?
+    - Latihan seminggu berapa kali?
+    - Kapan biasanya latihan?
+    - Jadwalnya tetap ga?
+    - Jadwal Wushu kapan?
+    - Latihan hari apa?
+
+- intent: durasi_kegiatan_wushu
+  examples: |
+    - Latihan wushu berapa jam sih?
+    - Sekali latihan lama ga?
+    - Durasinya berapa lama?
+    - Satu sesi berapa jam?
+    - Latihan capek ga dan lama ga?
+    - Berapa lama latihan Wushu?
+    - Durasi latihan?
+
+- intent: lokasi_kegiatan_wushu
+  examples: |
+    - Latihan wushu dimana sih?
+    - Di GOR mana latihannya?
+    - Tempat latihannya dimana?
+    - Indoor atau outdoor?
+    - Lokasinya di kampus?
+    - Kegiatan Wushu dimana?
+    - Lokasi Wushu dimana?
+
+- intent: event_wushu
+  examples: |
+    - Event wushu apa aja sih?
+    - Ada acara apa aja?
+    - Kegiatan besar wushu apa?
+    - Ada kompetisi juga ga?
+    - Eventnya seru ga?
+    - Event Wushu apa saja?
+    - Ada acara apa saja?
+
+- intent: jadwal_event_wushu
+  examples: |
+    - Event wushu kapan sih?
+    - Jadwal acaranya kapan?
+    - Event bulan apa?
+    - Ada event dalam waktu dekat?
+    - Jadwal kompetisinya kapan?
+    - Event Wushu kapan?
+    - Jadwal event Wushu?
+
+- intent: fasilitas_wushu
+  examples: |
+    - Wushu nyediain alat ga sih?
+    - Ada fasilitas apa aja?
+    - Peralatan disediain ga?
+    - Bisa pinjam alat ga?
+    - Fasilitasnya lengkap ga?
+    - Fasilitas Wushu apa?
+
+- intent: lokasi_sekre_wushu
+  examples: |
+    - biasanya lokasi ruang sekretariat dimana
+    - boleh tanya lokasi ruang sekretariat dimana
+    - info lokasi ruang sekretariat dimana
+    - lokasi ruang sekretariat dimana
+    - sekretariat wushu dimana
+    - sekretariat wushu lantai berapa
+    - wushu sekretariatnya di lantai berapa
+    - ruang sekre wushu dimana
+    - ruang sekre wushu lantai berapa
+
+- intent: benefit_wushu
+  examples: |
+    - Ikut wushu dapet apa sih?
+    - Benefitnya apa aja?
+    - Worth it ga ikut wushu?
+    - Bisa jadi lebih kuat ga?
+    - Melatih mental juga ga?
+    - Manfaat Wushu apa?
+
+- intent: media_informasi_wushu
+  examples: |
+    - IG wushu apa sih?
+    - Bisa hubungi wushu dimana?
+    - Ada kontak admin ga?
+    - Follow wushu dimana?
+    - Info lengkapnya liat dimana?
+    - IG Wushu apa?

@@ -1,0 +1,150 @@
+responses:
+
+  utter_tanya_ukm_pout:
+  - text: |
+      UKM POUT adalah unit kegiatan mahasiswa yang bergerak di bidang keagamaan persekutuan oikumene, yaitu gabungan dari berbagai aliran Kristen. 
+      UKM ini berfokus pada pelayanan dan belajar bersama dalam iman.
+
+  utter_fungsi_ukm_pout:
+  - text: |
+      Fungsi UKM POUT adalah sebagai wadah bagi mahasiswa untuk bertumbuh secara rohani, membangun persekutuan, serta melayani bersama dalam lingkungan kampus.
+
+  utter_tujuan_ukm_pout:
+  - text: |
+      Tujuan UKM POUT adalah untuk pelayanan serta belajar bersama dalam iman, sehingga anggota dapat berkembang secara spiritual dan memiliki hubungan yang lebih dekat dengan Tuhan.
+
+  utter_misi_pout:
+  - text: |
+      Misi UKM POUT adalah membangun persekutuan yang kuat, meningkatkan kehidupan rohani mahasiswa, serta mendorong pelayanan yang aktif di lingkungan kampus.
+
+  utter_visi_pout:
+  - text: |
+      Visi UKM POUT adalah menjadi wadah persekutuan mahasiswa yang solid, bertumbuh dalam iman, serta berdampak positif melalui pelayanan.
+
+  utter_bidang_ukm_pout:
+  - text: |
+      UKM POUT bergerak di bidang keagamaan, khususnya persekutuan oikumene yang mencakup berbagai aliran Kristen.
+
+  utter_boleh_gabung_pout:
+  - text: |
+      UKM POUT terbuka bagi mahasiswa yang memiliki ketertarikan dalam kegiatan rohani dan persekutuan. 
+      Umumnya ditujukan bagi mahasiswa Kristen, namun tetap terbuka untuk yang ingin belajar dan bersekutu.
+
+  utter_cara_daftar_pout:
+  - text: |
+      Cara daftar UKM POUT:
+      - Mengisi data diri melalui Google Form
+      - Mengikuti proses pendaftaran yang dibuka pada periode Agustus hingga Oktober
+
+  utter_biaya_daftar_pout:
+  - text: |
+      Untuk informasi biaya pendaftaran UKM POUT, silakan cek informasi terbaru melalui Instagram resmi atau hubungi contact person via DM.
+
+  utter_status_pendaftaran_pout:
+  - text: |
+      Pendaftaran UKM POUT biasanya dibuka pada bulan Agustus hingga Oktober.
+
+  utter_seleksi_pout:
+  - text: |
+      Ya, terdapat proses seleksi di UKM POUT berupa tes karunia rohani untuk mengetahui potensi dan pelayanan yang sesuai bagi anggota.
+
+  utter_syarat_anggota_pout:
+  - text: |
+      Syarat menjadi anggota UKM POUT:
+      - Memiliki komitmen dalam mengikuti kegiatan
+      - Mengikuti tes karunia rohani
+
+  utter_kemampuan_anggota_pout:
+  - text: |
+      Tidak perlu memiliki skill khusus untuk bergabung. 
+      Semua anggota dapat belajar bersama, namun akan diarahkan sesuai karunia rohani masing-masing.
+
+  utter_divisi_pout:
+  - text: |
+      Divisi dalam UKM POUT meliputi:
+      - Acara
+      - PUDOK
+      - Kelompok Kecil
+      - Doa & Pemerhati
+      - Praise & Worship
+
+  utter_struktur_pout:
+  - text: |
+      Struktur UKM POUT terdiri dari badan pengurus harian inti dan berbagai divisi seperti acara, pelayanan doa, hingga praise & worship yang saling bekerja sama.
+
+  utter_kegiatan_pout:
+  - text: |
+      Kegiatan UKM POUT meliputi:
+      - Persekutuan Jumat
+      - Welcoming Day
+      - Perayaan Natal
+      - Paskah POUT
+      - POUT Camp
+
+  utter_kegiatan_rutin_pout:
+  - text: |
+      Kegiatan rutin UKM POUT adalah Persekutuan Jumat yang diadakan setiap minggu,
+      sebagai wadah ibadah dan kebersamaan anggota.
+
+  utter_jenis_kegiatan_pout:
+  - text: |
+      Jenis kegiatan UKM POUT mencakup:
+      - Ibadah dan persekutuan
+      - Pelayanan rohani
+      - Kegiatan kebersamaan seperti camp dan event keagamaan
+
+  utter_durasi_kegiatan_pout:
+  - text: |
+      Durasi kegiatan:
+      - Persekutuan Jumat berlangsung sekitar 2 jam (11.00 – 13.00)
+      - Event seperti camp berlangsung 3 hari 2 malam
+
+  utter_lokasi_kegiatan_pout:
+  - text: |
+      Lokasi kegiatan UKM POUT:
+      - Kegiatan rutin di kampus Untar
+      - Kegiatan khusus seperti camp di Puncak
+
+  utter_event_pout:
+  - text: |
+      Event UKM POUT antara lain:
+      - Welcoming Day (Agustus)
+      - Natal (November)
+      - Paskah POUT (April)
+      - POUT Camp (Mei)
+  
+  utter_jadwal_rutin_pout:
+  - text: |
+        Kegiatan rutin UKM POUT yaitu Persekutuan Jumat yang dilaksanakan setiap hari Jumat pukul 11.00 - 13.00 di kampus Universitas Tarumanagara.
+
+  utter_jadwal_event_pout:
+  - text: |
+      Jadwal event UKM POUT:
+      - Welcoming Day: Agustus
+      - Natal: November
+      - Paskah POUT: April
+      - POUT Camp: Mei
+
+  utter_fasilitas_pout:
+  - text: |
+      Fasilitas UKM POUT meliputi:
+      - Ruangan khusus untuk Persekutuan Jumat
+      - Ruang Sekretariat
+
+  utter_lokasi_sekre_pout:
+  - text: | 
+      Lokasi ruang sekretariat POUT terletak di Untar Kampus 1, Gedung M, Lantai 2
+
+  utter_benefit_pout:
+  - text: |
+      Manfaat mengikuti UKM POUT:
+      - Bertumbuh secara rohani
+      - Menambah relasi dan persekutuan
+      - Belajar pelayanan
+      - Mengembangkan diri sesuai karunia rohani
+
+  utter_media_informasi_pout:
+  - text: |
+      Untuk informasi lebih lanjut tentang UKM POUT:
+      - Update tersedia di Instagram @po_untar
+      - Contact person dapat dihubungi melalui DM Instagram

@@ -1,0 +1,558 @@
+version: "3.1"
+
+nlu:
+
+- intent: tanya_ukm_futsal
+  examples: |
+    - Futsal itu apaan sih?
+    - UKM futsal tuh kayak gimana sih?
+    - Futsal di kampus ngapain aja sih?
+    - Futsal itu buat apa sih?
+    - Tim futsal kampus itu gimana?
+    - Apa itu UKM Futsal?
+    - Futsal itu apa?
+    - Bisa jelaskan UKM Futsal?
+    - UKM Futsal jenis organisasi apa?
+    - Futsal di kampus itu apa?
+    - Jelaskan tentang UKM Futsal
+    - Futsal termasuk UKM apa?
+    - Saya ingin tahu tentang Futsal?
+
+- intent: fungsi_ukm_futsal
+  examples: |
+    - peranan organisasi ini bagi mahasiswa apa?
+    - fungsi utama organisasi ini apa?
+    - Futsal gunanya apa sih?
+    - Peran futsal buat mahasiswa apa?
+    - Futsal itu ngaruh apa sih?
+    - UKM futsal itu kepake buat apa?
+    - Fungsi futsal di kampus apa ya?
+    - Apa fungsi UKM Futsal?
+    - Apa fungsi Fungsi bagi mahasiswa?
+    - Futsal berfungsi sebagai apa?
+    - Fungsi Futsal?
+    - Apakah fungsi Futsal?
+
+- intent: tujuan_ukm_futsal
+  examples: |
+    - tujuan utama dibentuknya organisasi ini apa?
+    - organisasi ini dibuat untuk tujuan apa?
+    - Futsal tujuannya apa sih?
+    - Ikut futsal biar apa?
+    - Futsal itu pengen capai apa?
+    - Tujuan ikut futsal apa ya?
+    - Futsal itu buat pengembangan apa sih?
+    - Apa tujuan UKM Futsal?
+    - Tujuan Futsal kampus apa?
+    - Futsal dibuat tujuan utama organisasi ini apa?
+    - Apa manfaat ikut UKM Futsal?
+    - Tujuan utama Futsal apa?
+    - UKM Futsal bertujuan apa?
+    - Futsal tujuan utama organisasi ini apa?
+    - Apa kegunaan ikut Futsal?
+    - Futsal membantu apa?
+    - Apa misi Futsal?
+    - Manfaat olahraga futsal?
+    - Futsal untuk pengembangan apa?
+
+- intent: misi_ukm_futsal
+  examples: |
+    - program misi utama organisasi ini apa?
+    - apa fokus misi organisasi ini?
+    - Misi futsal itu apa sih?
+    - Futsal punya misi apa aja?
+    - Fokus utama futsal apa?
+    - Misi tim futsal apa ya?
+    - Target futsal itu apa?
+    - Apa misi Futsal?
+    - Misi Futsal?
+    - Apa saja misi Futsal?
+    - Misi Futsal apa?
+    - Misi Futsal apa saja?
+
+- intent: visi_ukm_futsal
+  examples: |
+    - arah visi organisasi ini bagaimana?
+    - visi utama organisasi ini apa?
+    - Visi futsal itu apa sih?
+    - Futsal mau jadi apa kedepannya?
+    - Tujuan jangka panjang futsal apa?
+    - Arah futsal itu kemana?
+    - Cita-cita tim futsal apa?
+    - Apa visi Futsal?
+    - Visi Futsal?
+    - Apa saja visi Futsal?
+    - Visi Futsal apa?
+    - Visi Futsal apa saja?
+
+- intent: bidang_ukm_futsal
+  examples: |
+    - Futsal itu fokusnya olahraga ya?
+    - UKM futsal itu sport banget ya?
+    - Futsal lebih ke kompetisi ya?
+    - Futsal itu olahraga tim kan?
+    - Fokusnya ke fisik dan game ya?
+    - Futsal fokus bidang kegiatan apa?
+    - UKM Futsal bidangnya apa?
+    - Apakah Futsal olahraga?
+    - Futsal termasuk bidang apa?
+    - Futsal fokusnya apa?
+    - UKM Futsal fokus utama kegiatan apa?
+    - Futsal termasuk olahraga tim?
+    - Bidang utama Futsal?
+    - Futsal fokus fisik?
+    - Apakah ini olahraga kompetitif?
+    - Futsal mencakup apa saja?
+    - Futsal termasuk sport?
+    - Bidang UKM Futsal?
+    - Futsal kegiatan olahraga?
+    - Fokus UKM Futsal apa?
+
+- intent: boleh_gabung_futsal
+  examples: |
+    - Semua orang bisa masuk futsal ga?
+    - Anak baru boleh ikut futsal ga?
+    - Bebas join futsal ga sih?
+    - Semua jurusan bisa ikut ga?
+    - Yang ga jago boleh masuk ga?
+    - Siapa saja boleh gabung Futsal?
+    - Apakah semua mahasiswa bisa ikut?
+    - Mahasiswa baru boleh ikut?
+    - Apakah lintas jurusan boleh?
+    - Siapa yang bisa join Futsal?
+    - Apakah terbuka untuk semua?
+    - Semua fakultas boleh ikut?
+    - Futsal untuk siapa saja?
+    - Apakah semua semester boleh?
+    - Siapa target anggota Futsal?
+    - Apakah bebas gabung?
+    - Boleh umum ikut?
+    - Apakah semua bisa daftar?
+    - Apakah Futsal terbuka?
+    - Apakah siapa saja bisa join?
+
+- intent: cara_daftar_futsal
+  examples: |
+    - Cara masuk futsal gimana sih?
+    - Mau join futsal harus ngapain?
+    - Daftar futsal ribet ga?
+    - Ikut futsal mulai dari mana?
+    - Gimana biar bisa gabung futsal?
+    - Bagaimana cara daftar Futsal?
+    - Cara join Futsal?
+    - Gimana cara masuk Futsal?
+    - Daftar Futsal lewat apa?
+    - Bagaimana proses pendaftaran?
+    - Cara gabung Futsal gimana?
+    - Saya ingin daftar Futsal
+    - Apa langkah daftar Futsal?
+    - Daftar Futsal dimana?
+    - Join lewat gform?
+    - Cara ikut Futsal?
+    - Prosedur masuk Futsal?
+    - Cara registrasi Futsal?
+    - Masuk Futsal bagaimana?
+    - Cara daftar UKM Futsal?
+
+- intent: biaya_daftar_futsal
+  examples: |
+    - Masuk futsal bayar ga sih?
+    - Join futsal mahal ga?
+    - Futsal gratis atau bayar?
+    - Ada biaya latihan ga?
+    - Ikut futsal butuh uang berapa?
+    - Biaya Futsal berapa?
+    - Daftar Futsal bayar berapa?
+    - Apakah ada biaya Futsal?
+    - Biaya registrasi Futsal berapa?
+    - Masuk Futsal bayar berapa?
+    - Apakah Futsal gratis?
+    - Biaya join Futsal berapa?
+    - Registrasi Futsal berapa?
+    - Apakah ada uang pendaftaran?
+    - Daftar Futsal perlu bayar?
+    - Berapa uang masuk Futsal?
+    - Biaya anggota Futsal?
+    - Futsal ada biaya?
+    - Join Futsal bayar?
+    - Harga daftar Futsal?
+
+- intent: status_pendaftaran_futsal
+  examples: |
+    - Futsal lagi buka ga sih?
+    - Masih bisa daftar futsal ga?
+    - Sekarang futsal open ga?
+    - Lagi nerima anggota baru ga?
+    - Rekrutmen futsal masih ada?
+    - Apakah Futsal buka pendaftaran?
+    - Futsal masih buka?
+    - Kapan pendaftaran Futsal dibuka?
+    - Apakah bisa daftar sekarang?
+    - Pendaftaran Futsal tutup atau belum?
+    - Apakah masih bisa join?
+    - Futsal open recruitment?
+    - Kapan open Futsal?
+    - Apakah Futsal sedang open?
+    - Jadwal pendaftaran Futsal kapan?
+    - Futsal buka anggota baru?
+    - Apakah rekrutmen Futsal aktif?
+    - Kapan bisa daftar Futsal?
+    - Apakah Futsal menerima anggota baru?
+    - Futsal buka saat PMB?
+
+- intent: syarat_anggota_futsal
+  examples: |
+    - Masuk futsal syaratnya apa sih?
+    - Harus bisa main dulu ga?
+    - Ada syarat khusus ga?
+    - Gabung futsal harus apa aja?
+    - Perlu pengalaman ga?
+    - Apa syarat masuk Futsal?
+    - Syarat join Futsal apa?
+    - Persyaratan Futsal?
+    - Masuk Futsal harus apa?
+    - Syarat jadi anggota?
+    - Apa ketentuan Futsal?
+    - Syarat gabung Futsal?
+    - Apa yang harus dipenuhi?
+    - Syarat ikut Futsal?
+    - Persyaratan umum Futsal?
+    - Apakah ada syarat khusus?
+    - Harus bisa main?
+    - Syarat pendaftaran Futsal?
+    - Ketentuan anggota Futsal?
+    - Apa saja syaratnya?
+
+- intent: kemampuan_anggota_futsal
+  examples: |
+    - Harus jago dulu ga?
+    - Pemula boleh masuk ga?
+    - Harus bisa basic futsal ga?
+    - Bisa belajar dari nol ga?
+    - Skill penting ga sih?
+    - Apakah harus jago futsal?
+    - Perlu skill khusus?
+    - Harus bisa main bola?
+    - Skill apa yang dibutuhkan?
+    - Harus punya pengalaman?
+    - Apakah pemula boleh?
+    - Perlu kemampuan tertentu?
+    - Harus atlet?
+    - Skill bermain futsal?
+    - Harus bisa teknik dasar?
+    - Apakah skill penting?
+    - Bisa belajar dari nol?
+    - Apakah ada seleksi skill?
+    - Kemampuan anggota bagaimana?
+    - Skill untuk Futsal?
+
+- intent: divisi_futsal
+  examples: |
+    - Di futsal ada divisi apa aja sih?
+    - Ada tim inti sama cadangan ga?
+    - Divisi futsal gimana?
+    - Ada pembagian posisi ga?
+    - Struktur timnya gimana?
+    - Divisi Futsal apa saja?
+    - Ada bidang apa saja?
+    - Divisi dalam Futsal?
+    - Divisi apa saja?
+    - Divisi internal?
+    - Bagian organisasi?
+    - Unit dalam UKM?
+    - Divisi apa saja?
+
+- intent: struktur_futsal
+  examples: |
+    - Struktur futsal gimana sih?
+    - Kepengurusannya kayak apa?
+    - Ada ketua tim ga?
+    - Susunan organisasinya gimana?
+    - Struktur organisasi?
+    - Struktur UKM?
+    - Struktur kepengurusan?
+    - Struktur bidang?
+    - Struktur lengkap?
+    - Struktur divisi?
+
+- intent: kegiatan_futsal
+  examples: |
+    - Futsal biasanya ngapain aja sih?
+    - Anak futsal sering latihan apa?
+    - Ada tanding juga ga?
+    - Kegiatan futsal seru ga?
+    - Futsal sering main apa?
+    - Kegiatan Futsal apa saja?
+    - Aktivitas Futsal apa?
+    - Futsal ada kegiatan apa?
+    - Program Futsal apa?
+    - Apa saja kegiatan Futsal?
+    - Event Futsal apa?
+    - Aktivitas UKM Futsal?
+    - Futsal sering ngapain?
+    - Kegiatan rutin Futsal?
+    - Program kerja Futsal?
+    - Apa yang dilakukan Futsal?
+    - Kegiatan anggota Futsal?
+    - Futsal ada event apa?
+    - Aktivitas Futsal sehari-hari?
+    - Apa saja aktivitas Futsal?
+
+- intent: latihan_rutin_futsal
+  examples: |
+    - Ada latihan rutin ga sih?
+    - Futsal rutin latihan ga?
+    - Latihan tiap minggu ada?
+    - Sering latihan ga?
+    - Jadwal rutinnya ada ga?
+    - Apa ada latihan rutin?
+    - Apa saja kegiatan rutinnya?
+    - Apakah ada kegiatan rutin?
+    - Ada latihan rutin?
+    - Ada kegiatan rutin?
+
+- intent: sparring_futsal
+  examples: |
+    - Ada sparing lawan tim lain ga?
+    - Futsal sering sparring ga?
+    - Bisa tanding ga?
+    - Ada uji coba pertandingan ga?
+    - Sparring rutin ada?
+    - Apa ada sparring?
+    - Apa saja kegiatan sparring?
+    - Apakah ada kegiatan sparring?
+    - Ada sparring?
+    - Ada kegiatan sparring?
+
+- intent: liga_futsal
+  examples: |
+    - Futsal ikut liga ga?
+    - Ada kompetisi resmi ga?
+    - Ikut turnamen antar kampus ga?
+    - Ada liga internal ga?
+    - Futsal sering ikut lomba ga?
+    - Apa ada liga?
+    - Apa saja kegiatan liga?
+    - Apakah ada kegiatan liga?
+    - Ada liga?
+    - Ada kegiatan liga?
+
+- intent: jenis_kegiatan_futsal
+  examples: |
+    - Kegiatan futsal ada apa aja sih?
+    - Ada latihan sama turnamen ya?
+    - Jenis kegiatannya apa aja?
+    - Program futsal apa aja?
+    - Kegiatan olahraga apa aja?
+    - Apa itu latihan Futsal?
+    - Apa itu sparring Futsal?
+    - Apa itu turnamen Futsal?
+    - Jenis kegiatan Futsal?
+    - Program olahraga apa saja?
+    - Aktivitas latihan apa?
+    - Kegiatan bola apa?
+    - Ada pertandingan?
+    - Program utama Futsal?
+    - Kegiatan fisik apa?
+    - Event olahraga?
+    - Apa saja jenis kegiatan?
+    - Program latihan Futsal?
+    - Kegiatan kompetisi?
+    - Aktivitas olahraga apa saja?
+
+- intent: jadwal_kegiatan_futsal
+  examples: |
+    - Futsal biasanya latihan kapan sih?
+    - Jadwal kegiatannya gimana?
+    - Latihan hari apa?
+    - Kapan aktifnya?
+    - Kegiatannya sering kapan?
+    - Jadwal Futsal kapan?
+    - Futsal latihan hari apa?
+    - Jadwal kegiatan Futsal?
+    - Futsal aktif kapan?
+    - Jadwal latihan kapan?
+    - Jadwal rutin Futsal?
+    - Futsal ada kegiatan kapan?
+    - Kapan latihan futsal?
+    - Jadwal acara Futsal?
+    - Jadwal kegiatan?
+    - Kapan aktif?
+    - Jadwal program?
+    - Kapan kegiatan utama?
+    - Jadwal mingguan?
+    - Waktu kegiatan?
+
+- intent: durasi_kegiatan_futsal
+  examples: |
+    - Latihan futsal berapa jam sih?
+    - Sekali latihan lama ga?
+    - Durasi latihan biasanya berapa?
+    - Main futsal berapa lama?
+    - Satu sesi berapa jam?
+    - Berapa lama latihan Futsal?
+    - Durasi latihan?
+    - Kegiatan berapa jam?
+    - Lama kegiatan Futsal?
+    - Latihan berapa lama?
+    - Durasi per sesi?
+    - Satu sesi berapa lama?
+    - Waktu kegiatan?
+    - Berapa jam per latihan?
+    - Futsal berapa lama?
+    - Lama kegiatan?
+    - Durasi olahraga?
+    - Waktu latihan?
+    - Durasi kegiatan?
+    - Berapa lama per sesi?
+
+- intent: lokasi_kegiatan_futsal
+  examples: |
+    - Futsal biasanya main dimana sih?
+    - Dimana latihan futsal?
+    - Latihan di lapangan mana?
+    - Tempat latihannya dimana?
+    - Sering main dimana?
+    - Lokasi futsal dimana ya?
+    - Kegiatan Futsal dimana?
+    - Lokasi Futsal dimana?
+    - Latihan dimana?
+    - Tempat kegiatan Futsal?
+    - Futsal dilakukan dimana?
+    - Lokasi lapangan futsal?
+    - Tempat latihan?
+    - Dimana lokasi Futsal?
+    - Tempat kegiatan?
+    - Lokasi latihan Futsal?
+    - Tempat olahraga?
+    - Lokasi kegiatan?
+    - Futsal di mana?
+    - Tempat pertemuan?
+    - Lapangan dimana?
+
+- intent: event_futsal
+  examples: |
+    - Futsal ada event apa aja sih?
+    - Ada turnamen ga?
+    - Event besarnya apa?
+    - Futsal sering ikut lomba apa?
+    - Ada kompetisi seru ga?
+    - Event Futsal apa saja?
+    - Ada acara apa saja?
+    - Program Futsal apa?
+    - Apa itu turnamen Futsal?
+    - Event Futsal apa saja?
+    - Acara Futsal apa?
+    - Program besar Futsal?
+    - Event tahunan Futsal?
+    - Ada kegiatan khusus?
+    - Event olahraga?
+    - Kegiatan besar Futsal?
+    - Acara utama Futsal?
+    - Event penting Futsal?
+    - Program spesial Futsal?
+    - Kompetisi Futsal apa?
+
+- intent: jadwal_event_futsal
+  examples: |
+    - Turnamen futsal kapan sih?
+    - Event futsal kapan?
+    - Jadwal lombanya kapan?
+    - Kompetisi diadakan kapan?
+    - Event terdekat kapan?
+    - Turnamen Futsal kapan?
+    - Event Futsal kapan?
+    - Jadwal event Futsal?
+    - Event bulan apa?
+    - Kapan acara Futsal?
+    - Jadwal kegiatan besar?
+    - Event diadakan kapan?
+    - Jadwal kompetisi?
+    - Kapan kegiatan utama?
+    - Event tahunan kapan?
+    - Jadwal event?
+    - Kapan acara khusus?
+    - Jadwal acara?
+    - Event kapan?
+    - Jadwal turnamen?
+
+- intent: fasilitas_futsal
+  examples: |
+    - Futsal disediain lapangan ga?
+    - Ada bola sama alat ga?
+    - Fasilitasnya lengkap ga?
+    - Bisa pinjam alat ga?
+    - Tempat latihan disediain ga?
+    - Fasilitas Futsal apa?
+    - Apa saja fasilitasnya?
+    - Ada lapangan?
+    - Ada bola?
+    - Ada perlengkapan?
+    - Fasilitas lengkap?
+    - Apa yang disediakan?
+    - Fasilitas UKM Futsal?
+    - Apakah ada tempat latihan?
+    - Tempat olahraga ada?
+    - Fasilitas futsal?
+    - Apa saja alatnya?
+    - Peralatan olahraga ada?
+    - Fasilitas pendukung?
+    - Ada tempat kumpul?
+
+- intent: lokasi_sekre_futsal
+  examples: |
+    - biasanya lokasi ruang sekretariat dimana
+    - boleh tanya lokasi ruang sekretariat dimana
+    - info lokasi ruang sekretariat dimana
+    - lokasi ruang sekretariat dimana
+    - sekretariat futsal dimana
+    - sekretariat futsal lantai berapa
+    - futsal sekretariatnya di lantai berapa
+    - ruang sekre futsal dimana
+    - ruang sekre futsal lantai berapa
+
+- intent: benefit_futsal
+  examples: |
+    - Ikut futsal dapet apa sih?
+    - Bisa jadi lebih jago ga?
+    - Benefit futsal apa aja?
+    - Worth it ga ikut futsal?
+    - Bisa ikut lomba ga?
+    - Manfaat Futsal apa?
+    - Keuntungan ikut Futsal?
+    - Benefit Futsal?
+    - Apa yang didapat?
+    - Untung ikut Futsal?
+    - Kelebihan Futsal?
+    - Kenapa ikut Futsal?
+    - Apa manfaat Futsal?
+    - Join Futsal dapat apa?
+    - Apa benefit Futsal?
+    - Futsal membantu apa?
+    - Kegunaan Futsal?
+    - Apa hasil ikut Futsal?
+    - Futsal berguna?
+    - Manfaat join Futsal?
+
+- intent: media_informasi_futsal
+  examples: |
+    - IG futsal apa sih?
+    - Bisa hubungi futsal dimana?
+    - Ada kontak admin ga?
+    - Follow futsal dimana?
+    - Info futsal liat dimana?
+    - IG Futsal apa?
+    - Instagram Futsal?
+    - Kontak Futsal?
+    - Nomor Futsal?
+    - Sosial media Futsal?
+    - Cara hubungi Futsal?
+    - Info Futsal dimana?
+    - Akun Futsal?
+    - Follow Futsal dimana?
+    - Media Futsal apa?
+    - Kontak resmi Futsal?
+    - DM Futsal?
+    - IG resmi Futsal?
+    - Nomor admin?
+    - Info online Futsal?

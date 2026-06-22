@@ -1,0 +1,345 @@
+version: "3.1"
+
+nlu:
+- intent: tanya_ukm_bar
+  examples: |
+    - Apa itu UKM BAR?
+    - BAR itu apa?
+    - Bisa jelaskan UKM BAR?
+    - BAR itu organisasi apa?
+    - UKM BAR fokus bidang apa?
+    - Apa itu BAR di Untar?
+    - Jelaskan tentang BAR
+    - BAR itu komunitas apa?
+    - Saya ingin tahu tentang BAR
+    - BAR fokusnya apa?
+    - Apa peran BAR di kampus?
+    - BAR bergerak di bidang apa?
+    - Aktivitas utama UKM BAR apa?
+    - Apa itu komunitas musik BAR?
+    - BAR termasuk UKM apa?
+
+- intent: fungsi_ukm_bar
+  examples: |
+    - fungsi utama UKM BAR apa?
+    - BAR berfungsi sebagai apa?
+    - Apa fungsi BAR?
+    - Fungsi BAR bagi mahasiswa?
+    - Peranan BAR di kampus apa?
+    - Kegunaan UKM BAR apa?
+    - Apa manfaat adanya BAR?
+    - BAR membantu mahasiswa dalam hal apa?
+    - Fungsi organisasi BAR apa?
+    - BAR dibuat untuk apa?
+
+- intent: tujuan_ukm_bar
+  examples: |
+    - tujuan utama UKM BAR apa?
+    - BAR bertujuan apa?
+    - Apa tujuan BAR?
+    - Tujuan kegiatan BAR apa?
+    - Organisasi BAR dibuat untuk apa?
+    - Apa kegunaan UKM BAR?
+    - Tujuan dibentuknya BAR apa?
+    - BAR membantu mengembangkan apa?
+    - Apa target utama UKM BAR?
+    - Tujuan organisasi musik BAR apa?
+
+- intent: visi_bar
+  examples: |
+    - Apa visi BAR?
+    - Visi UKM BAR apa?
+    - Visi BAR bagaimana?
+    - Apa saja visi BAR?
+    - Visi utama UKM BAR apa?
+    - Arah visi organisasi BAR bagaimana?
+    - BAR memiliki visi apa?
+    - Tujuan jangka panjang BAR apa?
+    - Visi organisasi musik BAR apa?
+    - Fokus visi BAR apa?
+
+- intent: misi_bar
+  examples: |
+    - Apa misi BAR?
+    - Misi UKM BAR apa?
+    - Apa saja misi BAR?
+    - Program misi BAR apa?
+    - Fokus misi BAR apa?
+    - BAR memiliki misi apa?
+    - Misi organisasi BAR bagaimana?
+    - Apa tujuan misi BAR?
+    - Misi utama UKM BAR apa?
+    - BAR menjalankan misi apa saja?
+
+- intent: bidang_ukm_bar
+  examples: |
+    - BAR fokus bidang apa?
+    - UKM BAR bergerak di bidang apa?
+    - BAR termasuk organisasi musik?
+    - BAR fokus musik apa?
+    - Bidang utama BAR apa?
+    - BAR mencakup kegiatan apa saja?
+    - UKM BAR tentang musik ya?
+    - BAR termasuk seni musik?
+    - Fokus utama BAR apa?
+    - BAR bidang kesenian apa?
+
+- intent: boleh_gabung_bar
+  examples: |
+    - siapa saja boleh gabung BAR?
+    - apakah semua mahasiswa boleh masuk BAR?
+    - mahasiswa baru boleh ikut BAR?
+    - apakah semua jurusan boleh join BAR?
+    - apakah lintas fakultas bisa ikut BAR?
+    - BAR terbuka untuk siapa saja?
+    - apakah cowok dan cewek boleh masuk BAR?
+    - apakah semua semester bisa ikut BAR?
+    - apakah pemula boleh join BAR?
+    - siapa target anggota BAR?
+
+- intent: cara_daftar_bar
+  examples: |
+    - bagaimana cara daftar BAR?
+    - cara join BAR bagaimana?
+    - bagaimana masuk UKM BAR?
+    - daftar BAR lewat apa?
+    - prosedur masuk BAR bagaimana?
+    - saya ingin daftar BAR
+    - langkah daftar UKM BAR apa?
+    - daftar BAR dimana?
+    - cara registrasi BAR bagaimana?
+    - bagaimana proses pendaftaran BAR?
+
+- intent: biaya_daftar_bar
+  examples: |
+    - biaya daftar BAR berapa?
+    - apakah masuk BAR bayar?
+    - biaya registrasi BAR berapa?
+    - join BAR bayar berapa?
+    - apakah ada uang pendaftaran BAR?
+    - daftar BAR perlu bayar tidak?
+    - biaya anggota BAR berapa?
+    - apakah BAR gratis?
+    - harga daftar UKM BAR berapa?
+    - biaya masuk UKM BAR ada tidak?
+
+- intent: status_pendaftaran_bar
+  examples: |
+    - apakah BAR buka pendaftaran?
+    - BAR masih open recruitment?
+    - kapan pendaftaran BAR dibuka?
+    - apakah masih bisa join BAR?
+    - BAR sedang buka anggota baru?
+    - kapan open recruitment BAR?
+    - apakah BAR menerima anggota baru?
+    - jadwal pendaftaran BAR kapan?
+    - BAR lagi open tidak?
+    - kapan bisa daftar UKM BAR?
+
+- intent: syarat_anggota_bar
+  examples: |
+    - apa syarat masuk BAR?
+    - syarat join BAR apa?
+    - persyaratan anggota BAR apa?
+    - apa ketentuan masuk BAR?
+    - syarat daftar BAR bagaimana?
+    - apa yang harus dipenuhi untuk join BAR?
+    - syarat umum anggota BAR apa?
+    - apakah ada syarat khusus masuk BAR?
+    - komitmen anggota BAR bagaimana?
+    - ketentuan anggota UKM BAR apa?
+
+- intent: kemampuan_anggota_bar
+  examples: |
+    - apakah harus bisa musik?
+    - apakah pemula boleh masuk BAR?
+    - harus jago alat musik?
+    - skill apa yang dibutuhkan di BAR?
+    - apakah wajib bisa gitar?
+    - apakah non musisi boleh join?
+    - perlu basic musik untuk masuk BAR?
+    - apakah harus punya pengalaman band?
+    - kemampuan anggota BAR bagaimana?
+    - apakah wajib bisa menyanyi?
+
+- intent: divisi_bar
+  examples: |
+    - divisi BAR apa saja?
+    - ada bidang apa saja di BAR?
+    - bagian organisasi BAR apa saja?
+    - unit dalam UKM BAR apa?
+    - struktur divisi BAR bagaimana?
+    - divisi performer BAR apa?
+    - divisi studio BAR apa?
+    - divisi kreatif BAR apa?
+    - divisi eo BAR apa?
+    - BAR punya divisi apa saja?
+
+- intent: struktur_bar
+  examples: |
+    - struktur organisasi BAR bagaimana?
+    - struktur kepengurusan BAR apa?
+    - susunan pengurus BAR bagaimana?
+    - jabatan di BAR apa saja?
+    - struktur lengkap BAR bagaimana?
+    - sistem kepengurusan BAR bagaimana?
+    - pengurus BAR dipilih bagaimana?
+    - posisi dalam organisasi BAR apa saja?
+    - struktur divisi BAR bagaimana?
+    - organisasi BAR tersusun bagaimana?
+
+- intent: kegiatan_bar
+  examples: |
+    - kegiatan BAR apa saja?
+    - aktivitas UKM BAR apa?
+    - program kerja BAR apa?
+    - BAR sering ngapain?
+    - kegiatan anggota BAR apa saja?
+    - aktivitas rutin BAR apa?
+    - event BAR apa saja?
+    - apa yang dilakukan anggota BAR?
+    - program kegiatan UKM BAR apa?
+    - kegiatan musik BAR apa saja?
+
+- intent: kegiatan_rutin_bar
+  examples: |
+    - apakah BAR punya kegiatan rutin?
+    - kegiatan rutin BAR apa saja?
+    - aktivitas rutin anggota BAR apa?
+    - ada latihan rutin di BAR?
+    - kegiatan mingguan BAR apa?
+    - program rutin UKM BAR apa?
+    - kegiatan harian BAR apa?
+    - rutinitas anggota BAR bagaimana?
+    - kegiatan wajib anggota BAR apa?
+    - apa saja agenda rutin BAR?
+
+- intent: jadwal_latihan_bar
+  examples: |
+    - jadwal latihan BAR kapan?
+    - BAR latihan hari apa?
+    - kapan latihan UKM BAR?
+    - latihan BAR seminggu berapa kali?
+    - jadwal latihan anggota BAR bagaimana?
+    - latihan musik BAR kapan?
+    - hari latihan UKM BAR apa saja?
+    - kapan latihan rutin BAR?
+    - latihan band di BAR kapan?
+    - jadwal studio latihan BAR kapan?
+
+- intent: durasi_kegiatan_bar
+  examples: |
+    - latihan BAR berapa lama?
+    - durasi latihan BAR berapa jam?
+    - satu sesi latihan BAR berapa lama?
+    - kegiatan BAR biasanya berapa jam?
+    - waktu latihan UKM BAR berapa lama?
+    - lama kegiatan BAR bagaimana?
+    - pertemuan BAR berapa lama?
+    - latihan musik BAR berlangsung berapa jam?
+    - sesi kegiatan BAR berapa lama?
+    - durasi kegiatan UKM BAR apa?
+
+- intent: lokasi_kegiatan_bar
+  examples: |
+    - latihan BAR dimana?
+    - lokasi UKM BAR dimana?
+    - tempat latihan BAR dimana?
+    - studio musik BAR dimana?
+    - lokasi kegiatan BAR dimana?
+    - tempat kumpul anggota BAR dimana?
+    - ruang latihan BAR dimana?
+    - sekretariat BAR dimana?
+    - studio latihan anggota BAR dimana?
+    - lokasi basecamp BAR dimana?
+
+- intent: event_bar
+  examples: |
+    - event BAR apa saja?
+    - acara BAR apa saja?
+    - program besar BAR apa?
+    - kegiatan besar UKM BAR apa?
+    - event tahunan BAR apa?
+    - BAR punya acara musik apa?
+    - kegiatan khusus BAR apa?
+    - event utama UKM BAR apa?
+    - acara rutin BAR apa?
+    - gathering BAR apa saja?
+
+- intent: jadwal_event_bar
+  examples: |
+    - kapan event BAR diadakan?
+    - jadwal acara BAR kapan?
+    - event tahunan BAR kapan?
+    - jadwal kegiatan besar BAR apa?
+    - kapan acara musik BAR?
+    - jadwal event UKM BAR bagaimana?
+    - event BAR bulan apa?
+    - kapan gathering BAR?
+    - acara utama BAR kapan?
+    - jadwal program BAR kapan?
+
+- intent: fasilitas_bar
+  examples: |
+    - fasilitas BAR apa saja?
+    - apa saja fasilitas UKM BAR?
+    - apakah BAR punya studio musik?
+    - fasilitas studio BAR lengkap?
+    - ada ruang sekretariat BAR?
+    - alat musik BAR apa saja?
+    - tempat latihan BAR bagaimana?
+    - fasilitas anggota BAR apa?
+    - BAR menyediakan alat musik?
+    - basecamp BAR ada?
+
+- intent: lokasi_sekre_bar
+  examples: |
+    - lokasi sekretariat BAR dimana?
+    - ruang sekre BAR dimana?
+    - sekretariat UKM BAR lantai berapa?
+    - ruang organisasi BAR dimana?
+    - sekre BAR ada dimana?
+    - lokasi ruang sekretariat UKM BAR apa?
+    - tempat sekretariat BAR dimana?
+    - posisi ruang sekre BAR dimana?
+    - sekretariat BAR terletak dimana?
+    - ruang kumpul BAR dimana?
+
+- intent: prestasi_bar
+  examples: |
+    - prestasi BAR apa saja?
+    - BAR pernah juara apa?
+    - pencapaian UKM BAR apa?
+    - BAR pernah menang lomba?
+    - penghargaan BAR apa saja?
+    - kompetisi yang dimenangkan BAR apa?
+    - prestasi anggota BAR apa?
+    - achievement UKM BAR apa?
+    - BAR punya prestasi musik apa?
+    - keberhasilan BAR di bidang musik apa?
+
+- intent: benefit_bar
+  examples: |
+    - manfaat ikut BAR apa?
+    - keuntungan join BAR apa?
+    - benefit UKM BAR apa?
+    - apa yang didapat setelah join BAR?
+    - pengalaman apa yang didapat di BAR?
+    - manfaat anggota BAR apa?
+    - kelebihan ikut UKM BAR apa?
+    - join BAR dapat apa?
+    - kegunaan ikut BAR apa?
+    - BAR membantu mengembangkan apa?
+
+- intent: media_informasi_bar
+  examples: |
+    - instagram BAR apa?
+    - kontak UKM BAR dimana?
+    - line official BAR apa?
+    - sosial media BAR apa?
+    - bagaimana cara hubungi BAR?
+    - akun resmi BAR apa?
+    - info online BAR dimana?
+    - nomor admin BAR berapa?
+    - media informasi UKM BAR apa?
+    - dm BAR lewat mana?

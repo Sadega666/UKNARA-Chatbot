@@ -1,0 +1,110 @@
+responses:
+
+  utter_tanya_ukm_psut:
+    - text: |
+        UKM PSUT merupakan Unit Kegiatan Mahasiswa yang bergerak di bidang musik, khususnya vokal seperti paduan suara. UKM ini bertujuan untuk melatih anggota dalam bernyanyi secara sehat sesuai dengan teknik paduan suara yang baik dan benar.
+
+  utter_fungsi_ukm_psut:
+    - text: |
+        Fungsi UKM PSUT adalah sebagai wadah pengembangan kemampuan vokal mahasiswa serta sarana untuk meningkatkan soft skill melalui kegiatan organisasi dan seni musik.
+
+  utter_tujuan_ukm_psut:
+    - text: |
+        Tujuan UKM PSUT adalah melatih anggota dalam teknik bernyanyi yang benar, meningkatkan kualitas vokal, serta membentuk kemampuan kerja sama dalam paduan suara.
+
+  utter_misi_ukm_psut:
+    - text: |
+        Misi UKM PSUT adalah mengembangkan kemampuan vokal anggota, meningkatkan kualitas musikalitas, serta membangun kerja sama tim dalam kegiatan paduan suara.
+
+  utter_visi_ukm_psut:
+    - text: |
+        Visi UKM PSUT adalah menjadi wadah pengembangan paduan suara yang berkualitas, profesional, dan berprestasi di tingkat internal maupun eksternal.
+
+  utter_bidang_ukm_psut:
+    - text: |
+        UKM PSUT bergerak di bidang seni musik, khususnya vokal dan paduan suara.
+
+  utter_boleh_gabung_psut:
+    - text: |
+        UKM PSUT terbuka bagi mahasiswa aktif program S1 Universitas Tarumanagara hingga maksimal semester 5.
+
+  utter_cara_daftar_psut:
+    - text: |
+        Pendaftaran UKM PSUT dilakukan dengan mengisi formulir pendaftaran (Google Form) yang dibuka pada periode PMB dan Open House, kemudian dilanjutkan dengan tahap wawancara dan audisi.
+
+  utter_biaya_daftar_psut:
+    - text: |
+        Biaya pendaftaran UKM PSUT sebesar Rp30.000.
+
+  utter_status_pendaftaran_psut:
+    - text: |
+        Pendaftaran UKM PSUT biasanya dibuka pada periode PMB dan Open House. Informasi terbaru dapat diperoleh melalui media sosial resmi UKM PSUT.
+
+  utter_seleksi_psut:
+  - text: |
+      Proses seleksi UKM PSUT meliputi wawancara dan audisi yang mencakup penilaian
+      kepekaan nada, jangkauan vokal (range), dan kemampuan tempo.
+  
+  utter_syarat_anggota_psut:
+    - text: |
+        Persyaratan menjadi anggota UKM PSUT antara lain memiliki pengalaman dalam berorganisasi dan bersosialisasi, serta memiliki kemampuan dasar yang relevan, khususnya untuk divisi tertentu seperti pelitur.
+
+  utter_kemampuan_anggota_psut:
+    - text: |
+        Setiap anggota wajib memiliki beberapa kemampuan yang meliputi penilaian kepekaan nada, jangkauan vokal (range), dan kemampuan tempo.
+
+  utter_divisi_psut:
+    - text: |
+        UKM PSUT memiliki beberapa divisi, yaitu Humas, Pelitur, ArtDok, dan Perkap.
+
+  utter_struktur_psut:
+    - text: |
+        Struktur organisasi UKM PSUT terdiri dari badan pengurus harian inti serta beberapa divisi yang memiliki peran dalam menjalankan program kerja UKM.
+
+  utter_kegiatan_psut:
+    - text: |
+        Kegiatan UKM PSUT meliputi latihan rutin untuk persiapan penampilan, serta kegiatan lain seperti makrab, les vokal, konser, dan mengikuti perlombaan.
+
+  utter_latihan_psut:
+    - text: |
+        Kegiatan rutin UKM PSUT berupa latihan vokal yang dilakukan secara berkala untuk mempersiapkan berbagai penampilan atau job paduan suara.
+
+  utter_jenis_kegiatan_psut:
+    - text: |
+        Jenis kegiatan UKM PSUT meliputi latihan paduan suara, les vokal, konser, kegiatan keakraban (makrab), serta partisipasi dalam lomba.
+
+  utter_jadwal_kegiatan_psut:
+    - text: |
+        Jadwal kegiatan UKM PSUT umumnya dilaksanakan pada pukul 17.30 hingga 21.00 dengan hari yang disesuaikan.
+
+  utter_durasi_kegiatan_psut:
+    - text: |
+        Durasi kegiatan latihan UKM PSUT berlangsung sekitar 3 hingga 4 jam dalam satu pertemuan.
+
+  utter_lokasi_kegiatan_psut:
+    - text: |
+        Kegiatan latihan UKM PSUT dilaksanakan di Graha Swara, Gedung M lantai 8.
+
+  utter_event_psut:
+    - text: |
+        UKM PSUT memiliki beberapa kegiatan utama seperti makrab, konser mid-year, les vokal, serta mengikuti perlombaan eksternal.
+
+  utter_jadwal_event_psut:
+    - text: |
+        Jadwal kegiatan UKM PSUT antara lain makrab yang dilaksanakan pada bulan September selama 3 hari 2 malam, les vokal yang diadakan dua kali dalam setahun (sekitar bulan Juni dan Desember), serta konser mid-year.
+
+  utter_fasilitas_psut:
+    - text: |
+        UKM PSUT menyediakan fasilitas berupa ruang sekretariat, program les vokal, serta master class sebagai sarana pengembangan anggota.
+
+  utter_lokasi_sekre_psut:
+  - text: | 
+      Lokasi ruang sekretariat PSUT terletak di Untar Kampus 1, Gedung M, Lantai 2
+
+  utter_benefit_psut:
+    - text: |
+        Manfaat bergabung dengan UKM PSUT antara lain meningkatkan kemampuan vokal, mendapatkan pelatihan profesional melalui les vokal dan master class, serta menambah pengalaman organisasi dan relasi.
+
+  utter_media_informasi_psut:
+    - text: |
+        Informasi terbaru mengenai UKM PSUT dapat diperoleh melalui Instagram resmi @ps_untar. Untuk informasi lebih lanjut, dapat menghubungi contact person di nomor +62 822-1822-4029 (Puan Yasyfa).

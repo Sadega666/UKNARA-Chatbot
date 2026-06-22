@@ -1,0 +1,127 @@
+responses:
+
+  utter_tanya_ukm_fut:
+  - text: |
+      UKM FUT (Forum Ukhuwah Tarumanagara) adalah organisasi mahasiswa yang bergerak di bidang keagamaan Islam. 
+      FUT menjadi wadah bagi mahasiswa untuk mempererat ukhuwah (persaudaraan), belajar agama, serta mengembangkan diri dalam kegiatan islami.
+
+  utter_fungsi_ukm_fut:
+  - text: |
+      Fungsi UKM FUT adalah sebagai tempat pembinaan rohani, mempererat hubungan antar mahasiswa muslim, serta menjadi sarana dakwah di lingkungan kampus.
+
+  utter_tujuan_ukm_fut:
+  - text: |
+      Tujuan UKM FUT adalah membentuk mahasiswa yang berakhlak baik, memiliki pemahaman agama yang kuat, serta mampu berkontribusi positif di lingkungan kampus.
+
+  utter_misi_fut:
+  - text: |
+      Misi UKM FUT adalah meningkatkan pemahaman keislaman, mempererat ukhuwah antar anggota, serta aktif dalam kegiatan dakwah dan pengembangan diri mahasiswa.
+
+  utter_visi_fut:
+  - text: |
+      Visi UKM FUT adalah menjadi wadah pembinaan mahasiswa muslim yang aktif, berakhlak mulia, dan berkontribusi dalam lingkungan kampus.
+
+  utter_bidang_ukm_fut:
+  - text: |
+      UKM FUT bergerak di bidang keagamaan Islam, khususnya dalam pembinaan, dakwah, dan penguatan ukhuwah antar mahasiswa.
+
+  utter_boleh_gabung_fut:
+  - text: |
+      UKM FUT terbuka bagi mahasiswa muslim yang ingin belajar dan berkembang dalam kegiatan keislaman. 
+      Mahasiswa dari berbagai jurusan dan angkatan dapat bergabung.
+
+  utter_cara_daftar_fut:
+  - text: |
+      Cara daftar UKM FUT biasanya:
+      - Mengisi formulir pendaftaran (Google Form)
+      - Mengikuti kegiatan open recruitment atau pengenalan UKM
+
+  utter_biaya_daftar_fut:
+  - text: |
+      Untuk informasi biaya pendaftaran UKM FUT, biasanya dapat dicek melalui media sosial resmi atau saat open recruitment berlangsung.
+
+  utter_status_pendaftaran_fut:
+  - text: |
+      Pendaftaran UKM FUT biasanya dibuka saat periode awal semester atau saat kegiatan open recruitment UKM.
+
+  utter_syarat_anggota_fut:
+  - text: |
+      Syarat bergabung UKM FUT umumnya:
+      - Mahasiswa aktif
+      - Memiliki minat dalam kegiatan keislaman
+      - Bersedia mengikuti kegiatan dan aturan yang berlaku
+
+  utter_komitmen_fut:
+  - text: |
+      Anggota UKM FUT diharapkan memiliki komitmen untuk aktif mengikuti kegiatan seperti kajian, pembinaan, dan event lainnya.
+
+  utter_divisi_fut:
+  - text: |
+      UKM FUT biasanya memiliki beberapa divisi seperti:
+      - Dakwah / Kajian
+      - Humas
+      - Media
+      - Acara
+      (Dapat berbeda tergantung kepengurusan)
+
+  utter_struktur_fut:
+  - text: |
+      Struktur UKM FUT terdiri dari badan pengurus harian inti serta berbagai divisi yang bekerja sama dalam menjalankan program kerja organisasi.
+
+  utter_kegiatan_fut:
+  - text: |
+      Kegiatan UKM FUT meliputi:
+      - Kajian keislaman
+      - Kegiatan dakwah
+      - Event keagamaan
+      - Kegiatan kebersamaan antar anggota
+
+  utter_kegiatan_rutin_fut:
+  - text: |
+      Kegiatan rutin UKM FUT biasanya berupa kajian atau pembinaan keislaman yang dilakukan secara berkala.
+
+  utter_jenis_kegiatan_fut:
+  - text: |
+      Jenis kegiatan UKM FUT meliputi:
+      - Kajian islami
+      - Dakwah kampus
+      - Pembinaan anggota
+      - Event keagamaan
+
+  utter_jadwal_rutin_fut:
+  - text: |
+      Jadwal kegiatan rutin UKM FUT biasanya diumumkan melalui media sosial atau grup internal anggota.
+
+  utter_lokasi_kegiatan_fut:
+  - text: |
+      Kegiatan UKM FUT biasanya dilaksanakan di lingkungan kampus, seperti ruang kelas atau tempat ibadah kampus.
+
+  utter_event_fut:
+  - text: |
+      Event UKM FUT biasanya meliputi kegiatan keagamaan seperti seminar, kajian besar, dan acara islami lainnya.
+
+  utter_jadwal_event_fut:
+  - text: |
+      Jadwal event UKM FUT diumumkan secara berkala melalui media sosial resmi atau pengurus.
+
+  utter_fasilitas_fut:
+  - text: |
+      Fasilitas UKM FUT biasanya berupa tempat kegiatan seperti ruang kajian atau fasilitas kampus lainnya.
+
+  utter_lokasi_sekre_fut:
+  - text: | 
+      Lokasi ruang sekretariat FUT terletak di Untar Kampus 1, Gedung M, Lantai 2
+
+  utter_benefit_fut:
+  - text: |
+      Manfaat mengikuti UKM FUT:
+      - Menambah ilmu agama
+      - Memperluas relasi
+      - Mengembangkan diri
+      - Memperkuat iman dan akhlak
+
+  utter_media_informasi_fut:
+  - text: |
+      Untuk informasi lebih lanjut:
+      - Cek Instagram resmi @futuntar
+      - Atau hubungi pengurus UKM FUT

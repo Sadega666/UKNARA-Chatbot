@@ -1,0 +1,134 @@
+version: "3.1"
+
+responses:
+
+  utter_tanya_ukm_wmkt:
+    - text: |
+        UKM WMKT adalah unit kegiatan mahasiswa yang berfokus pada pengembangan kedisiplinan, kepemimpinan, mental, dan karakter mahasiswa. 
+        WMKT juga menjadi wadah pembinaan organisasi dan pengembangan diri mahasiswa di lingkungan kampus.
+
+  utter_fungsi_ukm_wmkt:
+    - text: |
+        Fungsi UKM WMKT adalah sebagai wadah pembinaan mahasiswa dalam meningkatkan kedisiplinan, tanggung jawab, kepemimpinan, serta kemampuan bekerja sama dalam organisasi.
+
+  utter_tujuan_ukm_wmkt:
+    - text: |
+        Tujuan UKM WMKT adalah membentuk mahasiswa yang disiplin, bertanggung jawab, memiliki jiwa kepemimpinan, serta mampu bekerja sama dan berorganisasi dengan baik.
+
+  utter_misi_ukm_wmkt:
+    - text: |
+        Saat ini belum ada informasi spesifik mengenai misi UKM WMKT. 
+        Namun secara umum WMKT berfokus pada pembentukan karakter, kedisiplinan, dan kepemimpinan mahasiswa.
+
+  utter_visi_ukm_wmkt:
+    - text: |
+        Saat ini belum ada informasi spesifik mengenai visi UKM WMKT. 
+        WMKT berorientasi pada pengembangan karakter dan kepemimpinan mahasiswa secara berkelanjutan.
+
+  utter_bidang_ukm_wmkt:
+    - text: |
+        UKM WMKT bergerak di bidang pengembangan karakter, kedisiplinan, kepemimpinan, dan organisasi mahasiswa. 
+        Kegiatannya berfokus pada pelatihan mental, teamwork, dan pembentukan sikap disiplin.
+
+  utter_boleh_gabung_wmkt:
+    - text: |
+        UKM WMKT terbuka untuk seluruh mahasiswa dari berbagai fakultas dan jurusan. 
+        Mahasiswa baru maupun mahasiswa aktif dapat bergabung selama mengikuti ketentuan organisasi.
+
+  utter_cara_daftar_wmkt:
+    - text: |
+        Cara mendaftar UKM WMKT:
+        1. Mengisi formulir pendaftaran
+        2. Melengkapi data diri sesuai ketentuan
+        3. Mengikuti proses seleksi atau kegiatan pengenalan anggota
+
+  utter_biaya_daftar_wmkt:
+    - text: |
+        Informasi mengenai biaya pendaftaran UKM WMKT biasanya diumumkan saat open recruitment berlangsung. 
+        Silakan cek media sosial resmi WMKT untuk informasi terbaru.
+
+  utter_status_pendaftaran_wmkt:
+    - text: |
+        Informasi pembukaan pendaftaran UKM WMKT biasanya diumumkan melalui media sosial resmi WMKT. 
+        Silakan cek Instagram atau kontak resmi WMKT untuk update open recruitment terbaru.
+
+  utter_syarat_anggota_wmkt:
+    - text: |
+        Syarat menjadi anggota UKM WMKT:
+        - Mahasiswa aktif
+        - Mengikuti proses pendaftaran
+        - Bersedia mengikuti kegiatan organisasi
+        - Memiliki komitmen dan tanggung jawab sebagai anggota
+
+  utter_komitmen_wmkt:
+    - text: |
+        UKM WMKT menekankan pentingnya komitmen, kedisiplinan, dan tanggung jawab anggota. 
+        Anggota diharapkan aktif mengikuti kegiatan dan menjaga sikap organisasi dengan baik.
+
+  utter_divisi_wmkt:
+    - text: |
+        UKM WMKT memiliki beberapa divisi untuk mendukung kegiatan organisasi dan program kerja. 
+        Informasi detail mengenai divisi biasanya dijelaskan saat open recruitment atau pengenalan anggota baru.
+
+  utter_struktur_wmkt:
+    - text: |
+        Struktur organisasi UKM WMKT terdiri dari pengurus inti dan beberapa divisi yang mendukung jalannya organisasi. 
+        Informasi detail struktur kepengurusan dapat diperoleh melalui media sosial atau pengurus WMKT.
+
+  utter_kegiatan_wmkt:
+    - text: |
+        Kegiatan UKM WMKT meliputi:
+        - Pelatihan kedisiplinan
+        - Pembinaan karakter
+        - Kegiatan kepemimpinan
+        - Bakti sosial
+        - Kegiatan organisasi dan teamwork
+
+  utter_jenis_kegiatan_wmkt:
+    - text: |
+        Jenis kegiatan UKM WMKT meliputi:
+        - Diksar (Pendidikan Dasar)
+        - KKM
+        - HUT WMKT
+        - Pelatihan kepemimpinan
+        - Kegiatan sosial dan organisasi
+
+  utter_jadwal_kegiatan_wmkt:
+    - text: |
+        Jadwal kegiatan UKM WMKT biasanya disesuaikan dengan program kerja dan periode organisasi. 
+        Informasi jadwal terbaru dapat dilihat melalui media sosial resmi WMKT.
+
+  utter_lokasi_kegiatan_wmkt:
+    - text: |
+        Kegiatan UKM WMKT dilaksanakan di berbagai lokasi, seperti:
+        - Lingkungan kampus
+        - Lingkungan Masyarakat
+        - Lokasi outdoor untuk kegiatan tertentu umumnya di Bogor
+        - Area kegiatan sosial dan pembinaan
+
+  utter_fasilitas_wmkt:
+    - text: |
+        Fasilitas UKM WMKT meliputi:
+        - Ruang sekretariat
+        - Tempat kegiatan organisasi
+        - Media pelatihan dan pembinaan
+        - Area diskusi dan koordinasi anggota
+
+  utter_lokasi_sekre_wmkt:
+    - text: | 
+        Lokasi ruang sekretariat WMKT terletak di Untar Kampus 1, Gedung M, Lantai 2
+
+
+  utter_benefit_wmkt:
+    - text: |
+        Benefit mengikuti UKM WMKT:
+        - Melatih kedisiplinan dan tanggung jawab
+        - Mengembangkan jiwa kepemimpinan
+        - Menambah relasi dan pengalaman organisasi
+        - Melatih teamwork dan komunikasi
+        - Membentuk karakter dan mental yang lebih baik
+
+  utter_media_informasi_wmkt:
+    - text: |
+        Informasi UKM WMKT dapat diakses melalui:
+        - DM Instagram resmi WMKT @wmkt_untar untuk info dan pertanyaan lebih lanjut

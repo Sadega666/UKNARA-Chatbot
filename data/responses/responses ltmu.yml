@@ -1,0 +1,153 @@
+version: "3.1"
+
+responses:
+
+  utter_tanya_ukm_ltmu:
+  - text: |
+      UKM LTMU adalah Unit Kegiatan Mahasiswa di Universitas Tarumanagara yang bergerak di bidang olahraga, khususnya tenis meja putra dan putri. 
+      UKM ini menjadi wadah bagi mahasiswa yang memiliki minat dan bakat di olahraga tenis meja untuk berlatih, berkembang, dan berprestasi.
+
+  utter_fungsi_ukm_ltmu:
+  - text: |
+      Fungsi UKM LTMU adalah sebagai sarana bagi mahasiswa untuk menyalurkan minat dan bakat di bidang tenis meja, meningkatkan kemampuan bermain, 
+      serta membangun kerja sama dan relasi antar anggota melalui kegiatan olahraga.
+
+  utter_tujuan_ukm_ltmu:
+  - text: |
+      Tujuan UKM LTMU adalah mewadahi mahasiswa dalam mengembangkan kemampuan di bidang tenis meja, baik untuk rekreasi maupun prestasi, 
+      serta menciptakan lingkungan yang aktif dan sportif.
+
+  utter_misi_ukm_ltmu:
+  - text: |
+      Misi UKM LTMU adalah meningkatkan kemampuan anggota dalam tenis meja, mempererat kebersamaan antar anggota, 
+      serta aktif mengikuti berbagai kegiatan seperti latihan, sparing, dan kompetisi.
+
+  utter_visi_ukm_ltmu:
+  - text: |
+      Visi UKM LTMU adalah menjadi UKM olahraga tenis meja yang aktif, kompetitif, dan mampu menghasilkan anggota yang berprestasi 
+      serta menjunjung tinggi sportivitas.
+
+  utter_bidang_ukm_ltmu:
+  - text: |
+      UKM LTMU bergerak di bidang olahraga, khususnya tenis meja untuk putra dan putri.
+
+  utter_boleh_gabung_ltmu:
+  - text: |
+      Ya, UKM LTMU terbuka untuk semua mahasiswa aktif Universitas Tarumanagara dari berbagai jurusan dan angkatan 
+      yang memiliki minat di bidang tenis meja.
+
+  utter_cara_daftar_ltmu:
+  - text: |
+      Cara daftar UKM LTMU cukup mudah, yaitu dengan mengisi data diri melalui Google Form yang disediakan saat open recruitment. 
+      Pendaftaran biasanya dibuka saat PMB dan Open House.
+
+  utter_biaya_daftar_ltmu:
+  - text: |
+      Untuk informasi biaya pendaftaran UKM LTMU biasanya akan diinformasikan saat proses open recruitment berlangsung.
+
+  utter_status_pendaftaran_ltmu:
+  - text: |
+      Pendaftaran UKM LTMU biasanya dibuka saat periode PMB dan Open House. 
+      Untuk info terbaru, kamu bisa cek melalui media sosial resmi mereka.
+
+  utter_syarat_anggota_ltmu:
+  - text: |
+      Syarat untuk bergabung dengan UKM LTMU adalah mahasiswa aktif dan bersedia mengikuti kegiatan serta kepanitiaan yang ada.
+
+  utter_keanggotaan_ltmu:
+  - text: |
+      Umumnya mahasiswa tetap diperbolehkan mengikuti lebih dari satu UKM, selama dapat mengatur waktu dan tetap berkomitmen pada setiap kegiatan.
+
+  utter_komitmen_ltmu:
+  - text: |
+      Anggota UKM LTMU diharapkan memiliki komitmen, seperti aktif mengikuti latihan, kegiatan, kepanitiaan, serta bertanggung jawab dalam setiap aktivitas UKM.
+
+  utter_divisi_ltmu:
+  - text: |
+      UKM LTMU memiliki beberapa divisi, yaitu:
+      - Humas
+      - Latihan dan Inventaris
+
+  utter_struktur_ltmu:
+  - text: |
+      Struktur organisasi UKM LTMU terdiri dari kepengurusan inti dan divisi seperti Humas, Latihan dan Inventaris yang saling bekerja sama dalam menjalankan program UKM.
+
+  utter_kegiatan_ltmu:
+  - text: |
+      Kegiatan UKM LTMU meliputi latihan rutin, sparing internal dan eksternal, kegiatan makrab, 
+      serta mengikuti lomba baik internal maupun eksternal.
+
+  utter_latihan_rutin_ltmu:
+  - text: |
+      Ya, UKM LTMU memiliki latihan rutin yang diadakan setiap:
+      - Rabu
+      - Jumat
+      pukul 15.00 - 17.00.
+
+  utter_fungames_ltmu:
+  - text: |
+      UKM LTMU juga mengadakan kegiatan sparing atau fun games baik secara internal antar anggota maupun dengan pihak luar.
+
+  utter_cup_ltmu:
+  - text: |
+      Ya, UKM LTMU aktif mengikuti dan mengadakan kompetisi atau lomba tenis meja, baik internal kampus maupun eksternal.
+
+  utter_jenis_kegiatan_ltmu:
+  - text: |
+      Jenis kegiatan UKM LTMU antara lain:
+      - Latihan rutin
+      - Sparing (internal & eksternal)
+      - Lomba/kompetisi
+      - Makrab (malam keakraban)
+
+  utter_jadwal_kegiatan_ltmu:
+  - text: |
+      Jadwal latihan rutin UKM LTMU adalah setiap hari Rabu dan Jumat pukul 15.00 - 17.00.
+
+  utter_durasi_kegiatan_ltmu:
+  - text: |
+      Durasi latihan UKM LTMU biasanya sekitar 2 jam untuk setiap sesi.
+
+  utter_lokasi_kegiatan_ltmu:
+  - text: |
+      Kegiatan UKM LTMU biasanya dilaksanakan di:
+      - Untar Arena 1 (latihan rutin)
+      - Kegiatan tertentu seperti makrab dapat dilakukan di luar kota, seperti di Bogor
+
+  utter_event_ltmu:
+  - text: |
+      Event yang diadakan UKM LTMU antara lain:
+      - Sparing internal dan eksternal
+      - Lomba/kompetisi
+      - Makrab
+      - Event olahraga lainnya
+
+  utter_jadwal_event_ltmu:
+  - text: |
+      Jadwal event UKM LTMU seperti lomba dan makrab biasanya disesuaikan dengan periode kepengurusan. 
+      Untuk info terbaru, bisa cek melalui Instagram resmi mereka.
+
+  utter_fasilitas_ltmu:
+  - text: |
+      Fasilitas yang disediakan UKM LTMU antara lain:
+      - Lapangan tenis meja
+      - Perlengkapan bermain
+      - Sekretariat
+
+  utter_lokasi_sekre_ltmu:
+  - text: | 
+      Lokasi ruang sekretariat LTMU terletak di Untar Kampus 1, Gedung M, Lantai 2
+
+
+  utter_benefit_ltmu:
+  - text: |
+      Benefit bergabung dengan UKM LTMU antara lain:
+      - Mengembangkan skill tenis meja
+      - Menambah relasi dan teman
+      - Kesempatan mengikuti lomba
+      - Melatih kerja sama dan sportivitas
+
+  utter_media_informasi_ltmu:
+  - text: |
+      Informasi terbaru UKM LTMU dapat diakses melalui Instagram resmi @ltmu_untar. 
+      Untuk pertanyaan lebih lanjut, kamu bisa langsung DM ke akun tersebut.

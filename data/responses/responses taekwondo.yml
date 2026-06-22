@@ -1,0 +1,167 @@
+responses:
+
+  utter_tanya_ukm_taekwondo:
+  - text: |
+      UKM Taekwondo adalah unit kegiatan mahasiswa yang bergerak di bidang bela diri, seni (poomsae), dan tarung. 
+      Di sini kamu bisa belajar teknik bela diri sekaligus melatih fisik dan mental.
+
+  utter_fungsi_ukm_taekwondo:
+  - text: |
+      Fungsi UKM Taekwondo adalah sebagai wadah untuk:
+      - Melatih kemampuan bela diri
+      - Meningkatkan kebugaran fisik
+      - Membentuk mental dan disiplin
+      - Mengembangkan potensi mahasiswa di bidang olahraga
+
+  utter_tujuan_ukm_taekwondo:
+  - text: |
+      Tujuan UKM Taekwondo adalah untuk:
+      - Mengembangkan kemampuan bela diri
+      - Melatih fisik dan mental mahasiswa
+      - Mencetak atlet berprestasi di bidang taekwondo
+
+  utter_misi_taekwondo:
+  - text: |
+      Misi UKM Taekwondo meliputi:
+      - Melatih kemampuan teknik bela diri secara konsisten
+      - Meningkatkan kualitas atlet
+      - Mendorong partisipasi dalam kejuaraan
+
+  utter_visi_taekwondo:
+  - text: |
+      Visi UKM Taekwondo adalah menjadi UKM bela diri yang unggul dalam prestasi, serta mampu membentuk mahasiswa yang kuat secara fisik dan mental.
+
+  utter_bidang_ukm_taekwondo:
+  - text: |
+      UKM Taekwondo bergerak di bidang:
+      - Bela diri
+      - Seni (poomsae)
+      - Tarung (sparring/kyorugi)
+
+  utter_boleh_gabung_taekwondo:
+  - text: |
+      Semua mahasiswa boleh bergabung di UKM Taekwondo, dari semua jurusan.
+      Bahkan pemula juga boleh ikut, yang penting punya minat dan komitmen.
+
+  utter_cara_daftar_taekwondo:
+  - text: |
+      Cara daftar UKM Taekwondo:
+      - Isi data diri melalui GForm
+      - Pendaftaran dibuka saat PMB dan Open House
+
+  utter_biaya_daftar_taekwondo:
+  - text: |
+      Pendaftaran UKM Taekwondo GRATIS (tidak ada biaya registrasi).
+
+  utter_status_pendaftaran_taekwondo:
+  - text: |
+      Pendaftaran UKM Taekwondo biasanya dibuka saat PMB dan Open House. 
+      Untuk info terbaru, bisa cek Instagram resmi atau hubungi contact person.
+
+  utter_syarat_anggota_taekwondo:
+  - text: |
+      Syarat bergabung:
+      - Memiliki minat di Taekwondo
+      - Bersedia berkomitmen
+      - Menjadi anggota aktif
+
+  utter_keanggotaan_taekwondo:
+  - text: |
+      Anggota Taekwondo diharapkan:
+      - Aktif mengikuti latihan
+      - Memiliki komitmen
+      - Disiplin dalam kegiatan
+
+  utter_kegiatan_taekwondo:
+  - text: |
+      Kegiatan UKM Taekwondo meliputi:
+      - Latihan rutin mingguan
+      - Evaluasi latihan
+      - Kejuaraan nasional
+      - Ujian kenaikan tingkat (sabuk)
+
+  utter_kegiatan_latihan_taekwondo:
+  - text: |
+      Ya, UKM Taekwondo memiliki latihan rutin setiap minggu yang bertujuan untuk meningkatkan teknik, fisik, dan mental anggota.
+
+  utter_jadwal_latihan_taekwondo:
+  - text: |
+      Jadwal latihan:
+      - Selasa di GOR Untar 1
+      - Kamis di GOR Untar 2
+      Durasi latihan sekitar 3 jam per sesi.
+
+  utter_durasi_kegiatan_taekwondo:
+  - text: |
+      Durasi latihan Taekwondo sekitar 3 jam setiap sesi latihan.
+
+  utter_lokasi_kegiatan_taekwondo:
+  - text: |
+      Lokasi latihan:
+      - GOR Untar 1 (Selasa)
+      - GOR Untar 2 (Kamis)
+
+  utter_kejuaraan_taekwondo:
+  - text: |
+      Ya, UKM Taekwondo aktif mengikuti kejuaraan, terutama di tingkat nasional.
+
+  utter_jadwal_kejuaraan_taekwondo:
+  - text: |
+      Jadwal kejuaraan biasanya diadakan pada:
+      - Desember
+      - April
+      - Juni
+
+  utter_ujian_kenaikan_tingkat:
+  - text: |
+      Ya, ada ujian kenaikan tingkat (sabuk) untuk mengukur perkembangan kemampuan anggota.
+
+  utter_jadwal_ujian_taekwondo:
+  - text: |
+      Jadwal ujian kenaikan tingkat akan diinformasikan saat periode tertentu melalui pengurus atau media sosial.
+
+  utter_fasilitas_taekwondo:
+  - text: |
+      Fasilitas yang disediakan:
+      - Matras
+      - Target
+      - Hugo (body protector)
+      - Helm
+
+  utter_lokasi_sekre_taekwondo:
+  - text: | 
+      Lokasi ruang sekretariat Taekwondo terletak di Untar Kampus 1, Gedung M, Lantai 2
+
+
+  utter_divisi_taekwondo:
+  - text: |
+      Divisi di UKM Taekwondo:
+      - Humas
+      - Media Kreatif
+      - Perlengkapan
+
+  utter_struktur_taekwondo:
+  - text: |
+      Struktur UKM Taekwondo terdiri dari badan pengurus harian inti, serta beberapa divisi seperti humas, media kreatif, dan perlengkapan.
+
+  utter_prestasi_taekwondo:
+  - text: |
+      Prestasi UKM Taekwondo:
+      - Pancasila Cup: Juara 2
+      - WTA 2: Juara 2
+      - ATF: Juara 1
+      - KONI Cup: Juara 1
+
+  utter_benefit_taekwondo:
+  - text: |
+      Manfaat ikut Taekwondo:
+      - Meningkatkan fisik dan kesehatan
+      - Melatih mental dan disiplin
+      - Belajar bela diri
+      - Kesempatan ikut kejuaraan
+
+  utter_media_informasi_taekwondo:
+  - text: |
+      Informasi lebih lanjut bisa melalui:
+      - Instagram resmi @taekwondountar
+      - Contact Person: 081315680344 (Tiomas)

@@ -1,0 +1,144 @@
+responses:
+
+  utter_tanya_ukm_lbut:
+  - text: |
+      UKM LBUT adalah Unit Kegiatan Mahasiswa yang bergerak di bidang olahraga, khususnya bulutangkis. 
+      UKM ini menjadi wadah bagi mahasiswa yang memiliki minat dan bakat di olahraga badminton.
+
+  utter_fungsi_ukm_lbut:
+  - text: |
+      Fungsi UKM LBUT adalah sebagai wadah pengembangan kemampuan mahasiswa di bidang bulutangkis, 
+      serta melatih kerja sama, disiplin, dan sportivitas.
+
+  utter_tujuan_ukm_lbut:
+  - text: |
+      Tujuan UKM LBUT adalah untuk mewadahi mahasiswa dalam mengembangkan minat dan bakat di olahraga bulutangkis.
+
+  utter_misi_ukm_lbut:
+  - text: |
+      Misi UKM LBUT adalah meningkatkan kemampuan anggota dalam bermain bulutangkis, 
+      serta membangun kerja sama tim dan semangat kompetitif.
+
+  utter_visi_ukm_lbut:
+  - text: |
+      Visi UKM LBUT adalah menjadi UKM bulutangkis yang aktif, kompetitif, dan mampu berprestasi.
+
+  utter_bidang_ukm_lbut:
+  - text: |
+      UKM LBUT bergerak di bidang olahraga, khususnya bulutangkis (badminton).
+
+  utter_boleh_gabung_lbut:
+  - text: |
+      UKM LBUT terbuka untuk seluruh mahasiswa aktif dari berbagai jurusan dan fakultas.
+
+  utter_cara_daftar_lbut:
+  - text: |
+      Cara mendaftar UKM LBUT biasanya melalui:
+      - Open House dan PMB
+      - Pengisian form pendaftaran resmi saat rekrutmen dibuka
+
+  utter_biaya_daftar_lbut:
+  - text: |
+      Informasi biaya pendaftaran UKM LBUT belum tersedia secara pasti. 
+      Silakan cek informasi terbaru melalui media resmi LBUT.
+
+  utter_status_pendaftaran_lbut:
+  - text: |
+      Pendaftaran UKM LBUT biasanya dibuka saat PMB atau Open House. 
+      Untuk update terbaru, kamu bisa cek media sosial resmi LBUT.
+
+  utter_syarat_anggota_lbut:
+  - text: |
+      Syarat bergabung UKM LBUT:
+      - Mahasiswa aktif
+      - Memiliki minat di olahraga bulutangkis
+      - Bersedia mengikuti kegiatan UKM
+
+  utter_kemampuan_anggota_lbut:
+  - text: |
+      Tidak harus jago bulutangkis untuk bergabung. 
+      Pemula tetap boleh ikut selama memiliki minat dan kemauan untuk belajar.
+
+  utter_divisi_lbut:
+  - text: |
+      Struktur/divisi UKM Futsal meliputi:
+      - Humas
+      - Perlengkapan dan Pelatihan
+      - Publikasi dan Dokumentasi
+
+  utter_struktur_lbut:
+  - text: |
+      Struktur UKM Futsal terdiri dari badan pengurus harian inti dan beberapa divisi seperti humas, perlengkapan dan pelatihan, publikasi dan dokumentasi.
+
+  utter_kegiatan_lbut:
+  - text: |
+      Kegiatan UKM LBUT meliputi:
+      - Latihan rutin bulutangkis
+      - Sparring atau latihan tanding
+      - Turnamen internal maupun eksternal
+
+  utter_latihan_rutin_lbut:
+  - text: |
+      UKM LBUT memiliki latihan rutin yang dilakukan secara berkala untuk meningkatkan kemampuan anggota.
+
+  utter_sparring_lbut:
+  - text: |
+      UKM LBUT juga mengadakan sparring sebagai latihan tanding antar anggota atau dengan tim lain.
+
+  utter_turnamen_lbut:
+  - text: |
+      UKM LBUT mengikuti atau menyelenggarakan turnamen sebagai ajang kompetisi dan pengembangan kemampuan.
+
+  utter_jenis_kegiatan_lbut:
+  - text: |
+      Jenis kegiatan UKM LBUT meliputi:
+      - Makrab
+      - LBUT Goes to School
+      - Untar Cup
+
+  utter_jadwal_kegiatan_lbut:
+  - text: |
+      Jadwal kegiatan UKM LBUT biasanya ditentukan oleh pengurus dan akan diinformasikan melalui media resmi.
+
+  utter_durasi_kegiatan_lbut:
+  - text: |
+      Durasi kegiatan atau latihan UKM LBUT umumnya sekitar 2–3 jam per sesi.
+
+  utter_lokasi_kegiatan_lbut:
+  - text: |
+      Kegiatan UKM LBUT seperti latihan atau cup biasanya dilakukan di Untar Arena 1 dan 2, dan untuk kegiatan lainnya seperti makrab biasanya berada di wilayah Jabodetabek .
+
+  utter_event_lbut:
+  - text: |
+      Event UKM LBUT meliputi:
+      - Makrab
+      - LBUT Goes to School
+      - Untar Cup
+
+  utter_jadwal_event_lbut:
+  - text: |
+      Jadwal event UKM LBUT akan diumumkan melalui media sosial resmi.
+
+  utter_fasilitas_lbut:
+  - text: |
+      Fasilitas UKM LBUT biasanya meliputi:
+      - Lapangan bulutangkis
+      - Shuttlecock
+      - Peralatan bermain
+      - Sekretariat
+
+  utter_lokasi_sekre_lbut:
+  - text: | 
+      Lokasi ruang sekretariat LBUT terletak di Untar Kampus 1, Gedung M, Lantai 2
+
+  utter_benefit_lbut:
+  - text: |
+      Manfaat bergabung di UKM LBUT:
+      - Mengembangkan skill bulutangkis
+      - Menambah relasi dan pengalaman
+      - Kesempatan mengikuti turnamen
+      - Melatih kerja sama dan sportivitas
+
+  utter_media_informasi_lbut:
+  - text: |
+      Untuk informasi lebih lanjut, silakan cek media sosial resmi LBUT @lbutarumanagara

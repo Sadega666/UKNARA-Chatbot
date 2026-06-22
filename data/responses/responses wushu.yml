@@ -1,0 +1,145 @@
+responses:
+
+  utter_tanya_ukm_wushu:
+  - text: |
+      UKM Wushu adalah unit kegiatan mahasiswa yang bergerak di bidang bela diri asal Tiongkok. 
+      Kegiatannya meliputi latihan teknik, seni (taolu), dan juga tarung (sanda).
+
+  utter_fungsi_ukm_wushu:
+  - text: |
+      Fungsi UKM Wushu adalah sebagai wadah untuk:
+      - Mengembangkan kemampuan bela diri
+      - Meningkatkan kebugaran fisik
+      - Melatih mental dan disiplin
+      - Menyalurkan minat dan bakat mahasiswa
+
+  utter_tujuan_ukm_wushu:
+  - text: |
+      Tujuan UKM Wushu adalah:
+      - Mengembangkan kemampuan bela diri mahasiswa
+      - Melatih fisik dan mental
+      - Mencetak atlet yang berprestasi di bidang wushu
+
+  utter_misi_wushu:
+  - text: |
+      Misi UKM Wushu meliputi:
+      - Melatih teknik wushu secara konsisten
+      - Meningkatkan kualitas anggota
+      - Mengikuti dan berprestasi di kompetisi
+
+  utter_visi_wushu:
+  - text: |
+      Visi UKM Wushu adalah menjadi UKM bela diri yang unggul dan berprestasi serta mampu membentuk mahasiswa yang disiplin dan bermental kuat.
+
+  utter_bidang_ukm_wushu:
+  - text: |
+      UKM Wushu bergerak di bidang:
+      - Bela diri
+      - Seni (Taolu)
+      - Tarung (Sanda)
+
+  utter_boleh_gabung_wushu:
+  - text: |
+      Semua mahasiswa boleh bergabung di UKM Wushu, baik pemula maupun yang sudah berpengalaman.
+
+  utter_cara_daftar_wushu:
+  - text: |
+      Cara daftar UKM Wushu:
+      - Mengisi formulir pendaftaran (biasanya melalui GForm)
+      - Mengikuti Open House atau PMB
+
+  utter_biaya_daftar_wushu:
+  - text: |
+      Biaya pendaftaran UKM Wushu biasanya terjangkau atau bisa gratis tergantung periode pendaftaran.
+
+  utter_status_pendaftaran_wushu:
+  - text: |
+      Pendaftaran UKM Wushu biasanya dibuka saat PMB atau Open House. 
+      Untuk info terbaru, bisa cek media sosial resmi UKM.
+
+  utter_syarat_anggota_wushu:
+  - text: |
+      Syarat bergabung:
+      - Memiliki minat di bidang wushu
+      - Bersedia berkomitmen
+      - Tidak perlu pengalaman sebelumnya
+
+  utter_kemampuan_anggota_wushu:
+  - text: |
+      Tidak harus jago untuk bergabung. 
+      Pemula dari nol juga sangat boleh ikut dan akan dilatih dari dasar.
+
+  utter_divisi_wushu:
+  - text: |
+      Divisi dalam UKM Wushu biasanya meliputi:
+      - Humas
+      - Media Kreatif
+      - Perlengkapan
+      - Divisi Atlet
+
+  utter_struktur_wushu:
+  - text: |
+      Struktur UKM Wushu terdiri dari badan pengurus harian inti, dan beberapa divisi seperti humas, media, dan perlengkapan.
+
+  utter_kegiatan_wushu:
+  - text: |
+      Kegiatan UKM Wushu meliputi:
+      - Latihan rutin
+      - Sparring (sanda)
+      - Latihan seni (taolu)
+      - Mengikuti kompetisi
+
+  utter_kegiatan_latihan_wushu:
+  - text: |
+      Ya, UKM Wushu memiliki latihan rutin untuk meningkatkan teknik, fisik, dan mental anggota.
+
+  utter_jadwal_latihan_wushu:
+  - text: |
+      Jadwal latihan biasanya dilakukan beberapa kali dalam seminggu. 
+      Detail jadwal akan diinformasikan oleh pengurus.
+
+  utter_durasi_kegiatan_wushu:
+  - text: |
+      Durasi latihan biasanya sekitar 2–3 jam per sesi.
+
+  utter_lokasi_kegiatan_wushu:
+  - text: |
+      Kegiatan Wushu biasanya dilakukan di area kampus seperti GOR atau tempat latihan yang telah ditentukan.
+
+  utter_event_wushu:
+  - text: |
+      Event UKM Wushu meliputi:
+      - Kompetisi (kejuaraan)
+      - Demonstrasi
+      - Event internal kampus
+
+  utter_jadwal_event_wushu:
+  - text: |
+      Jadwal event mengikuti kalender kompetisi atau program kerja UKM. 
+      Info lengkap biasanya diumumkan melalui media sosial.
+
+  utter_fasilitas_wushu:
+  - text: |
+      Fasilitas yang biasanya disediakan:
+      - Matras
+      - Peralatan latihan
+      - Tempat Latihan
+
+  utter_lokasi_sekre_wushu:
+  - text: | 
+      Lokasi ruang sekretariat Wushu terletak di Untar Kampus 1, Gedung M, Lantai 2
+
+
+  utter_benefit_wushu:
+  - text: |
+      Manfaat ikut Wushu:
+      - Meningkatkan kekuatan dan fleksibilitas tubuh
+      - Melatih disiplin dan mental
+      - Belajar bela diri
+      - Kesempatan ikut kompetisi
+
+  utter_media_informasi_wushu:
+  - text: |
+      Informasi lebih lanjut bisa melalui:
+      - Instagram resmi @wushu.untar
+      - Kontak pengurus saat Open House atau PMB

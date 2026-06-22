@@ -1,0 +1,448 @@
+version: "3.1"
+
+nlu:
+
+- intent: tanya_ukm_adhyatmaka
+  examples: |
+    - Apa itu UKM Adhyatmaka?
+    - Adhyatmaka itu apa?
+    - Bisa jelaskan UKM Adhyatmaka?
+    - Adhyatmaka jenis organisasi apa?
+    - UKM Adhyatmaka fokus bidang kegiatan apa?
+    - Apa itu Adhyatmaka di Untar?
+    - Jelaskan tentang Adhyatmaka
+    - Adhyatmaka itu komunitas apa?
+    - Saya ingin tahu tentang Adhyatmaka
+    - Apa peran Adhyatmaka di kampus?
+    - Adhyatmaka itu tujuan utama organisasi ini apa?
+    - UKM Adhyatmaka aktivitas utama yang dilakukan apa?
+
+- intent: fungsi_ukm_adhyatmaka
+  examples: |
+    - peranan organisasi ini bagi mahasiswa apa?
+    - fungsi utama organisasi ini apa?
+    - Apa fungsi Adhyatmaka?
+    - Fungsi Adhyatmaka bagi mahasiswa?
+    - Adhyatmaka berfungsi sebagai apa?
+    - Fungsi Adhyatmaka?
+    - Apakah fungsi Adhyatmaka?
+
+- intent: tujuan_ukm_adhyatmaka
+  examples: |
+    - tujuan utama dibentuknya organisasi ini apa?
+    - organisasi ini dibuat untuk tujuan apa?
+    - Apa tujuan Adhyatmaka?
+    - Tujuan UKM Adhyatmaka apa?
+    - Adhyatmaka dibuat tujuan utama organisasi ini apa?
+    - Tujuan kegiatan Adhyatmaka apa?
+    - Adhyatmaka bertujuan apa?
+    - Apa manfaat ikut Adhyatmaka?
+    - Adhyatmaka tujuan utama organisasi ini apa?
+    - Apa kegunaan Adhyatmaka?
+    - Tujuan utama Adhyatmaka?
+    - Apakah untuk memuliakan Tuhan?
+    - Adhyatmaka membantu apa?
+
+- intent: misi_adhyatmaka
+  examples: |
+    - program misi utama organisasi ini apa?
+    - apa fokus misi organisasi ini?
+    - Apa misi Adhyatmaka?
+    - Misi Adhyatmaka?
+    - Apa saja misi Adhyatmaka?
+    - Misi Adhyatmaka apa?
+    - Misi Adhyatmaka apa saja?
+
+- intent: visi_adhyatmaka
+  examples: |
+    - arah visi organisasi ini bagaimana?
+    - visi utama organisasi ini apa?
+    - Apa visi Adhyatmaka?
+    - Visi Adhyatmaka?
+    - Apa saja visi Adhyatmaka?
+    - Visi Adhyatmaka apa?
+    - Visi Adhyatmaka apa saja?
+
+- intent: bidang_ukm_adhyatmaka
+  examples: |
+    - Adhyatmaka fokus bidang kegiatan apa?
+    - Bidang UKM Adhyatmaka apa?
+    - Apakah Adhyatmaka organisasi keagamaan?
+    - Adhyatmaka fokus apa?
+    - UKM Adhyatmaka fokus utama kegiatan apa?
+    - Apakah ini komunitas Katolik?
+    - Adhyatmaka bidangnya apa?
+    - Fokus utama Adhyatmaka?
+    - Apakah Adhyatmaka rohani?
+    - Adhyatmaka untuk kegiatan agama?
+    - Apakah ini UKM keagamaan?
+    - Bidang utama Adhyatmaka?
+    - Apakah terkait gereja?
+    - Adhyatmaka kegiatan rohani?
+
+- intent: boleh_gabung_adhyatmaka
+  examples: |
+    - Siapa saja boleh gabung Adhyatmaka?
+    - Apakah non Katolik boleh ikut?
+    - Siapa yang bisa join Adhyatmaka?
+    - Apakah terbuka untuk semua mahasiswa?
+    - Mahasiswa non Katolik boleh ikut?
+    - Apakah semua fakultas boleh?
+    - Apakah Adhyatmaka terbuka umum?
+    - Siapa target anggota Adhyatmaka?
+    - Apakah hanya untuk Katolik?
+    - Non Katolik bisa ikut?
+    - Apakah bebas gabung?
+    - Siapa saja bisa daftar?
+    - Apakah mahasiswa baru boleh?
+    - Semua semester boleh ikut?
+
+- intent: cara_daftar_adhyatmaka
+  examples: |
+    - Bagaimana cara daftar Adhyatmaka?
+    - Cara join Adhyatmaka?
+    - Gimana cara masuk Adhyatmaka?
+    - Daftar lewat apa?
+    - Bagaimana proses pendaftaran?
+    - Cara gabung Adhyatmaka gimana?
+    - Saya ingin daftar Adhyatmaka
+    - Apa langkah pendaftaran?
+    - Daftar dimana?
+    - Join lewat apa?
+    - Cara ikut Adhyatmaka?
+    - Prosedur masuk?
+    - Cara registrasi?
+    - Masuk Adhyatmaka bagaimana?
+    - Cara daftar UKM ini?
+
+- intent: biaya_daftar_adhyatmaka
+  examples: |
+    - Apakah Adhyatmaka gratis?
+    - Biaya pendaftaran berapa?
+    - Apakah ada biaya?
+    - Join bayar atau tidak?
+    - Daftar gratis?
+    - Apakah free?
+    - Ada biaya registrasi?
+    - Masuk bayar?
+    - Gratis atau berbayar?
+    - Apakah perlu bayar?
+    - Join gratis?
+    - Apakah tanpa biaya?
+    - Biaya anggota?
+    - Daftar perlu uang?
+    - Apakah ada biaya masuk?
+
+- intent: status_pendaftaran_adhyatmaka
+  examples: |
+    - Apakah pendaftaran selalu buka?
+    - Bisa daftar kapan saja?
+    - Apakah open terus?
+    - Kapan pendaftaran dibuka?
+    - Bisa daftar sekarang?
+    - Apakah masih bisa join?
+    - Adhyatmaka buka terus?
+    - Kapan open recruitment?
+    - Apakah selalu menerima anggota?
+    - Pendaftaran tutup atau tidak?
+    - Bisa join kapanpun?
+    - Kapan bisa daftar?
+    - Apakah tidak ada batas Waktu pendaftaran?
+    - Join bisa kapan saja?
+
+- intent: syarat_anggota_adhyatmaka
+  examples: |
+    - Apa syarat masuk Adhyatmaka?
+    - Syarat join apa?
+    - Persyaratan anggota?
+    - Masuk harus apa?
+    - Syarat jadi anggota?
+    - Apa ketentuannya?
+    - Syarat gabung?
+    - Apa yang harus dipenuhi?
+    - Apakah ada syarat?
+    - Syarat ikut?
+    - Ketentuan anggota?
+    - Apakah ada aturan khusus?
+    - Syarat umum?
+    - Persyaratan apa saja?
+    - Apa saja syaratnya?
+
+- intent: keanggotaan_adhyatmaka
+  examples: |
+    - Apakah boleh ikut UKM lain?
+    - Bisa ikut lebih dari satu UKM?
+    - Apakah bebas ikut kegiatan lain?
+    - Apakah ada Batasan?
+    - Boleh double UKM?
+    - Apakah harus fokus satu UKM?
+    - Apakah fleksibel?
+    - Apakah boleh ikut banyak kegiatan?
+    - Boleh ikut organisasi lain?
+    - Bisa ikut UKM lain juga?
+    - Boleh aktif di UKM lain?
+    - Fleksibel ikut UKM lain?
+
+- intent: kegiatan_adhyatmaka
+  examples: |
+    - Kegiatan Adhyatmaka apa saja?
+    - Aktivitas apa saja?
+    - Adhyatmaka ada kegiatan apa?
+    - Program apa saja?
+    - Apa saja aktivitasnya?
+    - Event apa saja?
+    - Program kerja apa?
+    - Apa yang dilakukan?
+    - Kegiatan anggota?
+    - Adhyatmaka sering ngapain?
+    - Apa saja kegiatannya?
+    - Ada event apa?
+    - Kegiatan utama apa?
+
+- intent: kegiatan_rutin_adhyatmaka
+  examples: |
+    - Adakah doa rutin?
+    - Apa kegiatan rutin Adhyatmaka?
+    - Apakah ada kegiatan rutin?
+    - Apa saja kegiatan rutin?
+    - Ada kegiatan rutin apa?
+    - Kegiatan rohani apa saja?
+    - Apa saja kegiatan iman?
+    - Apakah ada pendalaman iman?
+    - Ada kegiatan ibadah?
+    - Apa kegiatan keagamaannya?
+    - Apa kegiatan rohaninya?
+
+- intent: persekutuan_adhyatmaka
+  examples: |
+    - Apa itu persekutuan doa?
+    - Ada kegiatan doa bersama?
+    - Adhyatmaka ada misa?
+    - Kegiatan spiritual apa?
+    - Kegiatan gereja apa saja?
+    - Apakah ada pelayanan?
+
+- intent: katekumen_adhyatmaka
+  examples: |
+    - Apa itu katekumen?
+    - Katekumen itu apa?
+    - Katekumen adalah?
+    - Apa itu kegiatan katekumen?
+
+- intent: legiomaria_adhyatmaka
+  examples: |
+    - Apa itu legiomaria?
+    - Legiomaria itu apa?
+    - Katekumen adalah?
+    - Apa itu kegiatan katekumen
+    
+- intent: jadwal_rutin_adhyatmaka
+  examples: |
+    - Jadwal Adhyatmaka kapan?
+    - Kegiatan rutin hari apa?
+    - Jadwal rutin?
+    - Kapan persekutuan doa?
+    - Jadwal katekumen?
+    - Legiomaria kapan?
+    - Hari apa saja kegiatan rutin?
+    - Jadwal mingguan?
+    - Kegiatan dilakukan kapan?
+    - Jadwal rutin?
+    - Hari kegiatan?
+    - Jadwal rutin kapan?
+    - Jadwal ibadah?
+
+- intent: durasi_kegiatan_adhyatmaka
+  examples: |
+    - Berapa lama kegiatan?
+    - Durasi persekutuan doa?
+    - Lama kegiatan berapa?
+    - Kegiatan berapa jam?
+    - Waktu kegiatan?
+    - Durasi pertemuan?
+    - Berapa lama ibadah?
+    - Kegiatan berapa jam?
+    - Satu sesi berapa lama?
+    - Lama aktivitas?
+    - Waktu ibadah?
+    - Durasi kegiatan rutin?
+    - Berapa jam kegiatan?
+    - Lama pertemuan?
+    - Durasi acara?
+
+- intent: lokasi_kegiatan_adhyatmaka
+  examples: |
+    - Kegiatan dimana?
+    - Lokasi Adhyatmaka?
+    - Tempat kegiatan?
+    - Dimana persekutuan doa?
+    - Lokasi misa dimana?
+    - Kegiatan di kampus?
+    - Dimana tempatnya?
+    - Lokasi acara?
+    - Tempat ibadah?
+    - Kegiatan di auditorium?
+    - Dimana pelaksanaan?
+    - Lokasi kegiatan?
+    - Tempat pertemuan?
+    - Dimana acara?
+    - Lokasi ibadah?
+
+- intent: event_adhyatmaka
+  examples: |
+    - Event Adhyatmaka apa saja?
+    - Ada acara apa saja?
+    - Program tahunan apa?
+    - Kegiatan besar apa?
+    - Event rutin apa?
+    - Acara Adhyatmaka?
+    - Ada kegiatan khusus?
+    - Event tahunan?
+    - Program besar apa?
+    - Acara kampus apa?
+    - Event menarik?
+    - Kegiatan spesial?
+    - Acara penting?
+    - Event utama?
+    - Program utama?
+
+- intent: jadwal_retret_adhyatmaka
+  examples: |
+    - Kapan retret?
+    - Kapan retret diadakan
+    - Retret kapan diadakan?
+    - Jadwal retret kapan?
+    - Retret kapan?
+    - Kapan acara retret?
+    - Jadwal retret?
+
+- intent: jadwal_natal_adhyatmaka
+  examples: |
+    - Kapan natal?
+    - Kapan natal diadakan?
+    - Retret kapan diadakan?
+    - Jadwal natal kapan?
+    - Natal kapan?
+    - Kapan acara natal?
+    - Jadwal natal?
+
+- intent: jadwal_paskah_adhyatmaka
+  examples: |
+    - Kapan paskah?
+    - Kapan paskah diadakan?
+    - Paskah kapan?
+    - Kapan acara paskah?
+    - Jadwal paskah?
+    - Jadwal paskah kapan?
+
+- intent: jadwal_misa_adhyatmaka
+  examples: |
+    - Kapan misa?
+    - Kapan misa diadakan?
+    - Misa kapan?
+    - Kapan acara misa?
+    - Jadwal misa?
+    - Jadwal misa kapan?
+
+- intent: jadwal_ziarah_adhyatmaka
+  examples: |
+    - Kapan ziarah?
+    - Kapan ziarah diadakan?
+    - Ziarah kapan?
+    - Kapan acara ziarah?
+    - Jadwal ziarah?
+    - Jadwal ziarah kapan?
+
+- intent: jadwal_baksos_adhyatmaka
+  examples: |
+    - Kapan baksos?
+    - Kapan baksos diadakan?
+    - Baksos kapan?
+    - Kapan acara baksos?
+    - Jadwal baksos?
+    - Jadwal baksos kapan?
+
+- intent: divisi_adhyatmaka
+  examples: |
+    - Divisi Adhyatmaka apa saja?
+    - Ada bidang apa saja?
+    - Divisi dalam Adhyatmaka?
+    - Divisi apa saja?
+    - Divisi internal?
+    - Bagian organisasi?
+    - Unit dalam UKM?
+    - Divisi apa saja?
+
+- intent: struktur_adhyatmaka
+  examples: |
+    - Struktur organisasi?
+    - Struktur UKM?
+    - Struktur kepengurusan?
+    - Struktur bidang?
+    - Struktur lengkap?
+    - Struktur divisi?
+
+- intent: fasilitas_adhyatmaka
+  examples: |
+    - Fasilitas apa saja?
+    - Ada ruang sekretariat?
+    - Fasilitas Adhyatmaka?
+    - Apa yang disediakan?
+    - Tempat sekretariat ada?
+    - Fasilitas UKM?
+    - Apakah ada ruangan?
+    - Tempat kumpul ada?
+    - Fasilitas lengkap?
+    - Ada sekretariat?
+    - Apa saja fasilitasnya?
+    - Ruang kegiatan ada?
+    - Tempat organisasi?
+    - Fasilitas pendukung?
+    - Ada basecamp?
+
+- intent: lokasi_sekre_adhyatmaka
+  examples: |
+    - biasanya lokasi ruang sekretariat dimana
+    - boleh tanya lokasi ruang sekretariat dimana
+    - info lokasi ruang sekretariat dimana
+    - lokasi ruang sekretariat dimana
+    - sekretariat Adhyatmaka dimana
+    - sekretariat Adhyatmaka lantai berapa
+    - Adhyatmaka sekretariatnya di lantai berapa
+    - ruang sekre Adhyatmaka dimana
+    - ruang sekre Adhyatmaka lantai berapa
+
+- intent: benefit_adhyatmaka
+  examples: |
+    - Manfaat Adhyatmaka apa?
+    - Keuntungan ikut Adhyatmaka?
+    - Benefit apa?
+    - Apa yang didapat?
+    - Untung ikut?
+    - Kelebihan Adhyatmaka?
+    - Apa manfaatnya?
+    - Apa hasil ikut?
+    - Membantu apa?
+    - Berguna tidak?
+    - Apa yang dipelajari?
+    - Manfaat rohani?
+    - Manfaat spiritual?
+    - Apa dampaknya?
+    - Kenapa ikut?
+
+- intent: media_informasi_adhyatmaka
+  examples: |
+    - IG Adhyatmaka apa?
+    - Kontak Adhyatmaka?
+    - WA Adhyatmaka?
+    - Instagram resmi?
+    - Contact person siapa?
+    - Nomor yang bisa dihubungi?
+    - Info dimana?
+    - Cara hubungi?
+    - DM Instagram?
+    - Sosial media?
+    - Nomor admin?
+    - Info online?
+    - Kontak resmi?
+    - IG UKM?

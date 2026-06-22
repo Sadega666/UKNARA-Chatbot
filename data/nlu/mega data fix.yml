@@ -1,0 +1,496 @@
+version: "3.1"
+
+nlu:
+
+- intent: tanya_ukm_mega
+  examples: |
+    - Mega itu apaan sih?
+    - UKM Mega tuh kayak gimana sih?
+    - Mega di kampus ngapain aja sih?
+    - Mega itu organisasi apa ya?
+    - Mega tuh buat apa sih?
+    - Apa itu UKM Mega?
+    - Mega itu apa?
+    - Bisa jelaskan UKM Mega?
+    - Mega jenis organisasi apa?
+    - Apa itu Mega di kampus?
+    - Jelaskan tentang Mega?
+    - Mega itu komunitas apa?
+    - Saya ingin tahu tentang Mega?
+
+- intent: fungsi_ukm_mega
+  examples: |
+    - peranan organisasi ini bagi mahasiswa apa?
+    - fungsi utama organisasi ini apa?
+    - Mega gunanya apa sih?
+    - Fungsi Mega tuh buat apa?
+    - Mega itu membantu apa aja?
+    - Mega kepake buat apa?
+    - Peran Mega itu apa sih?
+    - Apa fungsi UKM MEGA?
+    - Apa fungsi MEGA bagi mahasiswa?
+    - MEGA berfungsi sebagai apa?
+    - Fungsi MEGA?
+    - Apakah fungsi MEGA?
+
+- intent: tujuan_ukm_mega
+  examples: |
+    - tujuan utama dibentuknya organisasi ini apa?
+    - organisasi ini dibuat untuk tujuan apa?
+    - Mega tujuannya apa sih?
+    - Dibuatnya Mega buat apa?
+    - Mega punya tujuan apa ya?
+    - Ikut Mega tujuannya apa?
+    - Mega itu pengen capai apa?
+    - Apa tujuan Mega?
+    - Tujuan UKM Mega apa?
+    - Mega dibuat tujuan utama organisasi ini apa?
+    - Apa manfaat ikut Mega?
+    - Mega tujuan utama organisasi ini apa?
+    - Tujuan kegiatan Mega apa?
+    - Mega bertujuan apa?
+    - Apa kegunaan Mega?
+    - Tujuan utama Mega?
+    - Apakah untuk lingkungan?
+    - Mega membantu apa?
+
+- intent: misi_ukm_mega
+  examples: |
+    - program misi utama organisasi ini apa?
+    - apa fokus misi organisasi ini?
+    - Misi Mega itu apa sih?
+    - Mega punya misi apa aja?
+    - Tujuan kecil Mega apa aja?
+    - Misi utamanya Mega apa?
+    - Mega fokusnya ke apa aja?
+    - Apa misi MEGA?
+    - Misi MEGA?
+    - Apa saja misi MEGA?
+    - Misi MEGA apa?
+    - Misi MEGA apa saja?
+
+- intent: visi_ukm_mega
+  examples: |
+    - arah visi organisasi ini bagaimana?
+    - visi utama organisasi ini apa?
+    - Visi Mega itu apa sih?
+    - Mega mau jadi apa kedepannya?
+    - Arah Mega itu kemana?
+    - Cita-cita Mega apa?
+    - Mega punya tujuan besar apa?
+    - Apa visi MEGA?
+    - Visi MEGA?
+    - Apa saja visi MEGA?
+    - Visi MEGA apa?
+    - Visi MEGA apa saja?
+
+- intent: bidang_ukm_mega
+  examples: |
+    - Mega fokusnya di bidang apa sih?
+    - Mega itu anak alam ya?
+    - Mega tuh ke arah apa kegiatannya?
+    - Fokus Mega apa aja?
+    - Mega lebih ke outdoor ya?
+    - Mega fokus bidang kegiatan apa?
+    - Bidang UKM Mega apa?
+    - Apakah Mega gemar alam?
+    - Mega fokus apa?
+    - UKM Mega fokus utama kegiatan apa?
+    - Apakah Mega tentang lingkungan?
+    - Mega bidangnya apa?
+    - Fokus utama Mega?
+    - Apakah tentang alam?
+    - Mega terkait kegiatan outdoor?
+    - Mega mencakup apa saja?
+    - Apakah tentang hiking?
+    - Mega termasuk UKM alam?
+    - Mega fokus kegiatan luar?
+    - Bidang utama Mega?
+
+- intent: boleh_gabung_mega
+  examples: |
+    - Semua orang bisa masuk Mega ga?
+    - Bebas join Mega ga sih?
+    - Anak jurusan apa aja boleh ikut?
+    - Semester tua boleh gabung ga?
+    - Anak baru bisa masuk Mega ga?
+    - Siapa saja boleh gabung Mega?
+    - Apakah semua mahasiswa bisa join?
+    - Boleh semua fakultas ikut?
+    - Siapa yang bisa join Mega?
+    - Apakah terbuka untuk semua?
+    - Mahasiswa baru boleh ikut?
+    - Apakah lintas jurusan boleh?
+    - Mega untuk siapa saja?
+    - Apakah semua semester boleh?
+    - Apakah umum bisa join?
+    - Siapa target anggota Mega?
+    - Apakah bebas gabung?
+    - Siapa saja bisa daftar?
+    - Apakah Mega terbuka untuk semua?
+    - Semua mahasiswa boleh ikut?
+
+- intent: cara_daftar_mega
+  examples: |
+    - Cara masuk Mega gimana sih?
+    - Mau join Mega harus ngapain?
+    - Daftar Mega ribet ga?
+    - Ikut Mega daftar dimana ya?
+    - Gimana biar bisa gabung Mega?
+    - Bagaimana cara daftar Mega?
+    - Cara join Mega?
+    - Gimana cara masuk Mega?
+    - Daftar Mega lewat apa?
+    - Bagaimana proses pendaftaran?
+    - Cara gabung Mega gimana?
+    - Saya ingin daftar Mega
+    - Apa langkah daftar Mega?
+    - Daftar Mega dimana?
+    - Join lewat gform?
+    - Cara ikut Mega?
+    - Prosedur masuk Mega?
+    - Cara registrasi Mega?
+    - Masuk Mega bagaimana?
+    - Cara daftar UKM Mega?
+
+- intent: biaya_daftar_mega
+  examples: |
+    - Masuk Mega bayar ga sih?
+    - Join Mega mahal ga?
+    - Mega gratis atau bayar?
+    - Ikut Mega butuh biaya berapa?
+    - Ada uang pendaftaran ga?
+    - Biaya Mega berapa?
+    - Daftar Mega bayar berapa?
+    - Apakah ada biaya Mega?
+    - Biaya registrasi Mega berapa?
+    - Masuk Mega bayar berapa?
+    - Apakah Mega gratis?
+    - Biaya join Mega berapa?
+    - Registrasi Mega berapa?
+    - Apakah ada uang pendaftaran?
+    - Daftar Mega perlu bayar?
+    - Berapa uang masuk Mega?
+    - Biaya anggota Mega?
+    - Mega ada biaya?
+    - Join Mega bayar?
+    - Harga daftar Mega?
+
+- intent: status_pendaftaran_mega
+  examples: |
+    - Mega lagi buka ga sih?
+    - Masih bisa daftar Mega ga?
+    - Sekarang Mega open ga?
+    - Rekrutmen Mega masih ada ga?
+    - Lagi nerima anggota baru ga?
+    - Apakah Mega buka pendaftaran?
+    - Mega masih buka?
+    - Kapan pendaftaran Mega dibuka?
+    - Apakah bisa daftar sekarang?
+    - Pendaftaran Mega tutup atau belum?
+    - Apakah masih bisa join?
+    - Mega open recruitment?
+    - Kapan open Mega?
+    - Apakah Mega sedang open?
+    - Jadwal pendaftaran Mega kapan?
+    - Mega buka anggota baru?
+    - Apakah rekrutmen Mega aktif?
+    - Kapan bisa daftar Mega?
+    - Apakah Mega menerima anggota baru?
+    - Mega buka saat PMB?
+
+- intent: syarat_anggota_mega
+  examples: |
+    - Masuk Mega syaratnya apa sih?
+    - Harus bisa apa dulu?
+    - Ada syarat khusus ga?
+    - Gabung Mega harus apa aja?
+    - Perlu skill tertentu ga?
+    - Apa syarat masuk Mega?
+    - Syarat join Mega apa?
+    - Persyaratan Mega?
+    - Masuk Mega harus apa?
+    - Syarat jadi anggota?
+    - Apa ketentuan Mega?
+    - Syarat gabung Mega?
+    - Apa yang harus dipenuhi?
+    - Syarat ikut Mega?
+    - Persyaratan umum Mega?
+    - Apakah ada syarat khusus?
+    - Harus ikut diksar?
+    - Syarat pendaftaran Mega?
+    - Ketentuan anggota Mega?
+    - Apa saja syaratnya?
+
+- intent: komitmen_mega
+  examples: |
+    - Harus aktif banget ga di Mega?
+    - Wajib ikut semua kegiatan ga?
+    - Komitmennya berat ga?
+    - Harus disiplin banget ya?
+    - Kalau jarang ikut gimana?
+    - Apakah harus komitmen di Mega?
+    - Komitmen Mega seperti apa?
+    - Harus aktif kegiatan?
+    - Apakah wajib ikut kegiatan?
+    - Komitmen anggota Mega?
+    - Harus ikut semua program?
+    - Apakah wajib diksar?
+    - Komitmen penting?
+    - Harus disiplin?
+    - Apakah harus serius?
+    - Komitmen bagaimana?
+    - Apakah harus aktif?
+    - Komitmen anggota?
+    - Harus tanggung jawab?
+    - Komitmen Mega apa?
+
+- intent: divisi_mega
+  examples: |
+    - Di Mega ada bagian apa aja sih?
+    - Divisinya apa aja?
+    - Ada pembagian tim ga?
+    - Struktur divisinya gimana?
+    - Ada bidang khusus ga?
+    - Divisi MEGA apa saja?
+    - Ada bidang apa saja?
+    - Divisi dalam MEGA?
+    - Divisi apa saja?
+    - Divisi internal?
+    - Bagian organisasi?
+    - Unit dalam UKM?
+    - Divisi apa saja?
+
+- intent: struktur_mega
+  examples: |
+    - Struktur Mega gimana sih?
+    - Kepengurusannya kayak apa?
+    - Ada ketua dan divisi ya?
+    - Susunan organisasinya gimana?
+    - Struktur lengkapnya apa aja?
+    - Struktur organisasi?
+    - Struktur UKM?
+    - Struktur kepengurusan?
+    - Struktur bidang?
+    - Struktur lengkap?
+    - Struktur divisi?
+
+- intent: kegiatan_mega
+  examples: |
+    - Mega biasanya ngapain aja sih?
+    - Kegiatan Mega seru ga?
+    - Anak Mega sering ngelakuin apa?
+    - Mega ada aktivitas apa aja?
+    - Kegiatan sehari-harinya apa sih?
+    - Kegiatan Mega apa saja?
+    - Aktivitas Mega apa?
+    - Mega ada kegiatan apa?
+    - Program Mega apa?
+    - Apa saja kegiatan Mega?
+    - Event Mega apa?
+    - Aktivitas UKM Mega?
+    - Mega sering ngapain?
+    - Kegiatan rutin Mega?
+    - Program kerja Mega?
+    - Apa yang dilakukan Mega?
+    - Kegiatan anggota Mega?
+    - Mega ada event apa?
+    - Aktivitas Mega sehari-hari?
+    - Apa saja aktivitas Mega?
+
+- intent: latihan_bulanan_mega
+  examples: |
+    - Ada latihan rutin ga sih?
+    - Mega tiap bulan ngapain?
+    - Latihan rutin ada ga?
+    - Sering kumpul ga?
+    - Ada kegiatan rutin ga?
+    - Apa ada latihan rutin?
+    - Apa saja kegiatan rutinnya?
+    - Apakah ada kegiatan rutin?
+    - Ada latihan rutin?
+    - Ada kegiatan rutin?
+
+- intent: jenis_kegiatan_mega
+  examples: |
+    - Kegiatan Mega ada apa aja sih?
+    - Ada diksar sama trip ya?
+    - Jenis kegiatannya apa aja?
+    - Mega ada program apa aja?
+    - Kegiatan outdoor apa aja?
+    - Apa itu open trip Mega?
+    - Apa itu diksar Mega?
+    - Apa itu pendalaman divisi?
+    - Jenis kegiatan Mega?
+    - Program alam apa saja?
+    - Aktivitas outdoor apa?
+    - Kegiatan hiking apa?
+    - Ada kegiatan lingkungan?
+    - Program utama Mega?
+    - Kegiatan fisik apa?
+    - Event alam?
+    - Apa saja jenis kegiatan?
+    - Program latihan Mega?
+    - Kegiatan eksplorasi?
+    - Aktivitas alam apa saja?
+
+- intent: jadwal_latihan_mega
+  examples: |
+    - Mega biasanya latihan kapan sih?
+    - Jadwal kegiatannya gimana?
+    - Mega aktifnya hari apa?
+    - Latihan rutin kapan ya?
+    - Kegiatannya seringnya kapan?
+    - Jadwal Mega kapan?
+    - Mega kegiatan hari apa?
+    - Jadwal kegiatan Mega?
+    - Mega aktif kapan?
+    - Jadwal latihan kapan?
+    - Jadwal rutin Mega?
+    - Mega ada kegiatan kapan?
+    - Kapan kegiatan alam?
+    - Jadwal acara Mega?
+    - Jadwal kegiatan?
+    - Kapan aktif?
+    - Jadwal program?
+    - Kapan kegiatan utama?
+    - Jadwal bulanan?
+    - Waktu kegiatan?
+
+- intent: lokasi_kegiatan_mega
+  examples: |
+    - Kegiatannya biasanya dimana sih?
+    - Mega sering latihan dimana?
+    - Lokasi kegiatannya dimana ya?
+    - Biasanya di gunung mana?
+    - Tempat kumpulnya dimana?
+    - Kegiatan Mega dimana?
+    - Lokasi Mega dimana?
+    - Kegiatan alam dimana?
+    - Tempat kegiatan Mega?
+    - Mega dilakukan dimana?
+    - Lokasi puncak?
+    - Tempat latihan?
+    - Dimana lokasi Mega?
+    - Tempat kegiatan?
+    - Lokasi kegiatan Mega?
+    - Tempat outdoor?
+    - Lokasi kegiatan?
+    - Mega di mana?
+    - Tempat pertemuan?
+    - Kegiatan di jawa barat dimana?
+
+- intent: event_mega
+  examples: |
+    - Mega ada acara apa aja sih?
+    - Event besarnya apa aja?
+    - Ada kegiatan tahunan ga?
+    - Mega sering bikin event apa?
+    - Event serunya apa aja?
+    - Event Mega apa saja?
+    - Ada acara apa saja?
+    - Program Mega apa?
+    - Apa itu open house?
+    - Apa itu donor darah?
+    - Event Mega apa saja?
+    - Acara Mega apa?
+    - Program besar Mega?
+    - Event tahunan Mega?
+    - Ada kegiatan khusus?
+    - Event alam?
+    - Kegiatan besar Mega?
+    - Acara utama Mega?
+    - Event penting Mega?
+    - Program spesial Mega?
+
+- intent: jadwal_event_mega
+  examples: |
+    - Event Mega kapan sih?
+    - Diksar biasanya kapan?
+    - Acara Mega diadakan kapan?
+    - Jadwal eventnya gimana?
+    - Event terdekat kapan?
+    - Open house Mega kapan?
+    - Diksar kapan?
+    - Jadwal event Mega?
+    - Event bulan apa?
+    - Kapan acara Mega?
+    - Jadwal kegiatan besar?
+    - Event diadakan kapan?
+    - Jadwal kegiatan alam?
+    - Kapan kegiatan utama?
+    - Event tahunan kapan?
+    - Jadwal event?
+    - Kapan acara khusus?
+    - Jadwal acara?
+    - Event kapan?
+    - Jadwal diksar?
+
+- intent: fasilitas_mega
+  examples: |
+    - Mega nyediain alat ga sih?
+    - Ada fasilitas apa aja?
+    - Peralatan disediain ga?
+    - Bisa pinjam alat ga?
+    - Fasilitasnya lengkap ga?
+    - Fasilitas Mega apa?
+    - Apa saja fasilitasnya?
+    - Ada alat hiking?
+    - Ada perlengkapan?
+    - Ada alat caving?
+    - Fasilitas lengkap?
+    - Apa yang disediakan?
+    - Fasilitas UKM Mega?
+    - Apakah ada alat climbing?
+    - Peralatan outdoor ada?
+    - Fasilitas rafting?
+    - Apa saja alatnya?
+    - Peralatan alam ada?
+    - Fasilitas pendukung?
+    - Ada alat petualangan?
+
+- intent: benefit_mega
+  examples: |
+    - Ikut Mega dapet apa sih?
+    - Benefitnya apa aja?
+    - Worth it ga ikut Mega?
+    - Keuntungan join Mega apa?
+    - Ada manfaatnya apa aja?
+    - Manfaat Mega apa?
+    - Keuntungan ikut Mega?
+    - Benefit Mega?
+    - Apa yang didapat?
+    - Untung ikut Mega?
+    - Kelebihan Mega?
+    - Kenapa ikut Mega?
+    - Apa manfaat Mega?
+    - Join Mega dapat apa?
+    - Apa benefit Mega?
+    - Mega membantu apa?
+    - Kegunaan Mega?
+    - Apa hasil ikut Mega?
+    - Mega berguna?
+    - Manfaat join Mega?
+
+- intent: media_informasi_mega
+  examples: |
+    - IG Mega apa sih?
+    - Bisa hubungi Mega dimana?
+    - Ada kontak adminnya ga?
+    - Follow Mega dimana ya?
+    - Info lengkapnya liat dimana?
+    - IG Mega apa?
+    - Instagram Mega?
+    - Kontak Mega?
+    - Nomor Mega?
+    - Sosial media Mega?
+    - Cara hubungi Mega?
+    - Info Mega dimana?
+    - Akun Mega?
+    - Follow Mega dimana?
+    - Media Mega apa?
+    - Kontak resmi Mega?
+    - DM Mega?
+    - IG resmi Mega?
+    - Nomor admin?
+    - Info online Mega?

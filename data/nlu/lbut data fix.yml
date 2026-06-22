@@ -1,0 +1,556 @@
+version: "3.1"
+
+nlu:
+
+- intent: tanya_ukm_lbut
+  examples: |
+    - LBUT itu apaan sih?
+    - UKM LBUT tuh kayak gimana sih?
+    - LBUT di kampus ngapain aja sih?
+    - LBUT itu buat apa sih?
+    - LBUT tuh isinya apa aja?
+    - Apa itu UKM LBUT?
+    - LBUT itu apa?
+    - Bisa jelaskan UKM LBUT?
+    - LBUT jenis organisasi apa?
+    - UKM LBUT fokus bidang kegiatan apa?
+    - Apa itu LBUT di kampus?
+    - Jelaskan tentang LBUT
+    - LBUT itu komunitas apa?
+    - Saya ingin tahu tentang LBUT
+
+- intent: fungsi_ukm_lbut
+  examples: |
+    - peranan organisasi ini bagi mahasiswa apa?
+    - fungsi utama organisasi ini apa?
+    - LBUT gunanya apa sih?
+    - Peran LBUT buat mahasiswa apa?
+    - LBUT itu kepake buat apa?
+    - Fungsi LBUT di kampus apa ya?
+    - LBUT bantu apa sih?
+    - Apa fungsi UKM LBUT?
+    - Apa fungsi LBUT bagi mahasiswa?
+    - LBUT berfungsi sebagai apa?
+    - Fungsi LBUT?
+    - Apakah fungsi LBUT?
+
+- intent: tujuan_ukm_lbut
+  examples: |
+    - tujuan utama dibentuknya organisasi ini apa?
+    - organisasi ini dibuat untuk tujuan apa?
+    - LBUT tujuannya apa sih?
+    - Ikut LBUT biar apa?
+    - LBUT itu pengen capai apa?
+    - Tujuan ikut LBUT apa ya?
+    - LBUT itu buat pengembangan apa sih?
+    - Apa tujuan LBUT?
+    - Tujuan UKM LBUT apa?
+    - LBUT dibuat tujuan utama organisasi ini apa?
+    - LBUT tujuan utama organisasi ini apa?
+    - Tujuan kegiatan LBUT apa?
+    - LBUT bertujuan apa?
+    - Apa kegunaan LBUT?
+    - Tujuan utama LBUT?
+    - Apakah untuk olahraga bulutangkis?
+    - LBUT membantu apa?
+
+- intent: misi_ukm_lbut
+  examples: |
+    - program misi utama organisasi ini apa?
+    - apa fokus misi organisasi ini?
+    - Misi LBUT itu apa sih?
+    - LBUT punya misi apa aja?
+    - Fokus utama LBUT apa?
+    - Misi tim LBUT apa ya?
+    - Target LBUT itu apa?
+    - Apa misi LBUT?
+    - Misi LBUT?
+    - Apa saja misi LBUT?
+    - Misi LBUT apa?
+    - Misi LBUT apa saja?
+
+- intent: visi_ukm_lbut
+  examples: |
+    - arah visi organisasi ini bagaimana?
+    - visi utama organisasi ini apa?
+    - Visi LBUT itu apa sih?
+    - LBUT mau jadi apa kedepannya?
+    - Tujuan jangka panjang LBUT apa?
+    - Arah LBUT itu kemana?
+    - Cita-cita LBUT apa?
+    - Apa visi LBUT?
+    - Visi LBUT?
+    - Apa saja visi LBUT?
+    - Visi LBUT apa?
+    - Visi LBUT apa saja?
+
+- intent: bidang_ukm_lbut
+  examples: |
+    - LBUT itu fokusnya olahraga ya?
+    - LBUT lebih ke badminton ya?
+    - UKM LBUT itu sport banget ya?
+    - LBUT fokus ke latihan fisik ya?
+    - LBUT itu olahraga kompetitif kan?
+    - LBUT fokus bidang kegiatan apa?
+    - Bidang UKM LBUT apa?
+    - Apakah LBUT olahraga?
+    - LBUT fokus apa?
+    - UKM LBUT fokus utama kegiatan apa?
+    - Apakah LBUT organisasi bulutangkis?
+    - LBUT bidangnya apa?
+    - Fokus utama LBUT?
+    - Apakah tentang olahraga?
+    - LBUT terkait badminton?
+    - LBUT mencakup apa saja?
+    - Apakah latihan bulutangkis?
+    - LBUT termasuk UKM olahraga?
+    - LBUT fokus fisik?
+    - Bidang utama LBUT?
+
+- intent: boleh_gabung_lbut
+  examples: |
+    - Semua orang bisa masuk LBUT ga?
+    - Anak baru boleh ikut LBUT ga?
+    - Bebas join LBUT ga sih?
+    - Semua jurusan bisa ikut ga?
+    - Yang ga jago boleh masuk ga?
+    - Siapa saja boleh gabung LBUT?
+    - Apakah semua mahasiswa bisa join?
+    - Boleh semua fakultas ikut?
+    - Siapa yang bisa join LBUT?
+    - Apakah terbuka untuk semua?
+    - Mahasiswa baru boleh ikut?
+    - Apakah lintas jurusan boleh?
+    - LBUT untuk siapa saja?
+    - Apakah semua semester boleh?
+    - Apakah umum bisa join?
+    - Siapa target anggota LBUT?
+    - Apakah bebas gabung?
+    - Siapa saja bisa daftar?
+    - Apakah LBUT terbuka untuk semua?
+    - Semua mahasiswa boleh ikut?
+
+- intent: cara_daftar_lbut
+  examples: |
+    - Cara masuk LBUT gimana sih?
+    - Mau join LBUT harus ngapain?
+    - Daftar LBUT ribet ga?
+    - Ikut LBUT mulai dari mana?
+    - Gimana biar bisa gabung LBUT?
+    - Bagaimana cara daftar LBUT?
+    - Cara join LBUT?
+    - Gimana cara masuk LBUT?
+    - Daftar LBUT lewat apa?
+    - Bagaimana proses pendaftaran?
+    - Cara gabung LBUT gimana?
+    - Saya ingin daftar LBUT
+    - Apa langkah daftar LBUT?
+    - Daftar LBUT dimana?
+    - Join lewat gform?
+    - Cara ikut LBUT?
+    - Prosedur masuk LBUT?
+    - Cara registrasi LBUT?
+    - Masuk LBUT bagaimana?
+    - Cara daftar UKM LBUT?
+
+- intent: biaya_daftar_lbut
+  examples: |
+    - Masuk LBUT bayar ga sih?
+    - Join LBUT mahal ga?
+    - LBUT gratis atau bayar?
+    - Ada biaya latihan ga?
+    - Ikut LBUT butuh uang berapa?
+    - Biaya LBUT berapa?
+    - Daftar LBUT bayar berapa?
+    - Apakah ada biaya LBUT?
+    - Biaya registrasi LBUT berapa?
+    - Masuk LBUT bayar berapa?
+    - Apakah LBUT gratis?
+    - Biaya join LBUT berapa?
+    - Registrasi LBUT berapa?
+    - Apakah ada uang pendaftaran?
+    - Daftar LBUT perlu bayar?
+    - Berapa uang masuk LBUT?
+    - Biaya anggota LBUT?
+    - LBUT ada biaya?
+    - Join LBUT bayar?
+    - Harga daftar LBUT?
+
+- intent: status_pendaftaran_lbut
+  examples: |
+    - LBUT lagi buka ga sih?
+    - Masih bisa daftar LBUT ga?
+    - Sekarang LBUT open ga?
+    - Lagi nerima anggota baru ga?
+    - Rekrutmen LBUT masih ada?
+    - Apakah LBUT buka pendaftaran?
+    - LBUT masih buka?
+    - Kapan pendaftaran LBUT dibuka?
+    - Apakah bisa daftar sekarang?
+    - Pendaftaran LBUT tutup atau belum?
+    - Apakah masih bisa join?
+    - LBUT open recruitment?
+    - Kapan open LBUT?
+    - Apakah LBUT sedang open?
+    - Jadwal pendaftaran LBUT kapan?
+    - LBUT buka anggota baru?
+    - Apakah rekrutmen LBUT aktif?
+    - Kapan bisa daftar LBUT?
+    - Apakah LBUT menerima anggota baru?
+    - LBUT buka saat PMB?
+
+- intent: syarat_anggota_lbut
+  examples: |
+    - Masuk LBUT syaratnya apa sih?
+    - Harus bisa badminton dulu ga?
+    - Ada syarat khusus ga?
+    - Gabung LBUT harus apa aja?
+    - Perlu pengalaman ga?
+    - Apa syarat masuk LBUT?
+    - Syarat join LBUT apa?
+    - Persyaratan LBUT?
+    - Masuk LBUT harus apa?
+    - Syarat jadi anggota?
+    - Apa ketentuan LBUT?
+    - Syarat gabung LBUT?
+    - Apa yang harus dipenuhi?
+    - Syarat ikut LBUT?
+    - Persyaratan umum LBUT?
+    - Apakah ada syarat khusus?
+    - Harus punya skill badminton?
+    - Syarat pendaftaran LBUT?
+    - Ketentuan anggota LBUT?
+    - Apa saja syaratnya?
+
+- intent: kemampuan_anggota_lbut
+  examples: |
+    - Harus jago badminton ga?
+    - Pemula boleh masuk ga?
+    - Harus bisa basic dulu ga?
+    - Bisa belajar dari nol ga?
+    - Skill penting ga sih?
+    - Apakah harus bisa badminton?
+    - Perlu skill khusus?
+    - Harus jago bulutangkis?
+    - Skill apa yang dibutuhkan?
+    - Harus punya pengalaman?
+    - Apakah pemula boleh?
+    - Perlu kemampuan tertentu?
+    - Harus atlet?
+    - Skill bermain badminton?
+    - Harus bisa teknik dasar?
+    - Apakah skill penting?
+    - Bisa belajar dari nol?
+    - Apakah ada seleksi skill?
+    - Kemampuan anggota bagaimana?
+    - Skill untuk LBUT?
+
+- intent: divisi_lbut
+  examples: |
+    - Di LBUT ada divisi apa aja sih?
+    - Ada pembagian tim ga?
+    - Divisi LBUT gimana?
+    - Ada tim inti ga?
+    - Struktur timnya gimana?
+    - Divisi LBUT apa saja?
+    - Ada bidang apa saja?
+    - Divisi dalam LBUT?
+    - Divisi apa saja?
+    - Divisi internal?
+    - Bagian organisasi?
+    - Unit dalam UKM?
+    - Divisi apa saja?
+
+- intent: struktur_lbut
+  examples: |
+    - Struktur LBUT gimana sih?
+    - Kepengurusannya kayak apa?
+    - Ada ketua tim ga?
+    - Susunan organisasinya gimana?
+    - Struktur organisasi?
+    - Struktur UKM?
+    - Struktur kepengurusan?
+    - Struktur bidang?
+    - Struktur lengkap?
+    - Struktur divisi?
+
+- intent: kegiatan_lbut
+  examples: |
+    - LBUT biasanya ngapain aja sih?
+    - Anak LBUT sering latihan apa?
+    - Ada pertandingan juga ga?
+    - Kegiatan LBUT seru ga?
+    - LBUT sering main apa?
+    - Kegiatan LBUT apa saja?
+    - Aktivitas LBUT apa?
+    - LBUT ada kegiatan apa?
+    - Program LBUT apa?
+    - Apa saja kegiatan LBUT?
+    - Event LBUT apa?
+    - Aktivitas UKM LBUT?
+    - LBUT sering ngapain?
+    - Kegiatan rutin LBUT?
+    - Program kerja LBUT?
+    - Apa yang dilakukan LBUT?
+    - Kegiatan anggota LBUT?
+    - LBUT ada event apa?
+    - Aktivitas LBUT sehari-hari?
+    - Apa saja aktivitas LBUT?
+
+- intent: latihan_rutin_lbut
+  examples: |
+    - Ada latihan rutin ga sih?
+    - LBUT rutin latihan ga?
+    - Latihan tiap minggu ada?
+    - Sering latihan ga?
+    - Jadwal rutinnya ada ga?
+    - Apa ada latihan rutin?
+    - Apa saja kegiatan rutinnya?
+    - Apakah ada kegiatan rutin?
+    - Ada latihan rutin?
+    - Ada kegiatan rutin?
+
+- intent: sparring_lbut
+  examples: |
+    - Ada sparing lawan tim lain ga?
+    - LBUT sering sparring ga?
+    - Bisa tanding ga?
+    - Ada uji coba pertandingan ga?
+    - Sparring rutin ada?
+    - Apa ada sparring?
+    - Apa saja kegiatan sparring?
+    - Apakah ada kegiatan sparring?
+    - Ada sparring?
+    - Ada kegiatan sparring?
+
+- intent: turnamen_lbut
+  examples: |
+    - LBUT ikut turnamen ga?
+    - Ada lomba badminton ga?
+    - Ikut kompetisi antar kampus ga?
+    - Ada event tanding ga?
+    - LBUT sering ikut lomba ga?
+    - Apa ada turnamen?
+    - Apa saja kegiatan turnamen?
+    - Apakah ada kegiatan turnamen?
+    - Ada turnamen?
+    - Ada kegiatan turnamen?
+
+- intent: jenis_kegiatan_lbut
+  examples: |
+    - Kegiatan LBUT ada apa aja sih?
+    - Ada latihan sama turnamen ya?
+    - Jenis kegiatannya apa aja?
+    - Program LBUT apa aja?
+    - Kegiatan olahraga apa aja?
+    - Apa itu latihan LBUT?
+    - Apa itu sparring?
+    - Apa itu turnamen internal?
+    - Jenis kegiatan LBUT?
+    - Program olahraga apa saja?
+    - Aktivitas latihan apa?
+    - Kegiatan badminton apa?
+    - Ada pertandingan?
+    - Program utama LBUT?
+    - Kegiatan fisik apa?
+    - Event olahraga?
+    - Apa saja jenis kegiatan?
+    - Program latihan LBUT?
+    - Kegiatan kompetisi?
+    - Aktivitas olahraga apa saja?
+
+- intent: jadwal_kegiatan_lbut
+  examples: |
+    - LBUT biasanya latihan kapan sih?
+    - Jadwal kegiatannya gimana?
+    - Latihan hari apa?
+    - Kapan aktifnya?
+    - Kegiatannya sering kapan?
+    - Jadwal LBUT kapan?
+    - LBUT latihan hari apa?
+    - Jadwal kegiatan LBUT?
+    - LBUT aktif kapan?
+    - Jadwal latihan kapan?
+    - Jadwal rutin LBUT?
+    - LBUT ada kegiatan kapan?
+    - Kapan latihan badminton?
+    - Jadwal acara LBUT?
+    - Jadwal kegiatan?
+    - Kapan aktif?
+    - Jadwal program?
+    - Kapan kegiatan utama?
+    - Jadwal mingguan?
+    - Waktu kegiatan?
+
+- intent: durasi_kegiatan_lbut
+  examples: |
+    - Latihan LBUT berapa jam sih?
+    - Sekali latihan lama ga?
+    - Durasi latihan biasanya berapa?
+    - Main badminton berapa lama?
+    - Satu sesi berapa jam?
+    - Berapa lama latihan LBUT?
+    - Durasi latihan?
+    - Kegiatan berapa jam?
+    - Lama kegiatan LBUT?
+    - Latihan berapa lama?
+    - Durasi per sesi?
+    - Satu sesi berapa lama?
+    - Waktu kegiatan?
+    - Berapa jam per latihan?
+    - LBUT berapa lama?
+    - Lama kegiatan?
+    - Durasi olahraga?
+    - Waktu latihan?
+    - Durasi kegiatan?
+    - Berapa lama per sesi?
+
+- intent: lokasi_kegiatan_lbut
+  examples: |
+    - LBUT biasanya latihan dimana sih?
+    - Main badminton di lapangan mana?
+    - Tempat latihannya dimana?
+    - Sering latihan dimana?
+    - Lokasi LBUT dimana ya?
+    - Kegiatan LBUT dimana?
+    - Lokasi LBUT dimana?
+    - Latihan dimana?
+    - Tempat kegiatan LBUT?
+    - LBUT dilakukan dimana?
+    - Lokasi lapangan badminton?
+    - Tempat latihan?
+    - Dimana lokasi LBUT?
+    - Tempat kegiatan?
+    - Lokasi latihan LBUT?
+    - Tempat olahraga?
+    - Lokasi kegiatan?
+    - LBUT di mana?
+    - Tempat pertemuan?
+    - Kegiatan di kampus dimana?
+
+- intent: event_lbut
+  examples: |
+    - LBUT ada event apa aja sih?
+    - Ada turnamen ga?
+    - Event besarnya apa?
+    - LBUT sering ikut lomba apa?
+    - Ada kompetisi seru ga?
+    - Event LBUT apa saja?
+    - Ada acara apa saja?
+    - Program LBUT apa?
+    - Apa itu turnamen internal?
+    - Apa itu sparring?
+    - Event LBUT apa saja?
+    - Acara LBUT apa?
+    - Program besar LBUT?
+    - Event tahunan LBUT?
+    - Ada kegiatan khusus?
+    - Event olahraga?
+    - Kegiatan besar LBUT?
+    - Acara utama LBUT?
+    - Event penting LBUT?
+    - Program spesial LBUT?
+
+- intent: jadwal_event_lbut
+  examples: |
+    - Turnamen LBUT kapan sih?
+    - Event LBUT kapan?
+    - Jadwal lombanya kapan?
+    - Kompetisi diadakan kapan?
+    - Event terdekat kapan?
+    - Turnamen LBUT kapan?
+    - Sparring kapan?
+    - Jadwal event LBUT?
+    - Event bulan apa?
+    - Kapan acara LBUT?
+    - Jadwal kegiatan besar?
+    - Event diadakan kapan?
+    - Jadwal kompetisi?
+    - Kapan kegiatan utama?
+    - Event tahunan kapan?
+    - Jadwal event?
+    - Kapan acara khusus?
+    - Jadwal acara?
+    - Event kapan?
+    - Jadwal turnamen?
+
+- intent: fasilitas_lbut
+  examples: |
+    - LBUT nyediain raket ga?
+    - Ada shuttlecock sama alat ga?
+    - Fasilitasnya lengkap ga?
+    - Bisa pinjam alat ga?
+    - Tempat latihan disediain ga?
+    - Fasilitas LBUT apa?
+    - Apa saja fasilitasnya?
+    - Ada lapangan badminton?
+    - Ada perlengkapan?
+    - Ada shuttlecock dan raket?
+    - Fasilitas lengkap?
+    - Apa yang disediakan?
+    - Fasilitas UKM LBUT?
+    - Apakah ada tempat latihan?
+    - Tempat olahraga ada?
+    - Fasilitas badminton?
+    - Apa saja alatnya?
+    - Peralatan olahraga ada?
+    - Fasilitas pendukung?
+    - Ada tempat kumpul?
+
+- intent: lokasi_sekre_lbut
+  examples: |
+    - biasanya lokasi ruang sekretariat dimana
+    - boleh tanya lokasi ruang sekretariat dimana
+    - info lokasi ruang sekretariat dimana
+    - lokasi ruang sekretariat dimana
+    - sekretariat LBUT dimana
+    - sekretariat LBUT lantai berapa
+    - LBUT sekretariatnya di lantai berapa
+    - ruang sekre LBUT dimana
+    - ruang sekre LBUT lantai berapa
+
+- intent: benefit_lbut
+  examples: |
+    - Ikut LBUT dapet apa sih?
+    - Bisa jadi lebih jago ga?
+    - Benefit LBUT apa aja?
+    - Worth it ga ikut LBUT?
+    - Bisa ikut lomba ga?
+    - Manfaat LBUT apa?
+    - Keuntungan ikut LBUT?
+    - Benefit LBUT?
+    - Apa yang didapat?
+    - Untung ikut LBUT?
+    - Kelebihan LBUT?
+    - Kenapa ikut LBUT?
+    - Apa manfaat LBUT?
+    - Join LBUT dapat apa?
+    - Apa benefit LBUT?
+    - LBUT membantu apa?
+    - Kegunaan LBUT?
+    - Apa hasil ikut LBUT?
+    - LBUT berguna?
+    - Manfaat join LBUT?
+
+- intent: media_informasi_lbut
+  examples: |
+    - IG LBUT apa sih?
+    - Bisa hubungi LBUT dimana?
+    - Ada kontak admin ga?
+    - Follow LBUT dimana?
+    - Info LBUT liat dimana?
+    - IG LBUT apa?
+    - Instagram LBUT?
+    - Kontak LBUT?
+    - Nomor LBUT?
+    - Sosial media LBUT?
+    - Cara hubungi LBUT?
+    - Info LBUT dimana?
+    - Akun LBUT?
+    - Follow LBUT dimana?
+    - Media LBUT apa?
+    - Kontak resmi LBUT?
+    - DM LBUT?
+    - IG resmi LBUT?
+    - Nomor admin?
+    - Info online LBUT?

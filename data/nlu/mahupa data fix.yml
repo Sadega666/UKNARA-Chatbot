@@ -1,0 +1,497 @@
+version: "3.1"
+
+nlu:
+
+- intent: tanya_ukm_mahupa
+  examples: |
+    - Mahupa itu apaan sih?
+    - UKM Mahupa tuh kayak gimana sih?
+    - Mahupa di kampus ngapain aja sih?
+    - Mahupa itu organisasi apa ya?
+    - Mahupa tuh buat apa sih?
+    - Apa itu UKM Mahupa?
+    - Mahupa itu apa?
+    - Bisa jelaskan UKM Mahupa?
+    - Mahupa jenis organisasi apa?
+    - UKM Mahupa fokus bidang kegiatan apa?
+    - Apa itu Mahupa di kampus?
+    - Jelaskan tentang Mahupa
+    - Mahupa itu komunitas apa?
+    - Saya ingin tahu tentang Mahupa
+
+- intent: fungsi_ukm_mahupa
+  examples: |
+    - peranan organisasi ini bagi mahasiswa apa?
+    - fungsi utama organisasi ini apa?
+    - Mahupa gunanya apa sih?
+    - Fungsi Mahupa tuh buat apa?
+    - Mahupa itu membantu apa aja?
+    - Mahupa kepake buat apa?
+    - Peran Mahupa itu apa sih?
+    - Apa fungsi UKM Mahupa?
+    - Apa fungsi Mahupa bagi mahasiswa?
+    - Mahupa berfungsi sebagai apa?
+    - Fungsi Mahupa?
+    - Apakah fungsi Mahupa?
+
+- intent: tujuan_ukm_mahupa
+  examples: |
+    - tujuan utama dibentuknya organisasi ini apa?
+    - organisasi ini dibuat untuk tujuan apa?
+    - Mahupa tujuannya apa sih?
+    - Dibuatnya Mahupa buat apa?
+    - Mahupa punya tujuan apa ya?
+    - Ikut Mahupa tujuannya apa?
+    - Mahupa itu pengen capai apa?
+    - Apa tujuan Mahupa?
+    - Tujuan UKM Mahupa apa?
+    - Mahupa dibuat tujuan utama organisasi ini apa?
+    - Apa manfaat ikut Mahupa?
+    - Mahupa tujuan utama organisasi ini apa?
+    - Apa fungsi Mahupa bagi mahasiswa?
+    - Tujuan kegiatan Mahupa apa?
+    - Mahupa bertujuan apa?
+    - Apa kegunaan Mahupa?
+    - Tujuan utama Mahupa?
+    - Apakah untuk lingkungan?
+    - Mahupa membantu apa?
+
+- intent: misi_ukm_mahupa
+  examples: |
+    - program misi utama organisasi ini apa?
+    - apa fokus misi organisasi ini?
+    - Misi Mahupa itu apa sih?
+    - Mahupa punya misi apa aja?
+    - Tujuan kecil Mahupa apa aja?
+    - Misi utamanya Mahupa apa?
+    - Mega fokusnya ke apa aja?
+    - Apa misi Mahupa?
+    - Misi Mahupa?
+    - Apa saja misi Mahupa?
+    - Misi Mahupa apa?
+    - Misi Mahupa apa saja?
+
+- intent: visi_ukm_mahupa
+  examples: |
+    - arah visi organisasi ini bagaimana?
+    - visi utama organisasi ini apa?
+    - Visi Mahupa itu apa sih?
+    - Mahupa mau jadi apa kedepannya?
+    - Arah Mahupa itu kemana?
+    - Cita-cita Mahupa apa?
+    - Mahupa punya tujuan besar apa?
+    - Apa visi Mahupa?
+    - Visi Mahupa?
+    - Apa saja visi Mahupa?
+    - Visi Mahupa apa?
+    - Visi Mahupa apa saja?
+
+- intent: bidang_ukm_mahupa
+  examples: |
+    - Mahupa fokusnya di bidang apa sih?
+    - Mahupa itu anak alam ya?
+    - Mahupa tuh ke arah apa kegiatannya?
+    - Fokus Mahupa apa aja?
+    - Mahupa lebih ke outdoor ya?
+    - Mahupa fokus bidang kegiatan apa?
+    - Bidang UKM Mahupa apa?
+    - Apakah Mahupa pecinta alam?
+    - Mahupa fokus apa?
+    - UKM Mahupa fokus utama kegiatan apa?
+    - Apakah Mahupa tentang lingkungan?
+    - Mahupa bidangnya apa?
+    - Fokus utama Mahupa?
+    - Apakah tentang alam?
+    - Mahupa terkait kegiatan outdoor?
+    - Mahupa mencakup apa saja?
+    - Apakah tentang hiking?
+    - Mahupa termasuk UKM alam?
+    - Mahupa fokus kegiatan luar?
+    - Bidang utama Mahupa?
+
+- intent: boleh_gabung_mahupa
+  examples: |
+    - Semua orang bisa masuk Mahupa ga?
+    - Bebas join Mahupa ga sih?
+    - Anak jurusan apa aja boleh ikut?
+    - Semester tua boleh gabung ga?
+    - Anak baru bisa masuk Mahupa ga?
+    - Siapa saja boleh gabung Mahupa?
+    - Apakah semua mahasiswa bisa join?
+    - Boleh semua fakultas ikut?
+    - Siapa yang bisa join Mahupa?
+    - Apakah terbuka untuk semua?
+    - Mahasiswa baru boleh ikut?
+    - Apakah lintas jurusan boleh?
+    - Mahupa untuk siapa saja?
+    - Apakah semua semester boleh?
+    - Apakah umum bisa join?
+    - Siapa target anggota Mahupa?
+    - Apakah bebas gabung?
+    - Siapa saja bisa daftar?
+    - Apakah Mahupa terbuka untuk semua?
+    - Semua mahasiswa boleh ikut?
+
+- intent: cara_daftar_mahupa
+  examples: |
+    - Cara masuk Mahupa gimana sih?
+    - Mau join Mahupa harus ngapain?
+    - Daftar Mahupa ribet ga?
+    - Ikut Mahupa daftar dimana ya?
+    - Gimana biar bisa gabung Mahupa?
+    - Bagaimana cara daftar Mahupa?
+    - Cara join Mahupa?
+    - Gimana cara masuk Mahupa?
+    - Daftar Mahupa lewat apa?
+    - Bagaimana proses pendaftaran?
+    - Cara gabung Mahupa gimana?
+    - Saya ingin daftar Mahupa
+    - Apa langkah daftar Mahupa?
+    - Daftar Mahupa dimana?
+    - Join lewat gform?
+    - Cara ikut Mahupa?
+    - Prosedur masuk Mahupa?
+    - Cara registrasi Mahupa?
+    - Masuk Mahupa bagaimana?
+    - Cara daftar UKM Mahupa?
+
+- intent: biaya_daftar_mahupa
+  examples: |
+    - Masuk Mahupa bayar ga sih?
+    - Join Mahupa mahal ga?
+    - Mahupa gratis atau bayar?
+    - Ikut Mahupa butuh biaya berapa?
+    - Ada uang pendaftaran ga?
+    - Biaya Mahupa berapa?
+    - Daftar Mahupa bayar berapa?
+    - Apakah ada biaya Mahupa?
+    - Biaya registrasi Mahupa berapa?
+    - Masuk Mahupa bayar berapa?
+    - Apakah Mahupa gratis?
+    - Biaya join Mahupa berapa?
+    - Registrasi Mahupa berapa?
+    - Apakah ada uang pendaftaran?
+    - Daftar Mahupa perlu bayar?
+    - Berapa uang masuk Mahupa?
+    - Biaya anggota Mahupa?
+    - Mahupa ada biaya?
+    - Join Mahupa bayar?
+    - Harga daftar Mahupa?
+
+- intent: status_pendaftaran_mahupa
+  examples: |
+    - Mahupa lagi buka ga sih?
+    - Masih bisa daftar Mahupa ga?
+    - Sekarang Mahupa open ga?
+    - Rekrutmen Mahupa masih ada ga?
+    - Lagi nerima anggota baru ga?
+    - Apakah Mahupa buka pendaftaran?
+    - Mahupa masih buka?
+    - Kapan pendaftaran Mahupa dibuka?
+    - Apakah bisa daftar sekarang?
+    - Pendaftaran Mahupa tutup atau belum?
+    - Apakah masih bisa join?
+    - Mahupa open recruitment?
+    - Kapan open Mahupa?
+    - Apakah Mahupa sedang open?
+    - Jadwal pendaftaran Mahupa kapan?
+    - Mahupa buka anggota baru?
+    - Apakah rekrutmen Mahupa aktif?
+    - Kapan bisa daftar Mahupa?
+    - Apakah Mahupa menerima anggota baru?
+    - Mahupa buka saat PMB?
+
+- intent: syarat_anggota_mahupa
+  examples: |
+    - Masuk Mahupa syaratnya apa sih?
+    - Harus bisa apa dulu?
+    - Ada syarat khusus ga?
+    - Gabung Mahupa harus apa aja?
+    - Perlu skill tertentu ga?
+    - Apa syarat masuk Mahupa?
+    - Syarat join Mahupa apa?
+    - Persyaratan Mahupa?
+    - Masuk Mahupa harus apa?
+    - Syarat jadi anggota?
+    - Apa ketentuan Mahupa?
+    - Syarat gabung Mahupa?
+    - Apa yang harus dipenuhi?
+    - Syarat ikut Mahupa?
+    - Persyaratan umum Mahupa?
+    - Apakah ada syarat khusus?
+    - Harus ikut diksar?
+    - Syarat pendaftaran Mahupa?
+    - Ketentuan anggota Mahupa?
+    - Apa saja syaratnya?
+
+- intent: komitmen_mahupa
+  examples: |
+    - Harus aktif banget ga di Mahupa?
+    - Wajib ikut semua kegiatan ga?
+    - Komitmennya berat ga?
+    - Harus disiplin banget ya?
+    - Kalau jarang ikut gimana?
+    - Apakah harus komitmen di Mahupa?
+    - Komitmen Mahupa seperti apa?
+    - Harus aktif kegiatan?
+    - Apakah wajib ikut kegiatan?
+    - Komitmen anggota Mahupa?
+    - Harus ikut semua program?
+    - Apakah wajib diksar?
+    - Komitmen penting?
+    - Harus disiplin?
+    - Apakah harus serius?
+    - Komitmen bagaimana?
+    - Apakah harus aktif?
+    - Komitmen anggota?
+    - Harus tanggung jawab?
+    - Komitmen Mahupa apa?
+
+- intent: divisi_mahupa
+  examples: |
+    - Di Mahupa ada divisi apa aja sih?
+    - Divisinya apa aja?
+    - Ada pembagian tim ga?
+    - Struktur divisinya gimana?
+    - Ada bidang khusus ga?
+    - Divisi Mahupa apa saja?
+    - Ada bidang apa saja?
+    - Divisi dalam Mahupa?
+    - Divisi apa saja?
+    - Divisi internal?
+    - Bagian organisasi?
+    - Unit dalam UKM?
+    - Divisi apa saja?
+
+- intent: struktur_mahupa
+  examples: |
+    - Struktur Mahupa gimana sih?
+    - Kepengurusannya kayak apa?
+    - Ada ketua dan divisi ya?
+    - Susunan organisasinya gimana?
+    - Struktur lengkapnya apa aja?
+    - Struktur organisasi?
+    - Struktur UKM?
+    - Struktur kepengurusan?
+    - Struktur bidang?
+    - Struktur lengkap?
+    - Struktur divisi?
+
+- intent: kegiatan_mahupa
+  examples: |
+    - Mahupa biasanya ngapain aja sih?
+    - Kegiatan Mahupa seru ga?
+    - Anak Mahupa sering ngelakuin apa?
+    - Mega ada aktivitas apa aja?
+    - Kegiatan sehari-harinya apa sih?
+    - Kegiatan Mahupa apa saja?
+    - Aktivitas Mahupa apa?
+    - Mahupa ada kegiatan apa?
+    - Program Mahupa apa?
+    - Apa saja kegiatan Mahupa?
+    - Event Mahupa apa?
+    - Aktivitas UKM Mahupa?
+    - Mahupa sering ngapain?
+    - Kegiatan rutin Mahupa?
+    - Program kerja Mahupa?
+    - Apa yang dilakukan Mahupa?
+    - Kegiatan anggota Mahupa?
+    - Mahupa ada event apa?
+    - Aktivitas Mahupa sehari-hari?
+    - Apa saja aktivitas Mahupa?
+
+- intent: latihan_bulanan_mahupa
+  examples: |
+    - Ada latihan rutin ga sih?
+    - Mahupa tiap bulan ngapain?
+    - Latihan rutin ada ga?
+    - Ada kegiatan rutin ga?
+    - Apa ada latihan rutin?
+    - Apa saja kegiatan rutinnya?
+    - Apakah ada kegiatan rutin?
+    - Ada latihan rutin?
+    - Ada kegiatan rutin?
+
+- intent: jenis_kegiatan_mahupa
+  examples: |
+    - Kegiatan Mahupa ada apa aja sih?
+    - Ada diksar sama trip ya?
+    - Jenis kegiatannya apa aja?
+    - Mahupa ada program apa aja?
+    - Kegiatan outdoor apa aja?
+    - Apa itu diksar Mahupa?
+    - Apa itu open trip Mahupa?
+    - Apa itu kegiatan alam Mahupa?
+    - Jenis kegiatan Mahupa?
+    - Program alam apa saja?
+    - Aktivitas outdoor apa?
+    - Kegiatan hiking apa?
+    - Ada kegiatan lingkungan?
+    - Program utama Mahupa?
+    - Kegiatan fisik apa?
+    - Event alam?
+    - Apa saja jenis kegiatan?
+    - Program latihan Mahupa?
+    - Kegiatan eksplorasi?
+    - Aktivitas alam apa saja?
+
+- intent: jadwal_kegiatan_mahupa
+  examples: |
+    - Mahupa biasanya latihan kapan sih?
+    - Jadwal kegiatannya gimana?
+    - Mahupa aktifnya hari apa?
+    - Latihan rutin kapan ya?
+    - Kegiatannya seringnya kapan?
+    - Jadwal Mahupa kapan?
+    - Mahupa kegiatan hari apa?
+    - Jadwal kegiatan Mahupa?
+    - Mahupa aktif kapan?
+    - Jadwal latihan kapan?
+    - Jadwal rutin Mahupa?
+    - Mahupa ada kegiatan kapan?
+    - Kapan kegiatan alam?
+    - Jadwal acara Mahupa?
+    - Jadwal kegiatan?
+    - Kapan aktif?
+    - Jadwal program?
+    - Kapan kegiatan utama?
+    - Jadwal bulanan?
+    - Waktu kegiatan?
+
+- intent: lokasi_kegiatan_mahupa
+  examples: |
+    - Kegiatannya biasanya dimana sih?
+    - Mahupa sering latihan dimana?
+    - Lokasi kegiatannya dimana ya?
+    - Biasanya di gunung mana?
+    - Tempat kumpulnya dimana?
+    - Kegiatan Mahupa dimana?
+    - Lokasi Mahupa dimana?
+    - Kegiatan alam dimana?
+    - Tempat kegiatan Mahupa?
+    - Mahupa dilakukan dimana?
+    - Lokasi puncak?
+    - Tempat latihan?
+    - Dimana lokasi Mahupa?
+    - Tempat kegiatan?
+    - Lokasi kegiatan Mahupa?
+    - Tempat outdoor?
+    - Lokasi kegiatan?
+    - Mahupa di mana?
+    - Tempat pertemuan?
+    - Kegiatan di luar kota dimana?
+
+- intent: event_mahupa
+  examples: |
+    - Mahupa ada acara apa aja sih?
+    - Event besarnya apa aja?
+    - Ada kegiatan tahunan ga?
+    - Mahupa sering bikin event apa?
+    - Event serunya apa aja?
+    - Event Mahupa apa saja?
+    - Ada acara apa saja?
+    - Program Mahupa apa?
+    - Apa itu diksar?
+    - Apa itu open house?
+    - Event Mahupa apa saja?
+    - Acara Mahupa apa?
+    - Program besar Mahupa?
+    - Event tahunan Mahupa?
+    - Ada kegiatan khusus?
+    - Event alam?
+    - Kegiatan besar Mahupa?
+    - Acara utama Mahupa?
+    - Event penting Mahupa?
+    - Program spesial Mahupa?
+
+- intent: jadwal_event_mahupa
+  examples: |
+    - Event Mahupa kapan sih?
+    - Diksar biasanya kapan?
+    - Acara Mahupa diadakan kapan?
+    - Jadwal eventnya gimana?
+    - Event terdekat kapan?
+    - Diksar Mahupa kapan?
+    - Event Mahupa kapan?
+    - Jadwal event Mahupa?
+    - Event bulan apa?
+    - Kapan acara Mahupa?
+    - Jadwal kegiatan besar?
+    - Event diadakan kapan?
+    - Jadwal kegiatan alam?
+    - Kapan kegiatan utama?
+    - Event tahunan kapan?
+    - Jadwal event?
+    - Kapan acara khusus?
+    - Jadwal acara?
+    - Event kapan?
+    - Jadwal kegiatan Mahupa?
+
+- intent: fasilitas_mahupa
+  examples: |
+    - Mahupa nyediain alat ga sih?
+    - Ada fasilitas apa aja?
+    - Peralatan disediain ga?
+    - Bisa pinjam alat ga?
+    - Fasilitasnya lengkap ga?
+    - Fasilitas Mahupa apa?
+    - Apa saja fasilitasnya?
+    - Ada alat hiking?
+    - Ada perlengkapan?
+    - Ada alat outdoor?
+    - Fasilitas lengkap?
+    - Apa yang disediakan?
+    - Fasilitas UKM Mahupa?
+    - Apakah ada alat pendakian?
+    - Peralatan outdoor ada?
+    - Fasilitas kegiatan alam?
+    - Apa saja alatnya?
+    - Peralatan alam ada?
+    - Fasilitas pendukung?
+    - Ada alat petualangan?
+
+- intent: benefit_mahupa
+  examples: |
+    - Ikut Mahupa dapet apa sih?
+    - Benefitnya apa aja?
+    - Worth it ga ikut Mahupa?
+    - Keuntungan join Mahupa apa?
+    - Ada manfaatnya apa aja?
+    - Manfaat Mahupa apa?
+    - Keuntungan ikut Mahupa?
+    - Benefit Mahupa?
+    - Apa yang didapat?
+    - Untung ikut Mahupa?
+    - Kelebihan Mahupa?
+    - Kenapa ikut Mahupa?
+    - Apa manfaat Mahupa?
+    - Join Mahupa dapat apa?
+    - Apa benefit Mahupa?
+    - Mahupa membantu apa?
+    - Kegunaan Mahupa?
+    - Apa hasil ikut Mahupa?
+    - Mahupa berguna?
+    - Manfaat join Mahupa?
+
+- intent: media_informasi_mahupa
+  examples: |
+    - IG Mahupa apa sih?
+    - Bisa hubungi Mahupa dimana?
+    - Ada kontak adminnya ga?
+    - Follow Mahupa dimana ya?
+    - Info lengkapnya liat dimana?
+    - IG Mahupa apa?
+    - Instagram Mahupa?
+    - Kontak Mahupa?
+    - Nomor Mahupa?
+    - Sosial media Mahupa?
+    - Cara hubungi Mahupa?
+    - Info Mahupa dimana?
+    - Akun Mahupa?
+    - Follow Mahupa dimana?
+    - Media Mahupa apa?
+    - Kontak resmi Mahupa?
+    - DM Mahupa?
+    - IG resmi Mahupa?
+    - Nomor admin?
+    - Info online Mahupa?

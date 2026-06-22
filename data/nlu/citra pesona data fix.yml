@@ -1,0 +1,451 @@
+version: "3.1"
+
+nlu:
+
+- intent: tanya_ukm_citrapesona
+  examples: |
+    - Apa itu UKM Citra Pesona/CP?
+    - Citra Pesona/CP itu apa?
+    - Bisa jelaskan UKM Citra Pesona/CP?
+    - Citra Pesona/CP itu jenis organisasi apa?
+    - UKM Citra Pesona/CP fokus bidang kegiatan apa?
+    - Apa itu Citra Pesona/CP di Untar?
+    - Jelaskan tentang Citra Pesona/CP
+    - Citra Pesona/CP itu komunitas apa?
+    - Saya ingin tahu tentang Citra Pesona/CP
+    - Citra Pesona/CP fokusnya apa?
+    - Apa peran Citra Pesona/CP di kampus?
+    - Citra Pesona/CP itu tujuan utama organisasi ini apa?
+    - UKM Citra Pesona/CP aktivitas utama yang dilakukan apa?
+    - Apa itu komunitas Citra Pesona/CP?
+
+- intent: fungsi_ukm_citrapesona
+  examples: |
+    - peranan organisasi ini bagi mahasiswa apa?
+    - fungsi utama organisasi ini apa?
+    - Apa fungsi Citra Pesona/CP?
+    - Fungsi Citra Pesona/CP bagi mahasiswa?
+    - Citra Pesona/CP berfungsi sebagai apa?
+    - Fungsi Citra Pesona/CP?
+    - Apakah fungsi Citra Pesona/CP?
+
+- intent: tujuan_ukm_citrapesona
+  examples: |
+    - tujuan utama dibentuknya organisasi ini apa?
+    - organisasi ini dibuat untuk tujuan apa?
+    - Apa tujuan Citra Pesona/CP?
+    - Tujuan UKM Citra Pesona/CP apa?
+    - Citra Pesona/CP dibuat tujuan utama organisasi ini apa?
+    - Citra Pesona/CP tujuan utama organisasi ini apa?
+    - Tujuan kegiatan Citra Pesona/CP apa?
+    - Citra Pesona/CP bertujuan apa?
+    - Apa kegunaan Citra Pesona/CP?
+    - Tujuan utama Citra Pesona/CP?
+    - Apakah Citra Pesona/CP untuk menyalurkan bakat seni?
+    - Citra Pesona/CP membantu apa?
+
+- intent: misi_citrapesona
+  examples: |
+    - program misi utama organisasi ini apa?
+    - apa fokus misi organisasi ini?
+    - Apa misi Citra Pesona/CP?
+    - Misi Citra Pesona/CP?
+    - Apa saja misi Citra Pesona/CP
+    - Misi Citra Pesona/Cp apa?
+    - Misi Citra Pesona/CP apa saja?
+
+- intent: visi_citrapesona
+  examples: |
+    - arah visi organisasi ini bagaimana?
+    - visi utama organisasi ini apa?
+    - Apa visi Citra Pesona/CP?
+    - Visi Citra Pesona/CP?
+    - Apa saja Citra Pesona/CP?
+    - Visi Citra Pesona/CP apa?
+    - Visi Citra Pesona/CP apa saja?
+
+- intent: bidang_ukm_citrapesona
+  examples: |
+    - Citra Pesona/CP fokus bidang kegiatan apa?
+    - Bidang UKM Citra Pesona/CP apa?
+    - Apakah Citra Pesona/CP seni tari?
+    - Citra Pesona/CP fokus apa?
+    - UKM Citra Pesona/CP fokus utama kegiatan apa?
+    - Apakah Citra Pesona/CP organisasi seni?
+    - Citra Pesona/CP bidangnya apa?
+    - Fokus utama Citra Pesona/CP?
+    - Apakah ada dance di Citra Pesona/CP?
+    - Citra Pesona/CP tentang modeling?
+    - Citra Pesona/CP mencakup apa saja?
+    - Ada hip hop di Citra Pesona/CP?
+    - Citra Pesona/CP termasuk seni apa?
+    - Citra Pesona/CP bidang kesenian?
+    - Citra Pesona/CP fokus tari?
+
+- intent: boleh_gabung_citrapesona
+  examples: |
+    - Siapa saja boleh gabung Citra Pesona/CP?
+    - Apakah cowok boleh masuk Citra Pesona/CP?
+    - Siapa yang bisa join Citra Pesona/CP?
+    - Apakah terbuka untuk semua mahasiswa?
+    - Apakah semua fakultas boleh?
+    - Mahasiswa baru boleh ikut?
+    - Apakah lintas jurusan boleh?
+    - Citra Pesona/CP untuk siapa saja?
+    - Apakah semua semester boleh?
+    - Apakah umum bisa join?
+    - Siapa target anggota Citra Pesona/CP?
+    - Apakah bebas gabung?
+    - Siapa saja bisa daftar?
+    - Apakah Citra Pesona/CP terbuka untuk semua?
+    - Boleh pemula ikut?
+
+- intent: cara_daftar_citrapesona
+  examples: |
+    - Bagaimana cara daftar Citra Pesona/CP?
+    - Cara join Citra Pesona/CP?
+    - Gimana cara masuk Citra Pesona/CP?
+    - Daftar Citra Pesona/CP lewat apa?
+    - Bagaimana proses pendaftaran?
+    - Cara gabung Citra Pesona/CP gimana?
+    - Saya ingin daftar Citra Pesona/CP
+    - Apa langkah daftar Citra Pesona/CP?
+    - Daftar Citra Pesona/CP dimana?
+    - Join lewat gform?
+    - Cara ikut Citra Pesona/CP?
+    - Prosedur masuk Citra Pesona/CP?
+    - Cara registrasi Citra Pesona/CP?
+    - Masuk Citra Pesona/CP bagaimana?
+    - Daftar offline dimana?
+
+- intent: biaya_daftar_citrapesona
+  examples: |
+    - Biaya Citra Pesona/CP berapa?
+    - Daftar Citra Pesona/CP bayar berapa?
+    - Apakah ada biaya Citra Pesona/CP?
+    - Biaya registrasi Citra Pesona/CP berapa?
+    - Masuk Citra Pesona/CP bayar berapa?
+    - Apakah Citra Pesona/CP gratis?
+    - Biaya join Citra Pesona/CP berapa?
+    - Registrasi Citra Pesona/CP berapa?
+    - Apakah ada uang pendaftaran?
+    - Daftar Citra Pesona/CP perlu bayar?
+    - Berapa uang masuk Citra Pesona/CP?
+    - Biaya anggota Citra Pesona/CP?
+    - Citra Pesona/CP ada biaya?
+    - Join Citra Pesona/CP bayar?
+    - Harga daftar Citra Pesona/CP?
+
+- intent: status_pendaftaran_citrapesona
+  examples: |
+    - Apakah Citra Pesona/CP buka pendaftaran?
+    - Citra Pesona/CP masih buka?
+    - Kapan pendaftaran Citra Pesona/CP dibuka?
+    - Apakah bisa daftar sekarang?
+    - Pendaftaran Citra Pesona/CP tutup atau belum?
+    - Apakah masih bisa join?
+    - Citra Pesona/CP open recruitment?
+    - Kapan open Citra Pesona/CP?
+    - Apakah Citra Pesona/CP sedang open?
+    - Jadwal pendaftaran Citra Pesona/CP kapan?
+    - Citra Pesona/CP buka anggota baru?
+    - Apakah rekrutmen Citra Pesona/CP aktif?
+    - Kapan bisa daftar Citra Pesona/CP?
+    - Apakah Citra Pesona/CP menerima anggota baru?
+    - Citra Pesona/CP lagi buka tidak?
+
+- intent: audisi_citrapesona
+  examples: |
+    - Apakah ada audisi Citra Pesona/CP?
+    - Citra Pesona/CP pakai audisi?
+    - Harus audisi untuk masuk Citra Pesona/CP?
+    - Audisi Citra Pesona/CP bagaimana?
+    - Seleksi masuk Citra Pesona/CP ada?
+    - Apakah wajib audisi?
+    - Proses audisi Citra Pesona/CP?
+    - Seleksi masuk Citra Pesona/CP?
+    - Apakah harus lolos audisi?
+    - Citra Pesona/CP ada seleksi?
+    - Audisi tari Citra Pesona/CP?
+    - Tes masuk Citra Pesona/CP?
+    - Citra Pesona/CP ada tahap audisi?
+    - Bagaimana audisi Citra Pesona/CP?
+
+- intent: syarat_anggota_citrapesona
+  examples: |
+    - Apa syarat masuk Citra Pesona/CP?
+    - Syarat join Citra Pesona/CP apa?
+    - Persyaratan Citra Pesona/CP?
+    - Masuk Citra Pesona/CP harus apa?
+    - Syarat jadi anggota?
+    - Apa ketentuan Citra Pesona/CP?
+    - Syarat gabung Citra Pesona/CP?
+    - Apa yang harus dipenuhi?
+    - Syarat ikut Citra Pesona/CP?
+    - Persyaratan umum Citra Pesona/CP?
+    - Apakah ada syarat khusus?
+    - Komitmen anggota bagaimana?
+    - Syarat pendaftaran Citra Pesona/CP?
+    - Ketentuan anggota Citra Pesona/CP?
+
+- intent: kemampuan_anggota_citrapesona
+  examples: |
+    - Apakah harus bisa dance?
+    - Perlu basic menari?
+    - Harus jago dance?
+    - Apakah pemula boleh?
+    - Skill apa yang dibutuhkan?
+    - Harus bisa hip hop?
+    - Perlu pengalaman modeling?
+    - Apakah harus punya basic?
+    - Kemampuan apa yang diperlukan?
+    - Harus bisa tari tradisional?
+    - Wajib bisa dance?
+    - Apakah skill penting?
+    - Apakah ada syarat skill?
+    - Basic dance wajib?
+    - Kemampuan anggota bagaimana?
+
+- intent: divisi_citrapesona
+  examples: |
+    - Divisi Citra Pesona/CP apa saja?
+    - Ada bidang apa saja?
+    - Divisi dalam Citra Pesona?
+    - Divisi apa saja?
+    - Divisi internal?
+    - Bagian organisasi?
+    - Unit dalam UKM?
+    - Divisi apa saja?
+
+- intent: struktur_citrapesona
+  examples: |
+    - Struktur organisasi?
+    - Struktur UKM?
+    - Struktur kepengurusan?
+    - Struktur bidang?
+    - Struktur lengkap?
+    - Struktur divisi?
+
+- intent: kegiatan_citrapesona
+  examples: |
+    - Kegiatan Citra Pesona/CP apa saja?
+    - Aktivitas Citra Pesona/CP apa?
+    - Citra Pesona/CP ada kegiatan apa?
+    - Program Citra Pesona/CP apa?
+    - Apa saja kegiatan Citra Pesona/CP?
+    - Event Citra Pesona/CP apa?
+    - Aktivitas UKM Citra Pesona/CP?
+    - Citra Pesona/CP sering ngapain?
+    - Program kerja Citra Pesona/CP?
+    - Apa yang dilakukan Citra Pesona/CP?
+    - Kegiatan anggota Citra Pesona/CP?
+    - Citra Pesona/CP ada event apa?
+    - Aktivitas Citra Pesona/CP sehari-hari?
+    - Apa saja aktivitas Citra Pesona/CP?
+
+- intent: kegiatan_rutin_citrapesona
+  examples: |
+    - Adakah kegiatan rutin?
+    - Apa kegiatan rutin Citra Pesona?
+    - Apakah ada kegiatan rutin?
+    - Apa saja kegiatan rutin?
+    - Ada kegiatan rutin apa?
+    - Kegiatan rutin apa saja?
+    - Apa saja kegiatan rutin?
+    - Ada kegiatan rutin?
+    - Apa kegiatan rutinnya?
+
+- intent: jadwal_latihan_citrapesona
+  examples: |
+    - Jadwal Latihan Citra Pesona/CP kapan?
+    - Citra Pesona/CP latihan hari apa?
+    - Jadwal modeling kapan?
+    - Jadwal hip hop kapan?
+    - Jadwal dance kapan?
+    - Citra Pesona/CP latihan hari apa?
+    - Kapan latihan Citra Pesona/CP?
+    - Jadwal latihan Citra Pesona/CP?
+    - Citra Pesona/CP Latihan seminggu berapa kali?
+    - Hari latihan Citra Pesona/CP?
+    - Jadwal latihan Citra Pesona/CP?
+    - Citra Pesona/CP ada latihan kapan?
+    - Kapan latihan Citra Pesona/CP?
+    - Jadwal latihan Citra Pesona/CP?
+    - Citra Pesona/CP latihan kapan?
+    - Hari apa saja Latihan Citra Pesona/CP?
+
+- intent: durasi_kegiatan_citrapesona
+  examples: |
+    - Berapa lama latihan Citra Pesona/CP?
+    - Durasi kegiatan Citra Pesona/CP?
+    - Kelas Citra Pesona/CP berapa jam?
+    - Lama kegiatan Citra Pesona/CP?
+    - Citra Pesona/CP latihan berapa lama?
+    - Durasi pertemuan Citra Pesona/CP?
+    - Satu sesi berapa lama?
+    - Waktu latihan Citra Pesona/CP?
+    - Berapa jam per kelas?
+    - Citra Pesona/CP berapa lama pertemuan?
+    - Lama latihan?
+    - Waktu kegiatan?
+    - Citra Pesona/CP latihan berapa jam?
+    - Sesi Citra Pesona/CP berapa lama?
+    - Durasi modeling berapa?
+
+- intent: lokasi_kegiatan_citrapesona
+  examples: |
+    - Latihan Citra Pesona/CP dimana?
+    - Lokasi Citra Pesona/CP dimana?
+    - Tempat latihan Citra Pesona/CP?
+    - Citra Pesona/CP dilakukan dimana?
+    - Lokasi kegiatan Citra Pesona/CP?
+    - Tempat latihan dance?
+    - Dimana lokasi Citra Pesona/CP?
+    - Tempat kegiatan Citra Pesona/CP?
+    - Citra Pesona/CP latihan dimana?
+    - Lokasi kelas Citra Pesona/CP?
+    - Tempat modeling?
+    - Tempat hip hop?
+    - Citra Pesona/CP di mana?
+
+- intent: event_citrapesona
+  examples: |
+    - Event Citra Pesona/CP apa saja?
+    - Ada acara apa saja?
+    - Program Citra Pesona/CP apa?
+    - Gathering Citra Pesona/CP apa?
+    - Event Citra Pesona/CP apa saja?
+    - Acara Citra Pesona/CP apa?
+    - Program besar Citra Pesona/CP?
+    - Event tahunan Citra Pesona/CP?
+    - Ada kegiatan khusus?
+    - Kegiatan besar Citra Pesona/CP?
+    - Acara Citra Pesona/CP?
+    - Event utama Citra Pesona/CP?
+
+- intent: event_tnf_citrapesona
+  examples: |
+    - Event Training and Fun apa?
+    - Acara Training and Fun apa?
+    - Apa itu Training and Fun?
+    - Training and Fun apa?
+    - Training and Fun adalah?
+
+- intent: event_gathering_citrapesona
+  examples: |
+    - Event Gathering apa?
+    - Acara Gathering apa?
+    - Apa itu Gathering?
+    - Gathering apa?
+    - Gathering adalah?
+
+- intent: jadwal_event_citrapesona
+  examples: |
+    - Event Citra Pesona/CPkapan?
+    - Event bulan apa?
+    - Jadwal acara Citra Pesona/CP?
+    - Kapan event Citra Pesona/CP?
+    - Event tahunan kapan?
+    - Jadwal kegiatan besar?
+    - Event diadakan kapan?
+    - Jadwal event Citra Pesona/CP?
+
+- intent: jadwal_tnf_citrapesona
+  examples: |
+    - Training and Fun kapan?
+    - Training and Fun diadakan kapan?
+    - Jadwal Training and Fun?
+    - Kapan acara Training and Fun?
+    - Training and Fun kapan?
+
+- intent: jadwal_gathering_citrapesona
+  examples: |
+    - Gathering kapan?
+    - Gathering diadakan kapan?
+    - Jadwal Gathering?
+    - Kapan acara Gathering?
+    - Training and Fun kapan?
+
+- intent: fasilitas_citrapesona
+  examples: |
+    - Fasilitas Citra Pesona/CP apa?
+    - Apa saja fasilitasnya?
+    - Ada ruang sekretariat?
+    - Fasilitas lengkap?
+    - Apa yang disediakan?
+    - Fasilitas UKM Citra Pesona/CP?
+    - Apakah ada ruangan?
+    - Tempat kumpul ada?
+    - Ada sekretariat?
+    - Fasilitas dance?
+    - Apa saja alatnya?
+    - Ruang latihan ada?
+    - Tempat organisasi?
+    - Fasilitas pendukung?
+    - Ada basecamp?
+
+- intent: lokasi_sekre_citrapesona
+  examples: |
+    - biasanya lokasi ruang sekretariat dimana
+    - boleh tanya lokasi ruang sekretariat dimana
+    - info lokasi ruang sekretariat dimana
+    - lokasi ruang sekretariat dimana
+    - sekretariat Citra Pesona/CP dimana
+    - sekretariat Citra Pesona/CP lantai berapa
+    - Citra Pesona/CP sekretariatnya di lantai berapa
+    - ruang sekre Citra Pesona/CP dimana
+    - ruang sekre Citra Pesona/CP lantai berapa
+
+- intent: prestasi_citrapesona
+  examples: |
+    - Prestasi Citra Pesona/CP apa?
+    - Pernah juara apa?
+    - Citra Pesona/CP menang lomba?
+    - Prestasi UKM Citra Pesona/CP?
+    - Juara apa saja?
+    - Pencapaian Citra Pesona/CP?
+    - Ada prestasi?
+    - Menang kompetisi?
+    - Runner up TSAC?
+    - Prestasi terbaru?
+    - CP pernah juara?
+    - Riwayat juara?
+    - Kejuaraan yang dimenangkan?
+    - Prestasi tim Citra Pesona/CP?
+    - Penghargaan Citra Pesona/CP?
+
+- intent: benefit_citrapesona
+  examples: |
+    - Manfaat Citra Pesona/CP apa?
+    - Keuntungan ikut Citra Pesona/CP?
+    - Benefit Citra Pesona/CP?
+    - Apa yang didapat?
+    - Untung ikut Citra Pesona/CP?
+    - Kelebihan Citra Pesona/CP?
+    - Kenapa ikut Citra Pesona/CP?
+    - Apa manfaat Citra Pesona/CP?
+    - Join Citra Pesona/CP dapat apa?
+    - Apa benefit Citra Pesona/CP?
+    - Citra Pesona/CP membantu apa?
+    - Kegunaan Citra Pesona/CP?
+    - Apa hasil ikut Citra Pesona/CP?
+    - Citra Pesona/CP berguna?
+    - Manfaat join Citra Pesona/CP?
+
+- intent: media_informasi_citrapesona
+  examples: |
+    - IG Citra Pesona/CP apa?
+    - Instagram Citra Pesona/CP?
+    - Kontak Citra Pesona/CP?
+    - Line Citra Pesona/CP?
+    - Sosial media Citra Pesona/CP?
+    - Cara hubungi Citra Pesona/CP?
+    - Info Citra Pesona/CP dimana?
+    - Akun Citra Pesona/CP?
+    - Follow Citra Pesona/CP dimana?
+    - Media Citra Pesona/CP apa?
+    - Kontak resmi Citra Pesona/CP?
+    - DM Citra Pesona/CP?
+    - IG resmi Citra Pesona/CP?
+    - Line official Citra Pesona/CP?
+    - Info online Citra Pesona/CP?

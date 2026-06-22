@@ -1,0 +1,148 @@
+version: "3.1"
+
+responses:
+
+  utter_tanya_ukm_soushin:
+    - text: |
+        UKM Soushin adalah unit kegiatan mahasiswa yang bergerak di bidang budaya Jepang. 
+        Soushin menjadi wadah bagi mahasiswa yang memiliki minat terhadap budaya Jepang seperti bahasa Jepang, manga, dan cosplay.
+
+  utter_fungsi_ukm_soushin:
+    - text: |
+        Fungsi UKM Soushin adalah sebagai wadah pengembangan minat dan bakat mahasiswa di bidang budaya Jepang, 
+        serta tempat belajar dan menyalurkan kreativitas seperti bahasa Jepang, manga, dan cosplay.
+
+  utter_tujuan_ukm_soushin:
+    - text: |
+        Tujuan UKM Soushin adalah untuk mewadahi mahasiswa yang tertarik dengan budaya Jepang 
+        serta membantu mereka mengembangkan kemampuan dan minat di bidang tersebut.
+
+  utter_misi_ukm_soushin:
+    - text: |
+        Misi UKM Soushin adalah mengembangkan minat mahasiswa terhadap budaya Jepang, 
+        menyediakan kegiatan yang edukatif dan kreatif, serta membangun komunitas yang aktif dan solid.
+
+  utter_visi_ukm_soushin:
+    - text: |
+        Visi UKM Soushin adalah menjadi komunitas budaya Jepang yang aktif, kreatif, 
+        dan mampu menjadi wadah terbaik bagi mahasiswa dalam menyalurkan minatnya.
+
+  utter_bidang_ukm_soushin:
+    - text: |
+        UKM Soushin bergerak di bidang budaya Jepang, mencakup kegiatan seperti pembelajaran bahasa Jepang, 
+        manga (menggambar), dan cosplay.
+
+  utter_boleh_gabung_soushin:
+    - text: |
+        UKM Soushin terbuka untuk seluruh mahasiswa dari semua jurusan dan angkatan. 
+        Jadi siapa saja boleh bergabung, termasuk pemula yang belum memiliki pengalaman.
+
+  utter_cara_daftar_soushin:
+    - text: |
+        Cara daftar UKM Soushin cukup mudah, yaitu dengan mengisi data diri melalui Google Form yang disediakan saat periode pendaftaran.
+
+  utter_biaya_daftar_soushin:
+    - text: |
+        Biaya pendaftaran UKM Soushin berbeda sesuai bidang yang dipilih:
+        - Manga: Rp15.000
+        - Bahasa Jepang: Rp10.000
+        - Cosplay: Rp20.000
+
+  utter_status_pendaftaran_soushin:
+    - text: |
+        Pendaftaran UKM Soushin biasanya dibuka saat periode PMB dan Open House (OH). 
+        Kamu bisa mengikuti informasi terbaru melalui media sosial mereka.
+
+  utter_syarat_anggota_soushin:
+    - text: |
+        Tidak ada syarat khusus untuk bergabung di UKM Soushin. 
+        Semua mahasiswa bisa ikut tanpa kriteria tertentu.
+
+  utter_kemampuan_anggota_soushin:
+    - text: |
+        Tidak perlu memiliki skill khusus untuk bergabung di UKM Soushin. 
+        Pemula juga sangat diperbolehkan dan akan dibimbing dari awal.
+
+  utter_divisi_soushin:
+    - text: |
+        UKM Soushin memiliki beberapa fokus kegiatan seperti:
+        - Bahasa Jepang
+        - Manga (menggambar)
+        - Cosplay
+
+  utter_struktur_soushin:
+    - text: |
+        Struktur organisasi UKM Soushin terdiri dari badan pengurus harian inti dan anggota yang terbagi dalam berbagai bidang kegiatan.
+
+  utter_kegiatan_soushin:
+    - text: |
+        Kegiatan UKM Soushin cukup beragam, antara lain:
+        - Kelas mingguan
+        - Welcoming party
+        - Makrab
+        - Nihongo
+        - PDK
+        - Stuban
+        - Baksos
+        - Photobooth
+        - Harukaze
+        - Tanjobi
+        - Papercrane
+
+  utter_kelas_soushin:
+    - text: |
+        UKM Soushin memiliki beberapa kelas, yaitu:
+        - Kelas Bahasa Jepang
+        - Kelas Manga
+        - Kelas Cosplay
+
+  utter_jadwal_kegiatan_soushin:
+    - text: |
+        Jadwal kegiatan UKM Soushin:
+        - Kelas Bahasa Jepang: setiap Kamis selama 1 jam di sekretariat
+        - Kelas Manga & Cosplay: setiap Jumat selama 1 jam di sekretariat
+
+  utter_durasi_kegiatan_soushin:
+    - text: |
+        Setiap sesi kegiatan atau kelas di UKM Soushin berlangsung sekitar 1 jam.
+
+  utter_lokasi_kegiatan_soushin:
+    - text: |
+        Kegiatan UKM Soushin dilaksanakan di sekretariat Soushin di kampus untuk kelas rutin.
+
+  utter_event_soushin:
+    - text: |
+        Event besar UKM Soushin meliputi:
+        - Harukaze
+        - Tanjobi
+        - Makrab
+        - Baksos
+        - Photobooth
+        - Papercrane
+
+  utter_jadwal_event_soushin:
+    - text: |
+        Jadwal event UKM Soushin biasanya disesuaikan dengan program kerja tahunan. 
+        Untuk informasi detail, bisa cek update terbaru di Instagram mereka.
+
+  utter_fasilitas_soushin:
+    - text: |
+        UKM Soushin menyediakan fasilitas berupa sekretariat sebagai tempat berkegiatan dan berkumpul anggota.
+
+  utter_lokasi_sekre_soushin:
+  - text: | 
+      Lokasi ruang sekretariat Soushin terletak di Untar Kampus 1, Gedung M, Lantai 2
+
+  utter_benefit_soushin:
+    - text: |
+        Manfaat bergabung di UKM Soushin:
+        - Belajar budaya Jepang
+        - Mengembangkan skill bahasa Jepang, menggambar, dan cosplay
+        - Menambah relasi dan pengalaman organisasi
+        - Mengikuti berbagai event menarik
+
+  utter_media_informasi_soushin:
+    - text: |
+        Informasi UKM Soushin dapat diakses melalui:
+        - Instagram resmi @soushin_untar
+        - Contact Person: 082154803352 (Sofia)

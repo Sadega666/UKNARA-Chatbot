@@ -1,0 +1,5285 @@
+version: '3.1'
+intents:
+- audisi_citrapesona
+- benefit_adhyatmaka
+- benefit_bar
+- benefit_citrapesona
+- benefit_dharmayana
+- benefit_festa
+- benefit_fut
+- benefit_futsal
+- benefit_jujitsu
+- benefit_kbmk
+- benefit_lbut
+- benefit_libama
+- benefit_livosta
+- benefit_ltmu
+- benefit_mahupa
+- benefit_marsipala
+- benefit_mega
+- benefit_pft
+- benefit_pout
+- benefit_psut
+- benefit_radio
+- benefit_sentra
+- benefit_soushin
+- benefit_taekwondo
+- benefit_tec
+- benefit_wmkt
+- benefit_wushu
+- biaya_daftar_adhyatmaka
+- biaya_daftar_bar
+- biaya_daftar_citrapesona
+- biaya_daftar_dharmayana
+- biaya_daftar_festa
+- biaya_daftar_fut
+- biaya_daftar_futsal
+- biaya_daftar_jujitsu
+- biaya_daftar_kbmk
+- biaya_daftar_lbut
+- biaya_daftar_libama
+- biaya_daftar_livosta
+- biaya_daftar_ltmu
+- biaya_daftar_mahupa
+- biaya_daftar_marsipala
+- biaya_daftar_mega
+- biaya_daftar_pft
+- biaya_daftar_pout
+- biaya_daftar_psut
+- biaya_daftar_radio
+- biaya_daftar_sentra
+- biaya_daftar_soushin
+- biaya_daftar_taekwondo
+- biaya_daftar_tec
+- biaya_daftar_wmkt
+- biaya_daftar_wushu
+- bidang_ukm_adhyatmaka
+- bidang_ukm_bar
+- bidang_ukm_citrapesona
+- bidang_ukm_dharmayana
+- bidang_ukm_festa
+- bidang_ukm_fut
+- bidang_ukm_futsal
+- bidang_ukm_jujitsu
+- bidang_ukm_kbmk
+- bidang_ukm_lbut
+- bidang_ukm_libama
+- bidang_ukm_livosta
+- bidang_ukm_ltmu
+- bidang_ukm_mahupa
+- bidang_ukm_marsipala
+- bidang_ukm_mega
+- bidang_ukm_pft
+- bidang_ukm_pout
+- bidang_ukm_psut
+- bidang_ukm_radio
+- bidang_ukm_sentra
+- bidang_ukm_soushin
+- bidang_ukm_taekwondo
+- bidang_ukm_tec
+- bidang_ukm_wmkt
+- bidang_ukm_wushu
+- boleh_gabung_adhyatmaka
+- boleh_gabung_bar
+- boleh_gabung_citrapesona
+- boleh_gabung_dharmayana
+- boleh_gabung_festa
+- boleh_gabung_fut
+- boleh_gabung_futsal
+- boleh_gabung_jujitsu
+- boleh_gabung_kbmk
+- boleh_gabung_lbut
+- boleh_gabung_libama
+- boleh_gabung_livosta
+- boleh_gabung_ltmu
+- boleh_gabung_mahupa
+- boleh_gabung_marsipala
+- boleh_gabung_mega
+- boleh_gabung_pft
+- boleh_gabung_pout
+- boleh_gabung_psut
+- boleh_gabung_radio
+- boleh_gabung_sentra
+- boleh_gabung_soushin
+- boleh_gabung_taekwondo
+- boleh_gabung_tec
+- boleh_gabung_wmkt
+- boleh_gabung_wushu
+- cara_daftar_adhyatmaka
+- cara_daftar_bar
+- cara_daftar_citrapesona
+- cara_daftar_dharmayana
+- cara_daftar_festa
+- cara_daftar_fut
+- cara_daftar_futsal
+- cara_daftar_jujitsu
+- cara_daftar_kbmk
+- cara_daftar_lbut
+- cara_daftar_libama
+- cara_daftar_livosta
+- cara_daftar_ltmu
+- cara_daftar_mahupa
+- cara_daftar_marsipala
+- cara_daftar_mega
+- cara_daftar_pft
+- cara_daftar_pout
+- cara_daftar_psut
+- cara_daftar_radio
+- cara_daftar_sentra
+- cara_daftar_soushin
+- cara_daftar_taekwondo
+- cara_daftar_tec
+- cara_daftar_wmkt
+- cara_daftar_wushu
+- cup_livosta
+- cup_ltmu
+- divisi_adhyatmaka
+- divisi_bar
+- divisi_citrapesona
+- divisi_dharmayana
+- divisi_festa
+- divisi_fut
+- divisi_futsal
+- divisi_jujitsu
+- divisi_kbmk
+- divisi_lbut
+- divisi_libama
+- divisi_livosta
+- divisi_ltmu
+- divisi_mahupa
+- divisi_marsipala
+- divisi_mega
+- divisi_pft
+- divisi_pout
+- divisi_psut
+- divisi_radio
+- divisi_sentra
+- divisi_soushin
+- divisi_taekwondo
+- divisi_tec
+- divisi_wmkt
+- divisi_wushu
+- durasi_kegiatan_adhyatmaka
+- durasi_kegiatan_bar
+- durasi_kegiatan_citrapesona
+- durasi_kegiatan_dharmayana
+- durasi_kegiatan_festa
+- durasi_kegiatan_futsal
+- durasi_kegiatan_jujitsu
+- durasi_kegiatan_lbut
+- durasi_kegiatan_libama
+- durasi_kegiatan_livosta
+- durasi_kegiatan_ltmu
+- durasi_kegiatan_pft
+- durasi_kegiatan_pout
+- durasi_kegiatan_psut
+- durasi_kegiatan_radio
+- durasi_kegiatan_sentra
+- durasi_kegiatan_soushin
+- durasi_kegiatan_taekwondo
+- durasi_kegiatan_tec
+- durasi_kegiatan_wushu
+- event_adhyatmaka
+- event_bar
+- event_citrapesona
+- event_dharmayana
+- event_festa
+- event_fut
+- event_futsal
+- event_gathering_citrapesona
+- event_jujitsu
+- event_kbmk
+- event_lbut
+- event_libama
+- event_livosta
+- event_ltmu
+- event_mahupa
+- event_marsipala
+- event_mega
+- event_pft
+- event_pout
+- event_psut
+- event_radio
+- event_sentra
+- event_soushin
+- event_tnf_citrapesona
+- event_wmkt
+- event_wushu
+- fasilitas_tec
+- fasilitas_adhyatmaka
+- fasilitas_bar
+- fasilitas_citrapesona
+- fasilitas_dharmayana
+- fasilitas_festa
+- fasilitas_fut
+- fasilitas_futsal
+- fasilitas_jujitsu
+- fasilitas_kbmk
+- fasilitas_lbut
+- fasilitas_libama
+- fasilitas_livosta
+- fasilitas_ltmu
+- fasilitas_mahupa
+- fasilitas_marsipala
+- fasilitas_mega
+- fasilitas_pft
+- fasilitas_pout
+- fasilitas_psut
+- fasilitas_radio
+- fasilitas_sentra
+- fasilitas_soushin
+- fasilitas_taekwondo
+- fasilitas_wmkt
+- fasilitas_wushu
+- fungames_livosta
+- fungames_ltmu
+- fungsi_soushin
+- fungsi_ukm_psut
+- fungsi_ukm_adhyatmaka
+- fungsi_ukm_bar
+- fungsi_ukm_citrapesona
+- fungsi_ukm_dharmayana
+- fungsi_ukm_festa
+- fungsi_ukm_fut
+- fungsi_ukm_futsal
+- fungsi_ukm_jujitsu
+- fungsi_ukm_kbmk
+- fungsi_ukm_lbut
+- fungsi_ukm_libama
+- fungsi_ukm_livosta
+- fungsi_ukm_ltmu
+- fungsi_ukm_mahupa
+- fungsi_ukm_marsipala
+- fungsi_ukm_mega
+- fungsi_ukm_pft
+- fungsi_ukm_pout
+- fungsi_ukm_radio
+- fungsi_ukm_sentra
+- fungsi_ukm_soushin
+- fungsi_ukm_taekwondo
+- fungsi_ukm_tec
+- fungsi_ukm_wmkt
+- fungsi_ukm_wushu
+- hunting_bulanan_pft
+- jadwal_FMG_festa
+- jadwal_FWP_festa
+- jadwal_baksos_adhyatmaka
+- jadwal_baksos_festa
+- jadwal_event_bar
+- jadwal_event_citrapesona
+- jadwal_event_dharmayana
+- jadwal_event_fut
+- jadwal_event_futsal
+- jadwal_event_jujitsu
+- jadwal_event_kbmk
+- jadwal_event_lbut
+- jadwal_event_libama
+- jadwal_event_livosta
+- jadwal_event_ltmu
+- jadwal_event_mahupa
+- jadwal_event_marsipala
+- jadwal_event_mega
+- jadwal_event_pft
+- jadwal_event_pout
+- jadwal_event_psut
+- jadwal_event_radio
+- jadwal_event_sentra
+- jadwal_event_soushin
+- jadwal_event_wmkt
+- jadwal_event_wushu
+- jadwal_gathering_citrapesona
+- jadwal_kegiatan_futsal
+- jadwal_kegiatan_lbut
+- jadwal_kegiatan_libama
+- jadwal_kegiatan_livosta
+- jadwal_kegiatan_ltmu
+- jadwal_kegiatan_mahupa
+- jadwal_kegiatan_marsipala
+- jadwal_kegiatan_pft
+- jadwal_kegiatan_psut
+- jadwal_kegiatan_radio
+- jadwal_kegiatan_sentra
+- jadwal_kegiatan_soushin
+- jadwal_kegiatan_wmkt
+- jadwal_kejuaraan_taekwondo
+- jadwal_latihan_bar
+- jadwal_latihan_citrapesona
+- jadwal_latihan_festa
+- jadwal_latihan_jujitsu
+- jadwal_latihan_mega
+- jadwal_latihan_taekwondo
+- jadwal_latihan_wushu
+- jadwal_misa_adhyatmaka
+- jadwal_natal_adhyatmaka
+- jadwal_paskah_adhyatmaka
+- jadwal_retret_adhyatmaka
+- jadwal_rutin_POUT
+- jadwal_rutin_adhyatmaka
+- jadwal_rutin_dharmayana
+- jadwal_rutin_fut
+- jadwal_rutin_kbmk
+- jadwal_rutin_pout
+- jadwal_tes_toefl_tec
+- jadwal_tnf_citrapesona
+- jadwal_ujian_taekwondo
+- jadwal_ziarah_adhyatmaka
+- jenis_kegiatan_dharmayana
+- jenis_kegiatan_festa
+- jenis_kegiatan_fut
+- jenis_kegiatan_futsal
+- jenis_kegiatan_kbmk
+- jenis_kegiatan_lbut
+- jenis_kegiatan_libama
+- jenis_kegiatan_livosta
+- jenis_kegiatan_ltmu
+- jenis_kegiatan_mahupa
+- jenis_kegiatan_marsipala
+- jenis_kegiatan_mega
+- jenis_kegiatan_pft
+- jenis_kegiatan_pout
+- jenis_kegiatan_psut
+- jenis_kegiatan_radio
+- jenis_kegiatan_sentra
+- jenis_kegiatan_wmkt
+- jenis_kelas_tec
+- keanggotaan_adhyatmaka
+- keanggotaan_livosta
+- keanggotaan_ltmu
+- keanggotaan_pft
+- keanggotaan_taekwondo
+- kegiatan_adhyatmaka
+- kegiatan_bar
+- kegiatan_citrapesona
+- kegiatan_dharmayana
+- kegiatan_festa
+- kegiatan_fut
+- kegiatan_futsal
+- kegiatan_jujitsu
+- katekumen_adhyatmaka
+- kegiatan_kbmk
+- kegiatan_latihan_festa
+- kegiatan_latihan_jujitsu
+- kegiatan_latihan_taekwondo
+- kegiatan_latihan_wushu
+- kegiatan_lbut
+- legiomaria_adhyatmaka
+- kegiatan_libama
+- kegiatan_livosta
+- kegiatan_ltmu
+- kegiatan_mahupa
+- kegiatan_marsipala
+- kegiatan_mega
+- persekutuan_adhyatmaka
+- kegiatan_pft
+- kegiatan_pout
+- kegiatan_psut
+- kegiatan_radio
+- kegiatan_rutin_pout
+- kegiatan_rutin_adhyatmaka
+- kegiatan_rutin_bar
+- kegiatan_rutin_citrapesona
+- kegiatan_rutin_dharmayana
+- kegiatan_rutin_fut
+- kegiatan_rutin_kbmk
+- kegiatan_sentra
+- kegiatan_soushin
+- kegiatan_taekwondo
+- kegiatan_tec
+- kegiatan_wmkt
+- kegiatan_wushu
+- kejuaraan_taekwondo
+- kelas_online_offline_tec
+- kelas_soushin
+- kelas_tec
+- kemampuan_anggota_bar
+- kemampuan_anggota_citrapesona
+- kemampuan_anggota_dharmayana
+- kemampuan_anggota_futsal
+- kemampuan_anggota_lbut
+- kemampuan_anggota_libama
+- kemampuan_anggota_pft
+- kemampuan_anggota_pout
+- kemampuan_anggota_psut
+- kemampuan_anggota_radio
+- kemampuan_anggota_soushin
+- kemampuan_anggota_wushu
+- komitmen_fut
+- komitmen_jujitsu
+- komitmen_kbmk
+- komitmen_livosta
+- komitmen_ltmu
+- komitmen_mahupa
+- komitmen_marsipala
+- komitmen_mega
+- komitmen_wmkt
+- latihan_bulanan_mahupa
+- latihan_bulanan_marsipala
+- latihan_bulanan_mega
+- latihan_psut
+- latihan_rutin_futsal
+- latihan_rutin_lbut
+- latihan_rutin_libama
+- latihan_rutin_livosta
+- latihan_rutin_ltmu
+- liga_futsal
+- lokasi_kegiatan_adhyatmaka
+- lokasi_kegiatan_bar
+- lokasi_kegiatan_citrapesona
+- lokasi_kegiatan_dharmayana
+- lokasi_kegiatan_festa
+- lokasi_kegiatan_fut
+- lokasi_kegiatan_futsal
+- lokasi_kegiatan_jujitsu
+- lokasi_kegiatan_kbmk
+- lokasi_kegiatan_lbut
+- lokasi_kegiatan_libama
+- lokasi_kegiatan_livosta
+- lokasi_kegiatan_ltmu
+- lokasi_kegiatan_mahupa
+- lokasi_kegiatan_marsipala
+- lokasi_kegiatan_mega
+- lokasi_kegiatan_pft
+- lokasi_kegiatan_pout
+- lokasi_kegiatan_psut
+- lokasi_kegiatan_radio
+- lokasi_kegiatan_sentra
+- lokasi_kegiatan_soushin
+- lokasi_kegiatan_taekwondo
+- lokasi_kegiatan_tec
+- lokasi_kegiatan_wmkt
+- lokasi_kegiatan_wushu
+- lokasi_sekre_adhyatmaka
+- lokasi_sekre_bar
+- lokasi_sekre_citrapesona
+- lokasi_sekre_dharmayana
+- lokasi_sekre_festa
+- lokasi_sekre_fut
+- lokasi_sekre_futsal
+- lokasi_sekre_jujitsu
+- lokasi_sekre_kbmk
+- lokasi_sekre_lbut
+- lokasi_sekre_libama
+- lokasi_sekre_livosta
+- lokasi_sekre_ltmu
+- lokasi_sekre_pft
+- lokasi_sekre_pout
+- lokasi_sekre_psut
+- lokasi_sekre_sentra
+- lokasi_sekre_soushin
+- lokasi_sekre_taekwondo
+- lokasi_sekre_tec
+- lokasi_sekre_wmkt
+- lokasi_sekre_wushu
+- materi_tec
+- materi_toefl_tec
+- media_informasi_adhyatmaka
+- media_informasi_bar
+- media_informasi_citrapesona
+- media_informasi_dharmayana
+- media_informasi_festa
+- media_informasi_fut
+- media_informasi_futsal
+- media_informasi_jujitsu
+- media_informasi_kbmk
+- media_informasi_lbut
+- media_informasi_libama
+- media_informasi_livosta
+- media_informasi_ltmu
+- media_informasi_mahupa
+- media_informasi_marsipala
+- media_informasi_mega
+- media_informasi_pft
+- media_informasi_pout
+- media_informasi_psut
+- media_informasi_radio
+- media_informasi_sentra
+- media_informasi_soushin
+- media_informasi_taekwondo
+- media_informasi_tec
+- media_informasi_wmkt
+- media_informasi_wushu
+- misi_adhyatmaka
+- misi_bar
+- misi_citrapesona
+- misi_dharmayana
+- misi_festa
+- misi_fut
+- misi_jujitsu
+- misi_kbmk
+- misi_pout
+- misi_taekwondo
+- misi_ukm_Soushin
+- misi_ukm_futsal
+- misi_ukm_lbut
+- misi_ukm_libama
+- misi_ukm_livosta
+- misi_ukm_ltmu
+- misi_ukm_mahupa
+- misi_ukm_marsipala
+- misi_ukm_mega
+- misi_ukm_pft
+- misi_ukm_psut
+- misi_ukm_radio
+- misi_ukm_sentra
+- misi_ukm_soushin
+- misi_ukm_tec
+- misi_ukm_wmkt
+- misi_wushu
+- nlu_fallback
+- perpisahan
+- prestasi_bar
+- prestasi_citrapesona
+- prestasi_taekwondo
+- salam
+- seleksi_dharmayana
+- seleksi_festa
+- seleksi_pout
+- seleksi_psut
+- seleksi_radio
+- seleksi_sentra
+- siaran_radio
+- sparring_futsal
+- sparring_lbut
+- sparring_libama
+- status_pendaftaran_adhyatmaka
+- status_pendaftaran_bar
+- status_pendaftaran_citrapesona
+- status_pendaftaran_dharmayana
+- status_pendaftaran_festa
+- status_pendaftaran_fut
+- status_pendaftaran_futsal
+- status_pendaftaran_jujitsu
+- status_pendaftaran_kbmk
+- status_pendaftaran_lbut
+- status_pendaftaran_libama
+- status_pendaftaran_livosta
+- status_pendaftaran_ltmu
+- status_pendaftaran_mahupa
+- status_pendaftaran_marsipala
+- status_pendaftaran_mega
+- status_pendaftaran_pft
+- status_pendaftaran_pout
+- status_pendaftaran_psut
+- status_pendaftaran_radio
+- status_pendaftaran_sentra
+- status_pendaftaran_soushin
+- status_pendaftaran_taekwondo
+- status_pendaftaran_tec
+- status_pendaftaran_wmkt
+- status_pendaftaran_wushu
+- struktur_adhyatmaka
+- struktur_bar
+- struktur_citrapesona
+- struktur_dharmayana
+- struktur_festa
+- struktur_fut
+- struktur_futsal
+- struktur_jujitsu
+- struktur_kbmk
+- struktur_lbut
+- struktur_libama
+- struktur_livosta
+- struktur_ltmu
+- struktur_mahupa
+- struktur_marsipala
+- struktur_mega
+- struktur_pft
+- struktur_pout
+- struktur_psut
+- struktur_radio
+- struktur_sentra
+- struktur_soushin
+- struktur_taekwondo
+- struktur_tec
+- struktur_wmkt
+- struktur_wushu
+- syarat_anggota_adhyatmaka
+- syarat_anggota_bar
+- syarat_anggota_citrapesona
+- syarat_anggota_dharmayana
+- syarat_anggota_festa
+- syarat_anggota_fut
+- syarat_anggota_futsal
+- syarat_anggota_jujitsu
+- syarat_anggota_kbmk
+- syarat_anggota_lbut
+- syarat_anggota_libama
+- syarat_anggota_livosta
+- syarat_anggota_ltmu
+- syarat_anggota_mahupa
+- syarat_anggota_marsipala
+- syarat_anggota_mega
+- syarat_anggota_pft
+- syarat_anggota_pout
+- syarat_anggota_psut
+- syarat_anggota_radio
+- syarat_anggota_sentra
+- syarat_anggota_soushin
+- syarat_anggota_taekwondo
+- syarat_anggota_tec
+- syarat_anggota_wmkt
+- syarat_anggota_wushu
+- tanya_fungsi_ukm
+- tanya_jenis_ukm
+- tanya_jumlah_ukm_untar
+- tanya_kegiatan
+- tanya_keuntungan_ikut_ukm
+- tanya_kewajiban_ikut_ukm
+- tanya_kontak
+- tanya_latihan
+- tanya_manfaat_ikut_ukm
+- tanya_pendaftaran
+- tanya_pengertian_ukm
+- tanya_tujuan_ukm
+- tanya_ukm_adhyatmaka
+- tanya_ukm_bakat_minat
+- tanya_ukm_bar
+- tanya_ukm_bela_diri
+- tanya_ukm_citrapesona
+- tanya_ukm_dharmayana
+- tanya_ukm_festa
+- tanya_ukm_fut
+- tanya_ukm_futsal
+- tanya_ukm_jujitsu
+- tanya_ukm_kbmk
+- tanya_ukm_keagamaan
+- tanya_ukm_lbut
+- tanya_ukm_libama
+- tanya_ukm_livosta
+- tanya_ukm_ltmu
+- tanya_ukm_mahupa
+- tanya_ukm_mapala
+- tanya_ukm_marsipala
+- tanya_ukm_mega
+- tanya_ukm_olahraga
+- tanya_ukm_pft
+- tanya_ukm_pout
+- tanya_ukm_psut
+- tanya_ukm_radio
+- tanya_ukm_sentra
+- tanya_ukm_soushin
+- tanya_ukm_taekwondo
+- tanya_ukm_tec
+- tanya_ukm_wmkt
+- tanya_ukm_wushu
+- tanya_umum
+- terima_kasih
+- tes_toefl_tec
+- tujuan_ukm_adhyatmaka
+- tujuan_ukm_bar
+- tujuan_ukm_citrapesona
+- tujuan_ukm_dharmayana
+- tujuan_ukm_festa
+- tujuan_ukm_fut
+- tujuan_ukm_futsal
+- tujuan_ukm_jujitsu
+- tujuan_ukm_kbmk
+- tujuan_ukm_lbut
+- tujuan_ukm_libama
+- tujuan_ukm_livosta
+- tujuan_ukm_ltmu
+- tujuan_ukm_mahupa
+- tujuan_ukm_marsipala
+- tujuan_ukm_mega
+- tujuan_ukm_pft
+- tujuan_ukm_pout
+- tujuan_ukm_psut
+- tujuan_ukm_radio
+- tujuan_ukm_sentra
+- tujuan_ukm_soushin
+- tujuan_ukm_taekwondo
+- tujuan_ukm_tec
+- tujuan_ukm_wmkt
+- tujuan_ukm_wushu
+- turnamen_lbut
+- turnamen_libama
+- ujian_kenaikan_tingkat
+- ukm_band_acara
+- ukm_band_aktivitas
+- ukm_band_benefit
+- ukm_band_biaya_alat
+- ukm_band_biaya_daftar
+- ukm_band_divisi_eo
+- ukm_band_divisi_keruangan
+- ukm_band_divisi_kreatif
+- ukm_band_divisi_performer
+- ukm_band_divisi_studio
+- ukm_band_genre
+- ukm_band_grup_band
+- ukm_band_join
+- ukm_band_keanggotaan
+- ukm_band_kebutuhan
+- ukm_band_kegunaan_sekre
+- ukm_band_kepengurusan
+- ukm_band_kerjasama
+- ukm_band_klasifikasi
+- ukm_band_lagu
+- ukm_band_latihan
+- ukm_band_lokasi_manggung
+- ukm_band_lokasi_sekre
+- ukm_band_lokasi_studio
+- ukm_band_lomba
+- ukm_band_musyawarah
+- ukm_band_narahubung
+- ukm_band_operasional_sekre
+- ukm_band_operasional_studio
+- ukm_band_pembelajaran
+- ukm_band_pendaftaran
+- ukm_band_peralatan
+- ukm_band_peraturan_sekre
+- ukm_band_peraturan_studio
+- ukm_band_prestasi
+- ukm_band_ratecard_invite
+- ukm_band_sewa_studio
+- ukm_band_solois
+- ukm_band_struktur
+- ukm_band_syarat_lomba
+- ukm_band_syarat_studio
+- ukm_band_workspace
+- visi_adhyatmaka
+- visi_bar
+- visi_citrapesona
+- visi_dharmayana
+- visi_festa
+- visi_fut
+- visi_jujitsu
+- visi_kbmk
+- visi_pout
+- visi_taekwondo
+- visi_ukm_Soushin
+- visi_ukm_futsal
+- visi_ukm_lbut
+- visi_ukm_libama
+- visi_ukm_livosta
+- visi_ukm_ltmu
+- visi_ukm_mahupa
+- visi_ukm_marsipala
+- visi_ukm_mega
+- visi_ukm_pft
+- visi_ukm_psut
+- visi_ukm_radio
+- visi_ukm_sentra
+- visi_ukm_soushin
+- visi_ukm_tec
+- visi_ukm_wmkt
+- visi_wushu
+entities:
+- UKM
+slots:
+  ukm:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: ukm
+responses:
+  utter_tanya_ukm_adhyatmaka:
+  - text: "UKM Adhyatmaka adalah organisasi mahasiswa berbasis rohani Katolik di kampus.\
+      \ \nUKM ini menjadi tempat bagi mahasiswa Katolik untuk berkumpul, berkenalan,\
+      \ dan mempererat hubungan dengan sesama. \nTujuan utamanya adalah untuk memuliakan\
+      \ Tuhan melalui berbagai kegiatan rohani.\n"
+  utter_fungsi_ukm_adhyatmaka:
+  - text: "Fungsi UKM Adhyatmaka adalah sebagai wadah pembinaan iman dan spiritual\
+      \ mahasiswa, \nserta tempat untuk membangun komunitas yang saling mendukung\
+      \ dalam kehidupan rohani.\n"
+  utter_tujuan_ukm_adhyatmaka:
+  - text: "Tujuan utama UKM Adhyatmaka adalah memuliakan Tuhan serta membantu mahasiswa\
+      \ \ndalam memperdalam iman dan membangun relasi dengan sesama.\n"
+  utter_misi_adhyatmaka:
+  - text: "Misi UKM Adhyatmaka adalah menyelenggarakan kegiatan rohani seperti doa\
+      \ bersama, \npendalaman iman, dan pelayanan agar mahasiswa dapat bertumbuh secara\
+      \ spiritual.\n"
+  utter_visi_adhyatmaka:
+  - text: "Visi UKM Adhyatmaka adalah menjadi komunitas rohani yang aktif, \nsolid,\
+      \ dan mampu membawa mahasiswa lebih dekat kepada Tuhan.\n"
+  utter_bidang_ukm_adhyatmaka:
+  - text: "UKM Adhyatmaka bergerak di bidang keagamaan (rohani Katolik), \ndengan\
+      \ fokus pada kegiatan ibadah, pelayanan, dan pengembangan iman.\n"
+  utter_boleh_gabung_adhyatmaka:
+  - text: "UKM Adhyatmaka terbuka untuk mahasiswa Katolik, \nnamun mahasiswa non-Katolik\
+      \ juga diperbolehkan untuk bergabung dan mengikuti kegiatan.\n"
+  utter_cara_daftar_adhyatmaka:
+  - text: 'Cara daftar UKM Adhyatmaka cukup mudah, yaitu dengan mengisi data diri
+      melalui Google Form (GForm) yang disediakan.
+
+      '
+  utter_biaya_daftar_adhyatmaka:
+  - text: 'Pendaftaran UKM Adhyatmaka tidak dikenakan biaya alias gratis.
+
+      '
+  utter_status_pendaftaran_adhyatmaka:
+  - text: "Pendaftaran UKM Adhyatmaka dibuka sepanjang waktu, \njadi kamu bisa bergabung\
+      \ kapan saja tanpa batas periode tertentu.\n"
+  utter_syarat_anggota_adhyatmaka:
+  - text: "Tidak ada syarat khusus untuk bergabung di UKM Adhyatmaka. \nSemua mahasiswa\
+      \ dapat ikut serta tanpa persyaratan tertentu.\n"
+  utter_keanggotaan_adhyatmaka:
+  - text: "Keanggotaan di UKM Adhyatmaka bersifat fleksibel. \nKamu tetap diperbolehkan\
+      \ mengikuti UKM lain tanpa batasan.\n"
+  utter_kegiatan_adhyatmaka:
+  - text: 'Kegiatan UKM Adhyatmaka meliputi:
+
+      - Persekutuan doa
+
+      - Katekumen
+
+      - Legiomaria
+
+      - Welcoming party
+
+      - Retret dan rekoleksi
+
+      - Perayaan Natal, Paskah, dan misa
+
+      - Bakti sosial (baksos)
+
+      - Ziarah
+
+      '
+  utter_kegiatan_rutin_adhyatmaka:
+  - text: 'Kegiatan rutin UKM Adhyatmaka meliputi:
+
+      - Persekutuan doa (setiap Sabtu)
+
+      - Katekumen (Sabtu)
+
+      - Legiomaria (Selasa/Kamis)
+
+      Durasi kegiatan sekitar 1–2 jam.
+
+      '
+  utter_kegiatan_persekutuan_adhyatmaka:
+  - text: "Persekutuan doa adalah kegiatan berkumpul untuk berdoa bersama, \nberbagi\
+      \ pengalaman iman, dan mempererat kebersamaan antar anggota.\n"
+  utter_kegiatan_katekumen_adhyatmaka:
+  - text: "Katekumen adalah kegiatan pembelajaran iman Katolik, \nbiasanya ditujukan\
+      \ bagi yang ingin memperdalam atau mempersiapkan diri dalam ajaran gereja.\n"
+  utter_kegiatan_legiomaria_adhyatmaka:
+  - text: "Legiomaria adalah kegiatan pelayanan rohani yang berfokus pada doa, \n\
+      pengabdian, dan pelayanan kepada sesama.\n"
+  utter_jadwal_rutin_adhyatmaka:
+  - text: 'Jadwal kegiatan rutin:
+
+      - Persekutuan doa: Sabtu (1–2 jam)
+
+      - Katekumen: Sabtu (1–2 jam)
+
+      - Legiomaria: Selasa/Kamis (1–2 jam)
+
+      '
+  utter_durasi_kegiatan_adhyatmaka:
+  - text: 'Rata-rata durasi kegiatan UKM Adhyatmaka adalah sekitar 1–2 jam per sesi.
+
+      '
+  utter_lokasi_kegiatan_adhyatmaka:
+  - text: "Kegiatan UKM Adhyatmaka biasanya dilaksanakan di dalam kampus, \nseperti\
+      \ di auditorium lantai 8 Gedung M, serta lokasi tertentu untuk kegiatan khusus\
+      \ seperti retret dan ziarah.\n"
+  utter_event_adhyatmaka:
+  - text: 'Event utama UKM Adhyatmaka antara lain:
+
+      - Welcoming Party (Agustus)
+
+      - Retret Hidup Dalam Roh Kudus (Oktober)
+
+      - FLOOR/LK (Oktober)
+
+      - Perayaan Natal & Misa (Desember)
+
+      - Bakti Sosial (Januari)
+
+      - Rekoleksi (Februari)
+
+      - Pekan Suci & Paskah (Februari/Maret)
+
+      - Ziarah (Mei)
+
+      '
+  utter_jadwal_retret_adhyatmaka:
+  - text: 'Retret biasanya dilaksanakan pada bulan Oktober selama 3 hari 2 malam di
+      Puncak.
+
+      '
+  utter_jadwal_natal_adhyatmaka:
+  - text: 'Perayaan Natal diadakan pada bulan Desember di Auditorium lantai 8 Gedung
+      M.
+
+      '
+  utter_jadwal_paskah_adhyatmaka:
+  - text: 'Perayaan Paskah biasanya diadakan pada bulan Februari atau Maret di Auditorium
+      lantai 8 Gedung M.
+
+      '
+  utter_jadwal_misa_adhyatmaka:
+  - text: "Misa biasanya dilaksanakan saat event besar seperti Natal dan Pekan Suci,\
+      \ \ndengan durasi sekitar 1 jam di Auditorium Gedung M.\n"
+  utter_jadwal_ziarah_adhyatmaka:
+  - text: 'Kegiatan ziarah biasanya dilaksanakan pada bulan Mei dan berlangsung selama
+      satu hari penuh di Goa Maria.
+
+      '
+  utter_jadwal_baksos_adhyatmaka:
+  - text: 'Kegiatan bakti sosial (baksos) biasanya dilaksanakan pada bulan Januari.
+
+      '
+  utter_divisi_adhyatmaka:
+  - text: 'Divisi UKM Adhyatmaka terbagi menjadi:
+
+      - Bidang 1: Liturgi, Persekutuan Doa, Pendalaman Iman, Katekumen, Legiomaria
+
+      - Bidang 2: Media & Informasi, Kreatif Ministri, Paduan Suara
+
+      - Bidang 3: Komisariat
+
+      '
+  utter_struktur_adhyatmaka:
+  - text: "Struktur UKM Adhyatmaka terdiri dari badan pengurus harian inti dan pembagian\
+      \ ke dalam beberapa bidang/divisi \nyang mengelola kegiatan rohani, media, dan\
+      \ koordinasi anggota.\n"
+  utter_fasilitas_adhyatmaka:
+  - text: 'Fasilitas UKM Adhyatmaka berupa ruang sekretariat yang digunakan untuk
+      berkumpul dan koordinasi kegiatan.
+
+      '
+  utter_benefit_adhyatmaka:
+  - text: 'Manfaat bergabung di UKM Adhyatmaka:
+
+      - Memperdalam iman dan spiritualitas
+
+      - Menambah relasi dan komunitas
+
+      - Mengembangkan diri dalam pelayanan
+
+      - Mendapat pengalaman rohani yang bermakna
+
+      '
+  utter_media_informasi_adhyatmaka:
+  - text: 'Informasi terbaru UKM Adhyatmaka dapat diakses melalui Instagram resmi
+      @adhyatmakauntar
+
+      Kamu juga bisa menghubungi contact person:
+
+      +62 858-9311-1320 (Priciella Priska)'
+  utter_tanya_ukm_bar:
+  - text: UKM BAR adalah Unit Kegiatan Mahasiswa di Universitas Tarumanagara yang
+      bergerak di bidang musik dan seni pertunjukan. UKM ini menjadi wadah bagi mahasiswa
+      untuk mengembangkan minat, bakat, kreativitas, dan kemampuan bermusik.
+  utter_fungsi_ukm_bar:
+  - text: UKM BAR berfungsi sebagai wadah pengembangan bakat musik mahasiswa, tempat
+      berorganisasi, meningkatkan kreativitas, serta membangun relasi dan pengalaman
+      di bidang seni musik.
+  utter_tujuan_ukm_bar:
+  - text: Tujuan UKM BAR adalah mengembangkan potensi mahasiswa di bidang musik, meningkatkan
+      kreativitas, mempererat hubungan antar mahasiswa, dan menciptakan lingkungan
+      positif bagi penggemar musik.
+  utter_visi_bar:
+  - text: Visi UKM BAR adalah menjadi organisasi musik sekaligus wadah mahasiswa yang
+      aktif, kreatif, profesional, dan mampu mengembangkan potensi mahasiswa di bidang
+      seni musik.
+  utter_misi_bar:
+  - text: 'Misi UKM BAR:
+
+      1. Mengembangkan kemampuan musik anggota.
+
+      2. Menyelenggarakan kegiatan seni dan musik.
+
+      3. Menjalin kerja sama dengan organisasi lain.
+
+      4. Menjadi wadah kreativitas mahasiswa.
+
+      '
+  utter_bidang_ukm_bar:
+  - text: UKM BAR bergerak di bidang seni musik, band performance, produksi musik,
+      event musik, dan pengembangan kreativitas mahasiswa.
+  utter_boleh_gabung_bar:
+  - text: UKM BAR terbuka untuk seluruh mahasiswa Universitas Tarumanagara dari semua
+      jurusan dan angkatan, termasuk pemula yang memiliki minat di bidang musik.
+  utter_cara_daftar_bar:
+  - text: Pendaftaran UKM Citra Pesona dilakukan dengan mengisi data diri melalui
+      Google Form
+  utter_biaya_daftar_bar:
+  - text: Biaya pendaftaran UKM BAR berkisar Rp. 50.000 - Rp.100.000 namun dapat berbeda
+      setiap periode kepengurusan. Informasi detail biasanya diumumkan saat open recruitment
+      berlangsung.
+  utter_status_pendaftaran_bar:
+  - text: Informasi pembukaan pendaftaran anggota baru UKM BAR dapat dilihat melalui
+      media sosial resmi.
+  utter_syarat_anggota_bar:
+  - text: Syarat umum bergabung dengan UKM BAR adalah mahasiswa aktif Universitas
+      Tarumanagara, memiliki minat di bidang musik, dan mengikuti proses pendaftaran
+      yang berlaku.
+  utter_kemampuan_anggota_bar:
+  - text: Pemula tetap dapat bergabung dengan UKM BAR. Tidak semua anggota diwajibkan
+      memiliki kemampuan musik profesional karena UKM BAR juga menjadi tempat belajar
+      dan berkembang.
+  utter_divisi_bar:
+  - text: 'UKM BAR memiliki beberapa divisi seperti:
+
+      - Divisi Performer
+
+      - Divisi Studio
+
+      - Divisi Event Organizer
+
+      - Divisi Kreatif
+
+      - Divisi Keruangan
+
+      '
+  utter_struktur_bar:
+  - text: Struktur organisasi UKM BAR terdiri dari ketua, wakil ketua, sekretaris,
+      bendahara, dan beberapa divisi kepengurusan yang mendukung kegiatan organisasi.
+  utter_kegiatan_bar:
+  - text: Kegiatan UKM BAR meliputi latihan musik, performance, event musik, gathering
+      anggota, produksi karya musik, dan kegiatan organisasi lainnya.
+  utter_kegiatan_rutin_bar:
+  - text: Kegiatan rutin UKM BAR biasanya berupa latihan musik, diskusi musik, persiapan
+      event, dan pertemuan anggota.
+  utter_jadwal_latihan_bar:
+  - text: Jadwal latihan UKM BAR biasanya disesuaikan dengan agenda anggota atau grup
+      band masing masing.
+  utter_durasi_kegiatan_bar:
+  - text: Durasi latihan atau kegiatan UKM BAR umumnya disesuaikan dengan anggota
+      atau grup band masing masing.
+  utter_lokasi_kegiatan_bar:
+  - text: Kegiatan UKM BAR biasanya dilaksanakan di studio musik bar yang terletak
+      di Lantai 6 Geedung M Untar 1.
+  utter_event_bar:
+  - text: UKM BAR sering mengadakan event musik, performance kampus, gathering anggota,
+      produksi musik, dan kegiatan hiburan lainnya.
+  utter_jadwal_event_bar:
+  - text: Jadwal event UKM BAR diumumkan melalui media sosial resmi dan informasi
+      internal organisasi.
+  utter_fasilitas_bar:
+  - text: UKM BAR menyediakan fasilitas seperti studio musik, alat musik, ruang sekretariat,
+      dan perlengkapan pendukung kegiatan musik.
+  utter_lokasi_sekre_bar:
+  - text: Lokasi sekretariat UKM BAR dapat ditanyakan langsung kepada pengurus atau
+      melalui media sosial resmi UKM BAR.
+  utter_prestasi_bar:
+  - text: UKM BAR memiliki berbagai pengalaman tampil dan berpartisipasi dalam event
+      maupun kompetisi musik di lingkungan kampus maupun luar kampus.
+  utter_benefit_bar:
+  - text: 'Benefit bergabung dengan UKM BAR:
+
+      - Mengembangkan kemampuan musik
+
+      - Menambah relasi pertemanan
+
+      - Mendapat pengalaman tampil
+
+      - Belajar organisasi dan teamwork
+
+      - Menyalurkan kreativitas di bidang musik
+
+      '
+  utter_media_informasi_bar:
+  - text: Informasi resmi UKM BAR dapat diperoleh melalui media sosial resmi @baruntar.
+  utter_tanya_ukm_citrapesona:
+  - text: 'UKM Citra Pesona (CP) adalah Unit Kegiatan Mahasiswa yang bergerak di bidang
+      seni, khususnya tari tradisional, modern dance, hip hop, serta modeling dan
+      event organizer (EO).
+
+      UKM ini menjadi wadah bagi mahasiswa untuk menyalurkan minat dan bakat di bidang
+      seni pertunjukan dengan bimbingan coach yang berpengalaman.
+
+      '
+  utter_fungsi_ukm_citrapesona:
+  - text: 'Fungsi UKM Citra Pesona adalah sebagai wadah pengembangan minat dan bakat
+      mahasiswa di bidang seni, khususnya tari dan modeling, serta sebagai sarana
+      untuk meningkatkan kreativitas, kepercayaan diri, dan kemampuan tampil di depan
+      umum.
+
+      '
+  utter_tujuan_ukm_citrapesona:
+  - text: 'Tujuan UKM Citra Pesona adalah untuk menyalurkan dan mengembangkan potensi
+      mahasiswa di bidang seni tari dan modeling, serta membentuk anggota yang kreatif,
+      percaya diri, dan mampu berprestasi di bidang seni pertunjukan.
+
+      '
+  utter_misi_citrapesona:
+  - text: 'Misi UKM Citra Pesona adalah mengembangkan kemampuan anggota dalam bidang
+      seni tari dan modeling, meningkatkan kualitas latihan secara berkelanjutan,
+      serta mendorong anggota untuk aktif berpartisipasi dalam berbagai kegiatan dan
+      kompetisi seni.
+
+      '
+  utter_visi_citrapesona:
+  - text: 'Visi UKM Citra Pesona adalah menjadi wadah seni yang unggul, kreatif, dan
+      berprestasi di tingkat kampus maupun di luar kampus.
+
+      '
+  utter_bidang_ukm_citrapesona:
+  - text: 'UKM Citra Pesona bergerak di bidang seni, khususnya seni tari dan modeling,
+      yang mencakup tari tradisional, modern dance, hip hop, serta kegiatan event
+      organizer (EO).
+
+      '
+  utter_boleh_gabung_citrapesona:
+  - text: 'UKM Citra Pesona terbuka untuk seluruh mahasiswa Universitas Tarumanagara
+      dari berbagai jurusan dan angkatan. Mahasiswa pria maupun wanita dapat bergabung,
+      termasuk pemula yang memiliki minat di bidang seni.
+
+      '
+  utter_cara_daftar_citrapesona:
+  - text: 'Pendaftaran UKM Citra Pesona dilakukan dengan mengisi data diri melalui
+      Google Form, kemudian mengikuti proses audisi.
+
+      Selain itu, pendaftaran juga dapat dilakukan secara offline di Lantai 7 Gedung
+      M.
+
+      '
+  utter_biaya_daftar_citrapesona:
+  - text: 'Biaya pendaftaran UKM Citra Pesona adalah sebesar Rp40.000.
+
+      '
+  utter_status_pendaftaran_citrapesona:
+  - text: 'Informasi mengenai pembukaan pendaftaran UKM Citra Pesona dapat dilihat
+      melalui media sosial resmi. Umumnya pendaftaran dibuka saat periode awal semester
+      atau saat kegiatan rekrutmen mahasiswa baru.
+
+      '
+  utter_audisi_citrapesona:
+  - text: 'Ya, terdapat proses audisi untuk bergabung dengan UKM Citra Pesona. Audisi
+      bertujuan untuk mengetahui kemampuan dasar peserta, terutama dalam bidang tari.
+
+      '
+  utter_syarat_anggota_citrapesona:
+  - text: 'Persyaratan untuk bergabung dengan UKM Citra Pesona adalah memiliki komitmen
+      dalam mengikuti kegiatan serta memiliki dasar kemampuan menari (basic dance).
+
+      '
+  utter_kemampuan_anggota_citrapesona:
+  - text: 'Anggota UKM Citra Pesona diharapkan memiliki kemampuan dasar dalam menari.
+      Namun, kemampuan tersebut dapat terus dikembangkan melalui latihan rutin bersama
+      coach.
+
+      '
+  utter_divisi_citrapesona:
+  - text: 'UKM Citra Pesona memiliki pembagian bidang kegiatan sesuai dengan jenis
+      seni yang dikembangkan, seperti modern dance, hip hop, dan modeling.
+
+      '
+  utter_struktur_citrapesona:
+  - text: 'Struktur organisasi UKM Citra Pesona terdiri dari badan pengurus harian
+      inti, serta pengurus dan anggota yang mendukung jalannya kegiatan dan program
+      kerja UKM.
+
+      '
+  utter_kegiatan_citrapesona:
+  - text: 'Kegiatan UKM Citra Pesona meliputi latihan rutin tari, kegiatan pelatihan
+      seperti Training and Fun, serta kegiatan kebersamaan seperti gathering dan event
+      lainnya.
+
+      '
+  utter_kegiatan_rutin_citrapesona:
+  - text: 'Kegiatan rutin UKM Citra Pesona adalah latihan tari yang dilakukan secara
+      berkala sesuai dengan jadwal masing-masing bidang.
+
+      '
+  utter_jadwal_latihan_citrapesona:
+  - text: 'Jadwal latihan UKM Citra Pesona antara lain:
+
+      - Modeling: hari Rabu (±2 jam)
+
+      - Hip hop: hari Kamis (±2 jam)
+
+      '
+  utter_durasi_kegiatan_citrapesona:
+  - text: 'Durasi setiap kegiatan atau latihan di UKM Citra Pesona umumnya berlangsung
+      sekitar 2 jam per sesi.
+
+      '
+  utter_lokasi_kegiatan_citrapesona:
+  - text: 'Kegiatan UKM Citra Pesona dilaksanakan di lingkungan kampus Universitas
+      Tarumanagara.
+
+      Beberapa kegiatan khusus seperti Training and Fun diadakan di luar kota, seperti
+      di Puncak.
+
+      '
+  utter_event_citrapesona:
+  - text: 'UKM Citra Pesona memiliki beberapa program dan event, antara lain:
+
+      - Training and Fun (LK)
+
+      - SPARTA
+
+      - Gathering
+
+      '
+  utter_event_tnf_citrapesona:
+  - text: 'Training and Fun (LK) adalah kegiatan pelatihan dan kebersamaan anggota
+      UKM Citra Pesona yang biasanya dilaksanakan di luar kota untuk meningkatkan
+      kekompakan dan kemampuan anggota.
+
+      '
+  utter_event_gathering_citrapesona:
+  - text: 'Gathering merupakan kegiatan kebersamaan anggota UKM Citra Pesona yang
+      bertujuan untuk mempererat hubungan antar anggota.
+
+      '
+  utter_jadwal_event_citrapesona:
+  - text: 'Jadwal event UKM Citra Pesona disesuaikan dengan program kerja tahunan
+      dan dapat berbeda setiap periode kepengurusan.
+
+      '
+  utter_jadwal_tnf_citrapesona:
+  - text: 'Training and Fun biasanya dilaksanakan pada periode tertentu sesuai dengan
+      program kerja, dan umumnya diadakan di Puncak.
+
+      '
+  utter_jadwal_gathering_citrapesona:
+  - text: 'Gathering dilaksanakan sesuai dengan agenda internal UKM untuk mempererat
+      hubungan antar anggota.
+
+      '
+  utter_fasilitas_citrapesona:
+  - text: 'UKM Citra Pesona menyediakan fasilitas berupa ruang sekretariat yang digunakan
+      sebagai tempat berkumpul dan koordinasi kegiatan.
+
+      '
+  utter_prestasi_citrapesona:
+  - text: 'Salah satu prestasi UKM Citra Pesona adalah meraih Runner Up pada kompetisi
+      TSAC tahun 2025.
+
+      '
+  utter_benefit_citrapesona:
+  - text: 'Manfaat bergabung dengan UKM Citra Pesona antara lain:
+
+      - Mengembangkan kemampuan di bidang seni tari dan modeling
+
+      - Meningkatkan kepercayaan diri
+
+      - Mendapatkan pengalaman tampil dan mengikuti kompetisi
+
+      - Memperluas relasi dan pengalaman organisasi
+
+      '
+  utter_media_informasi_citrapesona:
+  - text: 'Informasi terbaru mengenai UKM Citra Pesona dapat diakses melalui Instagram
+      resmi @citrapesonauntr.
+
+      Untuk pertanyaan lebih lanjut, dapat menghubungi contact person melalui LINE:
+      @936mfvwf'
+  utter_tanya_ukm_dharmayana:
+  - text: "UKM Dharmayana adalah organisasi mahasiswa yang bergerak di bidang keagamaan,\
+      \ khususnya agama Buddha. \nUKM ini menjadi wadah bagi mahasiswa untuk memperdalam\
+      \ ajaran Buddha serta membangun komunitas spiritual di kampus.\n"
+  utter_fungsi_ukm_dharmayana:
+  - text: "Fungsi UKM Dharmayana adalah sebagai sarana pembinaan spiritual dan pengembangan\
+      \ diri mahasiswa \ndalam memahami ajaran Buddha serta mempererat hubungan antar\
+      \ sesama anggota.\n"
+  utter_tujuan_ukm_dharmayana:
+  - text: "Tujuan utama UKM Dharmayana adalah memperdalam pengetahuan dan praktik\
+      \ ajaran agama Buddha, \nserta membantu mahasiswa berkembang secara spiritual\
+      \ dan moral.\n"
+  utter_misi_dharmayana:
+  - text: "Misi UKM Dharmayana adalah menyelenggarakan kegiatan keagamaan dan edukatif\
+      \ \nuntuk meningkatkan pemahaman serta pengamalan ajaran Buddha.\n"
+  utter_visi_dharmayana:
+  - text: "Visi UKM Dharmayana adalah menjadi komunitas mahasiswa Buddhis yang aktif,\
+      \ \nsolid, dan mampu mengembangkan nilai-nilai Dharma dalam kehidupan sehari-hari.\n"
+  utter_bidang_ukm_dharmayana:
+  - text: "UKM Dharmayana bergerak di bidang keagamaan Buddha, \ndengan fokus pada\
+      \ kegiatan spiritual, pembelajaran Dharma, dan pengabdian.\n"
+  utter_boleh_gabung_dharmayana:
+  - text: "UKM Dharmayana terbuka untuk seluruh mahasiswa, \nnamun terutama diperuntukkan\
+      \ bagi mahasiswa yang beragama Buddha.\n"
+  utter_cara_daftar_dharmayana:
+  - text: "Cara mendaftar UKM Dharmayana adalah dengan mengisi data diri saat periode\
+      \ PMB atau open house, \nkemudian mengikuti proses selanjutnya seperti wawancara.\n"
+  utter_biaya_daftar_dharmayana:
+  - text: "Informasi biaya pendaftaran UKM Dharmayana tidak disebutkan secara khusus.\
+      \ \nUntuk detail lebih lanjut, kamu bisa menghubungi contact person.\n"
+  utter_status_pendaftaran_dharmayana:
+  - text: 'Pendaftaran UKM Dharmayana biasanya dibuka saat periode PMB dan open house
+      kampus.
+
+      '
+  utter_seleksi_dharmayana:
+  - text: 'Ya, terdapat proses seleksi berupa wawancara untuk bergabung dengan UKM
+      Dharmayana.
+
+      '
+  utter_syarat_anggota_dharmayana:
+  - text: "Syarat utama bergabung adalah memiliki komitmen untuk berkontribusi di\
+      \ UKM Dharmayana. \nUntuk posisi tertentu seperti BPH/BPHI, diperlukan syarat\
+      \ dan skill tambahan.\n"
+  utter_kemampuan_anggota_dharmayana:
+  - text: "Tidak wajib memiliki kemampuan khusus untuk menjadi anggota. \nNamun untuk\
+      \ posisi kepengurusan (BPH/BPHI), dibutuhkan skill tertentu sesuai bidangnya.\n"
+  utter_divisi_dharmayana:
+  - text: 'Divisi di UKM Dharmayana meliputi:
+
+      - Bakti
+
+      - Banat
+
+      - Humas
+
+      - Inventaris
+
+      - Multimedia
+
+      - Pusdikes
+
+      '
+  utter_struktur_dharmayana:
+  - text: "Struktur UKM Dharmayana terdiri dari badan pengurus harian inti \ndan berbagai\
+      \ divisi yang mendukung jalannya kegiatan organisasi.\n"
+  utter_kegiatan_dharmayana:
+  - text: 'Kegiatan UKM Dharmayana antara lain:
+
+      - Kebaktian mingguan
+
+      - Welcoming Party DWP
+
+      - Dharmadista
+
+      - Katina
+
+      - Latihan Kepemimpinan (LK)
+
+      - Pekan Penghayatan Dharma
+
+      - Meta Day
+
+      - Dharmayana Buddhist Festival
+
+      - Berita Dharmayana
+
+      - DM Fun (kegiatan hiburan)
+
+      '
+  utter_kegiatan_rutin_dharmayana:
+  - text: 'Kegiatan rutin UKM Dharmayana adalah kebaktian mingguan yang dilaksanakan
+      setiap hari Minggu.
+
+      '
+  utter_jenis_kegiatan_dharmayana:
+  - text: "Jenis kegiatan UKM Dharmayana mencakup kegiatan spiritual, edukasi Dharma,\
+      \ \nevent keagamaan, serta kegiatan sosial dan hiburan.\n"
+  utter_jadwal_rutin_dharmayana:
+  - text: 'Kebaktian rutin dilaksanakan setiap hari Minggu pukul 10.00 – 12.00.
+
+      '
+  utter_durasi_kegiatan_dharmayana:
+  - text: 'Durasi kegiatan rutin seperti kebaktian berlangsung sekitar 2 jam.
+
+      '
+  utter_lokasi_kegiatan_dharmayana:
+  - text: "Kegiatan UKM Dharmayana dilaksanakan di Vihara yang berada di wilayah Jabodetabek,\
+      \ \nserta beberapa kegiatan juga diadakan di kampus Untar.\n"
+  utter_event_dharmayana:
+  - text: 'Event besar UKM Dharmayana meliputi:
+
+      - Dharmadista (Villa Puncak Bogor)
+
+      - Katina (Untar)
+
+      - LK (Vihara Jabodetabek)
+
+      - Pekan Penghayatan Dharma
+
+      - Meta Day (luar kota)
+
+      - Dharmayana Buddhist Festival (Untar)
+
+      '
+  utter_jadwal_event_dharmayana:
+  - text: "Jadwal event UKM Dharmayana berbeda-beda setiap tahun, \nseperti Dharmadista,\
+      \ Katina, dan Meta Day yang diadakan pada periode tertentu. \nUntuk jadwal terbaru,\
+      \ cek Instagram resmi mereka.\n"
+  utter_fasilitas_dharmayana:
+  - text: 'Fasilitas UKM Dharmayana meliputi ruang sekretariat yang digunakan untuk
+      berkumpul dan koordinasi kegiatan.
+
+      '
+  utter_benefit_dharmayana:
+  - text: 'Manfaat bergabung di UKM Dharmayana:
+
+      - Memperdalam ajaran Buddha
+
+      - Mengembangkan spiritualitas
+
+      - Menambah relasi dan komunitas
+
+      - Melatih soft skill melalui kegiatan organisasi
+
+      '
+  utter_media_informasi_dharmayana:
+  - text: 'Informasi terbaru UKM Dharmayana dapat diakses melalui Instagram resmi
+      @dharmayanauntar.
+
+      Contact person:
+
+      085782607484 (Henry)'
+  utter_tanya_ukm_festa:
+  - text: 'UKM FESTA adalah Unit Kegiatan Mahasiswa yang bergerak di bidang seni sulap
+      di Universitas Tarumanagara.
+
+      FESTA merupakan federasi sulap yang menjadi wadah bagi mahasiswa untuk mengembangkan
+      kemampuan, tidak hanya dalam trik sulap, tetapi juga soft skill seperti komunikasi,
+      kreativitas, dan kepercayaan diri.
+
+      '
+  utter_fungsi_ukm_festa:
+  - text: 'Fungsi UKM FESTA adalah sebagai wadah pengembangan minat dan bakat mahasiswa
+      di bidang seni sulap serta sebagai sarana untuk meningkatkan soft skill seperti
+      public speaking, kreativitas, dan kepercayaan diri.
+
+      '
+  utter_tujuan_ukm_festa:
+  - text: 'Tujuan UKM FESTA adalah untuk mengembangkan kemampuan mahasiswa, baik dalam
+      bidang sulap maupun soft skill, sehingga anggota tidak hanya mahir dalam trik
+      sulap tetapi juga memiliki kemampuan interpersonal yang baik.
+
+      '
+  utter_misi_festa:
+  - text: 'Misi UKM FESTA adalah mengembangkan kemampuan anggota dalam seni sulap,
+      meningkatkan soft skill, serta membangun komunitas yang kreatif dan kolaboratif
+      di lingkungan kampus.
+
+      '
+  utter_visi_festa:
+  - text: 'Visi UKM FESTA adalah menjadi komunitas seni sulap yang aktif, kreatif,
+      dan berprestasi di tingkat kampus maupun di luar kampus.
+
+      '
+  utter_bidang_ukm_festa:
+  - text: 'UKM FESTA bergerak di bidang seni sulap, yang mencakup pembelajaran trik
+      sulap serta pengembangan kemampuan komunikasi dan pertunjukan.
+
+      '
+  utter_boleh_gabung_festa:
+  - text: 'UKM FESTA terbuka untuk seluruh mahasiswa aktif Universitas Tarumanagara
+      dari berbagai jurusan dan angkatan.
+
+      '
+  utter_cara_daftar_festa:
+  - text: 'Pendaftaran UKM FESTA dilakukan secara online dengan mengisi formulir pendaftaran.
+
+      Pendaftaran biasanya dibuka pada periode PMB dan Open House (OH).
+
+      '
+  utter_biaya_daftar_festa:
+  - text: 'Pendaftaran UKM FESTA tidak dipungut biaya (gratis).
+
+      '
+  utter_status_pendaftaran_festa:
+  - text: 'Pendaftaran UKM FESTA umumnya dibuka pada periode PMB dan Open House (OH).
+      Informasi terbaru dapat dilihat melalui media sosial resmi.
+
+      '
+  utter_syarat_anggota_festa:
+  - text: 'Persyaratan untuk bergabung dengan UKM FESTA adalah mahasiswa aktif Universitas
+      Tarumanagara yang memiliki komitmen untuk mengikuti kegiatan UKM.
+
+      '
+  utter_seleksi_festa:
+  - text: 'Tidak terdapat proses seleksi atau audisi dalam pendaftaran UKM FESTA.
+      Seluruh mahasiswa yang mendaftar dapat langsung bergabung.
+
+      '
+  utter_divisi_festa:
+  - text: 'UKM FESTA memiliki pembagian peran dalam organisasi untuk mendukung jalannya
+      kegiatan, meskipun fokus utama tetap pada pengembangan kemampuan anggota dalam
+      seni sulap.
+
+      '
+  utter_struktur_festa:
+  - text: 'Struktur organisasi UKM FESTA terdiri dari badan pengurus harian inti,
+      serta pengurus dan anggota yang bekerja sama dalam menjalankan program kerja
+      UKM.
+
+      '
+  utter_kegiatan_festa:
+  - text: 'Kegiatan UKM FESTA meliputi latihan rutin, kegiatan kebersamaan, serta
+      berbagai event yang berkaitan dengan seni sulap dan pengembangan anggota.
+
+      '
+  utter_kegiatan_latihan_festa:
+  - text: 'Kegiatan rutin UKM FESTA berupa latihan sulap yang dilakukan secara berkala
+      untuk meningkatkan kemampuan anggota.
+
+      '
+  utter_jadwal_latihan_festa:
+  - text: 'Jadwal latihan UKM FESTA dilaksanakan pada:
+
+      - Hari Rabu dan Kamis
+
+      - Pukul 15.00 – 16.00
+
+      '
+  utter_jenis_kegiatan_festa:
+  - text: 'Jenis kegiatan UKM FESTA meliputi:
+
+      - Latihan rutin seni sulap
+
+      - Kegiatan internal organisasi
+
+      - Event edukatif dan hiburan
+
+      - Kegiatan sosial seperti bakti sosial
+
+      '
+  utter_durasi_kegiatan_festa:
+  - text: 'Durasi kegiatan latihan UKM FESTA berlangsung sekitar 1 jam setiap pertemuan.
+
+      '
+  utter_lokasi_kegiatan_festa:
+  - text: 'Kegiatan UKM FESTA dilaksanakan di sekretariat FESTA yang berada di lingkungan
+      kampus Universitas Tarumanagara.
+
+      '
+  utter_event_festa:
+  - text: 'UKM FESTA memiliki beberapa event utama, antara lain:
+
+      - Festa Welcome Party (FWP)
+
+      - Festa Magic Gathering (FMG)
+
+      - Kegiatan Bakti Sosial (Baksos)
+
+      '
+  utter_jadwal_FWP_festa:
+  - text: 'Festa Welcome Party (FWP) dilaksanakan sesuai dengan program kerja tahunan,
+      biasanya pada awal periode kepengurusan.
+
+      '
+  utter_jadwal_FMG_festa:
+  - text: 'Festa Magic Gathering (FMG) merupakan event yang menghadirkan pesulap dan
+      dilaksanakan sesuai dengan agenda tahunan UKM.
+
+      '
+  utter_jadwal_baksos_festa:
+  - text: 'Kegiatan bakti sosial (Baksos) dilaksanakan sesuai dengan program kerja
+      UKM FESTA pada periode tertentu.
+
+      '
+  utter_fasilitas_festa:
+  - text: 'UKM FESTA menyediakan fasilitas berupa berbagai properti sulap yang digunakan
+      untuk latihan dan pengembangan kemampuan anggota.
+
+      '
+  utter_benefit_festa:
+  - text: 'Manfaat bergabung dengan UKM FESTA antara lain:
+
+      - Mengembangkan kemampuan seni sulap
+
+      - Meningkatkan kepercayaan diri dan kemampuan komunikasi
+
+      - Mengasah kreativitas dan public speaking
+
+      - Memperluas relasi dan pengalaman organisasi
+
+      '
+  utter_media_informasi_festa:
+  - text: 'Informasi terbaru mengenai UKM FESTA dapat diperoleh melalui Instagram
+      resmi @festauntar.
+
+      Untuk pertanyaan lebih lanjut, dapat dilakukan melalui direct message (DM) di
+      Instagram.'
+  utter_tanya_ukm_fut:
+  - text: "UKM FUT (Forum Ukhuwah Tarumanagara) adalah organisasi mahasiswa yang bergerak\
+      \ di bidang keagamaan Islam. \nFUT menjadi wadah bagi mahasiswa untuk mempererat\
+      \ ukhuwah (persaudaraan), belajar agama, serta mengembangkan diri dalam kegiatan\
+      \ islami.\n"
+  utter_fungsi_ukm_fut:
+  - text: 'Fungsi UKM FUT adalah sebagai tempat pembinaan rohani, mempererat hubungan
+      antar mahasiswa muslim, serta menjadi sarana dakwah di lingkungan kampus.
+
+      '
+  utter_tujuan_ukm_fut:
+  - text: 'Tujuan UKM FUT adalah membentuk mahasiswa yang berakhlak baik, memiliki
+      pemahaman agama yang kuat, serta mampu berkontribusi positif di lingkungan kampus.
+
+      '
+  utter_misi_fut:
+  - text: 'Misi UKM FUT adalah meningkatkan pemahaman keislaman, mempererat ukhuwah
+      antar anggota, serta aktif dalam kegiatan dakwah dan pengembangan diri mahasiswa.
+
+      '
+  utter_visi_fut:
+  - text: 'Visi UKM FUT adalah menjadi wadah pembinaan mahasiswa muslim yang aktif,
+      berakhlak mulia, dan berkontribusi dalam lingkungan kampus.
+
+      '
+  utter_bidang_ukm_fut:
+  - text: 'UKM FUT bergerak di bidang keagamaan Islam, khususnya dalam pembinaan,
+      dakwah, dan penguatan ukhuwah antar mahasiswa.
+
+      '
+  utter_boleh_gabung_fut:
+  - text: "UKM FUT terbuka bagi mahasiswa muslim yang ingin belajar dan berkembang\
+      \ dalam kegiatan keislaman. \nMahasiswa dari berbagai jurusan dan angkatan dapat\
+      \ bergabung.\n"
+  utter_cara_daftar_fut:
+  - text: 'Cara daftar UKM FUT biasanya:
+
+      - Mengisi formulir pendaftaran (Google Form)
+
+      - Mengikuti kegiatan open recruitment atau pengenalan UKM
+
+      '
+  utter_biaya_daftar_fut:
+  - text: 'Untuk informasi biaya pendaftaran UKM FUT, biasanya dapat dicek melalui
+      media sosial resmi atau saat open recruitment berlangsung.
+
+      '
+  utter_status_pendaftaran_fut:
+  - text: 'Pendaftaran UKM FUT biasanya dibuka saat periode awal semester atau saat
+      kegiatan open recruitment UKM.
+
+      '
+  utter_syarat_anggota_fut:
+  - text: 'Syarat bergabung UKM FUT umumnya:
+
+      - Mahasiswa aktif
+
+      - Memiliki minat dalam kegiatan keislaman
+
+      - Bersedia mengikuti kegiatan dan aturan yang berlaku
+
+      '
+  utter_komitmen_fut:
+  - text: 'Anggota UKM FUT diharapkan memiliki komitmen untuk aktif mengikuti kegiatan
+      seperti kajian, pembinaan, dan event lainnya.
+
+      '
+  utter_divisi_fut:
+  - text: 'UKM FUT biasanya memiliki beberapa divisi seperti:
+
+      - Dakwah / Kajian
+
+      - Humas
+
+      - Media
+
+      - Acara
+
+      (Dapat berbeda tergantung kepengurusan)
+
+      '
+  utter_struktur_fut:
+  - text: 'Struktur UKM FUT terdiri dari badan pengurus harian inti serta berbagai
+      divisi yang bekerja sama dalam menjalankan program kerja organisasi.
+
+      '
+  utter_kegiatan_fut:
+  - text: 'Kegiatan UKM FUT meliputi:
+
+      - Kajian keislaman
+
+      - Kegiatan dakwah
+
+      - Event keagamaan
+
+      - Kegiatan kebersamaan antar anggota
+
+      '
+  utter_kegiatan_rutin_fut:
+  - text: 'Kegiatan rutin UKM FUT biasanya berupa kajian atau pembinaan keislaman
+      yang dilakukan secara berkala.
+
+      '
+  utter_jenis_kegiatan_fut:
+  - text: 'Jenis kegiatan UKM FUT meliputi:
+
+      - Kajian islami
+
+      - Dakwah kampus
+
+      - Pembinaan anggota
+
+      - Event keagamaan
+
+      '
+  utter_jadwal_rutin_fut:
+  - text: 'Jadwal kegiatan rutin UKM FUT biasanya diumumkan melalui media sosial atau
+      grup internal anggota.
+
+      '
+  utter_lokasi_kegiatan_fut:
+  - text: 'Kegiatan UKM FUT biasanya dilaksanakan di lingkungan kampus, seperti ruang
+      kelas atau tempat ibadah kampus.
+
+      '
+  utter_event_fut:
+  - text: 'Event UKM FUT biasanya meliputi kegiatan keagamaan seperti seminar, kajian
+      besar, dan acara islami lainnya.
+
+      '
+  utter_jadwal_event_fut:
+  - text: 'Jadwal event UKM FUT diumumkan secara berkala melalui media sosial resmi
+      atau pengurus.
+
+      '
+  utter_fasilitas_fut:
+  - text: 'Fasilitas UKM FUT biasanya berupa tempat kegiatan seperti ruang kajian
+      atau fasilitas kampus lainnya.
+
+      '
+  utter_benefit_fut:
+  - text: 'Manfaat mengikuti UKM FUT:
+
+      - Menambah ilmu agama
+
+      - Memperluas relasi
+
+      - Mengembangkan diri
+
+      - Memperkuat iman dan akhlak
+
+      '
+  utter_media_informasi_fut:
+  - text: 'Untuk informasi lebih lanjut:
+
+      - Cek Instagram resmi @futuntar
+
+      - Atau hubungi pengurus UKM FUT'
+  utter_tanya_ukm_futsal:
+  - text: "UKM Futsal Universitas Tarumanagara adalah unit kegiatan mahasiswa yang\
+      \ bergerak di bidang olahraga, khususnya futsal. \nUKM ini menjadi wadah bagi\
+      \ mahasiswa yang memiliki minat dan bakat di futsal untuk berlatih, berkembang,\
+      \ dan membangun kebersamaan.\n"
+  utter_fungsi_ukm_futsal:
+  - text: "Fungsi UKM Futsal adalah sebagai wadah pengembangan kemampuan bermain futsal,\
+      \ \nmeningkatkan kerja sama tim, serta menyalurkan minat dan bakat mahasiswa\
+      \ di bidang olahraga.\n"
+  utter_tujuan_ukm_futsal:
+  - text: "Tujuan UKM Futsal adalah untuk mewadahi mahasiswa agar dapat berlatih,\
+      \ berkembang, \nserta mengikuti kompetisi guna membawa nama baik Universitas\
+      \ Tarumanagara.\n"
+  utter_misi_ukm_futsal:
+  - text: "Misi UKM Futsal adalah meningkatkan kemampuan anggota, membangun kerja\
+      \ sama tim, \nserta aktif dalam kompetisi antar universitas dan turnamen lainnya.\n"
+  utter_visi_ukm_futsal:
+  - text: 'Visi UKM Futsal adalah menjadi tim futsal kampus yang aktif, kompetitif,
+      dan mampu berprestasi di berbagai ajang.
+
+      '
+  utter_bidang_ukm_futsal:
+  - text: 'UKM Futsal bergerak di bidang olahraga, khususnya futsal.
+
+      '
+  utter_boleh_gabung_futsal:
+  - text: 'UKM Futsal terbuka untuk semua mahasiswa yang memiliki minat atau ketertarikan
+      di olahraga futsal.
+
+      '
+  utter_cara_daftar_futsal:
+  - text: 'Cara mendaftar UKM Futsal:
+
+      - Melalui Open House
+
+      - Mengisi form pendaftaran resmi saat pendaftaran UKM dibuka
+
+      '
+  utter_biaya_daftar_futsal:
+  - text: "Informasi biaya pendaftaran UKM Futsal tidak disebutkan secara spesifik.\
+      \ \nSilakan cek informasi terbaru melalui media sosial resmi.\n"
+  utter_status_pendaftaran_futsal:
+  - text: "Pendaftaran UKM Futsal biasanya dibuka saat awal PMB. \nUntuk periode penutupan,\
+      \ silakan cek update terbaru di Instagram resmi.\n"
+  utter_syarat_anggota_futsal:
+  - text: 'Syarat bergabung:
+
+      - Memiliki minat atau hobi di futsal
+
+      - Terbuka untuk semua mahasiswa
+
+      '
+  utter_kemampuan_anggota_futsal:
+  - text: "Tidak harus jago futsal untuk bergabung. \nPemula tetap bisa ikut selama\
+      \ memiliki minat dan kemauan untuk belajar.\n"
+  utter_divisi_futsal:
+  - text: 'Struktur/divisi UKM Futsal meliputi:
+
+      - Humas
+
+      - Perlengkapan dan Pelatihan
+
+      - Publikasi dan Dokumentasi
+
+      '
+  utter_struktur_futsal:
+  - text: 'Struktur UKM Futsal terdiri dari badan pengurus harian inti dan beberapa
+      divisi seperti humas, perlengkapan dan pelatihan, publikasi dan dokumentasi.
+
+      '
+  utter_kegiatan_futsal:
+  - text: 'Kegiatan UKM Futsal meliputi:
+
+      - Latihan rutin
+
+      - Kompetisi dan event futsal
+
+      '
+  utter_latihan_rutin_futsal:
+  - text: 'UKM Futsal memiliki latihan rutin yang dilakukan secara berkala.
+
+      '
+  utter_sparring_futsal:
+  - text: 'UKM Futsal juga melakukan sparring sebagai latihan tanding untuk meningkatkan
+      kemampuan tim.
+
+      '
+  utter_liga_futsal:
+  - text: 'UKM Futsal memiliki program kompetisi seperti:
+
+      - Liga Maba
+
+      - Tarumanagara Champions League
+
+      - TSAC
+
+      '
+  utter_jenis_kegiatan_futsal:
+  - text: 'Jenis kegiatan UKM Futsal meliputi:
+
+      - Latihan rutin
+
+      - Sparring
+
+      - Liga dan turnamen
+
+      - Event futsal
+
+      '
+  utter_jadwal_kegiatan_futsal:
+  - text: 'Jadwal kegiatan UKM Futsal biasanya berlangsung pada malam hari, sekitar
+      pukul 19.00 - 21.00.
+
+      '
+  utter_durasi_kegiatan_futsal:
+  - text: 'Durasi kegiatan atau latihan UKM Futsal biasanya sekitar 2 jam per sesi.
+
+      '
+  utter_lokasi_kegiatan_futsal:
+  - text: "Lokasi kegiatan UKM Futsal tidak tetap dan dapat berpindah-pindah, \nkarena\
+      \ menggunakan lapangan sewa (tidak disediakan langsung oleh kampus).\n"
+  utter_event_futsal:
+  - text: 'Event UKM Futsal meliputi:
+
+      - Liga Maba
+
+      - Tarumanagara Champions League
+
+      '
+  utter_jadwal_event_futsal:
+  - text: 'Jadwal keseluruhan event UKM Futsal akan diumumkan melalui media sosial
+      resmi.
+
+      '
+  utter_fasilitas_futsal:
+  - text: 'Fasilitas UKM Futsal meliputi:
+
+      - Sekretariat
+
+      - Bola futsal
+
+      - Peralatan futsal
+
+      '
+  utter_benefit_futsal:
+  - text: 'Manfaat bergabung di UKM Futsal:
+
+      - Mengembangkan skill bermain futsal
+
+      - Menambah relasi dan pengalaman
+
+      - Kesempatan mengikuti kompetisi
+
+      - Melatih kerja sama tim dan sportivitas
+
+      '
+  utter_media_informasi_futsal:
+  - text: 'Untuk informasi lebih lanjut:
+
+      - Instagram: @futsaluntar'
+  utter_tanya_ukm_jujitsu:
+  - text: 'Jujitsu adalah UKM yang bergerak di bidang bela diri asal Jepang 🥋.
+
+      Di UKM ini kamu akan belajar teknik pertahanan diri, latihan fisik, serta berkesempatan
+      mengikuti kompetisi untuk meraih prestasi.
+
+      '
+  utter_fungsi_ukm_jujitsu:
+  - text: 'Fungsi UKM Jujitsu:
+
+      - Melatih kemampuan bela diri 🥋
+
+      - Meningkatkan kekuatan fisik dan mental 💪
+
+      - Membentuk disiplin dan kepercayaan diri
+
+      - Menjadi wadah untuk berprestasi di bidang olahraga
+
+      '
+  utter_tujuan_ukm_jujitsu:
+  - text: 'Tujuan Jujitsu adalah:
+
+      - Memberikan pengalaman baru dalam bela diri
+
+      - Mengembangkan kemampuan anggota
+
+      - Menciptakan prestasi di tingkat nasional maupun internasional 🏆
+
+      '
+  utter_misi_jujitsu:
+  - text: 'Misi Jujitsu:
+
+      - Melatih anggota secara rutin dan terarah
+
+      - Mengembangkan potensi atlet
+
+      - Mengikuti dan memenangkan kompetisi
+
+      - Membangun mental dan disiplin anggota
+
+      '
+  utter_visi_jujitsu:
+  - text: 'Visi Jujitsu adalah menjadi UKM bela diri yang unggul, berprestasi, dan
+      mampu mencetak atlet berkualitas.
+
+      '
+  utter_bidang_ukm_jujitsu:
+  - text: 'Jujitsu bergerak di bidang bela diri 🥋.
+
+      Fokusnya adalah teknik pertahanan diri seperti kuncian, bantingan, dan grappling.
+
+      '
+  utter_boleh_gabung_jujitsu:
+  - text: 'Semua mahasiswa boleh bergabung 👍
+
+      - Terbuka untuk semua jurusan
+
+      - Pemula juga boleh ikut (tidak harus punya pengalaman)
+
+      - Yang penting punya minat dan semangat latihan
+
+      '
+  utter_cara_daftar_jujitsu:
+  - text: 'Cara daftar Jujitsu:
+
+      1. Mengisi data diri melalui Google Form
+
+      2. Mengikuti proses pendaftaran
+
+      3. Bergabung saat jadwal latihan dimulai
+
+      '
+  utter_biaya_daftar_jujitsu:
+  - text: 'Biaya pendaftaran Jujitsu adalah sekitar Rp100.000 💰
+
+      Biaya ini digunakan untuk kebutuhan awal latihan dan keanggotaan.
+
+      '
+  utter_status_pendaftaran_jujitsu:
+  - text: 'Pendaftaran Jujitsu dibuka pada:
+
+      - Agustus sampai Desember 📅
+
+
+      Kamu bisa daftar selama periode tersebut.
+
+      '
+  utter_syarat_anggota_jujitsu:
+  - text: 'Syarat bergabung Jujitsu:
+
+      - Memiliki komitmen
+
+      - Memiliki attitude yang baik
+
+      - Siap mengikuti latihan
+
+      '
+  utter_komitmen_jujitsu:
+  - text: 'Komitmen di Jujitsu:
+
+      - Rutin mengikuti latihan
+
+      - Disiplin dan bertanggung jawab
+
+      - Menjaga sikap dan sportivitas
+
+      - Serius dalam pengembangan diri
+
+      '
+  utter_divisi_jujitsu:
+  - text: 'Divisi di Jujitsu:
+
+      - Perkap
+
+      - Media Kreatif
+
+      - Humas
+
+      - Divisi Atlet
+
+      '
+  utter_struktur_jujitsu:
+  - text: 'Struktur organisasi Jujitsu terdiri dari:
+
+      - Badan Pengurus Harian Inti
+
+      - Divisi (Perkap, Media, Humas, Atlet)
+
+      '
+  utter_kegiatan_jujitsu:
+  - text: 'Kegiatan Jujitsu:
+
+      - Latihan rutin 🥋
+
+      - Sparring / latihan teknik
+
+      - Mengikuti pertandingan eksternal
+
+      - Kompetisi nasional dan internasional
+
+      '
+  utter_kegiatan_latihan_jujitsu:
+  - text: 'Jujitsu memiliki latihan rutin:
+
+      - Latihan teknik bela diri
+
+      - Latihan fisik
+
+      - Sparring
+
+
+      Latihan ini penting untuk meningkatkan skill dan kekuatan 💪
+
+      '
+  utter_jadwal_latihan_jujitsu:
+  - text: 'Jadwal latihan Jujitsu:
+
+      - Selasa & Kamis
+
+      - Jam 18.00 – 19.30 🕕
+
+      '
+  utter_durasi_kegiatan_jujitsu:
+  - text: 'Durasi latihan Jujitsu sekitar:
+
+      - ± 1,5 jam setiap sesi ⏱️
+
+
+      Cukup untuk latihan teknik dan fisik secara optimal.
+
+      '
+  utter_lokasi_kegiatan_jujitsu:
+  - text: 'Lokasi latihan Jujitsu:
+
+      - Untar Arena 1 🏟️
+
+      '
+  utter_event_jujitsu:
+  - text: 'Event Jujitsu:
+
+      - Pertandingan eksternal
+
+      - Kompetisi tingkat nasional & internasional 🏆
+
+      '
+  utter_jadwal_event_jujitsu:
+  - text: 'Jadwal event Jujitsu biasanya menyesuaikan:
+
+      - Kalender kompetisi
+
+
+      Contoh lokasi event:
+
+      - Baywalk Mall
+
+      '
+  utter_fasilitas_jujitsu:
+  - text: 'Fasilitas Jujitsu:
+
+      - Matras
+
+      - P3K
+
+      - GI (seragam jujitsu)
+
+      - Ruangan sekretariat
+
+      '
+  utter_benefit_jujitsu:
+  - text: 'Benefit ikut Jujitsu:
+
+      - Meningkatkan kekuatan fisik dan mental 💪
+
+      - Belajar bela diri
+
+      - Meningkatkan kepercayaan diri
+
+      - Kesempatan ikut kompetisi 🏆
+
+      - Mendapat pengalaman baru
+
+      '
+  utter_media_informasi_jujitsu:
+  - text: 'Untuk informasi lebih lanjut:
+
+      - Update di Instagram resmi @jujitsu_untar📱
+
+      - Contact person: +62 812-6598-3023 (Vincent)'
+  utter_tanya_ukm_kbmk:
+  - text: "UKM KBMK (Keluarga Besar Mahasiswa Khonghucu) adalah organisasi mahasiswa\
+      \ yang bergerak di bidang keagamaan Khonghucu. \nUKM ini menjadi wadah bagi\
+      \ mahasiswa untuk memperdalam ajaran, nilai spiritual, serta menjalin kebersamaan\
+      \ antar sesama anggota.\n"
+  utter_fungsi_ukm_kbmk:
+  - text: 'Fungsi KBMK adalah sebagai wadah pembinaan rohani mahasiswa Khonghucu,
+      tempat beribadah, belajar nilai moral, serta membangun kebersamaan dan solidaritas
+      antar anggota di lingkungan kampus.
+
+      '
+  utter_tujuan_ukm_kbmk:
+  - text: 'Tujuan KBMK adalah untuk memperdalam ajaran agama Khonghucu, meningkatkan
+      keimanan, serta membentuk karakter mahasiswa yang beretika, bermoral, dan memiliki
+      nilai spiritual yang baik.
+
+      '
+  utter_misi_kbmk:
+  - text: 'Misi KBMK adalah membina kehidupan rohani mahasiswa, menyelenggarakan kegiatan
+      keagamaan, serta mempererat hubungan antar anggota melalui berbagai kegiatan
+      spiritual dan sosial.
+
+      '
+  utter_visi_kbmk:
+  - text: 'Visi KBMK adalah menjadi wadah pembinaan rohani mahasiswa Khonghucu yang
+      aktif, harmonis, dan berkontribusi positif di lingkungan kampus.
+
+      '
+  utter_bidang_ukm_kbmk:
+  - text: 'KBMK bergerak di bidang keagamaan, khususnya agama Khonghucu, dengan fokus
+      pada kegiatan ibadah, pembinaan spiritual, dan pengembangan nilai moral mahasiswa.
+
+      '
+  utter_boleh_gabung_kbmk:
+  - text: "KBMK terbuka untuk mahasiswa, terutama yang beragama Khonghucu. \nNamun\
+      \ mahasiswa dari berbagai jurusan dan semester tetap dapat bergabung untuk mengenal\
+      \ dan belajar bersama.\n"
+  utter_cara_daftar_kbmk:
+  - text: 'Cara daftar KBMK biasanya dengan mengisi data diri melalui form pendaftaran
+      (seperti Google Form) saat open recruitment atau kegiatan kampus berlangsung.
+
+      '
+  utter_biaya_daftar_kbmk:
+  - text: "Untuk informasi biaya pendaftaran KBMK, biasanya tidak disebutkan secara\
+      \ khusus. \nKamu bisa konfirmasi langsung ke pengurus atau melalui media sosial\
+      \ resmi KBMK.\n"
+  utter_status_pendaftaran_kbmk:
+  - text: "Pendaftaran KBMK biasanya dibuka saat periode open recruitment atau kegiatan\
+      \ kampus seperti PMB. \nUntuk info terbaru, sebaiknya cek media sosial resmi\
+      \ KBMK.\n"
+  utter_syarat_anggota_kbmk:
+  - text: 'Syarat menjadi anggota KBMK umumnya adalah memiliki minat dalam kegiatan
+      rohani, bersedia mengikuti kegiatan, dan berkomitmen dalam organisasi.
+
+      '
+  utter_komitmen_kbmk:
+  - text: 'Anggota KBMK diharapkan memiliki komitmen untuk aktif dalam kegiatan, menjaga
+      kebersamaan, serta berpartisipasi dalam kegiatan rohani dan organisasi.
+
+      '
+  utter_divisi_kbmk:
+  - text: 'KBMK memiliki beberapa divisi atau bidang yang mengatur jalannya organisasi,
+      seperti divisi kegiatan, keagamaan, dan bidang pendukung lainnya sesuai kebutuhan
+      organisasi.
+
+      '
+  utter_struktur_kbmk:
+  - text: 'Struktur KBMK terdiri dari badan pengurus harian inti, serta divisi-divisi
+      yang membantu menjalankan program kerja organisasi.
+
+      '
+  utter_kegiatan_kbmk:
+  - text: 'Kegiatan KBMK meliputi ibadah, pembinaan rohani, perayaan hari besar keagamaan,
+      serta kegiatan kebersamaan antar anggota.
+
+      '
+  utter_jenis_kegiatan_kbmk:
+  - text: 'Jenis kegiatan KBMK meliputi kegiatan ibadah, pembinaan spiritual, perayaan
+      keagamaan, serta kegiatan sosial dan kebersamaan.
+
+      '
+  utter_kegiatan_rutin_kbmk:
+  - text: 'KBMK memiliki kegiatan rutin seperti ibadah bersama, doa, dan pembinaan
+      rohani untuk meningkatkan keimanan anggota.
+
+      '
+  utter_jadwal_rutin_kbmk:
+  - text: 'Jadwal kegiatan rutin KBMK biasanya ditentukan oleh pengurus dan diumumkan
+      melalui media informasi resmi seperti grup atau media sosial.
+
+      '
+  utter_lokasi_kegiatan_kbmk:
+  - text: 'Kegiatan KBMK biasanya dilaksanakan di lingkungan kampus atau tempat ibadah
+      yang telah ditentukan.
+
+      '
+  utter_event_kbmk:
+  - text: 'KBMK juga menyelenggarakan berbagai event seperti perayaan hari besar keagamaan
+      dan kegiatan kebersamaan lainnya.
+
+      '
+  utter_jadwal_event_kbmk:
+  - text: 'Jadwal event KBMK biasanya mengikuti kalender kegiatan keagamaan dan diumumkan
+      melalui media informasi resmi.
+
+      '
+  utter_fasilitas_kbmk:
+  - text: 'KBMK menyediakan fasilitas berupa tempat berkumpul atau ruang kegiatan
+      untuk mendukung aktivitas organisasi dan ibadah.
+
+      '
+  utter_benefit_kbmk:
+  - text: 'Dengan bergabung di KBMK, kamu bisa mendapatkan manfaat seperti memperdalam
+      iman, menambah relasi, serta mengembangkan nilai moral dan spiritual.
+
+      '
+  utter_media_informasi_kbmk:
+  - text: Informasi terbaru mengenai KBMK biasanya dibagikan melalui media sosial
+      resmi @kbmk_untar atau dapat ditanyakan langsung melalui DM Instagram.
+  utter_tanya_ukm_lbut:
+  - text: "UKM LBUT adalah Unit Kegiatan Mahasiswa yang bergerak di bidang olahraga,\
+      \ khususnya bulutangkis. \nUKM ini menjadi wadah bagi mahasiswa yang memiliki\
+      \ minat dan bakat di olahraga badminton.\n"
+  utter_fungsi_ukm_lbut:
+  - text: "Fungsi UKM LBUT adalah sebagai wadah pengembangan kemampuan mahasiswa di\
+      \ bidang bulutangkis, \nserta melatih kerja sama, disiplin, dan sportivitas.\n"
+  utter_tujuan_ukm_lbut:
+  - text: 'Tujuan UKM LBUT adalah untuk mewadahi mahasiswa dalam mengembangkan minat
+      dan bakat di olahraga bulutangkis.
+
+      '
+  utter_misi_ukm_lbut:
+  - text: "Misi UKM LBUT adalah meningkatkan kemampuan anggota dalam bermain bulutangkis,\
+      \ \nserta membangun kerja sama tim dan semangat kompetitif.\n"
+  utter_visi_ukm_lbut:
+  - text: 'Visi UKM LBUT adalah menjadi UKM bulutangkis yang aktif, kompetitif, dan
+      mampu berprestasi.
+
+      '
+  utter_bidang_ukm_lbut:
+  - text: 'UKM LBUT bergerak di bidang olahraga, khususnya bulutangkis (badminton).
+
+      '
+  utter_boleh_gabung_lbut:
+  - text: 'UKM LBUT terbuka untuk seluruh mahasiswa aktif dari berbagai jurusan dan
+      fakultas.
+
+      '
+  utter_cara_daftar_lbut:
+  - text: 'Cara mendaftar UKM LBUT biasanya melalui:
+
+      - Open House dan PMB
+
+      - Pengisian form pendaftaran resmi saat rekrutmen dibuka
+
+      '
+  utter_biaya_daftar_lbut:
+  - text: "Informasi biaya pendaftaran UKM LBUT belum tersedia secara pasti. \nSilakan\
+      \ cek informasi terbaru melalui media resmi LBUT.\n"
+  utter_status_pendaftaran_lbut:
+  - text: "Pendaftaran UKM LBUT biasanya dibuka saat PMB atau Open House. \nUntuk\
+      \ update terbaru, kamu bisa cek media sosial resmi LBUT.\n"
+  utter_syarat_anggota_lbut:
+  - text: 'Syarat bergabung UKM LBUT:
+
+      - Mahasiswa aktif
+
+      - Memiliki minat di olahraga bulutangkis
+
+      - Bersedia mengikuti kegiatan UKM
+
+      '
+  utter_kemampuan_anggota_lbut:
+  - text: "Tidak harus jago bulutangkis untuk bergabung. \nPemula tetap boleh ikut\
+      \ selama memiliki minat dan kemauan untuk belajar.\n"
+  utter_kegiatan_lbut:
+  - text: 'Kegiatan UKM LBUT meliputi:
+
+      - Latihan rutin bulutangkis
+
+      - Sparring atau latihan tanding
+
+      - Turnamen internal maupun eksternal
+
+      '
+  utter_latihan_rutin_lbut:
+  - text: 'UKM LBUT memiliki latihan rutin yang dilakukan secara berkala untuk meningkatkan
+      kemampuan anggota.
+
+      '
+  utter_sparring_lbut:
+  - text: 'UKM LBUT juga mengadakan sparring sebagai latihan tanding antar anggota
+      atau dengan tim lain.
+
+      '
+  utter_turnamen_lbut:
+  - text: 'UKM LBUT mengikuti atau menyelenggarakan turnamen sebagai ajang kompetisi
+      dan pengembangan kemampuan.
+
+      '
+  utter_jenis_kegiatan_lbut:
+  - text: 'Jenis kegiatan UKM LBUT meliputi:
+
+      - Makrab
+
+      - LBUT Goes to School
+
+      - Untar Cup
+
+      '
+  utter_jadwal_kegiatan_lbut:
+  - text: 'Jadwal kegiatan UKM LBUT biasanya ditentukan oleh pengurus dan akan diinformasikan
+      melalui media resmi.
+
+      '
+  utter_durasi_kegiatan_lbut:
+  - text: 'Durasi kegiatan atau latihan UKM LBUT umumnya sekitar 2–3 jam per sesi.
+
+      '
+  utter_lokasi_kegiatan_lbut:
+  - text: 'Kegiatan UKM LBUT biasanya dilakukan di lapangan bulutangkis, baik di dalam
+      maupun di luar kampus.
+
+      '
+  utter_event_lbut:
+  - text: 'Event UKM LBUT meliputi:
+
+      - Makrab
+
+      - LBUT Goes to School
+
+      - Untar Cup
+
+      '
+  utter_jadwal_event_lbut:
+  - text: 'Jadwal event UKM LBUT akan diumumkan melalui media sosial resmi.
+
+      '
+  utter_fasilitas_lbut:
+  - text: 'Fasilitas UKM LBUT biasanya meliputi:
+
+      - Lapangan bulutangkis
+
+      - Shuttlecock
+
+      - Peralatan bermain
+
+      - Sekretariat
+
+      '
+  utter_benefit_lbut:
+  - text: 'Manfaat bergabung di UKM LBUT:
+
+      - Mengembangkan skill bulutangkis
+
+      - Menambah relasi dan pengalaman
+
+      - Kesempatan mengikuti turnamen
+
+      - Melatih kerja sama dan sportivitas
+
+      '
+  utter_media_informasi_lbut:
+  - text: Untuk informasi lebih lanjut, silakan cek media sosial resmi LBUT @lbutarumanagara
+  utter_tanya_ukm_libama:
+  - text: "UKM LIBAMA adalah Unit Kegiatan Mahasiswa yang bergerak di bidang olahraga,\
+      \ khususnya basket. \nUKM ini menjadi wadah bagi mahasiswa untuk menyalurkan\
+      \ minat dan bakat di olahraga basket.\n"
+  utter_fungsi_ukm_libama:
+  - text: "Fungsi UKM LIBAMA adalah sebagai sarana pengembangan kemampuan mahasiswa\
+      \ di bidang basket, \nsekaligus melatih kerja sama tim, disiplin, dan sportivitas.\n"
+  utter_tujuan_ukm_libama:
+  - text: 'Tujuan UKM LIBAMA adalah menjadi wadah bagi mahasiswa untuk mengembangkan
+      minat dan bakat di bidang olahraga basket.
+
+      '
+  utter_misi_ukm_libama:
+  - text: "Misi UKM LIBAMA adalah mengembangkan kemampuan bermain basket anggota,\
+      \ \nmeningkatkan kerja sama tim, serta aktif dalam kegiatan latihan dan pertandingan.\n"
+  utter_visi_ukm_libama:
+  - text: 'Visi UKM LIBAMA adalah menjadi UKM basket yang aktif, kompetitif, dan mampu
+      mengembangkan potensi mahasiswa secara maksimal.
+
+      '
+  utter_bidang_ukm_libama:
+  - text: 'UKM LIBAMA bergerak di bidang olahraga, khususnya basket.
+
+      '
+  utter_boleh_gabung_libama:
+  - text: 'UKM LIBAMA terbuka untuk seluruh mahasiswa aktif dari berbagai fakultas
+      dan jurusan.
+
+      '
+  utter_cara_daftar_libama:
+  - text: 'Cara mendaftar UKM LIBAMA:
+
+      - Mengisi data diri melalui Google Form
+
+      - Mengikuti pendaftaran saat PMB atau Open House
+
+      '
+  utter_biaya_daftar_libama:
+  - text: "Informasi biaya pendaftaran UKM LIBAMA tidak disebutkan secara khusus.\
+      \ \nSilakan cek informasi terbaru melalui media resmi LIBAMA.\n"
+  utter_status_pendaftaran_libama:
+  - text: "Pendaftaran UKM LIBAMA biasanya dibuka saat PMB dan Open House. \nUntuk\
+      \ update terbaru, cek Instagram resmi LIBAMA.\n"
+  utter_syarat_anggota_libama:
+  - text: 'Syarat bergabung UKM LIBAMA:
+
+      - Mahasiswa aktif
+
+      - Bersedia mengikuti kepanitiaan
+
+      - Memiliki komitmen dalam kegiatan UKM
+
+      '
+  utter_kemampuan_anggota_libama:
+  - text: "Tidak harus jago basket untuk bergabung di LIBAMA. \nYang penting punya\
+      \ minat, kemauan belajar, dan komitmen untuk berkembang.\n"
+  utter_divisi_libama:
+  - text: 'Divisi di UKM LIBAMA meliputi:
+
+      - Humas
+
+      - Publikasi dan Dokumentasi
+
+      - Atlet
+
+      - Perlengkapan
+
+      '
+  utter_struktur_libama:
+  - text: 'Struktur UKM LIBAMA terdiri dari badan pengurus harian inti dan beberapa
+      divisi seperti humas, publikasi dan dokumentasi (pubdok), atlet, dan perlengkapan
+      (perkap).
+
+      '
+  utter_kegiatan_libama:
+  - text: 'Kegiatan UKM LIBAMA meliputi:
+
+      - Latihan rutin
+
+      - Fun game
+
+      - Sparring internal dan eksternal
+
+      - Basket Cup
+
+      '
+  utter_latihan_rutin_libama:
+  - text: 'Latihan rutin UKM LIBAMA dilaksanakan:
+
+      - Senin, Selasa, dan Rabu
+
+      - Pukul 13.00 - 17.00
+
+      '
+  utter_sparring_libama:
+  - text: 'UKM LIBAMA mengadakan sparring baik internal maupun eksternal sebagai latihan
+      tanding dan meningkatkan kemampuan bermain.
+
+      '
+  utter_turnamen_libama:
+  - text: 'UKM LIBAMA mengikuti dan menyelenggarakan kompetisi seperti Basket Cup
+      sebagai ajang mengasah kemampuan dan pengalaman.
+
+      '
+  utter_jenis_kegiatan_libama:
+  - text: 'Jenis kegiatan UKM LIBAMA meliputi:
+
+      - Latihan rutin
+
+      - Fun game
+
+      - Sparring
+
+      - Turnamen (Basket Cup)
+
+      '
+  utter_jadwal_kegiatan_libama:
+  - text: 'Jadwal kegiatan UKM LIBAMA:
+
+      - Senin, Selasa, dan Rabu
+
+      - Pukul 13.00 - 17.00
+
+      '
+  utter_durasi_kegiatan_libama:
+  - text: 'Durasi kegiatan atau latihan UKM LIBAMA sekitar 4 jam per sesi.
+
+      '
+  utter_lokasi_kegiatan_libama:
+  - text: 'Kegiatan UKM LIBAMA dilaksanakan di:
+
+      - Untar Arena 1
+
+      - Untar Arena 2
+
+      '
+  utter_event_libama:
+  - text: 'Event UKM LIBAMA meliputi:
+
+      - Sparring internal dan eksternal
+
+      - Basket Cup
+
+      '
+  utter_jadwal_event_libama:
+  - text: 'Jadwal event seperti sparring dan Basket Cup akan diumumkan melalui media
+      sosial resmi LIBAMA.
+
+      '
+  utter_fasilitas_libama:
+  - text: 'Fasilitas UKM LIBAMA meliputi:
+
+      - Lapangan basket
+
+      - Perlengkapan olahraga
+
+      - Sekretariat
+
+      '
+  utter_benefit_libama:
+  - text: 'Manfaat bergabung di UKM LIBAMA:
+
+      - Meningkatkan skill bermain basket
+
+      - Menambah relasi dan pengalaman
+
+      - Kesempatan mengikuti pertandingan
+
+      - Melatih kerja sama tim dan sportivitas
+
+      '
+  utter_media_informasi_libama:
+  - text: 'Untuk informasi lebih lanjut:
+
+      - Update melalui Instagram resmi LIBAMA @untarbasketball
+
+      - Contact Person: ID Line (vvallndry)'
+  utter_tanya_ukm_livosta:
+  - text: "UKM LIVOSTA adalah Unit Kegiatan Mahasiswa yang bergerak di bidang olahraga,\
+      \ khususnya voli putra dan putri. \nUKM ini menjadi wadah bagi mahasiswa yang\
+      \ memiliki minat dan bakat di olahraga voli.\n"
+  utter_fungsi_ukm_livosta:
+  - text: "Fungsi UKM LIVOSTA adalah sebagai wadah untuk menyalurkan minat dan bakat\
+      \ mahasiswa di bidang olahraga voli, \nsekaligus mengembangkan kemampuan, kerja\
+      \ sama tim, dan sportivitas.\n"
+  utter_tujuan_ukm_livosta:
+  - text: "Tujuan UKM LIVOSTA adalah menyediakan tempat bagi mahasiswa untuk mengembangkan\
+      \ minat dan bakat di bidang voli, \nserta meningkatkan kemampuan bermain dan\
+      \ pengalaman dalam olahraga tersebut.\n"
+  utter_misi_ukm_livosta:
+  - text: "Misi UKM LIVOSTA adalah mengembangkan kemampuan anggota dalam olahraga\
+      \ voli, \nmeningkatkan kerja sama tim, serta aktif mengikuti kegiatan latihan\
+      \ dan pertandingan.\n"
+  utter_visi_ukm_livosta:
+  - text: 'Visi UKM LIVOSTA adalah menjadi wadah olahraga voli yang aktif, kompetitif,
+      dan mampu mengembangkan potensi mahasiswa secara maksimal.
+
+      '
+  utter_bidang_ukm_livosta:
+  - text: 'UKM LIVOSTA bergerak di bidang olahraga, khususnya voli putra dan putri.
+
+      '
+  utter_boleh_gabung_livosta:
+  - text: 'UKM LIVOSTA terbuka untuk seluruh mahasiswa aktif dari berbagai fakultas
+      dan jurusan.
+
+      '
+  utter_cara_daftar_livosta:
+  - text: 'Cara mendaftar UKM LIVOSTA cukup mudah:
+
+      - Mengisi data diri melalui Google Form
+
+      - Mengikuti proses pendaftaran saat PMB atau Open House
+
+      '
+  utter_biaya_daftar_livosta:
+  - text: 'Biaya pendaftaran UKM LIVOSTA sebesar Rp20.000.
+
+      '
+  utter_status_pendaftaran_livosta:
+  - text: "Pendaftaran UKM LIVOSTA biasanya dibuka saat PMB dan Open House. \nUntuk\
+      \ info terbaru, kamu bisa cek Instagram resmi mereka.\n"
+  utter_syarat_anggota_livosta:
+  - text: 'Syarat bergabung di UKM LIVOSTA:
+
+      - Mahasiswa aktif
+
+      - Bersedia mengikuti kepanitiaan
+
+      - Memiliki komitmen dalam kegiatan UKM
+
+      '
+  utter_keanggotaan_livosta:
+  - text: "Anggota UKM LIVOSTA tetap diperbolehkan mengikuti kegiatan atau organisasi\
+      \ lain, \nselama bisa membagi waktu dengan baik.\n"
+  utter_komitmen_livosta:
+  - text: "Anggota UKM LIVOSTA diharapkan memiliki komitmen, aktif mengikuti latihan,\
+      \ \nserta berpartisipasi dalam kegiatan dan kepanitiaan.\n"
+  utter_divisi_livosta:
+  - text: 'UKM LIVOSTA memiliki beberapa divisi, yaitu:
+
+      - Media Informasi
+
+      - Humas
+
+      - Penanggung Jawab Lapangan
+
+      '
+  utter_struktur_livosta:
+  - text: "Struktur UKM LIVOSTA terdiri dari badan pengurus harian inti dan divisi-divisi\
+      \ seperti media informasi, humas, \nserta penanggung jawab lapangan yang mendukung\
+      \ kegiatan UKM.\n"
+  utter_kegiatan_livosta:
+  - text: 'Kegiatan UKM LIVOSTA meliputi:
+
+      - Latihan rutin
+
+      - Fun games
+
+      - Makrab
+
+      - Cup internal
+
+      '
+  utter_latihan_rutin_livosta:
+  - text: 'UKM LIVOSTA memiliki latihan rutin yang diadakan setiap:
+
+      - Selasa
+
+      - Kamis
+
+      - Jumat
+
+      Jam 15.00 - 17.00
+
+      '
+  utter_fungames_livosta:
+  - text: 'UKM LIVOSTA juga mengadakan fun games sebagai ajang latihan tanding dan
+      meningkatkan kekompakan tim.
+
+      '
+  utter_cup_livosta:
+  - text: 'UKM LIVOSTA mengadakan Cup Internal sebagai ajang kompetisi antar anggota
+      untuk mengasah kemampuan bermain voli.
+
+      '
+  utter_jenis_kegiatan_livosta:
+  - text: 'Jenis kegiatan di UKM LIVOSTA meliputi:
+
+      - Latihan rutin
+
+      - Fun games
+
+      - Kompetisi (Cup Internal)
+
+      - Kegiatan kebersamaan seperti makrab
+
+      '
+  utter_jadwal_kegiatan_livosta:
+  - text: 'Jadwal kegiatan rutin UKM LIVOSTA adalah setiap hari Selasa, Kamis, dan
+      Jumat pukul 15.00 - 17.00.
+
+      '
+  utter_durasi_kegiatan_livosta:
+  - text: 'Durasi setiap kegiatan atau latihan UKM LIVOSTA biasanya sekitar 2 jam
+      per sesi.
+
+      '
+  utter_lokasi_kegiatan_livosta:
+  - text: 'Kegiatan UKM LIVOSTA biasanya dilakukan di Untar Arena 1.
+
+      '
+  utter_event_livosta:
+  - text: 'Event UKM LIVOSTA meliputi:
+
+      - Makrab (Malam Keakraban)
+
+      - Cup Internal
+
+      - Fun Games
+
+      '
+  utter_jadwal_event_livosta:
+  - text: 'Jadwal event seperti makrab dan cup internal biasanya ditentukan oleh pengurus
+      dan diumumkan melalui media sosial.
+
+      '
+  utter_fasilitas_livosta:
+  - text: 'Fasilitas yang disediakan UKM LIVOSTA meliputi:
+
+      - Lapangan
+
+      - Perlengkapan olahraga
+
+      - Sekretariat
+
+      '
+  utter_benefit_livosta:
+  - text: 'Manfaat bergabung di UKM LIVOSTA:
+
+      - Mengembangkan skill bermain voli
+
+      - Menambah relasi dan teman
+
+      - Mendapat pengalaman pertandingan
+
+      - Melatih kerja sama tim dan sportivitas
+
+      '
+  utter_media_informasi_livosta:
+  - text: 'Untuk informasi lebih lanjut, kamu bisa menghubungi:
+
+      - Instagram: (update di Instagram resmi @livosta_untar)
+
+      - Contact Person: 081296053979 (Hillary)'
+  utter_tanya_ukm_ltmu:
+  - text: "UKM LTMU adalah Unit Kegiatan Mahasiswa di Universitas Tarumanagara yang\
+      \ bergerak di bidang olahraga, khususnya tenis meja putra dan putri. \nUKM ini\
+      \ menjadi wadah bagi mahasiswa yang memiliki minat dan bakat di olahraga tenis\
+      \ meja untuk berlatih, berkembang, dan berprestasi.\n"
+  utter_fungsi_ukm_ltmu:
+  - text: "Fungsi UKM LTMU adalah sebagai sarana bagi mahasiswa untuk menyalurkan\
+      \ minat dan bakat di bidang tenis meja, meningkatkan kemampuan bermain, \nserta\
+      \ membangun kerja sama dan relasi antar anggota melalui kegiatan olahraga.\n"
+  utter_tujuan_ukm_ltmu:
+  - text: "Tujuan UKM LTMU adalah mewadahi mahasiswa dalam mengembangkan kemampuan\
+      \ di bidang tenis meja, baik untuk rekreasi maupun prestasi, \nserta menciptakan\
+      \ lingkungan yang aktif dan sportif.\n"
+  utter_misi_ukm_ltmu:
+  - text: "Misi UKM LTMU adalah meningkatkan kemampuan anggota dalam tenis meja, mempererat\
+      \ kebersamaan antar anggota, \nserta aktif mengikuti berbagai kegiatan seperti\
+      \ latihan, sparing, dan kompetisi.\n"
+  utter_visi_ukm_ltmu:
+  - text: "Visi UKM LTMU adalah menjadi UKM olahraga tenis meja yang aktif, kompetitif,\
+      \ dan mampu menghasilkan anggota yang berprestasi \nserta menjunjung tinggi\
+      \ sportivitas.\n"
+  utter_bidang_ukm_ltmu:
+  - text: 'UKM LTMU bergerak di bidang olahraga, khususnya tenis meja untuk putra
+      dan putri.
+
+      '
+  utter_boleh_gabung_ltmu:
+  - text: "Ya, UKM LTMU terbuka untuk semua mahasiswa aktif Universitas Tarumanagara\
+      \ dari berbagai jurusan dan angkatan \nyang memiliki minat di bidang tenis meja.\n"
+  utter_cara_daftar_ltmu:
+  - text: "Cara daftar UKM LTMU cukup mudah, yaitu dengan mengisi data diri melalui\
+      \ Google Form yang disediakan saat open recruitment. \nPendaftaran biasanya\
+      \ dibuka saat PMB dan Open House.\n"
+  utter_biaya_daftar_ltmu:
+  - text: 'Untuk informasi biaya pendaftaran UKM LTMU biasanya akan diinformasikan
+      saat proses open recruitment berlangsung.
+
+      '
+  utter_status_pendaftaran_ltmu:
+  - text: "Pendaftaran UKM LTMU biasanya dibuka saat periode PMB dan Open House. \n\
+      Untuk info terbaru, kamu bisa cek melalui media sosial resmi mereka.\n"
+  utter_syarat_anggota_ltmu:
+  - text: 'Syarat untuk bergabung dengan UKM LTMU adalah mahasiswa aktif dan bersedia
+      mengikuti kegiatan serta kepanitiaan yang ada.
+
+      '
+  utter_keanggotaan_ltmu:
+  - text: 'Umumnya mahasiswa tetap diperbolehkan mengikuti lebih dari satu UKM, selama
+      dapat mengatur waktu dan tetap berkomitmen pada setiap kegiatan.
+
+      '
+  utter_komitmen_ltmu:
+  - text: 'Anggota UKM LTMU diharapkan memiliki komitmen, seperti aktif mengikuti
+      latihan, kegiatan, kepanitiaan, serta bertanggung jawab dalam setiap aktivitas
+      UKM.
+
+      '
+  utter_divisi_ltmu:
+  - text: 'UKM LTMU memiliki beberapa divisi, yaitu:
+
+      - Humas
+
+      - Latihan dan Inventaris
+
+      '
+  utter_struktur_ltmu:
+  - text: 'Struktur organisasi UKM LTMU terdiri dari kepengurusan inti dan divisi
+      seperti Humas, Latihan dan Inventaris yang saling bekerja sama dalam menjalankan
+      program UKM.
+
+      '
+  utter_kegiatan_ltmu:
+  - text: "Kegiatan UKM LTMU meliputi latihan rutin, sparing internal dan eksternal,\
+      \ kegiatan makrab, \nserta mengikuti lomba baik internal maupun eksternal.\n"
+  utter_latihan_rutin_ltmu:
+  - text: 'Ya, UKM LTMU memiliki latihan rutin yang diadakan setiap:
+
+      - Rabu
+
+      - Jumat
+
+      pukul 15.00 - 17.00.
+
+      '
+  utter_fungames_ltmu:
+  - text: 'UKM LTMU juga mengadakan kegiatan sparing atau fun games baik secara internal
+      antar anggota maupun dengan pihak luar.
+
+      '
+  utter_cup_ltmu:
+  - text: 'Ya, UKM LTMU aktif mengikuti dan mengadakan kompetisi atau lomba tenis
+      meja, baik internal kampus maupun eksternal.
+
+      '
+  utter_jenis_kegiatan_ltmu:
+  - text: 'Jenis kegiatan UKM LTMU antara lain:
+
+      - Latihan rutin
+
+      - Sparing (internal & eksternal)
+
+      - Lomba/kompetisi
+
+      - Makrab (malam keakraban)
+
+      '
+  utter_jadwal_kegiatan_ltmu:
+  - text: 'Jadwal latihan rutin UKM LTMU adalah setiap hari Rabu dan Jumat pukul 15.00
+      - 17.00.
+
+      '
+  utter_durasi_kegiatan_ltmu:
+  - text: 'Durasi latihan UKM LTMU biasanya sekitar 2 jam untuk setiap sesi.
+
+      '
+  utter_lokasi_kegiatan_ltmu:
+  - text: 'Kegiatan UKM LTMU biasanya dilaksanakan di:
+
+      - Untar Arena 1 (latihan rutin)
+
+      - Kegiatan tertentu seperti makrab dapat dilakukan di luar kota, seperti di
+      Bogor (3 hari 2 malam)
+
+      '
+  utter_event_ltmu:
+  - text: 'Event yang diadakan UKM LTMU antara lain:
+
+      - Sparing internal dan eksternal
+
+      - Lomba/kompetisi
+
+      - Makrab
+
+      - Event olahraga lainnya
+
+      '
+  utter_jadwal_event_ltmu:
+  - text: "Jadwal event UKM LTMU seperti lomba dan makrab biasanya disesuaikan dengan\
+      \ periode kepengurusan. \nUntuk info terbaru, bisa cek melalui Instagram resmi\
+      \ mereka.\n"
+  utter_fasilitas_ltmu:
+  - text: 'Fasilitas yang disediakan UKM LTMU antara lain:
+
+      - Lapangan tenis meja
+
+      - Perlengkapan bermain
+
+      - Sekretariat
+
+      '
+  utter_benefit_ltmu:
+  - text: 'Benefit bergabung dengan UKM LTMU antara lain:
+
+      - Mengembangkan skill tenis meja
+
+      - Menambah relasi dan teman
+
+      - Kesempatan mengikuti lomba
+
+      - Melatih kerja sama dan sportivitas
+
+      '
+  utter_media_informasi_ltmu:
+  - text: "Informasi terbaru UKM LTMU dapat diakses melalui Instagram resmi @ltmu_untar.\
+      \ \nUntuk pertanyaan lebih lanjut, kamu bisa langsung DM ke akun tersebut."
+  utter_tanya_ukm_mahupa:
+  - text: 'UKM MAHUPA adalah Unit Kegiatan Mahasiswa yang bergerak di bidang pecinta
+      alam 🌿.
+
+      MAHUPA berfokus pada kegiatan outdoor, eksplorasi alam, serta pelestarian lingkungan.
+
+      Cocok banget buat kamu yang suka petualangan dan kegiatan di alam terbuka.
+
+      '
+  utter_fungsi_ukm_mahupa:
+  - text: 'Fungsi UKM MAHUPA adalah:
+
+      - Menjadi wadah minat mahasiswa di bidang alam 🌄
+
+      - Mengembangkan kemampuan fisik dan mental
+
+      - Meningkatkan kepedulian terhadap lingkungan
+
+      '
+  utter_tujuan_ukm_mahupa:
+  - text: 'Tujuan MAHUPA:
+
+      - Mengembangkan minat dan bakat di bidang pecinta alam
+
+      - Membentuk karakter yang tangguh dan mandiri 💪
+
+      - Menumbuhkan jiwa kepemimpinan dan teamwork
+
+      '
+  utter_misi_ukm_mahupa:
+  - text: 'Misi MAHUPA:
+
+      - Mengadakan kegiatan alam yang edukatif
+
+      - Melatih keterampilan survival dan outdoor
+
+      - Meningkatkan kepedulian lingkungan 🌍
+
+      '
+  utter_visi_ukm_mahupa:
+  - text: 'Visi MAHUPA adalah menjadi organisasi pecinta alam yang aktif, solid, dan
+      berkontribusi dalam pelestarian lingkungan serta pengembangan mahasiswa.
+
+      '
+  utter_bidang_ukm_mahupa:
+  - text: 'MAHUPA bergerak di bidang:
+
+      🌿 Pecinta alam
+
+      🏕️ Kegiatan outdoor
+
+      🌎 Pelestarian lingkungan
+
+      '
+  utter_boleh_gabung_mahupa:
+  - text: 'MAHUPA terbuka untuk semua mahasiswa 🙌
+
+      Baik mahasiswa baru maupun lama dari berbagai jurusan bisa bergabung.
+
+      '
+  utter_cara_daftar_mahupa:
+  - text: 'Cara daftar MAHUPA:
+
+      1. Isi formulir pendaftaran (biasanya via GForm)
+
+      2. Ikuti proses seleksi atau wawancara
+
+      3. Mengikuti tahap selanjutnya seperti Diksar
+
+      '
+  utter_biaya_daftar_mahupa:
+  - text: 'Biaya pendaftaran MAHUPA biasanya akan diinformasikan saat open recruitment.
+
+      Silakan cek info terbaru melalui media sosial resmi MAHUPA 📢
+
+      '
+  utter_status_pendaftaran_mahupa:
+  - text: 'Pendaftaran MAHUPA biasanya dibuka saat:
+
+      - PMB
+
+      - Open House
+
+      Pantau terus info terbaru di media sosial ya 👍
+
+      '
+  utter_syarat_anggota_mahupa:
+  - text: 'Syarat bergabung MAHUPA:
+
+      - Mahasiswa aktif
+
+      - Mengikuti Diksar
+
+      - Memiliki komitmen dan tanggung jawab
+
+      '
+  utter_komitmen_mahupa:
+  - text: 'Komitmen di MAHUPA:
+
+      - Aktif dalam kegiatan
+
+      - Mengikuti program seperti Diksar
+
+      - Disiplin dan bertanggung jawab 💪
+
+      '
+  utter_divisi_mahupa:
+  - text: 'MAHUPA biasanya memiliki beberapa divisi seperti:
+
+      - Humas
+
+      - Logistik
+
+      - Divisi kegiatan alam (hiking, dll)
+
+      '
+  utter_struktur_mahupa:
+  - text: 'Struktur MAHUPA terdiri dari badan pengurus harian inti (ketua, wakil,
+      sekretaris, bendahara) serta divisi-divisi yang mendukung kegiatan organisasi.
+
+      '
+  utter_kegiatan_mahupa:
+  - text: 'Kegiatan MAHUPA meliputi:
+
+      - Diksar
+
+      - Open trip 🏕️
+
+      - Pendakian gunung
+
+      - Kegiatan lingkungan
+
+      - Latihan rutin
+
+      '
+  utter_latihan_bulanan_mahupa:
+  - text: 'MAHUPA memiliki kegiatan rutin seperti latihan atau pertemuan berkala untuk
+      meningkatkan kemampuan anggota.
+
+      '
+  utter_jenis_kegiatan_mahupa:
+  - text: 'Jenis kegiatan MAHUPA:
+
+      - Diksar (pendidikan dasar)
+
+      - Open trip
+
+      - Pendakian
+
+      - Kegiatan lingkungan 🌱
+
+      '
+  utter_jadwal_kegiatan_mahupa:
+  - text: 'Jadwal kegiatan MAHUPA biasanya fleksibel tergantung program.
+
+      Info lengkap akan diumumkan melalui media sosial atau grup internal 📅
+
+      '
+  utter_lokasi_kegiatan_mahupa:
+  - text: 'Lokasi kegiatan MAHUPA:
+
+      - Kampus (untuk pertemuan)
+
+      - Gunung atau alam terbuka
+
+      - Luar kota sesuai kegiatan 🌄
+
+      '
+  utter_event_mahupa:
+  - text: 'Event MAHUPA antara lain:
+
+      - Diksar
+
+      - Open trip
+
+      - Kegiatan lingkungan
+
+      - Event tahunan
+
+      '
+  utter_jadwal_event_mahupa:
+  - text: 'Jadwal event MAHUPA biasanya disesuaikan dengan program tahunan.
+
+      Informasi detail akan diumumkan melalui media resmi 📢
+
+      '
+  utter_fasilitas_mahupa:
+  - text: 'Fasilitas MAHUPA biasanya meliputi:
+
+      - Peralatan outdoor
+
+      - Perlengkapan pendakian
+
+      - Alat kegiatan alam
+
+      '
+  utter_benefit_mahupa:
+  - text: 'Benefit ikut MAHUPA:
+
+      - Pengalaman petualangan seru 🌄
+
+      - Melatih fisik dan mental
+
+      - Menambah relasi
+
+      - Belajar survival dan teamwork
+
+      '
+  utter_media_informasi_mahupa:
+  - text: 'Untuk info lebih lanjut:
+
+      - Cek Instagram resmi @mahupauntar 📱
+
+      - Hubungi admin melalui DM'
+  utter_tanya_ukm_marsipala:
+  - text: 'Marsipala adalah UKM yang bergerak di bidang gemar alam dan pelestarian
+      lingkungan hidup 🌿🏔️.
+
+      UKM ini fokus pada kegiatan outdoor seperti hiking, climbing, rafting, dan eksplorasi
+      alam, sekaligus membentuk karakter, kepemimpinan, dan solidaritas antar anggota.
+
+      '
+  utter_fungsi_ukm_marsipala:
+  - text: 'Fungsi Marsipala adalah sebagai wadah bagi mahasiswa untuk:
+
+      - Mengembangkan kemampuan di bidang alam bebas 🌄
+
+      - Melatih fisik dan mental 💪
+
+      - Meningkatkan kepedulian terhadap lingkungan 🌱
+
+      - Membangun teamwork dan kepemimpinan 🤝
+
+      '
+  utter_tujuan_ukm_marsipala:
+  - text: 'Tujuan Marsipala adalah untuk:
+
+      - Membentuk karakter yang tangguh dan disiplin
+
+      - Mengembangkan jiwa kepemimpinan
+
+      - Meningkatkan kecintaan terhadap alam dan lingkungan
+
+      - Memberikan pengalaman langsung melalui kegiatan alam
+
+      '
+  utter_misi_ukm_marsipala:
+  - text: 'Misi Marsipala meliputi:
+
+      - Mengadakan kegiatan eksplorasi alam secara rutin
+
+      - Melatih keterampilan teknis seperti climbing, caving, dan rafting
+
+      - Menumbuhkan kesadaran lingkungan
+
+      - Membangun solidaritas antar anggota
+
+      '
+  utter_visi_ukm_marsipala:
+  - text: 'Visi Marsipala adalah menjadi UKM gemar alam yang aktif, solid, dan berkontribusi
+      dalam pelestarian lingkungan serta pengembangan mahasiswa.
+
+      '
+  utter_bidang_ukm_marsipala:
+  - text: 'Marsipala bergerak di bidang gemar alam dan lingkungan 🌿.
+
+      Fokus kegiatannya meliputi:
+
+      - Hiking / pendakian gunung
+
+      - Climbing (panjat tebing)
+
+      - Caving (susur gua)
+
+      - Rafting (arung jeram)
+
+      '
+  utter_boleh_gabung_marsipala:
+  - text: 'Marsipala terbuka untuk mahasiswa 👍
+
+      Umumnya:
+
+      - Terbuka untuk berbagai jurusan
+
+      - Mahasiswa baru maupun lama boleh ikut
+
+      - Yang penting punya minat di kegiatan alam 🌄
+
+      '
+  utter_cara_daftar_marsipala:
+  - text: 'Cara daftar Marsipala:
+
+      1. Mengisi formulir (biasanya via Google Form)
+
+      2. Mengikuti open recruitment saat PMB / Open House
+
+      3. Mengikuti tahap wawancara
+
+      4. Mengikuti Diksar (Pendidikan Dasar)
+
+      '
+  utter_biaya_daftar_marsipala:
+  - text: 'Untuk biaya pendaftaran Marsipala biasanya akan diinformasikan saat open
+      recruitment.
+
+      Umumnya biaya digunakan untuk kegiatan seperti Diksar dan operasional.
+
+      '
+  utter_status_pendaftaran_marsipala:
+  - text: 'Pendaftaran Marsipala biasanya dibuka saat:
+
+      - PMB (Penerimaan Mahasiswa Baru)
+
+      - Open House UKM
+
+
+      Untuk info terbaru, cek media sosial resmi ya 👍
+
+      '
+  utter_syarat_anggota_marsipala:
+  - text: 'Syarat masuk Marsipala:
+
+      - Mengikuti Diksar
+
+      - Memiliki komitmen tinggi
+
+      - Siap mengikuti kegiatan outdoor
+
+      - Memiliki minat di bidang alam 🌿
+
+      '
+  utter_komitmen_marsipala:
+  - text: 'Sebagai anggota Marsipala, kamu diharapkan:
+
+      - Aktif mengikuti kegiatan
+
+      - Memiliki komitmen dan tanggung jawab
+
+      - Siap bekerja sama dalam tim
+
+      - Mengikuti kegiatan wajib seperti Diksar
+
+      '
+  utter_divisi_marsipala:
+  - text: 'Divisi dalam Marsipala umumnya meliputi:
+
+      - Divisi Caving
+
+      - Divisi Climbing
+
+      - Divisi Rafting
+
+      - Divisi Hiking
+
+      - Humas
+
+      - Logistik
+
+      '
+  utter_struktur_marsipala:
+  - text: 'Struktur organisasi Marsipala terdiri dari:
+
+      - Ketua
+
+      - Wakil Ketua
+
+      - Sekretaris & Bendahara
+
+      - Divisi-divisi (Caving, Climbing, Rafting, Hiking, dll)
+
+      '
+  utter_kegiatan_marsipala:
+  - text: 'Kegiatan Marsipala meliputi:
+
+      - Latihan bulanan
+
+      - Diksar (Pendidikan Dasar)
+
+      - Open Trip
+
+      - Pendalaman Divisi
+
+      - Open House
+
+      - Kegiatan sosial seperti donor darah
+
+      '
+  utter_latihan_bulanan_marsipala:
+  - text: 'Marsipala memiliki kegiatan rutin berupa latihan bulanan 🗓️
+
+      Kegiatan ini bertujuan untuk:
+
+      - Melatih fisik dan teknik
+
+      - Menjaga kekompakan anggota
+
+      '
+  utter_jenis_kegiatan_marsipala:
+  - text: 'Jenis kegiatan Marsipala antara lain:
+
+      - Diksar (pelatihan dasar wajib)
+
+      - Open Trip (jalan-jalan alam bersama)
+
+      - Pendalaman Divisi
+
+      - Kegiatan eksplorasi alam
+
+      - Kegiatan lingkungan 🌱
+
+      '
+  utter_jadwal_kegiatan_marsipala:
+  - text: 'Jadwal kegiatan Marsipala biasanya:
+
+      - Rutin bulanan
+
+      - Event besar di waktu tertentu (Open House, Diksar, dll)
+
+
+      Jadwal detail akan diinformasikan oleh pengurus.
+
+      '
+  utter_lokasi_kegiatan_marsipala:
+  - text: 'Lokasi kegiatan Marsipala biasanya:
+
+      - Area kampus (untuk teori)
+
+      - Gunung / alam terbuka (untuk praktik)
+
+      - Wilayah Jawa Barat & sekitarnya 🌄
+
+      '
+  utter_event_marsipala:
+  - text: 'Event Marsipala meliputi:
+
+      - Open House
+
+      - Diksar
+
+      - Open Trip
+
+      - Kegiatan sosial (donor darah)
+
+      - Eksplorasi alam
+
+      '
+  utter_jadwal_event_marsipala:
+  - text: 'Jadwal event Marsipala biasanya:
+
+      - Open House: awal semester
+
+      - Diksar: setelah rekrutmen
+
+      - Event lainnya menyesuaikan program kerja
+
+      '
+  utter_fasilitas_marsipala:
+  - text: 'Fasilitas yang disediakan Marsipala:
+
+      - Peralatan hiking 🥾
+
+      - Peralatan climbing 🧗
+
+      - Peralatan caving
+
+      - Peralatan rafting
+
+
+      Beberapa alat bisa dipinjam sesuai kebutuhan kegiatan.
+
+      '
+  utter_benefit_marsipala:
+  - text: 'Benefit ikut Marsipala:
+
+      - Pengalaman langsung di alam 🌄
+
+      - Skill survival & teknik outdoor
+
+      - Relasi dan teamwork
+
+      - Mental dan fisik yang lebih kuat
+
+      - Pengalaman seru dan menantang
+
+      '
+  utter_media_informasi_marsipala:
+  - text: 'Untuk informasi lebih lanjut tentang Marsipala:
+
+      - Bisa cek Instagram resmi @marsipala_untar📱
+
+      - Atau hubungi pengurus saat Open House
+
+
+      Info terbaru biasanya selalu diupdate di media sosial.'
+  utter_tanya_ukm_mega:
+  - text: 'UKM MEGA adalah Unit Kegiatan Mahasiswa yang bergerak di bidang gemar alam
+      dan pelestarian lingkungan hidup 🌿.
+
+      Di MEGA, kamu bisa ikut berbagai kegiatan outdoor seperti hiking, rafting, climbing,
+      dan caving.
+
+      Selain itu, MEGA juga fokus pada pengembangan karakter dan jiwa kepemimpinan.
+
+      '
+  utter_fungsi_ukm_mega:
+  - text: 'Fungsi UKM MEGA adalah sebagai wadah bagi mahasiswa untuk:
+
+      - Menyalurkan minat di bidang alam dan lingkungan 🌱
+
+      - Mengembangkan softskill seperti teamwork dan leadership
+
+      - Belajar menjaga dan melestarikan alam
+
+      '
+  utter_tujuan_ukm_mega:
+  - text: 'Tujuan UKM MEGA adalah untuk:
+
+      - Mengembangkan minat dan bakat di bidang kegiatan alam 🏕️
+
+      - Membentuk karakter yang tangguh dan mandiri
+
+      - Meningkatkan jiwa kepemimpinan dan kepedulian terhadap lingkungan
+
+      '
+  utter_misi_ukm_mega:
+  - text: 'Misi UKM MEGA antara lain:
+
+      - Mengadakan kegiatan alam yang edukatif dan bermanfaat
+
+      - Meningkatkan kepedulian terhadap lingkungan 🌍
+
+      - Mengembangkan kemampuan anggota melalui pelatihan dan kegiatan lapangan
+
+      '
+  utter_visi_ukm_mega:
+  - text: 'Visi UKM MEGA adalah menjadi organisasi gemar alam yang aktif, solid, dan
+      berkontribusi dalam pelestarian lingkungan serta pengembangan karakter mahasiswa.
+
+      '
+  utter_bidang_ukm_mega:
+  - text: 'UKM MEGA bergerak di bidang:
+
+      🌿 Gemar alam
+
+      🌎 Pelestarian lingkungan hidup
+
+      Dengan fokus pada kegiatan outdoor seperti hiking, rafting, climbing, dan caving.
+
+      '
+  utter_boleh_gabung_mega:
+  - text: 'UKM MEGA terbuka untuk mahasiswa FEB yang ingin bergabung 🙌
+
+      Semua angkatan dan jurusan di FEB bisa ikut selama masih berstatus mahasiswa
+      aktif.
+
+      '
+  utter_cara_daftar_mega:
+  - text: 'Cara daftar UKM MEGA:
+
+      1. Isi data diri melalui Google Form 📋
+
+      2. Ikuti proses wawancara seputar gemar alam
+
+      3. Ikuti tahap selanjutnya saat Open House atau PMB
+
+      '
+  utter_biaya_daftar_mega:
+  - text: 'Untuk biaya pendaftaran UKM MEGA biasanya akan diinformasikan saat proses
+      open recruitment.
+
+      Silakan cek info terbaru melalui Instagram MEGA ya 👍
+
+      '
+  utter_status_pendaftaran_mega:
+  - text: 'Pendaftaran UKM MEGA biasanya dibuka saat:
+
+      - PMB
+
+      - Open House
+
+      Pantau terus Instagram MEGA untuk info terbaru 📢
+
+      '
+  utter_syarat_anggota_mega:
+  - text: 'Syarat bergabung di UKM MEGA:
+
+      - Mahasiswa aktif FEB
+
+      - Mengikuti wawancara
+
+      - Wajib mengikuti Diksar
+
+      - Memiliki komitmen dalam organisasi
+
+      '
+  utter_komitmen_mega:
+  - text: 'Di UKM MEGA, anggota diharapkan:
+
+      - Aktif mengikuti kegiatan
+
+      - Memiliki komitmen tinggi 💪
+
+      - Mengikuti Diksar sebagai tahap awal
+
+      - Bertanggung jawab dalam setiap kegiatan
+
+      '
+  utter_divisi_mega:
+  - text: 'Divisi di UKM MEGA terdiri dari:
+
+      - Pudok
+
+      - Humas
+
+      - Logistik
+
+      - Divisi Caving
+
+      - Divisi Climbing
+
+      - Divisi Rafting
+
+      - Divisi Hiking
+
+      '
+  utter_struktur_mega:
+  - text: 'Struktur UKM MEGA terdiri dari badan pengurus harian inti dan berbagai
+      divisi seperti Humas, Logistik, serta divisi kegiatan alam (Caving, Climbing,
+      Rafting, Hiking) yang saling bekerja sama dalam menjalankan program kerja.
+
+      '
+  utter_kegiatan_mega:
+  - text: 'Kegiatan UKM MEGA meliputi:
+
+      - Latihan bulanan
+
+      - Pendalaman divisi
+
+      - Open trip
+
+      - Diksar
+
+      - Open house
+
+      - Donor darah
+
+      Seru banget buat kamu yang suka aktivitas alam! 🌄
+
+      '
+  utter_latihan_bulanan_mega:
+  - text: 'UKM MEGA memiliki latihan rutin berupa latihan bulanan yang bertujuan untuk
+      meningkatkan skill dan kesiapan anggota dalam kegiatan alam.
+
+      '
+  utter_jenis_kegiatan_mega:
+  - text: 'Jenis kegiatan di UKM MEGA antara lain:
+
+      - Diksar (pendidikan dasar)
+
+      - Open trip 🏕️
+
+      - Pendalaman divisi
+
+      - Kegiatan sosial seperti donor darah
+
+      - Open house
+
+      '
+  utter_jadwal_latihan_mega:
+  - text: 'Jadwal kegiatan UKM MEGA bersifat periodik (bulanan dan event tertentu).
+
+      Untuk jadwal detail, biasanya akan diinformasikan melalui Instagram resmi MEGA
+      📅
+
+      '
+  utter_lokasi_kegiatan_mega:
+  - text: 'Lokasi kegiatan UKM MEGA beragam, seperti:
+
+      - Kampus Untar (untuk kegiatan indoor)
+
+      - Puncak Bogor
+
+      - Jawa Barat & Jawa Tengah
+
+      Tergantung jenis kegiatannya 🌍
+
+      '
+  utter_event_mega:
+  - text: 'Event besar UKM MEGA antara lain:
+
+      - Open House
+
+      - Diksar
+
+      - Pendalaman Divisi
+
+      - Open Trip
+
+      - Donor Darah
+
+      '
+  utter_jadwal_event_mega:
+  - text: 'Jadwal event UKM MEGA:
+
+      - Open House: Agustus (Hall B & C Untar 2)
+
+      - Diksar: Oktober (Puncak Bogor)
+
+      - Open Trip: Oktober (Jawa Barat/Jawa Tengah)
+
+      - Pendalaman Divisi: Nov/Des (Jawa Barat/Jawa Tengah)
+
+      - Donor Darah: November (Untar 2)
+
+      '
+  utter_fasilitas_mega:
+  - text: 'Fasilitas UKM MEGA meliputi:
+
+      - Peralatan Caving
+
+      - Peralatan Climbing 🧗
+
+      - Peralatan Rafting 🚣
+
+      - Peralatan Hiking 🏕️
+
+      '
+  utter_benefit_mega:
+  - text: 'Benefit ikut UKM MEGA:
+
+      - Pengalaman kegiatan alam seru 🌄
+
+      - Melatih fisik dan mental
+
+      - Meningkatkan leadership dan teamwork
+
+      - Menambah relasi dan pengalaman organisasi
+
+      '
+  utter_media_informasi_mega:
+  - text: 'Untuk info lebih lanjut tentang UKM MEGA:
+
+      - Update kegiatan: Instagram @megauntar
+
+      - Contact Person: 081383889552 (Charles)
+
+      Kamu juga bisa langsung DM Instagram MEGA ya!'
+  utter_tanya_ukm_pft:
+  - text: 'UKM PFT (Photography Tarumanagara) merupakan Unit Kegiatan Mahasiswa yang
+      bergerak di bidang fotografi. UKM ini menjadi wadah bagi mahasiswa untuk mengembangkan
+      minat dan bakat dalam dunia fotografi serta memahami penggunaan kamera secara
+      teknis dan kreatif.
+
+      '
+  utter_fungsi_ukm_pft:
+  - text: 'Fungsi UKM PFT adalah sebagai sarana pengembangan soft skill dan hard skill
+      mahasiswa, khususnya dalam bidang fotografi, serta sebagai wadah untuk menyalurkan
+      kreativitas dan meningkatkan pengalaman organisasi.
+
+      '
+  utter_tujuan_ukm_pft:
+  - text: 'Tujuan UKM PFT adalah memberikan pengalaman dalam bidang fotografi dan
+      organisasi, serta membantu anggota dalam mengembangkan kemampuan teknis maupun
+      artistik dalam pengambilan gambar.
+
+      '
+  utter_misi_ukm_pft:
+  - text: 'Misi UKM PFT adalah mengembangkan kemampuan anggota dalam bidang fotografi,
+      meningkatkan kreativitas visual, serta membangun lingkungan belajar yang aktif
+      dan kolaboratif.
+
+      '
+  utter_visi_ukm_pft:
+  - text: 'Visi UKM PFT adalah menjadi wadah pengembangan fotografi yang aktif, kreatif,
+      dan inovatif bagi mahasiswa Universitas Tarumanagara.
+
+      '
+  utter_bidang_ukm_pft:
+  - text: 'UKM PFT bergerak di bidang fotografi, meliputi kegiatan pengambilan gambar,
+      pengolahan foto, serta pembelajaran teknik penggunaan kamera.
+
+      '
+  utter_boleh_gabung_pft:
+  - text: 'UKM PFT terbuka untuk seluruh mahasiswa Universitas Tarumanagara tanpa
+      batasan tertentu. Mahasiswa juga diperbolehkan untuk mengikuti lebih dari satu
+      UKM secara bersamaan.
+
+      '
+  utter_cara_daftar_pft:
+  - text: 'Pendaftaran UKM PFT dilakukan dengan mengisi formulir pendaftaran (Google
+      Form) yang biasanya dibuka pada periode PMB dan Open House.
+
+      '
+  utter_biaya_daftar_pft:
+  - text: 'Biaya pendaftaran UKM PFT sebesar Rp250.000 yang digunakan untuk menunjang
+      kegiatan dan fasilitas anggota.
+
+      '
+  utter_status_pendaftaran_pft:
+  - text: 'Pendaftaran UKM PFT biasanya dibuka pada saat periode PMB dan Open House
+      (OH). Untuk informasi terbaru, dapat memantau media sosial resmi UKM PFT.
+
+      '
+  utter_syarat_anggota_pft:
+  - text: 'Persyaratan untuk menjadi anggota UKM PFT antara lain memiliki komitmen
+      untuk mengikuti kegiatan serta diwajibkan mengikuti kegiatan Makrab (Malam Keakraban).
+
+      '
+  utter_kemampuan_anggota_pft:
+  - text: 'Calon anggota UKM PFT diharapkan memiliki minat atau insting dalam bidang
+      fotografi. Namun, kemampuan dapat dikembangkan selama mengikuti kegiatan di
+      UKM ini.
+
+      '
+  utter_keanggotaan_pft:
+  - text: 'Anggota UKM PFT diperbolehkan untuk mengikuti UKM atau organisasi lain.
+      Keanggotaan bersifat fleksibel selama tetap dapat menjaga komitmen terhadap
+      kegiatan.
+
+      '
+  utter_divisi_pft:
+  - text: 'UKM PFT memiliki beberapa divisi atau bidang yang mendukung jalannya organisasi,
+      seperti divisi operasional dan kegiatan, yang disesuaikan dengan kebutuhan organisasi.
+
+      '
+  utter_struktur_pft:
+  - text: 'Struktur organisasi UKM PFT terdiri dari, badan pengurus harian inti serta
+      beberapa divisi yang bertanggung jawab dalam menjalankan program kerja UKM.
+
+      '
+  utter_kegiatan_pft:
+  - text: 'Kegiatan UKM PFT meliputi hunting foto, workshop fotografi, bedah foto,
+      serta kegiatan besar seperti Makrab, Handiksar, dan PFT Fest.
+
+      '
+  utter_hunting_bulanan_pft:
+  - text: 'UKM PFT memiliki kegiatan rutin berupa hunting foto bulanan yang dilakukan
+      di berbagai lokasi untuk melatih kemampuan fotografi anggota secara langsung.
+
+      '
+  utter_jenis_kegiatan_pft:
+  - text: 'Jenis kegiatan UKM PFT meliputi hunting foto, workshop fotografi, dan sesi
+      bedah foto yang bertujuan untuk meningkatkan kemampuan teknis dan estetika anggota.
+
+      '
+  utter_jadwal_kegiatan_pft:
+  - text: 'Jadwal kegiatan UKM PFT bervariasi, seperti hunting bulanan yang dilaksanakan
+      di luar kampus, workshop di sekretariat, serta event besar yang diadakan pada
+      waktu tertentu.
+
+      '
+  utter_durasi_kegiatan_pft:
+  - text: 'Durasi kegiatan UKM PFT bervariasi, seperti hunting foto berlangsung sekitar
+      3–4 jam, sedangkan workshop biasanya berlangsung selama 2–3 jam.
+
+      '
+  utter_lokasi_kegiatan_pft:
+  - text: 'Kegiatan UKM PFT dilaksanakan di berbagai lokasi, seperti hunting foto
+      di area Blok M dan Chillax Sudirman, serta workshop di sekretariat UKM.
+
+      '
+  utter_event_pft:
+  - text: 'UKM PFT memiliki beberapa event utama seperti Makrab, Handiksar, dan PFT
+      Fest yang menjadi bagian penting dalam pengembangan anggota.
+
+      '
+  utter_jadwal_event_pft:
+  - text: 'Jadwal event UKM PFT antara lain Makrab yang biasanya diadakan pada bulan
+      September atau Oktober di Puncak, serta PFT Fest yang diselenggarakan di area
+      kampus sekitar bulan Juni.
+
+      '
+  utter_fasilitas_pft:
+  - text: 'UKM PFT menyediakan berbagai fasilitas pendukung seperti kamera, tripod,
+      dan lighting untuk menunjang kegiatan fotografi anggota.
+
+      '
+  utter_benefit_pft:
+  - text: 'Manfaat bergabung dengan UKM PFT antara lain meningkatkan kemampuan fotografi,
+      menambah pengalaman organisasi, serta memperluas relasi antar mahasiswa.
+
+      '
+  utter_media_informasi_pft:
+  - text: Informasi terbaru mengenai UKM PFT dapat diperoleh melalui media sosial
+      Instagram resmi @pft_untar
+  utter_tanya_ukm_pout:
+  - text: "UKM POUT adalah unit kegiatan mahasiswa yang bergerak di bidang keagamaan\
+      \ persekutuan oikumene, yaitu gabungan dari berbagai aliran Kristen. \nUKM ini\
+      \ berfokus pada pelayanan dan belajar bersama dalam iman.\n"
+  utter_fungsi_ukm_pout:
+  - text: 'Fungsi UKM POUT adalah sebagai wadah bagi mahasiswa untuk bertumbuh secara
+      rohani, membangun persekutuan, serta melayani bersama dalam lingkungan kampus.
+
+      '
+  utter_tujuan_ukm_pout:
+  - text: 'Tujuan UKM POUT adalah untuk pelayanan serta belajar bersama dalam iman,
+      sehingga anggota dapat berkembang secara spiritual dan memiliki hubungan yang
+      lebih dekat dengan Tuhan.
+
+      '
+  utter_misi_pout:
+  - text: 'Misi UKM POUT adalah membangun persekutuan yang kuat, meningkatkan kehidupan
+      rohani mahasiswa, serta mendorong pelayanan yang aktif di lingkungan kampus.
+
+      '
+  utter_visi_pout:
+  - text: 'Visi UKM POUT adalah menjadi wadah persekutuan mahasiswa yang solid, bertumbuh
+      dalam iman, serta berdampak positif melalui pelayanan.
+
+      '
+  utter_bidang_ukm_pout:
+  - text: 'UKM POUT bergerak di bidang keagamaan, khususnya persekutuan oikumene yang
+      mencakup berbagai aliran Kristen.
+
+      '
+  utter_boleh_gabung_pout:
+  - text: "UKM POUT terbuka bagi mahasiswa yang memiliki ketertarikan dalam kegiatan\
+      \ rohani dan persekutuan. \nUmumnya ditujukan bagi mahasiswa Kristen, namun\
+      \ tetap terbuka untuk yang ingin belajar dan bersekutu.\n"
+  utter_cara_daftar_pout:
+  - text: 'Cara daftar UKM POUT:
+
+      - Mengisi data diri melalui Google Form
+
+      - Mengikuti proses pendaftaran yang dibuka pada periode Agustus hingga Oktober
+
+      '
+  utter_biaya_daftar_pout:
+  - text: 'Untuk informasi biaya pendaftaran UKM POUT, silakan cek informasi terbaru
+      melalui Instagram resmi atau hubungi contact person via DM.
+
+      '
+  utter_status_pendaftaran_pout:
+  - text: 'Pendaftaran UKM POUT biasanya dibuka pada bulan Agustus hingga Oktober.
+
+      '
+  utter_seleksi_pout:
+  - text: 'Ya, terdapat proses seleksi di UKM POUT berupa tes karunia rohani untuk
+      mengetahui potensi dan pelayanan yang sesuai bagi anggota.
+
+      '
+  utter_syarat_anggota_pout:
+  - text: 'Syarat menjadi anggota UKM POUT:
+
+      - Memiliki komitmen dalam mengikuti kegiatan
+
+      - Mengikuti tes karunia rohani
+
+      '
+  utter_kemampuan_anggota_pout:
+  - text: "Tidak perlu memiliki skill khusus untuk bergabung. \nSemua anggota dapat\
+      \ belajar bersama, namun akan diarahkan sesuai karunia rohani masing-masing.\n"
+  utter_divisi_pout:
+  - text: 'Divisi dalam UKM POUT meliputi:
+
+      - Acara
+
+      - PUDOK
+
+      - Kelompok Kecil
+
+      - Doa & Pemerhati
+
+      - Praise & Worship
+
+      '
+  utter_struktur_pout:
+  - text: 'Struktur UKM POUT terdiri dari badan pengurus harian inti dan berbagai
+      divisi seperti acara, pelayanan doa, hingga praise & worship yang saling bekerja
+      sama.
+
+      '
+  utter_kegiatan_pout:
+  - text: 'Kegiatan UKM POUT meliputi:
+
+      - Persekutuan Jumat
+
+      - Welcoming Day
+
+      - Perayaan Natal
+
+      - Paskah POUT
+
+      - POUT Camp
+
+      '
+  utter_jenis_kegiatan_pout:
+  - text: 'Jenis kegiatan UKM POUT mencakup:
+
+      - Ibadah dan persekutuan
+
+      - Pelayanan rohani
+
+      - Kegiatan kebersamaan seperti camp dan event keagamaan
+
+      '
+  utter_durasi_kegiatan_pout:
+  - text: 'Durasi kegiatan:
+
+      - Persekutuan Jumat berlangsung sekitar 2 jam (11.00 – 13.00)
+
+      - Event seperti camp berlangsung 3 hari 2 malam
+
+      '
+  utter_lokasi_kegiatan_pout:
+  - text: 'Lokasi kegiatan UKM POUT:
+
+      - Kegiatan rutin di kampus Untar
+
+      - Kegiatan khusus seperti camp di Puncak
+
+      '
+  utter_event_pout:
+  - text: 'Event UKM POUT antara lain:
+
+      - Welcoming Day (Agustus)
+
+      - Natal (November)
+
+      - Paskah POUT (April)
+
+      - POUT Camp (Mei)
+
+      '
+  utter_jadwal_event_pout:
+  - text: 'Jadwal event UKM POUT:
+
+      - Welcoming Day: Agustus
+
+      - Natal: November
+
+      - Paskah POUT: April
+
+      - POUT Camp: Mei
+
+      '
+  utter_fasilitas_pout:
+  - text: 'Fasilitas UKM POUT meliputi:
+
+      - Ruangan khusus untuk Persekutuan Jumat
+
+      '
+  utter_benefit_pout:
+  - text: 'Manfaat mengikuti UKM POUT:
+
+      - Bertumbuh secara rohani
+
+      - Menambah relasi dan persekutuan
+
+      - Belajar pelayanan
+
+      - Mengembangkan diri sesuai karunia rohani
+
+      '
+  utter_media_informasi_pout:
+  - text: 'Untuk informasi lebih lanjut tentang UKM POUT:
+
+      - Update tersedia di Instagram @po_untar
+
+      - Contact person dapat dihubungi melalui DM Instagram'
+  utter_tanya_ukm_psut:
+  - text: 'UKM PSUT merupakan Unit Kegiatan Mahasiswa yang bergerak di bidang musik,
+      khususnya vokal seperti paduan suara. UKM ini bertujuan untuk melatih anggota
+      dalam bernyanyi secara sehat sesuai dengan teknik paduan suara yang baik dan
+      benar.
+
+      '
+  utter_fungsi_ukm_psut:
+  - text: 'Fungsi UKM PSUT adalah sebagai wadah pengembangan kemampuan vokal mahasiswa
+      serta sarana untuk meningkatkan soft skill melalui kegiatan organisasi dan seni
+      musik.
+
+      '
+  utter_tujuan_ukm_psut:
+  - text: 'Tujuan UKM PSUT adalah melatih anggota dalam teknik bernyanyi yang benar,
+      meningkatkan kualitas vokal, serta membentuk kemampuan kerja sama dalam paduan
+      suara.
+
+      '
+  utter_misi_psut:
+  - text: 'Misi UKM PSUT adalah mengembangkan kemampuan vokal anggota, meningkatkan
+      kualitas musikalitas, serta membangun kerja sama tim dalam kegiatan paduan suara.
+
+      '
+  utter_visi_psut:
+  - text: 'Visi UKM PSUT adalah menjadi wadah pengembangan paduan suara yang berkualitas,
+      profesional, dan berprestasi di tingkat internal maupun eksternal.
+
+      '
+  utter_bidang_ukm_psut:
+  - text: 'UKM PSUT bergerak di bidang seni musik, khususnya vokal dan paduan suara.
+
+      '
+  utter_boleh_gabung_psut:
+  - text: 'UKM PSUT terbuka bagi mahasiswa aktif program S1 Universitas Tarumanagara
+      hingga maksimal semester 5.
+
+      '
+  utter_cara_daftar_psut:
+  - text: 'Pendaftaran UKM PSUT dilakukan dengan mengisi formulir pendaftaran (Google
+      Form) yang dibuka pada periode PMB dan Open House, kemudian dilanjutkan dengan
+      tahap wawancara dan audisi.
+
+      '
+  utter_biaya_daftar_psut:
+  - text: 'Biaya pendaftaran UKM PSUT sebesar Rp30.000.
+
+      '
+  utter_status_pendaftaran_psut:
+  - text: 'Pendaftaran UKM PSUT biasanya dibuka pada periode PMB dan Open House. Informasi
+      terbaru dapat diperoleh melalui media sosial resmi UKM PSUT.
+
+      '
+  utter_syarat_anggota_psut:
+  - text: 'Persyaratan menjadi anggota UKM PSUT antara lain memiliki pengalaman dalam
+      berorganisasi dan bersosialisasi, serta memiliki kemampuan dasar yang relevan,
+      khususnya untuk divisi tertentu seperti pelitur.
+
+      '
+  utter_kemampuan_anggota_psut:
+  - text: 'Calon anggota akan melalui proses audisi yang meliputi penilaian kepekaan
+      nada, jangkauan vokal (range), dan kemampuan tempo.
+
+      '
+  utter_divisi_psut:
+  - text: 'UKM PSUT memiliki beberapa divisi, yaitu Humas, Pelitur, ArtDok, dan Perkap.
+
+      '
+  utter_struktur_psut:
+  - text: 'Struktur organisasi UKM PSUT terdiri dari badan pengurus harian inti serta
+      beberapa divisi yang memiliki peran dalam menjalankan program kerja UKM.
+
+      '
+  utter_kegiatan_psut:
+  - text: 'Kegiatan UKM PSUT meliputi latihan rutin untuk persiapan penampilan, serta
+      kegiatan lain seperti makrab, les vokal, konser, dan mengikuti perlombaan.
+
+      '
+  utter_kegiatan_rutin_psut:
+  - text: 'Kegiatan rutin UKM PSUT berupa latihan vokal yang dilakukan secara berkala
+      untuk mempersiapkan berbagai penampilan atau job paduan suara.
+
+      '
+  utter_jenis_kegiatan_psut:
+  - text: 'Jenis kegiatan UKM PSUT meliputi latihan paduan suara, les vokal, konser,
+      kegiatan keakraban (makrab), serta partisipasi dalam lomba.
+
+      '
+  utter_jadwal_kegiatan_psut:
+  - text: 'Jadwal kegiatan UKM PSUT umumnya dilaksanakan pada pukul 17.30 hingga 21.00
+      dengan hari yang disesuaikan.
+
+      '
+  utter_durasi_kegiatan_psut:
+  - text: 'Durasi kegiatan latihan UKM PSUT berlangsung sekitar 3 hingga 4 jam dalam
+      satu pertemuan.
+
+      '
+  utter_lokasi_kegiatan_psut:
+  - text: 'Kegiatan latihan UKM PSUT dilaksanakan di Graha Swara, Gedung M lantai
+      8.
+
+      '
+  utter_event_psut:
+  - text: 'UKM PSUT memiliki beberapa kegiatan utama seperti makrab, konser mid-year,
+      les vokal, serta mengikuti perlombaan eksternal.
+
+      '
+  utter_jadwal_event_psut:
+  - text: 'Jadwal kegiatan UKM PSUT antara lain makrab yang dilaksanakan pada bulan
+      September selama 3 hari 2 malam, les vokal yang diadakan dua kali dalam setahun
+      (sekitar bulan Juni dan Desember), serta konser mid-year.
+
+      '
+  utter_fasilitas_psut:
+  - text: 'UKM PSUT menyediakan fasilitas berupa ruang sekretariat, program les vokal,
+      serta master class sebagai sarana pengembangan anggota.
+
+      '
+  utter_benefit_psut:
+  - text: 'Manfaat bergabung dengan UKM PSUT antara lain meningkatkan kemampuan vokal,
+      mendapatkan pelatihan profesional melalui les vokal dan master class, serta
+      menambah pengalaman organisasi dan relasi.
+
+      '
+  utter_media_informasi_psut:
+  - text: Informasi terbaru mengenai UKM PSUT dapat diperoleh melalui Instagram resmi
+      @ps_untar. Untuk informasi lebih lanjut, dapat menghubungi contact person di
+      nomor +62 822-1822-4029 (Puan Yasyfa).
+  utter_tanya_ukm_radio:
+  - text: "UKM Radio merupakan Unit Kegiatan Mahasiswa yang bergerak di bidang penyiaran\
+      \ dan broadcasting, seperti penyampaian informasi dan berita melalui media radio\
+      \ kampus. \nUKM ini menjadi wadah bagi mahasiswa untuk mengembangkan kemampuan\
+      \ dalam dunia siaran serta memperoleh pengalaman praktis di bidang broadcasting.\n"
+  utter_fungsi_ukm_radio:
+  - text: 'UKM Radio berfungsi sebagai wadah pengembangan minat dan bakat mahasiswa
+      di bidang penyiaran, serta sebagai media informasi kampus yang dikelola oleh
+      mahasiswa.
+
+      '
+  utter_tujuan_ukm_radio:
+  - text: 'Tujuan UKM Radio adalah untuk menciptakan pengalaman siaran bagi mahasiswa,
+      serta meningkatkan kemampuan komunikasi dan broadcasting secara praktis.
+
+      '
+  utter_misi_ukm_radio:
+  - text: 'Misi UKM Radio adalah mengembangkan kemampuan anggota dalam bidang penyiaran,
+      meningkatkan kualitas konten siaran, serta membangun kerja sama tim dalam organisasi.
+
+      '
+  utter_visi_ukm_radio:
+  - text: 'Visi UKM Radio adalah menjadi organisasi penyiaran kampus yang aktif, kreatif,
+      dan profesional dalam menghasilkan konten siaran yang informatif dan menarik.
+
+      '
+  utter_bidang_ukm_radio:
+  - text: 'UKM Radio bergerak di bidang penyiaran dan broadcasting, yang mencakup
+      kegiatan siaran, peliputan berita, produksi konten audio, serta komunikasi media.
+
+      '
+  utter_boleh_gabung_radio:
+  - text: 'UKM Radio terbuka untuk seluruh mahasiswa. Mahasiswa dari berbagai fakultas
+      dan maksimal semester 3 dapat bergabung selama memenuhi persyaratan yang berlaku.
+
+      '
+  utter_cara_daftar_radio:
+  - text: 'Pendaftaran UKM Radio dilakukan dengan mengisi formulir pendaftaran (Google
+      Form) pada periode Agustus hingga September, kemudian mengikuti tahap interview
+      seputar penyiaran.
+
+      '
+  utter_biaya_daftar_radio:
+  - text: 'Biaya pendaftaran UKM Radio sekitar Rp50.000 yang dibayarkan saat proses
+      registrasi.
+
+      '
+  utter_status_pendaftaran_radio:
+  - text: 'Pendaftaran UKM Radio biasanya dibuka pada bulan Agustus hingga September,
+      bertepatan dengan periode awal tahun ajaran baru.
+
+      '
+  utter_seleksi_radio:
+  - text: 'Proses seleksi UKM Radio meliputi tahap interview yang berkaitan dengan
+      kemampuan dan pemahaman dasar mengenai penyiaran.
+
+      '
+  utter_syarat_anggota_radio:
+  - text: 'Syarat menjadi anggota UKM Radio adalah bersedia menjalani masa kepengurusan
+      selama 2 tahun serta memahami dan menjalankan peran sesuai dengan divisi yang
+      dipilih.
+
+      '
+  utter_kemampuan_anggota_radio:
+  - text: 'Calon anggota tidak diwajibkan memiliki kemampuan penyiaran sejak awal,
+      namun diharapkan memiliki minat di bidang komunikasi dan bersedia untuk belajar.
+
+      '
+  utter_divisi_radio:
+  - text: 'UKM Radio memiliki beberapa divisi, yaitu:
+
+      - Program Director
+
+      - Music Division
+
+      - Public Relation
+
+      - Reportase
+
+      - General Division
+
+      '
+  utter_struktur_radio:
+  - text: 'Struktur organisasi UKM Radio terdiri dari badan pengurus harian inti dan
+      berbagai divisi seperti Program Director, Music Division, Public Relation, Reportase,
+      dan General Division.
+
+      '
+  utter_kegiatan_radio:
+  - text: 'Kegiatan UKM Radio meliputi siaran rutin, rapat kerja, penerimaan calon
+      anggota baru (PPCB), pendidikan dasar (Diksar), Stupan, ULTAFOMS, serta RAC.
+
+      '
+  utter_siaran_radio:
+  - text: 'UKM Radio memiliki kegiatan rutin berupa siaran yang dilakukan secara berkala
+      sebagai sarana praktik anggota dalam dunia broadcasting.
+
+      '
+  utter_jenis_kegiatan_radio:
+  - text: 'Jenis kegiatan UKM Radio meliputi:
+
+      - Siaran radio
+
+      - Pendidikan dasar (Diksar)
+
+      - Stupan
+
+      - ULTAFOMS
+
+      - RAC (Radio Anniversary Celebration)
+
+      - Penerimaan calon anggota (PPCB)
+
+      '
+  utter_jadwal_kegiatan_radio:
+  - text: 'Kegiatan UKM Radio berlangsung setiap hari pukul 10.00 hingga 20.00 di
+      area Hall B dan C Untar 2 lantai 3.
+
+      '
+  utter_durasi_kegiatan_radio:
+  - text: 'Durasi kegiatan UKM Radio menyesuaikan dengan jenis aktivitas, dimana siaran
+      berlangsung dalam beberapa jam sesuai jadwal operasional harian.
+
+      '
+  utter_lokasi_kegiatan_radio:
+  - text: 'Kegiatan UKM Radio dilaksanakan di Hall B dan C Untar 2 lantai 3 yang menjadi
+      pusat aktivitas dan studio siaran.
+
+      '
+  utter_event_radio:
+  - text: 'Event utama UKM Radio meliputi:
+
+      - Rapat Kerja
+
+      - PPCB (Penerimaan Peserta Calon Crew Baru)
+
+      - Diksar
+
+      - Stupan
+
+      - ULTAFOMS
+
+      - RAC
+
+      '
+  utter_jadwal_event_radio:
+  - text: 'Jadwal event UKM Radio antara lain:
+
+      - Rapat Kerja: Agustus
+
+      - PPCB: Agustus – Oktober
+
+      - Diksar: November (3 hari 2 malam)
+
+      - Stupan: Desember
+
+      - ULTAFOMS: April
+
+      - RAC: Mei
+
+      '
+  utter_fasilitas_radio:
+  - text: 'Fasilitas UKM Radio meliputi ruang siaran, komputer, pantry, serta berbagai
+      peralatan audio pendukung kegiatan broadcasting.
+
+      '
+  utter_benefit_radio:
+  - text: 'Manfaat bergabung dengan UKM Radio antara lain:
+
+      - Mendapatkan pengalaman dalam dunia penyiaran
+
+      - Mengembangkan kemampuan komunikasi dan public speaking
+
+      - Melatih kerja sama tim
+
+      - Memperoleh pengalaman organisasi
+
+      '
+  utter_media_informasi_radio:
+  - text: "Informasi terbaru UKM Radio dapat diakses melalui media sosial seperti\
+      \ Instagram, TikTok, X, dan website resmi. \nUntuk informasi lebih lanjut dapat\
+      \ menghubungi contact person: Carrisa (089623240685)."
+  utter_tanya_ukm_sentra:
+  - text: "UKM Sentra merupakan Unit Kegiatan Mahasiswa yang bergerak di bidang seni\
+      \ teater atau teatrikal. \nUKM ini menjadi wadah bagi mahasiswa yang memiliki\
+      \ minat dan bakat dalam seni peran untuk mengembangkan kemampuan akting, ekspresi,\
+      \ serta pertunjukan teater.\n"
+  utter_fungsi_ukm_sentra:
+  - text: 'UKM Sentra berfungsi sebagai wadah pengembangan minat dan bakat mahasiswa
+      di bidang seni teater serta sebagai sarana eksplorasi kreativitas dalam seni
+      pertunjukan.
+
+      '
+  utter_tujuan_ukm_sentra:
+  - text: 'Tujuan UKM Sentra adalah mewadahi mahasiswa yang berminat di bidang teater
+      agar dapat mengembangkan kemampuan seni peran dan berpartisipasi dalam berbagai
+      kegiatan pertunjukan.
+
+      '
+  utter_misi_ukm_sentra:
+  - text: 'Misi UKM Sentra adalah mengembangkan kemampuan anggota dalam bidang seni
+      teater, meningkatkan kualitas pertunjukan, serta membangun kerja sama tim dalam
+      produksi seni.
+
+      '
+  utter_visi_ukm_sentra:
+  - text: 'Visi UKM Sentra adalah menjadi organisasi seni teater kampus yang kreatif,
+      inovatif, dan mampu menghasilkan pertunjukan berkualitas.
+
+      '
+  utter_bidang_ukm_sentra:
+  - text: 'UKM Sentra bergerak di bidang seni teater atau teatrikal yang mencakup
+      kegiatan akting, pementasan, workshop seni, dan produksi pertunjukan.
+
+      '
+  utter_boleh_gabung_sentra:
+  - text: 'UKM Sentra terbuka untuk seluruh mahasiswa dari berbagai fakultas dan semester,
+      termasuk bagi pemula yang memiliki minat di bidang seni teater.
+
+      '
+  utter_cara_daftar_sentra:
+  - text: 'Pendaftaran UKM Sentra dilakukan dengan mengisi formulir pendaftaran (Google
+      Form) pada periode PMB dan Open House.
+
+      '
+  utter_biaya_daftar_sentra:
+  - text: 'Biaya pendaftaran UKM Sentra sebesar Rp50.000 yang dibayarkan saat proses
+      registrasi.
+
+      '
+  utter_status_pendaftaran_sentra:
+  - text: 'Pendaftaran UKM Sentra dibuka pada periode PMB dan Open House setiap tahunnya.
+
+      '
+  utter_syarat_anggota_sentra:
+  - text: 'Persyaratan utama menjadi anggota UKM Sentra adalah memiliki komitmen serta
+      menunjukkan kualitas kerja dalam setiap kegiatan yang diikuti.
+
+      '
+  utter_seleksi_sentra:
+  - text: 'Proses seleksi UKM Sentra didasarkan pada penilaian kualitas kerja dan
+      partisipasi calon anggota dalam kegiatan.
+
+      '
+  utter_divisi_sentra:
+  - text: 'Informasi mengenai divisi dalam UKM Sentra dapat diperoleh melalui pengurus
+      atau media informasi resmi UKM Sentra.
+
+      '
+  utter_struktur_sentra:
+  - text: 'Struktur organisasi UKM Sentra terdiri dari badan pengurus harian inti
+      dan anggota yang bekerja sama dalam menjalankan berbagai kegiatan teater.
+
+      '
+  utter_kegiatan_sentra:
+  - text: 'Kegiatan UKM Sentra meliputi berbagai program seni teater seperti house
+      warming, workshop, pementasan inagurasi, dan pementasan tunggal.
+
+      '
+  utter_jenis_kegiatan_sentra:
+  - text: 'Jenis kegiatan UKM Sentra antara lain:
+
+      - House Warming
+
+      - Workshop teater
+
+      - Pementasan Inagurasi
+
+      - Pementasan Tunggal
+
+      '
+  utter_jadwal_kegiatan_sentra:
+  - text: 'Jadwal kegiatan UKM Sentra meliputi:
+
+      - House Warming: Agustus
+
+      - Workshop: September
+
+      - Pementasan Inagurasi: Desember
+
+      - Pementasan Tunggal: Juni
+
+      '
+  utter_durasi_kegiatan_sentra:
+  - text: 'Durasi kegiatan UKM Sentra menyesuaikan dengan jenis program, seperti workshop
+      dan pementasan yang dapat berlangsung selama beberapa jam hingga beberapa hari.
+
+      '
+  utter_lokasi_kegiatan_sentra:
+  - text: 'Lokasi kegiatan UKM Sentra antara lain:
+
+      - Workshop dilaksanakan di Villa Bogor
+
+      - Pementasan tunggal dilaksanakan di Gedung Kesenian Jakarta
+
+      '
+  utter_event_sentra:
+  - text: 'Event utama UKM Sentra meliputi house warming, workshop, pementasan inagurasi,
+      dan pementasan tunggal sebagai bentuk pertunjukan seni teater.
+
+      '
+  utter_jadwal_event_sentra:
+  - text: 'Event UKM Sentra dilaksanakan secara berkala setiap tahun, dengan rincian:
+
+      - Agustus: House Warming
+
+      - September: Workshop
+
+      - Desember: Pementasan Inagurasi
+
+      - Juni: Pementasan Tunggal
+
+      '
+  utter_fasilitas_sentra:
+  - text: 'Fasilitas UKM Sentra meliputi ruang sekretariat yang digunakan sebagai
+      tempat berkumpul dan koordinasi anggota.
+
+      '
+  utter_benefit_sentra:
+  - text: 'Manfaat bergabung dengan UKM Sentra antara lain:
+
+      - Mengembangkan kemampuan akting dan seni peran
+
+      - Meningkatkan kreativitas dalam seni pertunjukan
+
+      - Melatih kerja sama tim
+
+      - Mendapatkan pengalaman dalam pementasan teater
+
+      '
+  utter_media_informasi_sentra:
+  - text: "Informasi terbaru UKM Sentra dapat diakses melalui media sosial Instagram\
+      \ @teatersentra. \nUntuk pertanyaan lebih lanjut, dapat menghubungi melalui\
+      \ direct message (DM) Instagram resmi UKM Sentra."
+  utter_tanya_ukm_soushin:
+  - text: "UKM Soushin adalah unit kegiatan mahasiswa yang bergerak di bidang budaya\
+      \ Jepang. \nSoushin menjadi wadah bagi mahasiswa yang memiliki minat terhadap\
+      \ budaya Jepang seperti bahasa Jepang, manga, dan cosplay.\n"
+  utter_fungsi_ukm_soushin:
+  - text: "Fungsi UKM Soushin adalah sebagai wadah pengembangan minat dan bakat mahasiswa\
+      \ di bidang budaya Jepang, \nserta tempat belajar dan menyalurkan kreativitas\
+      \ seperti bahasa Jepang, manga, dan cosplay.\n"
+  utter_tujuan_ukm_soushin:
+  - text: "Tujuan UKM Soushin adalah untuk mewadahi mahasiswa yang tertarik dengan\
+      \ budaya Jepang \nserta membantu mereka mengembangkan kemampuan dan minat di\
+      \ bidang tersebut.\n"
+  utter_misi_ukm_soushin:
+  - text: "Misi UKM Soushin adalah mengembangkan minat mahasiswa terhadap budaya Jepang,\
+      \ \nmenyediakan kegiatan yang edukatif dan kreatif, serta membangun komunitas\
+      \ yang aktif dan solid.\n"
+  utter_visi_ukm_soushin:
+  - text: "Visi UKM Soushin adalah menjadi komunitas budaya Jepang yang aktif, kreatif,\
+      \ \ndan mampu menjadi wadah terbaik bagi mahasiswa dalam menyalurkan minatnya.\n"
+  utter_bidang_ukm_soushin:
+  - text: "UKM Soushin bergerak di bidang budaya Jepang, mencakup kegiatan seperti\
+      \ pembelajaran bahasa Jepang, \nmanga (menggambar), dan cosplay.\n"
+  utter_boleh_gabung_soushin:
+  - text: "UKM Soushin terbuka untuk seluruh mahasiswa dari semua jurusan dan angkatan.\
+      \ \nJadi siapa saja boleh bergabung, termasuk pemula yang belum memiliki pengalaman.\n"
+  utter_cara_daftar_soushin:
+  - text: 'Cara daftar UKM Soushin cukup mudah, yaitu dengan mengisi data diri melalui
+      Google Form yang disediakan saat periode pendaftaran.
+
+      '
+  utter_biaya_daftar_soushin:
+  - text: 'Biaya pendaftaran UKM Soushin berbeda sesuai bidang yang dipilih:
+
+      - Manga: Rp15.000
+
+      - Bahasa Jepang: Rp10.000
+
+      - Cosplay: Rp20.000
+
+      '
+  utter_status_pendaftaran_soushin:
+  - text: "Pendaftaran UKM Soushin biasanya dibuka saat periode PMB dan Open House\
+      \ (OH). \nKamu bisa mengikuti informasi terbaru melalui media sosial mereka.\n"
+  utter_syarat_anggota_soushin:
+  - text: "Tidak ada syarat khusus untuk bergabung di UKM Soushin. \nSemua mahasiswa\
+      \ bisa ikut tanpa kriteria tertentu.\n"
+  utter_kemampuan_anggota_soushin:
+  - text: "Tidak perlu memiliki skill khusus untuk bergabung di UKM Soushin. \nPemula\
+      \ juga sangat diperbolehkan dan akan dibimbing dari awal.\n"
+  utter_divisi_soushin:
+  - text: 'UKM Soushin memiliki beberapa fokus kegiatan seperti:
+
+      - Bahasa Jepang
+
+      - Manga (menggambar)
+
+      - Cosplay
+
+      '
+  utter_struktur_soushin:
+  - text: 'Struktur organisasi UKM Soushin terdiri dari badan pengurus harian inti
+      dan anggota yang terbagi dalam berbagai bidang kegiatan.
+
+      '
+  utter_kegiatan_soushin:
+  - text: 'Kegiatan UKM Soushin cukup beragam, antara lain:
+
+      - Kelas mingguan
+
+      - Welcoming party
+
+      - Makrab
+
+      - Nihongo
+
+      - PDK
+
+      - Stuban
+
+      - Baksos
+
+      - Photobooth
+
+      - Harukaze
+
+      - Tanjobi
+
+      - Papercrane
+
+      '
+  utter_kelas_soushin:
+  - text: 'UKM Soushin memiliki beberapa kelas, yaitu:
+
+      - Kelas Bahasa Jepang
+
+      - Kelas Manga
+
+      - Kelas Cosplay
+
+      '
+  utter_jadwal_kegiatan_soushin:
+  - text: 'Jadwal kegiatan UKM Soushin:
+
+      - Kelas Bahasa Jepang: setiap Kamis selama 1 jam di sekretariat
+
+      - Kelas Manga & Cosplay: setiap Jumat selama 1 jam di sekretariat
+
+      '
+  utter_durasi_kegiatan_soushin:
+  - text: 'Setiap sesi kegiatan atau kelas di UKM Soushin berlangsung sekitar 1 jam.
+
+      '
+  utter_lokasi_kegiatan_soushin:
+  - text: 'Kegiatan UKM Soushin dilaksanakan di sekretariat Soushin di kampus untuk
+      kelas rutin.
+
+      '
+  utter_event_soushin:
+  - text: 'Event besar UKM Soushin meliputi:
+
+      - Harukaze
+
+      - Tanjobi
+
+      - Makrab
+
+      - Baksos
+
+      - Photobooth
+
+      - Papercrane
+
+      '
+  utter_jadwal_event_soushin:
+  - text: "Jadwal event UKM Soushin biasanya disesuaikan dengan program kerja tahunan.\
+      \ \nUntuk informasi detail, bisa cek update terbaru di Instagram mereka.\n"
+  utter_fasilitas_soushin:
+  - text: 'UKM Soushin menyediakan fasilitas berupa sekretariat sebagai tempat berkegiatan
+      dan berkumpul anggota.
+
+      '
+  utter_benefit_soushin:
+  - text: 'Manfaat bergabung di UKM Soushin:
+
+      - Belajar budaya Jepang
+
+      - Mengembangkan skill bahasa Jepang, menggambar, dan cosplay
+
+      - Menambah relasi dan pengalaman organisasi
+
+      - Mengikuti berbagai event menarik
+
+      '
+  utter_media_informasi_soushin:
+  - text: 'Informasi UKM Soushin dapat diakses melalui:
+
+      - Instagram resmi @soushin_untar
+
+      - Contact Person: 082154803352 (Sofia)'
+  utter_tanya_ukm_taekwondo:
+  - text: "UKM Taekwondo adalah unit kegiatan mahasiswa yang bergerak di bidang bela\
+      \ diri, seni (poomsae), dan tarung. \nDi sini kamu bisa belajar teknik bela\
+      \ diri sekaligus melatih fisik dan mental.\n"
+  utter_fungsi_ukm_taekwondo:
+  - text: 'Fungsi UKM Taekwondo adalah sebagai wadah untuk:
+
+      - Melatih kemampuan bela diri
+
+      - Meningkatkan kebugaran fisik
+
+      - Membentuk mental dan disiplin
+
+      - Mengembangkan potensi mahasiswa di bidang olahraga
+
+      '
+  utter_tujuan_ukm_taekwondo:
+  - text: 'Tujuan UKM Taekwondo adalah untuk:
+
+      - Mengembangkan kemampuan bela diri
+
+      - Melatih fisik dan mental mahasiswa
+
+      - Mencetak atlet berprestasi di bidang taekwondo
+
+      '
+  utter_misi_taekwondo:
+  - text: 'Misi UKM Taekwondo meliputi:
+
+      - Melatih kemampuan teknik bela diri secara konsisten
+
+      - Meningkatkan kualitas atlet
+
+      - Mendorong partisipasi dalam kejuaraan
+
+      '
+  utter_visi_taekwondo:
+  - text: 'Visi UKM Taekwondo adalah menjadi UKM bela diri yang unggul dalam prestasi,
+      serta mampu membentuk mahasiswa yang kuat secara fisik dan mental.
+
+      '
+  utter_bidang_ukm_taekwondo:
+  - text: 'UKM Taekwondo bergerak di bidang:
+
+      - Bela diri
+
+      - Seni (poomsae)
+
+      - Tarung (sparring/kyorugi)
+
+      '
+  utter_boleh_gabung_taekwondo:
+  - text: 'Semua mahasiswa boleh bergabung di UKM Taekwondo, dari semua jurusan.
+
+      Bahkan pemula juga boleh ikut, yang penting punya minat dan komitmen.
+
+      '
+  utter_cara_daftar_taekwondo:
+  - text: 'Cara daftar UKM Taekwondo:
+
+      - Isi data diri melalui GForm
+
+      - Pendaftaran dibuka saat PMB dan Open House
+
+      '
+  utter_biaya_daftar_taekwondo:
+  - text: 'Pendaftaran UKM Taekwondo GRATIS (tidak ada biaya registrasi).
+
+      '
+  utter_status_pendaftaran_taekwondo:
+  - text: "Pendaftaran UKM Taekwondo biasanya dibuka saat PMB dan Open House. \nUntuk\
+      \ info terbaru, bisa cek Instagram resmi atau hubungi contact person.\n"
+  utter_syarat_anggota_taekwondo:
+  - text: 'Syarat bergabung:
+
+      - Memiliki minat di Taekwondo
+
+      - Bersedia berkomitmen
+
+      - Menjadi anggota aktif
+
+      '
+  utter_keanggotaan_taekwondo:
+  - text: 'Anggota Taekwondo diharapkan:
+
+      - Aktif mengikuti latihan
+
+      - Memiliki komitmen
+
+      - Disiplin dalam kegiatan
+
+      '
+  utter_kegiatan_taekwondo:
+  - text: 'Kegiatan UKM Taekwondo meliputi:
+
+      - Latihan rutin mingguan
+
+      - Evaluasi latihan
+
+      - Kejuaraan nasional
+
+      - Ujian kenaikan tingkat (sabuk)
+
+      '
+  utter_kegiatan_latihan_taekwondo:
+  - text: 'Ya, UKM Taekwondo memiliki latihan rutin setiap minggu yang bertujuan untuk
+      meningkatkan teknik, fisik, dan mental anggota.
+
+      '
+  utter_jadwal_latihan_taekwondo:
+  - text: 'Jadwal latihan:
+
+      - Selasa di GOR Untar 1
+
+      - Kamis di GOR Untar 2
+
+      Durasi latihan sekitar 3 jam per sesi.
+
+      '
+  utter_durasi_kegiatan_taekwondo:
+  - text: 'Durasi latihan Taekwondo sekitar 3 jam setiap sesi latihan.
+
+      '
+  utter_lokasi_kegiatan_taekwondo:
+  - text: 'Lokasi latihan:
+
+      - GOR Untar 1 (Selasa)
+
+      - GOR Untar 2 (Kamis)
+
+      '
+  utter_kejuaraan_taekwondo:
+  - text: 'Ya, UKM Taekwondo aktif mengikuti kejuaraan, terutama di tingkat nasional.
+
+      '
+  utter_jadwal_kejuaraan_taekwondo:
+  - text: 'Jadwal kejuaraan biasanya diadakan pada:
+
+      - Desember
+
+      - April
+
+      - Juni
+
+      '
+  utter_ujian_kenaikan_tingkat:
+  - text: 'Ya, ada ujian kenaikan tingkat (sabuk) untuk mengukur perkembangan kemampuan
+      anggota.
+
+      '
+  utter_jadwal_ujian_taekwondo:
+  - text: 'Jadwal ujian kenaikan tingkat akan diinformasikan saat periode tertentu
+      melalui pengurus atau media sosial.
+
+      '
+  utter_fasilitas_taekwondo:
+  - text: 'Fasilitas yang disediakan:
+
+      - Matras
+
+      - Target
+
+      - Hugo (body protector)
+
+      - Helm
+
+      '
+  utter_divisi_taekwondo:
+  - text: 'Divisi di UKM Taekwondo:
+
+      - Humas
+
+      - Media Kreatif
+
+      - Perlengkapan
+
+      '
+  utter_struktur_taekwondo:
+  - text: 'Struktur UKM Taekwondo terdiri dari badan pengurus harian inti, serta beberapa
+      divisi seperti humas, media kreatif, dan perlengkapan.
+
+      '
+  utter_prestasi_taekwondo:
+  - text: 'Prestasi UKM Taekwondo:
+
+      - Pancasila Cup: Juara 2
+
+      - WTA 2: Juara 2
+
+      - ATF: Juara 1
+
+      - KONI Cup: Juara 1
+
+      '
+  utter_benefit_taekwondo:
+  - text: 'Manfaat ikut Taekwondo:
+
+      - Meningkatkan fisik dan kesehatan
+
+      - Melatih mental dan disiplin
+
+      - Belajar bela diri
+
+      - Kesempatan ikut kejuaraan
+
+      '
+  utter_media_informasi_taekwondo:
+  - text: 'Informasi lebih lanjut bisa melalui:
+
+      - Instagram resmi @taekwondountar
+
+      - Contact Person: 081315680344 (Tiomas)'
+  utter_tanya_ukm_tec:
+  - text: "UKM TEC adalah unit kegiatan mahasiswa di Untar yang bergerak di bidang\
+      \ bahasa Inggris. \nTEC berfokus untuk mengenalkan dan mengajarkan bahasa Inggris\
+      \ kepada mahasiswa melalui berbagai kegiatan pembelajaran dan praktik langsung.\n"
+  utter_fungsi_ukm_tec:
+  - text: 'Fungsi UKM TEC adalah sebagai wadah bagi mahasiswa untuk belajar dan mengembangkan
+      kemampuan bahasa Inggris, baik dalam speaking, listening, maupun skill lainnya.
+
+      '
+  utter_tujuan_ukm_tec:
+  - text: 'Tujuan UKM TEC adalah membantu mahasiswa meningkatkan kemampuan bahasa
+      Inggris serta memberikan pengalaman belajar yang interaktif dan aplikatif.
+
+      '
+  utter_misi_ukm_tec:
+  - text: "Saat ini belum ada informasi spesifik mengenai misi UKM TEC. \nNamun secara\
+      \ umum TEC berfokus pada pengembangan kemampuan bahasa Inggris mahasiswa.\n"
+  utter_visi_ukm_tec:
+  - text: "Saat ini belum ada informasi spesifik mengenai visi UKM TEC. \nTEC berorientasi\
+      \ pada pengembangan kemampuan bahasa Inggris mahasiswa secara berkelanjutan.\n"
+  utter_bidang_ukm_tec:
+  - text: "UKM TEC bergerak di bidang pendidikan bahasa Inggris. \nKegiatannya berfokus\
+      \ pada pembelajaran dan praktik bahasa Inggris untuk mahasiswa.\n"
+  utter_boleh_gabung_tec:
+  - text: "UKM TEC terbuka untuk semua mahasiswa Untar dari berbagai fakultas dan\
+      \ jurusan. \nJadi siapa pun boleh bergabung tanpa batasan khusus.\n"
+  utter_cara_daftar_tec:
+  - text: 'Cara mendaftar UKM TEC cukup mudah:
+
+      1. Mengisi formulir pendaftaran (Google Form)
+
+      2. Melengkapi data diri sesuai ketentuan
+
+      '
+  utter_biaya_daftar_tec:
+  - text: 'Biaya pendaftaran UKM TEC adalah sekitar Rp25.000.
+
+      '
+  utter_status_pendaftaran_tec:
+  - text: "Informasi pembukaan pendaftaran UKM TEC biasanya diumumkan melalui media\
+      \ sosial resmi TEC. \nSilakan cek Instagram atau LINE resmi untuk update terbaru.\n"
+  utter_syarat_anggota_tec:
+  - text: 'Syarat menjadi anggota UKM TEC:
+
+      - Mahasiswa aktif Untar
+
+      - Terdaftar sebagai member TEC
+
+      - Mengikuti kegiatan LDK TEC
+
+      - Kemampuan akan disesuaikan berdasarkan divisi
+
+      '
+  utter_kelas_tec:
+  - text: 'Kelas UKM TEC diadakan:
+
+      - 2 kali dalam seminggu (Jumat dan Sabtu)
+
+      - Durasi sekitar 2 jam per pertemuan
+
+      '
+  utter_lokasi_kegiatan_tec:
+  - text: 'Kegiatan UKM TEC dilakukan secara:
+
+      - Offline di Cafe Aftercoffee
+
+      - Online melalui Google Meet
+
+      - Program kerja biasanya dilaksanakan di lingkungan Untar
+
+      '
+  utter_kegiatan_tec:
+  - text: 'Kegiatan UKM TEC meliputi:
+
+      - Kelas bahasa Inggris rutin
+
+      - Program TOEFL
+
+      - Anniversary TEC
+
+      - Bonding
+
+      - NEON (event khusus TEC)
+
+      '
+  utter_materi_tec:
+  - text: 'Materi yang dipelajari di UKM TEC meliputi:
+
+      - Speaking
+
+      - Listening
+
+      - Grammar
+
+      - Latihan TOEFL
+
+      Materi disesuaikan dengan kebutuhan dan level anggota.
+
+      '
+  utter_benefit_tec:
+  - text: 'Benefit mengikuti UKM TEC:
+
+      - Meningkatkan kemampuan bahasa Inggris
+
+      - Mendapat pengalaman belajar yang interaktif
+
+      - Menambah relasi dan networking
+
+      - Mendapat pengalaman organisasi
+
+      '
+  utter_media_informasi_tec:
+  - text: 'Informasi UKM TEC dapat diakses melalui:
+
+      - Instagram resmi @tec_untar
+
+      - Official LINE account TEC
+
+      - Bisa juga menghubungi melalui DM Instagram'
+  utter_tanya_ukm_wmkt:
+  - text: "UKM WMKT adalah unit kegiatan mahasiswa yang bergerak di bidang pengembangan\
+      \ karakter dan kedisiplinan. \nUKM ini berfokus membentuk mahasiswa yang memiliki\
+      \ jiwa kepemimpinan yang tangguh serta disiplin tinggi.\n"
+  utter_fungsi_ukm_wmkt:
+  - text: 'Fungsi UKM WMKT adalah sebagai wadah pengembangan karakter, kedisiplinan,
+      dan kepemimpinan mahasiswa melalui berbagai kegiatan yang terstruktur.
+
+      '
+  utter_tujuan_ukm_wmkt:
+  - text: 'Tujuan UKM WMKT adalah membentuk karakter mahasiswa agar memiliki jiwa
+      kepemimpinan yang kuat serta disiplin tinggi dalam kehidupan akademik maupun
+      organisasi.
+
+      '
+  utter_misi_ukm_wmkt:
+  - text: "Saat ini belum ada informasi spesifik mengenai misi UKM WMKT. \nNamun secara\
+      \ umum WMKT berfokus pada pembentukan karakter, kedisiplinan, dan kepemimpinan\
+      \ mahasiswa.\n"
+  utter_visi_ukm_wmkt:
+  - text: "Saat ini belum ada informasi spesifik mengenai visi UKM WMKT. \nWMKT berorientasi\
+      \ pada pengembangan karakter mahasiswa yang disiplin dan berjiwa pemimpin.\n"
+  utter_bidang_ukm_wmkt:
+  - text: "UKM WMKT bergerak di bidang pengembangan karakter dan kedisiplinan. \n\
+      Kegiatannya berfokus pada pembentukan mental, sikap disiplin, dan leadership\
+      \ mahasiswa.\n"
+  utter_boleh_gabung_wmkt:
+  - text: "UKM WMKT terbuka untuk semua mahasiswa dari berbagai fakultas. \nJadi siapa\
+      \ saja boleh bergabung selama memenuhi komitmen yang ada.\n"
+  utter_cara_daftar_wmkt:
+  - text: 'Cara mendaftar UKM WMKT:
+
+      1. Mengisi formulir pendaftaran melalui Google Form
+
+      2. Mengikuti proses yang ditentukan saat periode PMB atau OH
+
+      '
+  utter_biaya_daftar_wmkt:
+  - text: "Untuk informasi biaya pendaftaran UKM WMKT, belum disebutkan secara spesifik.\
+      \ \nSilakan cek informasi terbaru melalui media sosial resmi WMKT.\n"
+  utter_status_pendaftaran_wmkt:
+  - text: "Pendaftaran UKM WMKT biasanya dibuka saat periode PMB dan OH. \nUntuk info\
+      \ terbaru, kamu bisa cek Instagram resmi WMKT.\n"
+  utter_syarat_anggota_wmkt:
+  - text: 'Syarat menjadi anggota UKM WMKT:
+
+      - Wajib mengikuti Diksar (Pendidikan Dasar)
+
+      - Memiliki komitmen tinggi dalam organisasi
+
+      '
+  utter_komitmen_wmkt:
+  - text: "Di UKM WMKT, anggota dituntut untuk memiliki komitmen tinggi, disiplin,\
+      \ dan tanggung jawab. \nKeaktifan dalam mengikuti kegiatan juga sangat penting.\n"
+  utter_kegiatan_wmkt:
+  - text: 'Kegiatan UKM WMKT meliputi:
+
+      - Diksar (Pendidikan Dasar)
+
+      - KKM (Kegiatan Kepedulian Masyarakat)
+
+      - HUT (Hari Ulang Tahun organisasi)
+
+      '
+  utter_benefit_wmkt:
+  - text: 'Benefit mengikuti UKM WMKT:
+
+      - Melatih kedisiplinan
+
+      - Membentuk karakter yang kuat
+
+      - Mengembangkan jiwa kepemimpinan
+
+      - Menambah pengalaman organisasi dan teamwork
+
+      '
+  utter_media_informasi_wmkt:
+  - text: 'Informasi UKM WMKT dapat diakses melalui:
+
+      - Instagram resmi @wmktuntar
+
+      - Contact person melalui DM Instagram'
+  utter_tanya_ukm_wushu:
+  - text: "UKM Wushu adalah unit kegiatan mahasiswa yang bergerak di bidang bela diri\
+      \ asal Tiongkok. \nKegiatannya meliputi latihan teknik, seni (taolu), dan juga\
+      \ tarung (sanda).\n"
+  utter_fungsi_ukm_wushu:
+  - text: 'Fungsi UKM Wushu adalah sebagai wadah untuk:
+
+      - Mengembangkan kemampuan bela diri
+
+      - Meningkatkan kebugaran fisik
+
+      - Melatih mental dan disiplin
+
+      - Menyalurkan minat dan bakat mahasiswa
+
+      '
+  utter_tujuan_ukm_wushu:
+  - text: 'Tujuan UKM Wushu adalah:
+
+      - Mengembangkan kemampuan bela diri mahasiswa
+
+      - Melatih fisik dan mental
+
+      - Mencetak atlet yang berprestasi di bidang wushu
+
+      '
+  utter_misi_wushu:
+  - text: 'Misi UKM Wushu meliputi:
+
+      - Melatih teknik wushu secara konsisten
+
+      - Meningkatkan kualitas anggota
+
+      - Mengikuti dan berprestasi di kompetisi
+
+      '
+  utter_visi_wushu:
+  - text: 'Visi UKM Wushu adalah menjadi UKM bela diri yang unggul dan berprestasi
+      serta mampu membentuk mahasiswa yang disiplin dan bermental kuat.
+
+      '
+  utter_bidang_ukm_wushu:
+  - text: 'UKM Wushu bergerak di bidang:
+
+      - Bela diri
+
+      - Seni (Taolu)
+
+      - Tarung (Sanda)
+
+      '
+  utter_boleh_gabung_wushu:
+  - text: 'Semua mahasiswa boleh bergabung di UKM Wushu, baik pemula maupun yang sudah
+      berpengalaman.
+
+      '
+  utter_cara_daftar_wushu:
+  - text: 'Cara daftar UKM Wushu:
+
+      - Mengisi formulir pendaftaran (biasanya melalui GForm)
+
+      - Mengikuti Open House atau PMB
+
+      '
+  utter_biaya_daftar_wushu:
+  - text: 'Biaya pendaftaran UKM Wushu biasanya terjangkau atau bisa gratis tergantung
+      periode pendaftaran.
+
+      '
+  utter_status_pendaftaran_wushu:
+  - text: "Pendaftaran UKM Wushu biasanya dibuka saat PMB atau Open House. \nUntuk\
+      \ info terbaru, bisa cek media sosial resmi UKM.\n"
+  utter_syarat_anggota_wushu:
+  - text: 'Syarat bergabung:
+
+      - Memiliki minat di bidang wushu
+
+      - Bersedia berkomitmen
+
+      - Tidak perlu pengalaman sebelumnya
+
+      '
+  utter_kemampuan_anggota_wushu:
+  - text: "Tidak harus jago untuk bergabung. \nPemula dari nol juga sangat boleh ikut\
+      \ dan akan dilatih dari dasar.\n"
+  utter_divisi_wushu:
+  - text: 'Divisi dalam UKM Wushu biasanya meliputi:
+
+      - Humas
+
+      - Media Kreatif
+
+      - Perlengkapan
+
+      - Divisi Atlet
+
+      '
+  utter_struktur_wushu:
+  - text: 'Struktur UKM Wushu terdiri dari badan pengurus harian inti, dan beberapa
+      divisi seperti humas, media, dan perlengkapan.
+
+      '
+  utter_kegiatan_wushu:
+  - text: 'Kegiatan UKM Wushu meliputi:
+
+      - Latihan rutin
+
+      - Sparring (sanda)
+
+      - Latihan seni (taolu)
+
+      - Mengikuti kompetisi
+
+      '
+  utter_kegiatan_latihan_wushu:
+  - text: 'Ya, UKM Wushu memiliki latihan rutin untuk meningkatkan teknik, fisik,
+      dan mental anggota.
+
+      '
+  utter_jadwal_latihan_wushu:
+  - text: "Jadwal latihan biasanya dilakukan beberapa kali dalam seminggu. \nDetail\
+      \ jadwal akan diinformasikan oleh pengurus.\n"
+  utter_durasi_kegiatan_wushu:
+  - text: 'Durasi latihan biasanya sekitar 2–3 jam per sesi.
+
+      '
+  utter_lokasi_kegiatan_wushu:
+  - text: 'Kegiatan Wushu biasanya dilakukan di area kampus seperti GOR atau tempat
+      latihan yang telah ditentukan.
+
+      '
+  utter_event_wushu:
+  - text: 'Event UKM Wushu meliputi:
+
+      - Kompetisi (kejuaraan)
+
+      - Demonstrasi
+
+      - Event internal kampus
+
+      '
+  utter_jadwal_event_wushu:
+  - text: "Jadwal event mengikuti kalender kompetisi atau program kerja UKM. \nInfo\
+      \ lengkap biasanya diumumkan melalui media sosial.\n"
+  utter_fasilitas_wushu:
+  - text: 'Fasilitas yang biasanya disediakan:
+
+      - Matras
+
+      - Peralatan latihan
+
+      - Tempat latihan
+
+      '
+  utter_benefit_wushu:
+  - text: 'Manfaat ikut Wushu:
+
+      - Meningkatkan kekuatan dan fleksibilitas tubuh
+
+      - Melatih disiplin dan mental
+
+      - Belajar bela diri
+
+      - Kesempatan ikut kompetisi
+
+      '
+  utter_media_informasi_wushu:
+  - text: 'Informasi lebih lanjut bisa melalui:
+
+      - Instagram resmi @wushu.untar
+
+      - Kontak pengurus saat Open House atau PMB'
+  utter_salam:
+  - text: Halo! 👋 Ada yang bisa saya bantu mengenai informasi UKM?
+  - text: Hai! Selamat datang di layanan informasi UKM Untar 😊
+  - text: Halo, silakan tanyakan informasi seputar UKM yang ingin diketahui.
+  utter_perpisahan:
+  - text: Sampai jumpa 👋 Semoga informasi yang diberikan membantu.
+  - text: Terima kasih telah menggunakan chatbot UKM 😊
+  - text: Baik, sampai bertemu lagi dan semoga harimu menyenangkan.
+  utter_terima_kasih:
+  - text: Sama-sama 😊 Senang bisa membantu.
+  - text: Dengan senang hati 🙌
+  - text: Sama-sama, silakan tanyakan lagi jika masih ada yang ingin diketahui.
+  utter_lokasi_sekre_soushin:
+  - text: Lokasi ruang sekretariat Soushin terletak di Untar Kampus 1, Gedung M, Lantai 2
+  utter_tanya_pengertian_ukm:
+  - text: "UKM atau Unit Kegiatan Mahasiswa adalah organisasi di kampus yang menjadi wadah bagi mahasiswa untuk mengembangkan minat, bakat, kreativitas, serta kemampuan non-akademik."
+  - text: "Unit Kegiatan Mahasiswa (UKM) merupakan organisasi kemahasiswaan yang dibentuk untuk mendukung kegiatan mahasiswa di bidang tertentu seperti olahraga, seni, kerohanian, hingga teknologi."
+  - text: "UKM adalah wadah kegiatan mahasiswa di luar perkuliahan yang bertujuan untuk mengembangkan kemampuan, pengalaman, dan relasi antar mahasiswa."
+  utter_tanya_fungsi_ukm:
+  - text: "Fungsi UKM adalah sebagai sarana pengembangan minat, bakat, kreativitas, serta kemampuan organisasi mahasiswa."
+  - text: "UKM berfungsi untuk membantu mahasiswa mengembangkan soft skill, memperluas relasi, dan menyalurkan hobi atau minat tertentu."
+  - text: "Selain sebagai tempat berkegiatan, UKM juga berfungsi membentuk karakter, kerja sama tim, dan jiwa kepemimpinan mahasiswa."
+  utter_tanya_tujuan_ukm:
+  - text: "Tujuan UKM adalah untuk mewadahi minat dan bakat mahasiswa agar dapat berkembang secara optimal di bidang akademik maupun non-akademik."
+  - text: "UKM dibentuk untuk mendukung pengembangan kemampuan mahasiswa, baik dalam organisasi, kepemimpinan, maupun keterampilan khusus."
+  - text: "Tujuan adanya UKM yaitu menciptakan lingkungan kampus yang aktif, kreatif, dan mendukung pengembangan diri mahasiswa."
+  utter_tanya_jenis_ukm:
+  - text: "Jenis UKM di kampus biasanya terdiri dari UKM olahraga, seni, kerohanian, bela diri, pecinta alam dan lain-lain."
+  - text: "Beberapa contoh UKM yaitu futsal, basket, paduan suara, mapala, rohani, tari, fotografi"
+  - text: "UKM memiliki berbagai bidang sesuai minat mahasiswa, seperti olahraga, seni budaya, organisasi sosial, hingga pecinta alam"
+  utter_tanya_manfaat_ikut_ukm:
+  - text: "Mengikuti UKM dapat membantu mahasiswa mengembangkan soft skill, menambah pengalaman, dan memperluas relasi pertemanan."
+  - text: "Manfaat ikut UKM antara lain meningkatkan kemampuan komunikasi, kerja sama tim, kepemimpinan, dan manajemen waktu."
+  - text: "UKM juga bermanfaat untuk menyalurkan minat dan bakat sekaligus menambah pengalaman organisasi selama kuliah."
+  utter_tanya_keuntungan_ikut_ukm:
+  - text: "Keuntungan mengikuti UKM adalah mendapatkan pengalaman organisasi, relasi baru, dan pengembangan kemampuan diri."
+  - text: "Mahasiswa yang aktif di UKM biasanya memiliki kemampuan komunikasi dan kepemimpinan yang lebih baik."
+  - text: "Keuntungan bagi mahasiswa yang aktif mengikuti ukm adalah mendapatkan sertifikat untuk dokumen pendukung kelulusan dan membuka jaringan kepada orang orang baru."  
+  utter_tanya_kewajiban_ikut_ukm:
+  - text: "Mengikuti UKM biasanya tidak bersifat wajib, namun sangat dianjurkan untuk menambah pengalaman dan kemampuan mahasiswa."
+  - text: "Mahasiswa tidak diwajibkan mengikuti UKM, tetapi ikut dengan mengikutinya dapat memberikan banyak manfaat selama masa kuliah."
+  - text: "UKM bersifat pilihan sesuai minat masing-masing mahasiswa."
+  utter_tanya_jumlah_ukm_untar:
+  - text: "Universitas Tarumanagara memiliki berbagai Unit Kegiatan Mahasiswa (UKM) dengan total sebanyak 26 UKM"
+  - text: "UNTAR menyediakan banyak pilihan UKM yang saat ini berjumlah 26 UKM untuk mendukung pengembangan bakat dan minat mahasiswa."
+  - text: "Terdapat 26 UKM di UNTAR yang dapat diikuti mahasiswa sesuai minat dan passion masing-masing."
+  utter_tanya_ukm_olahraga:
+  - text: UKM olahraga biasanya meliputi Futsal, LIBAMA, LBUT, LIVOSTA dan LTMU.
+  - text: Beberapa contoh UKM olahraga di kampus yaitu LIBAMA, Futsal, LIVOSTA, LBUT dan LTMU.
+  utter_tanya_ukm_keagamaan:
+  - text: UKM keagamaan terdiri dari FUT, Adhyatmaka, POUT, Dharmayana dan KBMK.
+  - text: Contoh UKM keagamaan biasanya meliputi FUT, Adhyatmaka, POUT, Dharmayana dan KBMK.
+  utter_tanya_ukm_mapala:
+  - text: Mapala adalah UKM pecinta alam yang terdiri dari MAHUPA, MARSIPALA dan MEGA
+  - text: UKM Mapala menjadi wadah bagi mahasiswa di UNTAR memiliki 3, yaitu MAHUPA, MARSIPALA dan MEGA
+  utter_tanya_ukm_bakat_minat:
+  - text: UKM bakat dan minat merupakan wadah mahasiswa untuk mengembangkan kemampuan di bidang bakat minat, diantaranya ada BAR, WMKT, Sentra, PSUT, Citra Pesona, Shousin, PFT, FESTA, Radio Untar, TEC."
+  - text: Contoh UKM bakat minat antara lain BAR, WMKT, Sentra, PSUT, CP, Shousin, PFT, FESTA, Radio Untar, TEC."
+  utter_tanya_ukm_bela_diri:
+  - text: "UKM bela diri biasanya mencakup Wushu, Taekwondo, Jujitsu."
+  - text: "UKM bela diri bertujuan untuk melatih kedisiplinan, kesehatan fisik, dan kemampuan mempertahankan diri."
+  - text: "Mahasiswa dapat mengikuti berbagai organisasi bela diri sesuai minat seperti Wushu, Taekwondo, Jujitsu."
+  utter_persekutuan_adhyatmaka:
+  - text: Persekutuan doa adalah kegiatan berkumpul untuk berdoa bersama, 
+          berbagi pengalaman iman, dan mempererat kebersamaan antar anggota.
+  utter_katekumen_adhyatmaka:
+  - text: Katekumen adalah kegiatan pembelajaran iman Katolik, 
+          biasanya ditujukan bagi yang ingin memperdalam atau mempersiapkan diri dalam ajaran gereja.
+  utter_jenis_kegiatan_wmkt:
+  - text:         
+        Jenis kegiatan UKM WMKT meliputi
+        - Diksar (Pendidikan Dasar)
+        - KKM
+        - HUT WMKT
+        - Pelatihan kepemimpinan
+        - Kegiatan sosial dan organisasi
+  utter_jadwal_kegiatan_wmkt:
+  - text:
+        Jadwal kegiatan UKM WMKT biasanya disesuaikan dengan program kerja dan periode organisasi. 
+        Informasi jadwal terbaru dapat dilihat melalui media sosial resmi WMKT.
+  utter_lokasi_kegiatan_wmkt:
+  - text:
+        Kegiatan UKM WMKT dilaksanakan di berbagai lokasi, seperti
+        - Lingkungan kampus
+        - Lingkungan Masyarakat
+        - Lokasi outdoor untuk kegiatan tertentu umumnya di Bogor
+        - Area kegiatan sosial dan pembinaan
+  utter_latihan_psut:
+  - text: Kegiatan rutin UKM PSUT berupa latihan vokal yang dilakukan secara berkala untuk mempersiapkan berbagai penampilan atau job paduan suara.
+  utter_durasi_kegiatan_tec:
+  - text:
+        Durasi kegiatan atau kelas UKM TEC sekitar 2 jam setiap pertemuan. 
+        Waktu kegiatan dapat disesuaikan dengan materi dan program yang berlangsung.
+  utter_jadwal_tes_toefl_tec:
+  - text:
+        Jadwal tes TOEFL UKM TEC biasanya diumumkan melalui media sosial atau informasi resmi TEC. 
+        Pelaksanaan TOEFL dapat dilakukan beberapa kali dalam periode tertentu.
+  utter_kegiatan_rutin_pout:
+  - text: 
+        Kegiatan rutin UKM POUT adalah Persekutuan Jumat yang diadakan setiap minggu,
+        sebagai wadah ibadah dan kebersamaan anggota.
+  utter_jadwal_rutin_pout:
+  - text: Kegiatan rutin UKM POUT yaitu Persekutuan Jumat yang dilaksanakan setiap hari Jumat pukul 11.00 - 13.00 di kampus Universitas Tarumanagara.
+
+  utter_fallback:
+  - text: Maaf, saya belum memahami pertanyaan Anda. Silakan tanyakan informasi lain seperti profil UKM, kegiatan, jadwal latihan, manfaat, atau pendaftaran UKM.

@@ -1,0 +1,426 @@
+version: "3.1"
+
+nlu:
+
+- intent: tanya_ukm_festa
+  examples: |
+    - Apa itu UKM Festa?
+    - Festa itu apa?
+    - Bisa jelaskan UKM Festa?
+    - Festa jenis organisasi apa?
+    - UKM Festa fokus bidang kegiatan apa?
+    - Apa itu Festa di kampus?
+    - Jelaskan tentang Festa
+    - Festa itu komunitas apa?
+    - Saya ingin tahu tentang Festa
+    - Festa fokusnya apa?
+    - Apa peran Festa di kampus?
+    - Festa itu tujuan utama organisasi ini apa?
+    - UKM Festa aktivitas utama yang dilakukan apa?
+    - Apa itu komunitas sulap Festa?
+
+- intent: fungsi_ukm_festa
+  examples: |
+    - peranan organisasi ini bagi mahasiswa apa?
+    - fungsi utama organisasi ini apa?
+    - Apa fungsi Festa?
+    - Fungsi Festa bagi mahasiswa?
+    - Festa berfungsi sebagai apa?
+    - Fungsi Festa?
+    - Apakah fungsi Festa?
+
+- intent: tujuan_ukm_festa
+  examples: |
+    - tujuan utama dibentuknya organisasi ini apa?
+    - organisasi ini dibuat untuk tujuan apa?
+    - Apa tujuan Festa?
+    - Tujuan UKM Festa apa?
+    - Festa dibuat tujuan utama organisasi ini apa?
+    - Apa manfaat ikut Festa?
+    - Festa tujuan utama organisasi ini apa?
+    - Apa fungsi Festa bagi mahasiswa?
+    - Tujuan kegiatan Festa apa?
+    - Festa bertujuan apa?
+    - Apa kegunaan Festa?
+    - Tujuan utama Festa?
+    - Apakah untuk belajar sulap?
+    - Festa membantu apa?
+
+- intent: misi_festa
+  examples: |
+    - program misi utama organisasi ini apa?
+    - apa fokus misi organisasi ini?
+    - Apa misi Festa?
+    - Misi Festa?
+    - Apa saja misi Festa?
+    - Misi Festa apa?
+    - Misi Festa apa saja?
+
+- intent: visi_festa
+  examples: |
+    - arah visi organisasi ini bagaimana?
+    - visi utama organisasi ini apa?
+    - Apa visi Festa?
+    - Visi Festa?
+    - Apa saja visi Festa?
+    - Visi Festa apa?
+    - Visi Festa apa saja?
+
+- intent: bidang_ukm_festa
+  examples: |
+    - Festa fokus bidang kegiatan apa?
+    - Bidang UKM Festa apa?
+    - Apakah Festa sulap?
+    - Festa fokus apa?
+    - UKM Festa fokus utama kegiatan apa?
+    - Apakah Festa organisasi sulap?
+    - Festa bidangnya apa?
+    - Fokus utama Festa?
+    - Apakah belajar trik sulap?
+    - Festa terkait sulap?
+    - Festa mencakup apa saja?
+    - Apakah komunitas pesulap?
+    - Festa termasuk seni?
+    - Festa fokus skill?
+    - Bidang utama Festa?
+
+- intent: boleh_gabung_festa
+  examples: |
+    - Siapa saja boleh gabung Festa?
+    - Apakah semua mahasiswa bisa join?
+    - Boleh semua fakultas ikut?
+    - Siapa yang bisa join Festa?
+    - Apakah terbuka untuk semua?
+    - Mahasiswa baru boleh ikut?
+    - Apakah lintas jurusan boleh?
+    - Festa untuk siapa saja?
+    - Apakah semua semester boleh?
+    - Apakah umum bisa join?
+    - Siapa target anggota Festa?
+    - Apakah bebas gabung?
+    - Siapa saja bisa daftar?
+    - Apakah Festa terbuka untuk semua?
+    - Semua mahasiswa Untar boleh ikut?
+
+- intent: cara_daftar_festa
+  examples: |
+    - Bagaimana cara daftar Festa?
+    - Cara join Festa?
+    - Gimana cara masuk Festa?
+    - Daftar Festa lewat apa?
+    - Bagaimana proses pendaftaran?
+    - Cara gabung Festa gimana?
+    - Saya ingin daftar Festa
+    - Apa langkah daftar Festa?
+    - Daftar Festa dimana?
+    - Join lewat form?
+    - Cara ikut Festa?
+    - Prosedur masuk Festa?
+    - Cara registrasi Festa?
+    - Masuk Festa bagaimana?
+    - Cara daftar UKM Festa?
+
+- intent: biaya_daftar_festa
+  examples: |
+    - Apakah Festa gratis?
+    - Biaya Festa berapa?
+    - Daftar Festa bayar berapa?
+    - Apakah ada biaya Festa?
+    - Masuk Festa bayar?
+    - Biaya join Festa?
+    - Registrasi Festa berapa?
+    - Apakah free?
+    - Daftar Festa perlu bayar?
+    - Berapa uang masuk Festa?
+    - Biaya anggota Festa?
+    - Festa ada biaya?
+    - Join Festa bayar?
+    - Gratis atau tidak?
+    - Apakah tanpa biaya?
+
+- intent: status_pendaftaran_festa
+  examples: |
+    - Apakah Festa buka pendaftaran?
+    - Festa masih buka?
+    - Kapan pendaftaran Festa dibuka?
+    - Apakah bisa daftar sekarang?
+    - Pendaftaran Festa tutup atau belum?
+    - Apakah masih bisa join?
+    - Festa open recruitment?
+    - Kapan open Festa?
+    - Apakah Festa sedang open?
+    - Jadwal pendaftaran Festa kapan?
+    - Festa buka anggota baru?
+    - Apakah rekrutmen Festa aktif?
+    - Kapan bisa daftar Festa?
+    - Apakah Festa menerima anggota baru?
+    - Festa buka saat PMB?
+
+- intent: syarat_anggota_festa
+  examples: |
+    - Apa syarat masuk Festa?
+    - Syarat join Festa apa?
+    - Persyaratan Festa?
+    - Masuk Festa harus apa?
+    - Syarat jadi anggota?
+    - Apa ketentuan Festa?
+    - Syarat gabung Festa?
+    - Apa yang harus dipenuhi?
+    - Syarat ikut Festa?
+    - Persyaratan umum Festa?
+    - Apakah ada syarat khusus?
+    - Harus komitmen?
+    - Syarat pendaftaran Festa?
+    - Ketentuan anggota Festa?
+    - Apa saja syaratnya?
+
+- intent: seleksi_festa
+  examples: |
+    - Apakah ada seleksi Festa?
+    - Festa pakai seleksi?
+    - Harus tes masuk Festa?
+    - Ada audisi Festa?
+    - Seleksi masuk Festa?
+    - Apakah wajib tes?
+    - Proses seleksi Festa?
+    - Ada tahap seleksi?
+    - Apakah langsung diterima?
+    - Festa tanpa seleksi?
+    - Tidak ada tes masuk?
+    - Apakah bebas seleksi?
+    - Masuk tanpa tes?
+    - Seleksi diperlukan?
+    - Festa ada audisi?
+
+- intent: divisi_festa
+  examples: |
+    - Divisi Festa apa saja?
+    - Ada bidang apa saja?
+    - Divisi dalam Festa?
+    - Divisi apa saja?
+    - Divisi internal?
+    - Bagian organisasi?
+    - Unit dalam UKM?
+    - Divisi apa saja?
+
+- intent: struktur_festa
+  examples: |
+    - Struktur organisasi?
+    - Struktur UKM?
+    - Struktur kepengurusan?
+    - Struktur bidang?
+    - Struktur lengkap?
+    - Struktur divisi?
+
+- intent: kegiatan_festa
+  examples: |
+    - Kegiatan Festa apa saja?
+    - Aktivitas Festa apa?
+    - Festa ada kegiatan apa?
+    - Program Festa apa?
+    - Apa saja kegiatan Festa?
+    - Event Festa apa?
+    - Aktivitas UKM Festa?
+    - Festa sering ngapain?
+    - Kegiatan rutin Festa?
+    - Program kerja Festa?
+    - Apa yang dilakukan Festa?
+    - Kegiatan anggota Festa?
+    - Festa ada event apa?
+    - Apa saja aktivitas Festa?
+
+- intent: kegiatan_latihan_festa
+  examples: |
+    - Adakah latihan rutin?
+    - Apa kegiatan rutin festa?
+    - Apakah ada latihan rutin?
+    - Apa saja kegiatan rutin?
+    - Ada kegiatan rutin apa?
+    - Apakah ada latihan?
+    - Ada kegiatan latihan rutin?
+    - Apa kegiatan latihan mingguan?
+    - Apa kegiatan latihan?
+
+- intent: jadwal_latihan_festa
+  examples: |
+    - Jadwal Festa kapan?
+    - Latihan hari apa?
+    - Jadwal latihan?
+    - Kapan latihan?
+    - Jadwal rutin?
+    - Hari kegiatan?
+    - Kapan pertemuan?
+    - Jadwal mingguan?
+    - Festa latihan kapan?
+    - Hari apa saja latihan?
+    - Jadwal latihan apa?
+    - Festa seminggu berapa kali?
+    - Latihan rutin kapan?
+    - Jadwal kegiatan?
+
+- intent: jenis_kegiatan_festa
+  examples: |
+    - Kegiatan utama Festa?
+    - Program khusus Festa?
+    - Ada kegiatan baksos?
+    - Jenis kegiatan Festa?
+    - Program sulap apa saja?
+    - Aktivitas belajar sulap?
+    - Apa saja jenis kegiatan?
+    - Program edukasi Festa?
+    - Kegiatan sulap apa?
+    - Ada pelatihan sulap?
+    - Kegiatan rutin apa saja?
+
+- intent: durasi_kegiatan_festa
+  examples: |
+    - Berapa lama kegiatan Festa?
+    - Durasi latihan Festa?
+    - Kegiatan berapa jam?
+    - Lama kegiatan Festa?
+    - Festa latihan berapa lama?
+    - Durasi pertemuan?
+    - Satu sesi berapa lama?
+    - Waktu kegiatan?
+    - Berapa jam per latihan?
+    - Festa berapa lama?
+    - Lama kegiatan?
+    - Durasi kelas?
+    - Waktu latihan?
+    - Durasi kegiatan?
+    - Berapa lama per sesi?
+
+- intent: lokasi_kegiatan_festa
+  examples: |
+    - Kegiatan Festa dimana?
+    - Lokasi Festa dimana?
+    - Latihan dimana?
+    - Tempat kegiatan Festa?
+    - Festa dilakukan dimana?
+    - Lokasi sekretariat Festa?
+    - Tempat latihan?
+    - Dimana lokasi Festa?
+    - Tempat kegiatan?
+    - Lokasi latihan Festa?
+    - Tempat belajar?
+    - Kelas di sekretariat?
+    - Lokasi kegiatan?
+    - Festa di mana?
+    - Tempat pertemuan?
+
+- intent: event_festa
+  examples: |
+    - Event Festa apa saja?
+    - Ada acara apa saja?
+    - Program Festa apa?
+    - Event Festa apa saja?
+    - Acara Festa apa?
+    - Program besar Festa?
+    - Event tahunan Festa?
+    - Ada kegiatan khusus?
+    - Event sulap Festa?
+    - Kegiatan besar Festa?
+    - Acara utama Festa?
+    - Event penting Festa?
+    - Program spesial Festa?
+
+- intent: jadwal_FWP_festa
+  examples: |
+    - Event FWP kapan?
+    - Jadwal acara FWP kapan?
+    - Kapan FWP?
+    - Jadwal event FWP?
+    - Event FWP bulan apa?
+    - Kapan acara FWP?
+    - Jadwal kegiatan FWP?
+    - Event FWP diadakan kapan?
+    - Jadwal FWP?
+
+- intent: jadwal_FMG_festa
+  examples: |
+    - Event FMG kapan?
+    - Jadwal acara FMG kapan?
+    - Kapan FMG?
+    - Jadwal event FMG?
+    - Event FMG bulan apa?
+    - Kapan acara FMG?
+    - Jadwal kegiatan FMG?
+    - Event FMG diadakan kapan?
+    - Jadwal FMG?
+
+- intent: jadwal_baksos_festa
+  examples: |
+    - Baksos kapan?
+    - Jadwal acara Baksos kapan?
+    - Kapan Baksos?
+    - Jadwal Baksos?
+    - Event Baksos bulan apa?
+    - Kapan acara Baksos?
+    - Jadwal kegiatan Baksos?
+    - Baksos diadakan kapan?
+
+- intent: fasilitas_festa
+  examples: |
+    - Fasilitas Festa apa?
+    - Apa saja fasilitasnya?
+    - Ada alat sulap?
+    - Properti sulap apa saja?
+    - Fasilitas lengkap?
+    - Apa yang disediakan?
+    - Fasilitas UKM Festa?
+    - Apakah ada alat?
+    - Tempat kumpul ada?
+    - Fasilitas sulap?
+    - Apa saja alatnya?
+    - Peralatan sulap ada?
+    - Fasilitas pendukung?
+    - Ada alat latihan?
+    - Properti sulap tersedia?
+
+- intent: lokasi_sekre_festa
+  examples: |
+    - biasanya lokasi ruang sekretariat dimana
+    - boleh tanya lokasi ruang sekretariat dimana
+    - info lokasi ruang sekretariat dimana
+    - lokasi ruang sekretariat dimana
+    - sekretariat festa dimana
+    - sekretariat festa lantai berapa
+    - festa sekretariatnya di lantai berapa
+    - ruang sekre festa dimana
+    - ruang sekre festa lantai berapa
+
+- intent: benefit_festa
+  examples: |
+    - Manfaat Festa apa?
+    - Keuntungan ikut Festa?
+    - Benefit Festa?
+    - Apa yang didapat?
+    - Untung ikut Festa?
+    - Kelebihan Festa?
+    - Kenapa ikut Festa?
+    - Apa manfaat Festa?
+    - Join Festa dapat apa?
+    - Apa benefit Festa?
+    - Festa membantu apa?
+    - Kegunaan Festa?
+    - Apa hasil ikut Festa?
+    - Festa berguna?
+    - Manfaat join Festa?
+
+- intent: media_informasi_festa
+  examples: |
+    - IG Festa apa?
+    - Instagram Festa?
+    - Kontak Festa?
+    - Sosial media Festa?
+    - Cara hubungi Festa?
+    - Info Festa dimana?
+    - Akun Festa?
+    - Follow Festa dimana?
+    - Media Festa apa?
+    - Kontak resmi Festa?
+    - DM Festa?
+    - IG resmi Festa?
+    - Tanya lewat IG?
+    - QnA Festa dimana?
+    - Info online Festa?

@@ -1,0 +1,393 @@
+version: "3.1"
+
+nlu:
+
+- intent: tanya_ukm_kbmk
+  examples: |
+    - Apa itu UKM KBMK?
+    - KBMK itu apa?
+    - Bisa jelaskan UKM KBMK?
+    - Keluarga Besar Mahasiswa Khonghucu itu apa?
+    - UKM KBMK fokus bidang kegiatan apa?
+    - Apa itu KBMK di kampus?
+    - Jelaskan tentang KBMK
+    - KBMK itu komunitas apa?
+    - Saya ingin tahu tentang KBMK
+    - KBMK fokusnya apa?
+    - Apa peran KBMK di kampus?
+    - KBMK itu tujuan utama organisasi ini apa?
+    - UKM KBMK aktivitas utama yang dilakukan apa?
+    - Apa itu organisasi Khonghucu di kampus?
+
+- intent: fungsi_ukm_kbmk
+  examples: |
+    - peranan organisasi ini bagi mahasiswa apa?
+    - fungsi utama organisasi ini apa?
+    - Apa fungsi KBMK?
+    - Fungsi KBMK bagi mahasiswa?
+    - KBMK berfungsi sebagai apa?
+    - Fungsi KBMK?
+    - Apakah fungsi KBMK?
+
+- intent: tujuan_ukm_kbmk
+  examples: |
+    - tujuan utama dibentuknya organisasi ini apa?
+    - organisasi ini dibuat untuk tujuan apa?
+    - Apa tujuan KBMK?
+    - Tujuan UKM KBMK apa?
+    - KBMK dibuat tujuan utama organisasi ini apa?
+    - Apa manfaat ikut KBMK?
+    - KBMK tujuan utama organisasi ini apa?
+    - Tujuan kegiatan KBMK apa?
+    - KBMK bertujuan apa?
+    - Apa kegunaan KBMK?
+    - Tujuan utama KBMK?
+    - Apakah untuk keagamaan?
+    - KBMK membantu apa?
+
+- intent: misi_kbmk
+  examples: |
+    - program misi utama organisasi ini apa?
+    - apa fokus misi organisasi ini?
+    - Apa misi KBMK?
+    - Misi KBMK?
+    - Apa saja misi KBMK?
+    - Misi KBMK apa?
+    - Misi KBMK apa saja?
+
+- intent: visi_kbmk
+  examples: |
+    - arah visi organisasi ini bagaimana?
+    - visi utama organisasi ini apa?
+    - Apa visi KBMK?
+    - Visi KBMK?
+    - Apa saja visi KBMK?
+    - Visi KBMK apa?
+    - Visi KBMK apa saja?
+
+- intent: bidang_ukm_kbmk
+  examples: |
+    - KBMK fokus bidang kegiatan apa?
+    - Bidang UKM KBMK apa?
+    - Apakah KBMK keagamaan?
+    - KBMK fokus apa?
+    - UKM KBMK fokus utama kegiatan apa?
+    - Apakah KBMK organisasi Khonghucu?
+    - KBMK bidangnya apa?
+    - Fokus utama KBMK?
+    - Apakah tentang rohani?
+    - KBMK terkait kegiatan ibadah?
+    - KBMK mencakup apa saja?
+    - Apakah tentang spiritual?
+    - KBMK termasuk UKM agama?
+    - KBMK fokus kegiatan rohani?
+    - Bidang utama KBMK?
+
+- intent: boleh_gabung_kbmk
+  examples: |
+    - Siapa saja boleh gabung KBMK?
+    - Apakah semua mahasiswa bisa join?
+    - Apakah khusus Khonghucu?
+    - Siapa yang bisa join KBMK?
+    - Apakah terbuka untuk semua?
+    - Mahasiswa baru boleh ikut?
+    - Apakah lintas jurusan boleh?
+    - KBMK untuk siapa saja?
+    - Apakah semua semester boleh?
+    - Apakah umum bisa join?
+    - Siapa target anggota KBMK?
+    - Apakah bebas gabung?
+    - Siapa saja bisa daftar?
+    - Apakah KBMK terbuka untuk mahasiswa?
+    - Semua mahasiswa boleh ikut KBMK?
+
+- intent: cara_daftar_kbmk
+  examples: |
+    - Bagaimana cara daftar KBMK?
+    - Cara join KBMK?
+    - Gimana cara masuk KBMK?
+    - Daftar KBMK lewat apa?
+    - Bagaimana proses pendaftaran?
+    - Cara gabung KBMK gimana?
+    - Saya ingin daftar KBMK
+    - Apa langkah daftar KBMK?
+    - Daftar KBMK dimana?
+    - Join lewat gform?
+    - Cara ikut KBMK?
+    - Prosedur masuk KBMK?
+    - Cara registrasi KBMK?
+    - Masuk KBMK bagaimana?
+    - Cara daftar UKM KBMK?
+
+- intent: biaya_daftar_kbmk
+  examples: |
+    - Biaya KBMK berapa?
+    - Daftar KBMK bayar berapa?
+    - Apakah ada biaya KBMK?
+    - Biaya registrasi KBMK berapa?
+    - Masuk KBMK bayar berapa?
+    - Apakah KBMK gratis?
+    - Biaya join KBMK berapa?
+    - Registrasi KBMK berapa?
+    - Apakah ada uang pendaftaran?
+    - Daftar KBMK perlu bayar?
+    - Berapa uang masuk KBMK?
+    - Biaya anggota KBMK?
+    - KBMK ada biaya?
+    - Join KBMK bayar?
+    - Harga daftar KBMK?
+
+- intent: status_pendaftaran_kbmk
+  examples: |
+    - Apakah KBMK buka pendaftaran?
+    - KBMK masih buka?
+    - Kapan pendaftaran KBMK dibuka?
+    - Apakah bisa daftar sekarang?
+    - Pendaftaran KBMK tutup atau belum?
+    - Apakah masih bisa join?
+    - KBMK open recruitment?
+    - Kapan open KBMK?
+    - Apakah KBMK sedang open?
+    - Jadwal pendaftaran KBMK kapan?
+    - KBMK buka anggota baru?
+    - Apakah rekrutmen KBMK aktif?
+    - Kapan bisa daftar KBMK?
+    - Apakah KBMK menerima anggota baru?
+    - KBMK buka saat PMB?
+
+- intent: syarat_anggota_kbmk
+  examples: |
+    - Apa syarat masuk KBMK?
+    - Syarat join KBMK apa?
+    - Persyaratan KBMK?
+    - Masuk KBMK harus apa?
+    - Syarat jadi anggota?
+    - Apa ketentuan KBMK?
+    - Syarat gabung KBMK?
+    - Apa yang harus dipenuhi?
+    - Syarat ikut KBMK?
+    - Persyaratan umum KBMK?
+    - Apakah ada syarat khusus?
+    - Harus ikut kegiatan?
+    - Syarat pendaftaran KBMK?
+    - Ketentuan anggota KBMK?
+    - Apa saja syaratnya?
+
+- intent: komitmen_kbmk
+  examples: |
+    - Apakah harus komitmen di KBMK?
+    - Komitmen KBMK seperti apa?
+    - Harus aktif kegiatan?
+    - Apakah wajib ikut kegiatan?
+    - Komitmen anggota KBMK?
+    - Harus ikut semua program?
+    - Apakah wajib hadir ibadah?
+    - Komitmen penting?
+    - Harus disiplin?
+    - Apakah harus serius?
+    - Komitmen bagaimana?
+    - Apakah harus aktif?
+    - Komitmen anggota?
+    - Harus tanggung jawab?
+    - Komitmen KBMK apa?
+
+- intent: divisi_kbmk
+  examples: |
+    - Divisi KMBK apa saja?
+    - Ada bidang apa saja?
+    - Divisi dalam KBMK?
+    - Divisi apa saja?
+    - Divisi internal?
+    - Bagian organisasi?
+    - Unit dalam UKM?
+    - Divisi apa saja?
+
+- intent: struktur_kbmk
+  examples: |
+    - Struktur organisasi?
+    - Struktur UKM?
+    - Struktur kepengurusan?
+    - Struktur bidang?
+    - Struktur lengkap?
+    - Struktur divisi?
+
+- intent: kegiatan_kbmk
+  examples: |
+    - Kegiatan KBMK apa saja?
+    - Aktivitas KBMK apa?
+    - KBMK ada kegiatan apa?
+    - Program KBMK apa?
+    - Apa saja kegiatan KBMK?
+    - Event KBMK apa?
+    - Aktivitas UKM KBMK?
+    - KBMK sering ngapain?
+    - Kegiatan rutin KBMK?
+    - Program kerja KBMK?
+    - Apa yang dilakukan KBMK?
+    - Kegiatan anggota KBMK?
+    - KBMK ada event apa?
+    - Aktivitas KBMK sehari-hari?
+    - Apa saja aktivitas KBMK?
+
+- intent: jenis_kegiatan_kbmk
+  examples: |
+    - Jenis kegiatan KBMK?
+    - Program keagamaan apa saja?
+    - Aktivitas ibadah apa?
+    - Kegiatan spiritual apa?
+    - Ada kegiatan ibadah?
+    - Program utama KBMK?
+    - Kegiatan rohani apa?
+    - Event keagamaan?
+    - Apa saja jenis kegiatan?
+    - Program pembinaan?
+    - Kegiatan perayaan?
+    - Aktivitas spiritual apa saja?
+
+- intent: kegiatan_rutin_kbmk
+  examples: |
+    - Adakah doa rutin?
+    - Apa kegiatan rutin KBMK?
+    - Apakah ada kegiatan rutin?
+    - Apa saja kegiatan rutin?
+    - Ada kegiatan rutin apa?
+    - Kegiatan rohani apa saja?
+    - Apa saja kegiatan iman?
+    - Apakah ada pendalaman iman?
+    - Ada kegiatan ibadah?
+    - Apa kegiatan keagamaannya?
+    - Apa kegiatan rohaninya?
+
+- intent: jadwal_rutin_kbmk
+  examples: |
+    - Jadwal KBMK kapan?
+    - Kegiatan rutin hari apa?
+    - Jadwal rutin?
+    - Kapan ibadah?
+    - Hari apa saja kegiatan rutin?
+    - Jadwal mingguan?
+    - Kegiatan dilakukan kapan?
+    - Jadwal rutin?
+    - Hari kegiatan?
+    - Jadwal rutin kapan?
+    - Jadwal ibadah?
+
+- intent: lokasi_kegiatan_kbmk
+  examples: |
+    - Kegiatan KBMK dimana?
+    - Lokasi KBMK dimana?
+    - Kegiatan ibadah dimana?
+    - Tempat kegiatan KBMK?
+    - KBMK dilakukan dimana?
+    - Lokasi di kampus?
+    - Tempat ibadah?
+    - Dimana lokasi KBMK?
+    - Tempat kegiatan?
+    - Lokasi kegiatan KBMK?
+    - Tempat rohani?
+    - Lokasi kegiatan?
+    - KBMK di mana?
+    - Tempat pertemuan?
+    - Ibadah di mana?
+
+- intent: event_kbmk
+  examples: |
+    - Event KBMK apa saja?
+    - Ada acara apa saja?
+    - Program KBMK apa?
+    - Apa itu perayaan keagamaan?
+    - Event KBMK apa saja?
+    - Acara KBMK apa?
+    - Program besar KBMK?
+    - Event tahunan KBMK?
+    - Ada kegiatan khusus?
+    - Event rohani?
+    - Kegiatan besar KBMK?
+    - Acara utama KBMK?
+    - Event penting KBMK?
+    - Program spesial KBMK?
+    - Perayaan apa saja?
+
+- intent: jadwal_event_kbmk
+  examples: |
+    - Perayaan KBMK kapan?
+    - Event KBMK kapan?
+    - Jadwal event KBMK?
+    - Event bulan apa?
+    - Kapan acara KBMK?
+    - Jadwal kegiatan besar?
+    - Event diadakan kapan?
+    - Jadwal kegiatan rohani?
+    - Kapan kegiatan utama?
+    - Event tahunan kapan?
+    - Jadwal event?
+    - Kapan acara khusus?
+    - Jadwal acara?
+    - Event kapan?
+    - Jadwal ibadah besar?
+
+- intent: fasilitas_kbmk
+  examples: |
+    - Fasilitas KBMK apa?
+    - Apa saja fasilitasnya?
+    - Ada tempat ibadah?
+    - Ada ruang pertemuan?
+    - Ada fasilitas rohani?
+    - Fasilitas lengkap?
+    - Apa yang disediakan?
+    - Fasilitas UKM KBMK?
+    - Apakah ada tempat kumpul?
+    - Tempat kegiatan ada?
+    - Fasilitas keagamaan?
+    - Apa saja fasilitasnya?
+    - Fasilitas pendukung?
+    - Ada sekretariat?
+    - Ada ruang kegiatan?
+
+- intent: lokasi_sekre_kbmk
+  examples: |
+    - biasanya lokasi ruang sekretariat dimana
+    - boleh tanya lokasi ruang sekretariat dimana
+    - info lokasi ruang sekretariat dimana
+    - lokasi ruang sekretariat dimana
+    - sekretariat kbmk dimana
+    - sekretariat kbmk lantai berapa
+    - kbmk sekretariatnya di lantai berapa
+    - ruang sekre kbmk dimana
+    - ruang sekre kbmk lantai berapa
+
+- intent: benefit_kbmk
+  examples: |
+    - Manfaat KBMK apa?
+    - Keuntungan ikut KBMK?
+    - Benefit KBMK?
+    - Apa yang didapat?
+    - Untung ikut KBMK?
+    - Kelebihan KBMK?
+    - Kenapa ikut KBMK?
+    - Apa manfaat KBMK?
+    - Join KBMK dapat apa?
+    - Apa benefit KBMK?
+    - KBMK membantu apa?
+    - Kegunaan KBMK?
+    - Apa hasil ikut KBMK?
+    - KBMK berguna?
+    - Manfaat join KBMK?
+
+- intent: media_informasi_kbmk
+  examples: |
+    - IG KBMK apa?
+    - Instagram KBMK?
+    - Kontak KBMK?
+    - Nomor KBMK?
+    - Sosial media KBMK?
+    - Cara hubungi KBMK?
+    - Info KBMK dimana?
+    - Akun KBMK?
+    - Follow KBMK dimana?
+    - Media KBMK apa?
+    - Kontak resmi KBMK?
+    - DM KBMK?
+    - IG resmi KBMK?
+    - Nomor admin?
+    - Info online KBMK?

@@ -1,0 +1,310 @@
+version: "3.1"
+
+nlu:
+
+- intent: tanya_ukm_fut
+  examples: |
+    - FUT itu apaan sih?
+    - UKM FUT tuh kayak gimana sih?
+    - FUT di kampus ngapain aja sih?
+    - FUT itu buat apa sih?
+    - Forum ukhuwah itu apa sih?
+    - Apa itu UKM FUT?
+    - FUT itu apa?
+    - Bisa jelaskan UKM FUT?
+    - Forum Ukhuwah Tarumanagara itu apa?
+    - Apa itu FUT di kampus?
+    - Jelaskan tentang FUT
+    - FUT itu komunitas apa?
+    - Saya ingin tahu tentang FUT
+    - FUT fokusnya apa?
+    - Apa itu forum ukhuwah?
+
+- intent: fungsi_ukm_fut
+  examples: |
+    - peranan organisasi ini bagi mahasiswa apa?
+    - fungsi utama organisasi ini apa?
+    - FUT gunanya apa sih?
+    - Ikut FUT kepake buat apa?
+    - FUT itu ada manfaatnya ga sih?
+    - Peran FUT di kampus apa?
+    - FUT itu ngaruh apa sih?
+    - Apa fungsi FUT?
+    - Fungsi FUT bagi mahasiswa?
+    - FUT berfungsi sebagai apa?
+    - Fungsi FUT?
+    - Apakah fungsi FUT?
+
+- intent: tujuan_ukm_fut
+  examples: |
+    - tujuan utama dibentuknya organisasi ini apa?
+    - organisasi ini dibuat untuk tujuan apa?
+    - FUT tujuannya apa sih?
+    - Ikut FUT biar apa?
+    - FUT itu pengen capai apa?
+    - Ikut FUT dapet apa?
+    - FUT buat ngembangin apa sih?
+    - Apa tujuan FUT?
+    - Tujuan UKM FUT apa?
+    - FUT dibuat tujuan utama organisasi ini apa?
+    - Apa manfaat ikut FUT?
+    - FUT tujuan utama organisasi ini apa?
+    - Tujuan kegiatan FUT apa?
+    - FUT bertujuan apa?
+    - Apa kegunaan FUT?
+    - Tujuan utama FUT?
+    - Apakah untuk keagamaan?
+    - FUT membantu apa?
+
+- intent: misi_fut
+  examples: |
+    - program misi utama organisasi ini apa?
+    - apa fokus misi organisasi ini?
+    - Misi FUT itu apa sih?
+    - FUT punya misi apa aja?
+    - Fokus utama FUT apa?
+    - Target FUT itu apa?
+    - FUT mau ngapain sih tujuannya?
+    - Apa misi FUT?
+    - Misi FUT?
+    - Apa saja misi FUT?
+
+- intent: visi_fut
+  examples: |
+    - arah visi organisasi ini bagaimana?
+    - visi utama organisasi ini apa?
+    - Visi FUT itu apa sih?
+    - FUT mau jadi apa kedepannya?
+    - Cita-cita FUT apa?
+    - Arah FUT itu kemana?
+    - FUT pengen berkembang kemana?
+    - Apa visi FUT?
+    - Visi FUT?
+    - Apa saja visi FUT?
+
+- intent: bidang_ukm_fut
+  examples: |
+    - FUT itu organisasi keagamaan ya?
+    - FUT fokus ke agama ya?
+    - FUT itu kegiatan rohani ya?
+    - FUT lebih ke dakwah ya?
+    - FUT itu tentang ukhuwah ya?
+    - FUT fokus bidang kegiatan apa?
+    - Bidang UKM FUT apa?
+    - Apakah FUT keagamaan?
+    - FUT fokus apa?
+    - UKM FUT fokus utama kegiatan apa?
+
+- intent: boleh_gabung_fut
+  examples: |
+    - Semua orang bisa masuk FUT ga?
+    - FUT khusus muslim aja ya?
+    - Anak baru boleh ikut FUT ga?
+    - Semua jurusan bisa ikut ga?
+    - Bebas join FUT ga?
+    - Siapa saja boleh gabung FUT?
+    - Apakah semua mahasiswa bisa join?
+    - Apakah khusus muslim?
+    - Siapa yang bisa join FUT?
+
+- intent: cara_daftar_fut
+  examples: |
+    - Cara masuk FUT gimana sih?
+    - Mau join FUT harus ngapain?
+    - Daftar FUT ribet ga?
+    - Ikut FUT mulai dari mana?
+    - Link daftarnya ada ga?
+    - Bagaimana cara daftar FUT?
+    - Cara join FUT?
+    - Gimana cara masuk FUT?
+    - Daftar FUT lewat apa?
+
+- intent: biaya_daftar_fut
+  examples: |
+    - Masuk FUT bayar ga sih?
+    - Join FUT gratis ga?
+    - FUT perlu biaya ga?
+    - Ada iuran ga?
+    - Ikut FUT keluar duit ga?
+    - Biaya FUT berapa?
+    - Daftar FUT bayar berapa?
+    - Apakah ada biaya FUT?
+
+- intent: status_pendaftaran_fut
+  examples: |
+    - FUT lagi buka ga sih?
+    - Masih bisa daftar FUT ga?
+    - Sekarang open ga?
+    - Lagi nerima anggota baru ga?
+    - Pendaftaran masih ada?
+    - Apakah FUT buka pendaftaran?
+    - FUT masih buka?
+    - Kapan pendaftaran FUT dibuka?
+
+- intent: syarat_anggota_fut
+  examples: |
+    - Masuk FUT syaratnya apa sih?
+    - Harus ikut kegiatan terus ga?
+    - Ada syarat khusus ga?
+    - Perlu kemampuan tertentu ga?
+    - Harus ikut seleksi ga?
+    - Apa syarat masuk FUT?
+    - Syarat join FUT apa?
+    - Persyaratan FUT?
+
+- intent: komitmen_fut
+  examples: |
+    - Harus aktif banget ga di FUT?
+    - Wajib ikut semua kegiatan ga?
+    - Harus rajin kajian ya?
+    - Kalau jarang ikut gimana?
+    - Komitmennya berat ga?
+    - Apakah harus komitmen di FUT?
+    - Komitmen FUT seperti apa?
+    - Harus aktif kegiatan?
+
+- intent: divisi_fut
+  examples: |
+    - Divisi FUT apa aja sih?
+    - Di FUT ada bagian apa aja?
+    - Pembagian divisi di FUT gimana?
+    - FUT punya bidang apa aja?
+    - Ada struktur divisi ga?
+    - Divisi FUT apa saja?
+    - Ada bidang apa saja?
+    - Divisi dalam FUT?
+    - Divisi apa saja?
+    - Divisi internal?
+    - Bagian organisasi?
+    - Unit dalam UKM?
+    - Divisi apa saja?
+
+- intent: struktur_fut
+  examples: |
+    - Struktur FUT gimana sih?
+    - Susunan pengurus FUT gimana?
+    - Organisasi FUT bentuknya gimana?
+    - Ada ketua sama divisi ga?
+    - Struktur kepengurusan FUT apa aja?
+    - Struktur organisasi?
+    - Struktur UKM?
+    - Struktur kepengurusan?
+    - Struktur bidang?
+    - Struktur lengkap?
+    - Struktur divisi?
+
+- intent: kegiatan_fut
+  examples: |
+    - FUT biasanya ngapain aja sih?
+    - Kegiatannya seru ga?
+    - Anak FUT sering ngapain?
+    - Ada event juga ga?
+    - Kegiatan FUT apa saja?
+    - Aktivitas FUT apa?
+
+- intent: kegiatan_rutin_fut
+  examples: |
+    - Adakah kajian rutin?
+    - Apa kegiatan rutin FUT?
+    - Apakah ada kegiatan rutin?
+    - Apa saja kegiatan rutin?
+    - Ada kegiatan rutin apa?
+    - Apa saja kegiatan FUT?
+    - Apakah ada kajian?
+    - Ada kegiatan kajian?
+    - Ada kajian rutin ga sih?
+    - Kegiatan rutin FUT apa aja?
+    - Sering ada kajian ga?
+    - Jadwal rutinnya gimana?
+    - Kegiatan mingguan ada?
+    - Adakah kajian rutin?
+    - Apa kegiatan rutin FUT?
+
+- intent: jenis_kegiatan_fut
+  examples: |
+    - Kegiatan FUT itu apa aja sih?
+    - Ada kegiatan dakwah ya?
+    - Program rohaninya apa aja?
+    - Kegiatan islami apa aja?
+    - FUT ada pembinaan juga?
+    - Jenis kegiatan FUT?
+    - Program rohani apa saja?
+
+- intent: jadwal_rutin_fut
+  examples: |
+    - Kajian FUT kapan sih?
+    - Jadwal rutinnya hari apa?
+    - Kapan biasanya kegiatan?
+    - Jadwal mingguan gimana?
+    - Kegiatan rutin kapan?
+    - Jadwal kajian kapan?
+    - Kegiatan rutin hari apa?
+
+- intent: lokasi_kegiatan_fut
+  examples: |
+    - Kegiatan FUT dimana sih?
+    - Tempat kajian dimana?
+    - Lokasinya di kampus?
+    - Di masjid kampus ya?
+    - Tempat kumpul dimana?
+    - Kegiatan FUT dimana?
+    - Lokasi FUT dimana?
+
+- intent: event_fut
+  examples: |
+    - Event FUT apa aja sih?
+    - Ada acara besar ga?
+    - Kegiatan spesial FUT apa?
+    - Ada event tahunan?
+    - Eventnya seru ga?
+    - Event FUT apa saja?
+    - Ada acara apa saja?
+
+- intent: jadwal_event_fut
+  examples: |
+    - Event FUT kapan sih?
+    - Jadwal acaranya kapan?
+    - Event bulan apa?
+    - Ada event dekat-dekat ini?
+    - Jadwal kegiatan besar kapan?
+    - Event FUT kapan?
+    - Jadwal event FUT?
+
+- intent: fasilitas_fut
+  examples: |
+    - FUT nyediain tempat ga sih?
+    - Ada fasilitas apa aja?
+    - Tempat kajian disediain?
+    - Ada ruang kumpul ga?
+    - Fasilitasnya lengkap ga?
+    - Fasilitas FUT apa?
+
+- intent: lokasi_sekre_fut
+  examples: |
+    - biasanya lokasi ruang sekretariat dimana
+    - boleh tanya lokasi ruang sekretariat dimana
+    - info lokasi ruang sekretariat dimana
+    - lokasi ruang sekretariat dimana
+    - sekretariat fut dimana
+    - sekretariat fut lantai berapa
+    - fut sekretariatnya di lantai berapa
+    - ruang sekre fut dimana
+    - ruang sekre fut lantai berapa
+
+- intent: benefit_fut
+  examples: |
+    - Ikut FUT dapet apa sih?
+    - Benefitnya apa aja?
+    - Worth it ga ikut FUT?
+    - Bisa nambah ilmu ga?
+    - Nambah relasi juga ga?
+    - Manfaat FUT apa?
+
+- intent: media_informasi_fut
+  examples: |
+    - IG FUT apa sih?
+    - Bisa hubungi FUT dimana?
+    - Ada kontak admin ga?
+    - Follow FUT dimana?
+    - Info lengkapnya liat dimana?
+    - IG FUT apa?

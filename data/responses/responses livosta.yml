@@ -1,0 +1,158 @@
+responses:
+
+  utter_tanya_ukm_livosta:
+  - text: |
+      UKM LIVOSTA adalah Unit Kegiatan Mahasiswa yang bergerak di bidang olahraga, khususnya voli putra dan putri. 
+      UKM ini menjadi wadah bagi mahasiswa yang memiliki minat dan bakat di olahraga voli.
+
+  utter_fungsi_ukm_livosta:
+  - text: |
+      Fungsi UKM LIVOSTA adalah sebagai wadah untuk menyalurkan minat dan bakat mahasiswa di bidang olahraga voli, 
+      sekaligus mengembangkan kemampuan, kerja sama tim, dan sportivitas.
+
+  utter_tujuan_ukm_livosta:
+  - text: |
+      Tujuan UKM LIVOSTA adalah menyediakan tempat bagi mahasiswa untuk mengembangkan minat dan bakat di bidang voli, 
+      serta meningkatkan kemampuan bermain dan pengalaman dalam olahraga tersebut.
+
+  utter_misi_ukm_livosta:
+  - text: |
+      Misi UKM LIVOSTA adalah mengembangkan kemampuan anggota dalam olahraga voli, 
+      meningkatkan kerja sama tim, serta aktif mengikuti kegiatan latihan dan pertandingan.
+
+  utter_visi_ukm_livosta:
+  - text: |
+      Visi UKM LIVOSTA adalah menjadi wadah olahraga voli yang aktif, kompetitif, dan mampu mengembangkan potensi mahasiswa secara maksimal.
+
+  utter_bidang_ukm_livosta:
+  - text: |
+      UKM LIVOSTA bergerak di bidang olahraga, khususnya voli putra dan putri.
+
+  utter_boleh_gabung_livosta:
+  - text: |
+      UKM LIVOSTA terbuka untuk seluruh mahasiswa aktif dari berbagai fakultas dan jurusan.
+
+  utter_cara_daftar_livosta:
+  - text: |
+      Cara mendaftar UKM LIVOSTA cukup mudah:
+      - Mengisi data diri melalui Google Form
+      - Mengikuti proses pendaftaran saat PMB atau Open House
+
+  utter_biaya_daftar_livosta:
+  - text: |
+      Biaya pendaftaran UKM LIVOSTA sebesar Rp20.000.
+
+  utter_status_pendaftaran_livosta:
+  - text: |
+      Pendaftaran UKM LIVOSTA biasanya dibuka saat PMB dan Open House. 
+      Untuk info terbaru, kamu bisa cek Instagram resmi mereka.
+
+  utter_syarat_anggota_livosta:
+  - text: |
+      Syarat bergabung di UKM LIVOSTA:
+      - Mahasiswa aktif
+      - Bersedia mengikuti kepanitiaan
+      - Memiliki komitmen dalam kegiatan UKM
+
+  utter_keanggotaan_livosta:
+  - text: |
+      Anggota UKM LIVOSTA tetap diperbolehkan mengikuti kegiatan atau organisasi lain, 
+      selama bisa membagi waktu dengan baik.
+
+  utter_komitmen_livosta:
+  - text: |
+      Anggota UKM LIVOSTA diharapkan memiliki komitmen, aktif mengikuti latihan, 
+      serta berpartisipasi dalam kegiatan dan kepanitiaan.
+
+  utter_divisi_livosta:
+  - text: |
+      UKM LIVOSTA memiliki beberapa divisi, yaitu:
+      - Media Informasi
+      - Humas
+      - Penanggung Jawab Lapangan
+
+  utter_struktur_livosta:
+  - text: |
+      Struktur UKM LIVOSTA terdiri dari badan pengurus harian inti dan divisi-divisi seperti media informasi, humas, 
+      serta penanggung jawab lapangan yang mendukung kegiatan UKM.
+
+  utter_kegiatan_livosta:
+  - text: |
+      Kegiatan UKM LIVOSTA meliputi:
+      - Latihan rutin
+      - Fun games
+      - Makrab
+      - Cup internal
+
+  utter_latihan_rutin_livosta:
+  - text: |
+      UKM LIVOSTA memiliki latihan rutin yang diadakan setiap:
+      - Selasa
+      - Kamis
+      - Jumat
+      Jam 15.00 - 17.00
+
+  utter_fungames_livosta:
+  - text: |
+      UKM LIVOSTA juga mengadakan fun games sebagai ajang latihan tanding dan meningkatkan kekompakan tim.
+
+  utter_cup_livosta:
+  - text: |
+      UKM LIVOSTA mengadakan Cup Internal sebagai ajang kompetisi antar anggota untuk mengasah kemampuan bermain voli.
+
+  utter_jenis_kegiatan_livosta:
+  - text: |
+      Jenis kegiatan di UKM LIVOSTA meliputi:
+      - Latihan rutin
+      - Fun games
+      - Kompetisi (Cup Internal)
+      - Kegiatan kebersamaan seperti makrab
+
+  utter_jadwal_kegiatan_livosta:
+  - text: |
+      Jadwal kegiatan rutin UKM LIVOSTA adalah setiap hari Selasa, Kamis, dan Jumat pukul 15.00 - 17.00.
+
+  utter_durasi_kegiatan_livosta:
+  - text: |
+      Durasi setiap kegiatan atau latihan UKM LIVOSTA biasanya sekitar 2 jam per sesi.
+
+  utter_lokasi_kegiatan_livosta:
+  - text: |
+      Kegiatan UKM LIVOSTA biasanya dilakukan di Untar Arena 1.
+
+  utter_event_livosta:
+  - text: |
+      Event UKM LIVOSTA meliputi:
+      - Makrab (Malam Keakraban)
+      - Cup Internal
+      - Fun Games
+
+  utter_jadwal_event_livosta:
+  - text: |
+      Jadwal event seperti makrab dan cup internal biasanya ditentukan oleh pengurus dan diumumkan melalui media sosial.
+
+  utter_fasilitas_livosta:
+  - text: |
+      Fasilitas yang disediakan UKM LIVOSTA meliputi:
+      - Lapangan
+      - Perlengkapan olahraga
+      - Sekretariat
+
+  utter_lokasi_sekre_livosta:
+  - text: | 
+      Lokasi ruang sekretariat LIVOSTA terletak di Untar Kampus 1, Gedung M, Lantai 2
+
+
+  utter_benefit_livosta:
+  - text: |
+      Manfaat bergabung di UKM LIVOSTA:
+      - Mengembangkan skill bermain voli
+      - Menambah relasi dan teman
+      - Mendapat pengalaman pertandingan
+      - Melatih kerja sama tim dan sportivitas
+
+  utter_media_informasi_livosta:
+  - text: |
+      Untuk informasi lebih lanjut, kamu bisa menghubungi:
+      - Instagram: (update di Instagram resmi @livosta_untar)
+      - Contact Person: 081296053979 (Hillary)

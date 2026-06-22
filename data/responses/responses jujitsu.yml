@@ -1,0 +1,168 @@
+version: "3.1"
+
+responses:
+
+  utter_tanya_ukm_jujitsu:
+  - text: |
+      Jujitsu adalah UKM yang bergerak di bidang bela diri asal Jepang 🥋.
+      Di UKM ini kamu akan belajar teknik pertahanan diri, latihan fisik, serta berkesempatan mengikuti kompetisi untuk meraih prestasi.
+
+  utter_fungsi_ukm_jujitsu:
+  - text: |
+      Fungsi UKM Jujitsu:
+      - Melatih kemampuan bela diri 🥋
+      - Meningkatkan kekuatan fisik dan mental 💪
+      - Membentuk disiplin dan kepercayaan diri
+      - Menjadi wadah untuk berprestasi di bidang olahraga
+
+  utter_tujuan_ukm_jujitsu:
+  - text: |
+      Tujuan Jujitsu adalah:
+      - Memberikan pengalaman baru dalam bela diri
+      - Mengembangkan kemampuan anggota
+      - Menciptakan prestasi di tingkat nasional maupun internasional 🏆
+
+  utter_misi_jujitsu:
+  - text: |
+      Misi Jujitsu:
+      - Melatih anggota secara rutin dan terarah
+      - Mengembangkan potensi atlet
+      - Mengikuti dan memenangkan kompetisi
+      - Membangun mental dan disiplin anggota
+
+  utter_visi_jujitsu:
+  - text: |
+      Visi Jujitsu adalah menjadi UKM bela diri yang unggul, berprestasi, dan mampu mencetak atlet berkualitas.
+
+  utter_bidang_ukm_jujitsu:
+  - text: |
+      Jujitsu bergerak di bidang bela diri 🥋.
+      Fokusnya adalah teknik pertahanan diri seperti kuncian, bantingan, dan grappling.
+
+  utter_boleh_gabung_jujitsu:
+  - text: |
+      Semua mahasiswa boleh bergabung 👍
+      - Terbuka untuk semua jurusan
+      - Pemula juga boleh ikut (tidak harus punya pengalaman)
+      - Yang penting punya minat dan semangat latihan
+
+  utter_cara_daftar_jujitsu:
+  - text: |
+      Cara daftar Jujitsu:
+      1. Mengisi data diri melalui Google Form
+      2. Mengikuti proses pendaftaran
+      3. Bergabung saat jadwal latihan dimulai
+
+  utter_biaya_daftar_jujitsu:
+  - text: |
+      Biaya pendaftaran Jujitsu adalah sekitar Rp100.000 💰
+      Biaya ini digunakan untuk kebutuhan awal latihan dan keanggotaan.
+
+  utter_status_pendaftaran_jujitsu:
+  - text: |
+      Pendaftaran Jujitsu dibuka pada:
+      - Agustus sampai Desember 📅
+      
+      Kamu bisa daftar selama periode tersebut.
+
+  utter_syarat_anggota_jujitsu:
+  - text: |
+      Syarat bergabung Jujitsu:
+      - Memiliki komitmen
+      - Memiliki attitude yang baik
+      - Siap mengikuti latihan
+
+  utter_komitmen_jujitsu:
+  - text: |
+      Komitmen di Jujitsu:
+      - Rutin mengikuti latihan
+      - Disiplin dan bertanggung jawab
+      - Menjaga sikap dan sportivitas
+      - Serius dalam pengembangan diri
+
+  utter_divisi_jujitsu:
+  - text: |
+      Divisi di Jujitsu:
+      - Perkap
+      - Media Kreatif
+      - Humas
+      - Divisi Atlet
+
+  utter_struktur_jujitsu:
+  - text: |
+      Struktur organisasi Jujitsu terdiri dari:
+      - Badan Pengurus Harian Inti
+      - Divisi (Perkap, Media, Humas, Atlet)
+
+  utter_kegiatan_jujitsu:
+  - text: |
+      Kegiatan Jujitsu:
+      - Latihan rutin 🥋
+      - Sparring / latihan teknik
+      - Mengikuti pertandingan eksternal
+      - Kompetisi nasional dan internasional
+
+  utter_kegiatan_latihan_jujitsu:
+  - text: |
+      Jujitsu memiliki latihan rutin:
+      - Latihan teknik bela diri
+      - Latihan fisik
+      - Sparring
+      
+      Latihan ini penting untuk meningkatkan skill dan kekuatan 💪
+
+  utter_jadwal_latihan_jujitsu:
+  - text: |
+      Jadwal latihan Jujitsu:
+      - Selasa & Kamis
+      - Jam 18.00 – 19.30 🕕
+
+  utter_durasi_kegiatan_jujitsu:
+  - text: |
+      Durasi latihan Jujitsu sekitar:
+      - ± 1,5 jam setiap sesi ⏱️
+      
+      Cukup untuk latihan teknik dan fisik secara optimal.
+
+  utter_lokasi_kegiatan_jujitsu:
+  - text: |
+      Lokasi latihan Jujitsu:
+      - Untar Arena 1 🏟️
+
+  utter_event_jujitsu:
+  - text: |
+      Event Jujitsu:
+      - Pertandingan eksternal
+      - Kompetisi tingkat nasional & internasional 🏆
+
+  utter_jadwal_event_jujitsu:
+  - text: |
+      Jadwal event Jujitsu biasanya menyesuaikan tanggal tertentu
+
+
+  utter_fasilitas_jujitsu:
+  - text: |
+      Fasilitas Jujitsu:
+      - Matras
+      - P3K
+      - GI (seragam jujitsu)
+      - Ruangan secretariat
+
+  utter_lokasi_sekre_jujitsu:
+  - text: | 
+      Lokasi ruang sekretariat Jujitsu terletak di Untar Kampus 1, Gedung M, Lantai 2
+
+  utter_benefit_jujitsu:
+  - text: |
+      Benefit ikut Jujitsu:
+      - Meningkatkan kekuatan fisik dan mental 💪
+      - Belajar bela diri
+      - Meningkatkan kepercayaan diri
+      - Kesempatan ikut kompetisi 🏆
+      - Mendapat pengalaman baru
+
+  utter_media_informasi_jujitsu:
+  - text: |
+      Untuk informasi lebih lanjut:
+      - Update di Instagram resmi @jujitsu_untar📱
+      - Contact person: +62 812-6598-3023 (Vincent)

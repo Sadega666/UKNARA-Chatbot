@@ -1,0 +1,290 @@
+version: "3.1"
+
+nlu:
+
+- intent: tanya_ukm_jujitsu
+  examples: |
+    - Jujitsu itu apaan sih?
+    - UKM Jujitsu tuh kayak gimana sih?
+    - Jujitsu di kampus ngapain aja sih?
+    - Jujitsu itu buat apa sih?
+    - Tim Jujitsu kampus itu gimana?
+    - Jujitsu tuh kegiatan apa sih?
+    - Jujitsu di Untar ngapain aja?
+    - UKM Jujitsu itu isinya apa?
+    - Apa itu UKM Jujitsu?
+    - Jujitsu itu apa?
+    - Bisa jelaskan UKM Jujitsu?
+    - Jujitsu jenis organisasi apa?
+    - Apa itu Jujitsu di kampus?
+    - Jelaskan tentang Jujitsu
+    - Jujitsu itu komunitas apa?
+    - Saya ingin tahu tentang Jujitsu
+    - Apa itu bela diri Jujitsu?
+
+- intent: fungsi_ukm_jujitsu
+  examples: |
+    - peranan organisasi ini bagi mahasiswa apa?
+    - fungsi utama organisasi ini apa?
+    - Jujitsu gunanya apa sih?
+    - Ikut jujitsu kepake buat apa?
+    - Jujitsu itu ada manfaatnya ga sih?
+    - Peran jujitsu di kampus apa?
+    - Jujitsu itu ngaruh apa sih?
+    - Apa fungsi Jujitsu?
+    - Fungsi Jujitsu bagi mahasiswa?
+    - Jujitsu berfungsi sebagai apa?
+    - Fungsi Jujitsu?
+    - Apakah fungsi Jujitsu?
+
+- intent: tujuan_ukm_jujitsu
+  examples: |
+    - tujuan utama dibentuknya organisasi ini apa?
+    - organisasi ini dibuat untuk tujuan apa?
+    - Jujitsu tujuannya apa sih?
+    - Ikut jujitsu biar apa?
+    - Jujitsu itu pengen capai apa?
+    - Ikut jujitsu dapet apa?
+    - Jujitsu buat ngembangin apa sih?
+    - Apa tujuan Jujitsu?
+    - Tujuan UKM Jujitsu apa?
+    - Jujitsu dibuat tujuan utama organisasi ini apa?
+    - Apa manfaat ikut Jujitsu?
+    - Jujitsu tujuan utama organisasi ini apa?
+    - Tujuan kegiatan Jujitsu apa?
+    - Jujitsu bertujuan apa?
+    - Apa kegunaan Jujitsu?
+
+- intent: misi_jujitsu
+  examples: |
+    - program misi utama organisasi ini apa?
+    - apa fokus misi organisasi ini?
+    - Misi jujitsu itu apa sih?
+    - Jujitsu punya misi apa aja?
+    - Fokus utama jujitsu apa?
+    - Target jujitsu itu apa?
+    - Jujitsu mau ngapain sih tujuannya?
+    - Apa misi Jujitsu?
+    - Misi Jujitsu?
+    - Apa saja misi Jujitsu?
+
+- intent: visi_jujitsu
+  examples: |
+    - arah visi organisasi ini bagaimana?
+    - visi utama organisasi ini apa?
+    - Visi jujitsu itu apa sih?
+    - Jujitsu mau jadi apa kedepannya?
+    - Cita-cita jujitsu apa?
+    - Arah jujitsu itu kemana?
+    - Jujitsu pengen berkembang kemana?
+    - Apa visi Jujitsu?
+    - Visi Jujitsu?
+    - Apa saja visi Jujitsu?
+
+- intent: bidang_ukm_jujitsu
+  examples: |
+    - Jujitsu itu bela diri ya?
+    - Jujitsu lebih ke olahraga atau seni sih?
+    - Jujitsu itu fokusnya apa?
+    - Jujitsu ada teknik bantingan ya?
+    - Jujitsu itu olahraga keras ga?
+    - Jujitsu fokus bidang kegiatan apa?
+    - Bidang UKM Jujitsu apa?
+    - Apakah Jujitsu bela diri?
+    - Jujitsu fokus apa?
+    - UKM Jujitsu fokus utama kegiatan apa?
+
+- intent: boleh_gabung_jujitsu
+  examples: |
+    - Semua orang bisa masuk jujitsu ga?
+    - Anak baru boleh ikut jujitsu ga?
+    - Pemula boleh join ga?
+    - Yang belum bisa bela diri boleh ikut?
+    - Semua jurusan bisa ikut ga?
+    - Siapa saja boleh gabung Jujitsu?
+    - Apakah semua mahasiswa bisa join?
+    - Boleh semua fakultas ikut?
+    - Siapa yang bisa join Jujitsu?
+
+- intent: cara_daftar_jujitsu
+  examples: |
+    - Cara masuk jujitsu gimana sih?
+    - Mau join jujitsu harus ngapain?
+    - Daftar jujitsu ribet ga?
+    - Ikut jujitsu mulai dari mana?
+    - Link daftarnya ada ga?
+    - Bagaimana cara daftar Jujitsu?
+    - Cara join Jujitsu?
+    - Gimana cara masuk Jujitsu?
+    - Daftar Jujitsu lewat apa?
+
+- intent: biaya_daftar_jujitsu
+  examples: |
+    - Masuk jujitsu bayar ga sih?
+    - Join jujitsu mahal ga?
+    - Jujitsu gratis atau bayar?
+    - Ada biaya bulanan ga?
+    - Ikut jujitsu keluar duit berapa?
+    - Biaya Jujitsu berapa?
+    - Daftar Jujitsu bayar berapa?
+    - Apakah ada biaya Jujitsu?
+
+- intent: status_pendaftaran_jujitsu
+  examples: |
+    - Jujitsu lagi buka ga sih?
+    - Masih bisa daftar jujitsu ga?
+    - Sekarang open ga?
+    - Lagi nerima anggota baru ga?
+    - Pendaftaran masih ada?
+    - Apakah Jujitsu buka pendaftaran?
+    - Jujitsu masih buka?
+    - Kapan pendaftaran Jujitsu dibuka?
+
+- intent: syarat_anggota_jujitsu
+  examples: |
+    - Masuk jujitsu syaratnya apa sih?
+    - Harus bisa dulu ga?
+    - Ada syarat khusus ga?
+    - Perlu skill tertentu ga?
+    - Harus ikut seleksi ga?
+    - Apa syarat masuk Jujitsu?
+    - Syarat join Jujitsu apa?
+    - Persyaratan Jujitsu?
+
+- intent: komitmen_jujitsu
+  examples: |
+    - Harus aktif banget ga di jujitsu?
+    - Wajib ikut semua kegiatan ga?
+    - Harus disiplin ya?
+    - Kalau jarang ikut gimana?
+    - Komitmennya berat ga?
+    - Apakah harus komitmen di Jujitsu?
+    - Komitmen Jujitsu seperti apa?
+    - Harus aktif latihan?
+
+- intent: divisi_jujitsu
+  examples: |
+    - Di jujitsu ada divisi apa aja sih?
+    - Ada pembagian tim ga?
+    - Struktur divisinya gimana?
+    - Ada bidang khusus ga?
+    - Divisinya apa aja?
+    - Divisi jujitsu apa saja?
+
+- intent: struktur_jujitsu
+  examples: |
+    - Struktur jujitsu gimana sih?
+    - Kepengurusannya kayak apa?
+    - Ada ketua dan divisi ya?
+    - Susunan organisasinya gimana?
+    - Struktur lengkapnya apa aja?
+    - Struktur organisasi?
+
+- intent: kegiatan_jujitsu
+  examples: |
+    - Jujitsu biasanya ngapain aja sih?
+    - Kegiatannya seru ga?
+    - Ada latihan sama sparring ya?
+    - Anak jujitsu sering ngapain?
+    - Ada event juga ga?
+    - Kegiatan Jujitsu apa saja?
+    - Aktivitas Jujitsu apa?
+
+- intent: kegiatan_latihan_jujitsu
+  examples: |
+    - Ada latihan rutin ga sih?
+    - Latihan tiap minggu ada?
+    - Sering latihan ga?
+    - Jadwal rutinnya gimana?
+    - Latihan wajib ga?
+    - Adakah latihan rutin?
+    - Apa kegiatan rutin Jujitsu?
+
+- intent: jadwal_latihan_jujitsu
+  examples: |
+    - Jujitsu latihan kapan sih?
+    - Jadwalnya hari apa?
+    - Latihan seminggu berapa kali?
+    - Kapan biasanya latihan?
+    - Jadwalnya tetap ga?
+    - Jadwal Jujitsu kapan?
+    - Latihan hari apa?
+
+- intent: durasi_kegiatan_jujitsu
+  examples: |
+    - Latihan jujitsu berapa jam sih?
+    - Sekali latihan lama ga?
+    - Durasinya berapa lama?
+    - Satu sesi berapa jam?
+    - Latihan capek ga dan lama ga?
+    - Berapa lama latihan Jujitsu?
+    - Durasi latihan?
+
+- intent: lokasi_kegiatan_jujitsu
+  examples: |
+    - Latihan jujitsu dimana sih?
+    - Di GOR mana latihannya?
+    - Tempat latihannya dimana?
+    - Indoor atau outdoor?
+    - Lokasinya di kampus?
+    - Kegiatan Jujitsu dimana?
+    - Lokasi Jujitsu dimana?
+
+- intent: event_jujitsu
+  examples: |
+    - Event jujitsu apa aja sih?
+    - Ada acara apa aja?
+    - Kegiatan besar jujitsu apa?
+    - Ada kompetisi juga ga?
+    - Eventnya seru ga?
+    - Event Jujitsu apa saja?
+    - Ada acara apa saja?
+
+- intent: jadwal_event_jujitsu
+  examples: |
+    - Event jujitsu kapan sih?
+    - Jadwal acaranya kapan?
+    - Event bulan apa?
+    - Ada event dalam waktu dekat?
+    - Jadwal kompetisinya kapan?
+    - Event Jujitsu kapan?
+    - Jadwal event Jujitsu?
+
+- intent: fasilitas_jujitsu
+  examples: |
+    - Jujitsu nyediain alat ga sih?
+    - Ada fasilitas apa aja?
+    - Peralatan disediain ga?
+    - Bisa pinjam alat ga?
+    - Fasilitasnya lengkap ga?
+    - Fasilitas Jujitsu apa?
+
+- intent: lokasi_sekre_jujitsu
+  examples: |
+    - biasanya lokasi ruang sekretariat dimana
+    - boleh tanya lokasi ruang sekretariat dimana
+    - info lokasi ruang sekretariat dimana
+    - lokasi ruang sekretariat dimana
+    - sekretariat jujitsu dimana
+    - sekretariat jujitsu lantai berapa
+    - jujitsu sekretariatnya di lantai berapa
+    - ruang sekre jujitsu dimana
+    - ruang sekre jujitsu lantai berapa
+
+- intent: benefit_jujitsu
+  examples: |
+    - Ikut jujitsu dapet apa sih?
+    - Benefitnya apa aja?
+    - Worth it ga ikut jujitsu?
+    - Bisa jadi lebih kuat ga?
+    - Melatih mental juga ga?
+    - Manfaat Jujitsu apa?
+
+- intent: media_informasi_jujitsu
+  examples: |
+    - IG jujitsu apa sih?
+    - Bisa hubungi jujitsu dimana?
+    - Ada kontak admin ga?
+    - Follow jujitsu dimana?
+    - Info lengkapnya liat dimana?
+    - IG Jujitsu apa?

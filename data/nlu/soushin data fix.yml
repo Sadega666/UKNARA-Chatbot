@@ -1,0 +1,400 @@
+version: "3.1"
+
+nlu:
+
+- intent: tanya_ukm_soushin
+  examples: |
+    - Apa itu UKM Soushin?
+    - Soushin itu apa?
+    - Bisa jelaskan UKM Soushin?
+    - Soushin jenis organisasi apa?
+    - UKM Soushin fokus bidang kegiatan apa?
+    - Apa itu Soushin di kampus?
+    - Jelaskan tentang Soushin
+    - Soushin itu komunitas apa?
+    - Saya ingin tahu tentang Soushin?
+    - Apa itu komunitas Soushin?
+
+- intent: fungsi_ukm_soushin
+  examples: |
+    - peranan organisasi ini bagi mahasiswa apa?
+    - fungsi utama organisasi ini apa?
+    - Apa fungsi UKM Soushin?
+    - Apa fungsi Soushin bagi mahasiswa?
+    - Soushin berfungsi sebagai apa?
+    - Fungsi Soushin?
+    - Apakah fungsi Soushin?
+
+- intent: tujuan_ukm_soushin
+  examples: |
+    - tujuan utama dibentuknya organisasi ini apa?
+    - organisasi ini dibuat untuk tujuan apa?
+    - Apa tujuan Soushin?
+    - Tujuan UKM Soushin apa?
+    - Soushin dibuat tujuan utama organisasi ini apa?
+    - Apa manfaat ikut Soushin?
+    - Soushin tujuan utama organisasi ini apa?
+    - Tujuan kegiatan Soushin apa?
+    - Soushin bertujuan apa?
+    - Apa kegunaan Soushin?
+    - Tujuan utama Soushin?
+    - Apakah untuk budaya Jepang?
+    - Soushin membantu apa?
+
+- intent: misi_ukm_soushin
+  examples: |
+    - program misi utama organisasi ini apa?
+    - apa fokus misi organisasi ini?
+    - Apa misi Soushin?
+    - Misi Soushin?
+    - Apa saja misi Soushin?
+    - Misi Soushin apa?
+    - Misi Soushin apa saja?
+
+- intent: visi_ukm_soushin
+  examples: |
+    - arah visi organisasi ini bagaimana?
+    - visi utama organisasi ini apa?
+    - Apa visi Soushin?
+    - Visi Soushin?
+    - Apa saja visi Soushin?
+    - Visi Soushin apa?
+    - Visi Soushin apa saja?
+
+- intent: bidang_ukm_soushin
+  examples: |
+    - Soushin fokus bidang kegiatan apa?
+    - Bidang UKM Soushin apa?
+    - Apakah Soushin budaya Jepang?
+    - Soushin fokus apa?
+    - UKM Soushin fokus utama kegiatan apa?
+    - Apakah Soushin organisasi budaya?
+    - Soushin bidangnya apa?
+    - Fokus utama Soushin?
+    - Apakah ada anime atau manga?
+    - Soushin terkait Jepang?
+    - Soushin mencakup apa saja?
+    - Apakah ada cosplay?
+    - Soushin termasuk komunitas Jepang?
+    - Soushin fokus budaya?
+    - Bidang utama Soushin?
+
+- intent: boleh_gabung_soushin
+  examples: |
+    - Siapa saja boleh gabung Soushin?
+    - Apakah semua mahasiswa bisa join?
+    - Boleh semua fakultas ikut?
+    - Siapa yang bisa join Soushin?
+    - Apakah terbuka untuk semua?
+    - Mahasiswa baru boleh ikut?
+    - Apakah lintas jurusan boleh?
+    - Soushin untuk siapa saja?
+    - Apakah semua semester boleh?
+    - Apakah umum bisa join?
+    - Siapa target anggota Soushin?
+    - Apakah bebas gabung?
+    - Siapa saja bisa daftar?
+    - Apakah Soushin terbuka untuk semua?
+    - Boleh pemula ikut?
+
+- intent: cara_daftar_soushin
+  examples: |
+    - Bagaimana cara daftar Soushin?
+    - Cara join Soushin?
+    - Gimana cara masuk Soushin?
+    - Daftar Soushin lewat apa?
+    - Bagaimana proses pendaftaran?
+    - Cara gabung Soushin gimana?
+    - Saya ingin daftar Soushin
+    - Apa langkah daftar Soushin?
+    - Daftar Soushin dimana?
+    - Join lewat gform?
+    - Cara ikut Soushin?
+    - Prosedur masuk Soushin?
+    - Cara registrasi Soushin?
+    - Masuk Soushin bagaimana?
+    - Cara daftar UKM Soushin?
+
+- intent: biaya_daftar_soushin
+  examples: |
+    - Biaya Soushin berapa?
+    - Daftar Soushin bayar berapa?
+    - Apakah ada biaya Soushin?
+    - Fee manga berapa?
+    - Fee bahasa berapa?
+    - Fee cosplay berapa?
+    - Masuk Soushin bayar?
+    - Biaya join Soushin?
+    - Registrasi Soushin berapa?
+    - Apakah ada uang pendaftaran?
+    - Daftar Soushin perlu bayar?
+    - Berapa uang masuk Soushin?
+    - Biaya anggota Soushin?
+    - Soushin ada biaya?
+    - Join Soushin bayar?
+
+- intent: status_pendaftaran_soushin
+  examples: |
+    - Apakah Soushin buka pendaftaran?
+    - Soushin masih buka?
+    - Kapan pendaftaran Soushin dibuka?
+    - Apakah bisa daftar sekarang?
+    - Pendaftaran Soushin tutup atau belum?
+    - Apakah masih bisa join?
+    - Soushin open recruitment?
+    - Kapan open Soushin?
+    - Apakah Soushin sedang open?
+    - Jadwal pendaftaran Soushin kapan?
+    - Soushin buka anggota baru?
+    - Apakah rekrutmen Soushin aktif?
+    - Kapan bisa daftar Soushin?
+    - Apakah Soushin menerima anggota baru?
+    - Soushin buka saat PMB?
+
+- intent: syarat_anggota_soushin
+  examples: |
+    - Apa syarat masuk Soushin?
+    - Syarat join Soushin apa?
+    - Persyaratan Soushin?
+    - Masuk Soushin harus apa?
+    - Syarat jadi anggota?
+    - Apa ketentuan Soushin?
+    - Syarat gabung Soushin?
+    - Apa yang harus dipenuhi?
+    - Syarat ikut Soushin?
+    - Persyaratan umum Soushin?
+    - Apakah ada syarat khusus?
+    - Apakah perlu skill?
+    - Harus bisa bahasa Jepang?
+    - Apakah pemula boleh?
+    - Syarat pendaftaran Soushin?
+
+- intent: kemampuan_anggota_soushin
+  examples: |
+    - Apakah harus punya skill?
+    - Perlu bisa bahasa Jepang?
+    - Harus bisa gambar manga?
+    - Harus bisa cosplay?
+    - Apakah pemula boleh?
+    - Skill apa yang dibutuhkan?
+    - Apakah wajib punya kemampuan?
+    - Harus jago Jepang?
+    - Perlu pengalaman?
+    - Apakah bebas skill?
+    - Tidak bisa apa apa boleh?
+    - Apakah tanpa skill bisa?
+    - Skill diperlukan atau tidak?
+    - Bisa belajar dari nol?
+    - Kemampuan anggota bagaimana?
+
+- intent: divisi_soushin
+  examples: |
+    - Divisi Soushin apa saja?
+    - Ada bidang apa saja?
+    - Divisi dalam Soushin?
+    - Divisi apa saja?
+    - Divisi internal?
+    - Bagian organisasi?
+    - Unit dalam UKM?
+    - Divisi apa saja?
+
+- intent: struktur_soushin
+  examples: |
+    - Struktur organisasi?
+    - Struktur UKM?
+    - Struktur kepengurusan?
+    - Struktur bidang?
+    - Struktur lengkap?
+    - Struktur divisi?
+
+- intent: kegiatan_soushin
+  examples: |
+    - Kegiatan Soushin apa saja?
+    - Aktivitas Soushin apa?
+    - Soushin ada kegiatan apa?
+    - Program Soushin apa?
+    - Apa saja kegiatan Soushin?
+    - Event Soushin apa?
+    - Aktivitas UKM Soushin?
+    - Soushin sering ngapain?
+    - Kegiatan rutin Soushin?
+    - Program kerja Soushin?
+    - Apa yang dilakukan Soushin?
+    - Kegiatan anggota Soushin?
+    - Soushin ada event apa?
+    - Aktivitas Soushin sehari-hari?
+    - Apa saja aktivitas Soushin?
+
+- intent: kelas_soushin
+  examples: |
+    - Ada kelas apa di Soushin?
+    - Kelas Soushin apa saja?
+    - Apakah ada kelas bahasa Jepang?
+    - Ada kelas manga?
+    - Ada kelas cosplay?
+    - Jenis kelas Soushin?
+    - Apa saja kelasnya?
+    - Kelas mingguan apa saja?
+    - Program kelas Soushin?
+    - Pembelajaran di Soushin?
+    - Kelas yang tersedia?
+    - Ada kelas nihongo?
+    - Kelas budaya Jepang?
+    - Belajar apa di kelas?
+    - Kelas apa saja di UKM ini?
+
+- intent: jadwal_kegiatan_soushin
+  examples: |
+    - Jadwal Soushin kapan?
+    - Kelas bahasa kapan?
+    - Kelas manga kapan?
+    - Kelas cosplay kapan?
+    - Soushin aktif hari apa?
+    - Jadwal rutin Soushin?
+    - Kapan kegiatan Soushin?
+    - Hari kegiatan Soushin?
+    - Jadwal kelas Soushin?
+    - Soushin ada kegiatan kapan?
+    - Kapan pertemuan?
+    - Jadwal belajar?
+    - Hari apa saja kelas?
+    - Jadwal mingguan?
+    - Waktu kegiatan?
+
+- intent: durasi_kegiatan_soushin
+  examples: |
+    - Berapa lama kelas Soushin?
+    - Durasi kegiatan Soushin?
+    - Kelas berapa jam?
+    - Lama kegiatan Soushin?
+    - Soushin belajar berapa lama?
+    - Durasi pertemuan?
+    - Satu sesi berapa lama?
+    - Kelas Soushin durasinya?
+    - Waktu belajar Soushin?
+    - Berapa jam per kelas?
+    - Soushin berapa lama?
+    - Lama kegiatan?
+    - Waktu kelas?
+    - Durasi kelas?
+    - Berapa lama per sesi?
+
+- intent: lokasi_kegiatan_soushin
+  examples: |
+    - Kegiatan Soushin dimana?
+    - Lokasi Soushin dimana?
+    - Kelas bahasa dimana?
+    - Kelas manga dimana?
+    - Tempat kegiatan Soushin?
+    - Soushin dilakukan dimana?
+    - Lokasi sekretariat Soushin?
+    - Tempat kelas?
+    - Dimana lokasi Soushin?
+    - Tempat kegiatan?
+    - Lokasi kelas Soushin?
+    - Tempat belajar?
+    - Kelas di sekretariat?
+    - Lokasi kegiatan?
+    - Soushin di mana?
+
+- intent: event_soushin
+  examples: |
+    - Event Soushin apa saja?
+    - Ada acara apa saja?
+    - Program Soushin apa?
+    - Apa itu harukaze?
+    - Apa itu tanjobi?
+    - Apa itu photobooth?
+    - Apa itu makrab?
+    - Event Soushin apa saja?
+    - Acara Soushin apa?
+    - Program besar Soushin?
+    - Event tahunan Soushin?
+    - Ada kegiatan khusus?
+    - Event Jepang Soushin?
+    - Kegiatan besar Soushin?
+    - Acara utama Soushin?
+
+- intent: jadwal_event_soushin
+  examples: |
+    - Event Soushin kapan?
+    - Jadwal acara Soushin kapan?
+    - Kapan harukaze?
+    - Kapan makrab?
+    - Jadwal event Soushin?
+    - Event bulan apa?
+    - Kapan acara?
+    - Jadwal kegiatan besar?
+    - Event diadakan kapan?
+    - Jadwal makrab?
+    - Kapan tanjobi?
+    - Event tahunan kapan?
+    - Jadwal photobooth?
+    - Kapan baksos?
+    - Jadwal event?
+
+- intent: fasilitas_soushin
+  examples: |
+    - Fasilitas Soushin apa?
+    - Apa saja fasilitasnya?
+    - Ada sekretariat?
+    - Fasilitas lengkap?
+    - Apa yang disediakan?
+    - Fasilitas UKM Soushin?
+    - Apakah ada ruangan?
+    - Tempat kumpul ada?
+    - Ada basecamp?
+    - Fasilitas belajar?
+    - Apa saja alatnya?
+    - Ruang kegiatan ada?
+    - Tempat organisasi?
+    - Fasilitas pendukung?
+    - Ada tempat latihan?
+
+- intent: lokasi_sekre_soushin
+  examples: |
+    - biasanya lokasi ruang sekretariat dimana
+    - boleh tanya lokasi ruang sekretariat dimana
+    - info lokasi ruang sekretariat dimana
+    - lokasi ruang sekretariat dimana
+    - sekretariat soushin dimana
+    - sekretariat soushin lantai berapa
+    - soushin sekretariatnya di lantai berapa
+    - ruang sekre soushin dimana
+    - ruang sekre soushin lantai berapa
+
+- intent: benefit_soushin
+  examples: |
+    - Manfaat Soushin apa?
+    - Keuntungan ikut Soushin?
+    - Benefit Soushin?
+    - Apa yang didapat?
+    - Untung ikut Soushin?
+    - Kelebihan Soushin?
+    - Kenapa ikut Soushin?
+    - Apa manfaat Soushin?
+    - Join Soushin dapat apa?
+    - Apa benefit Soushin?
+    - Soushin membantu apa?
+    - Kegunaan Soushin?
+    - Apa hasil ikut Soushin?
+    - Soushin berguna?
+    - Manfaat join Soushin?
+
+- intent: media_informasi_soushin
+  examples: |
+    - IG Soushin apa?
+    - Instagram Soushin?
+    - Kontak Soushin?
+    - Nomor Soushin?
+    - Sosial media Soushin?
+    - Cara hubungi Soushin?
+    - Info Soushin dimana?
+    - Akun Soushin?
+    - Follow Soushin dimana?
+    - Media Soushin apa?
+    - Kontak resmi Soushin?
+    - DM Soushin?
+    - IG resmi Soushin?
+    - Nomor admin?
+    - Info online Soushin?

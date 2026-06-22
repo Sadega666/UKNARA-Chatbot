@@ -1,0 +1,174 @@
+version: "3.1"
+
+responses:
+
+  utter_tanya_ukm_mega:
+  - text: |
+      UKM MEGA adalah Unit Kegiatan Mahasiswa yang bergerak di bidang gemar alam dan pelestarian lingkungan hidup 🌿.
+      Di MEGA, kamu bisa ikut berbagai kegiatan outdoor seperti hiking, rafting, climbing, dan caving.
+      Selain itu, MEGA juga fokus pada pengembangan karakter dan jiwa kepemimpinan.
+
+  utter_fungsi_ukm_mega:
+  - text: |
+      Fungsi UKM MEGA adalah sebagai wadah bagi mahasiswa untuk:
+      - Menyalurkan minat di bidang alam dan lingkungan 🌱
+      - Mengembangkan softskill seperti teamwork dan leadership
+      - Belajar menjaga dan melestarikan alam
+
+  utter_tujuan_ukm_mega:
+  - text: |
+      Tujuan UKM MEGA adalah untuk:
+      - Mengembangkan minat dan bakat di bidang kegiatan alam 🏕️
+      - Membentuk karakter yang tangguh dan mandiri
+      - Meningkatkan jiwa kepemimpinan dan kepedulian terhadap lingkungan
+
+  utter_misi_ukm_mega:
+  - text: |
+      Misi UKM MEGA antara lain:
+      - Mengadakan kegiatan alam yang edukatif dan bermanfaat
+      - Meningkatkan kepedulian terhadap lingkungan 🌍
+      - Mengembangkan kemampuan anggota melalui pelatihan dan kegiatan lapangan
+
+  utter_visi_ukm_mega:
+  - text: |
+      Visi UKM MEGA adalah menjadi organisasi gemar alam yang aktif, solid, dan berkontribusi dalam pelestarian lingkungan serta pengembangan karakter mahasiswa.
+
+  utter_bidang_ukm_mega:
+  - text: |
+      UKM MEGA bergerak di bidang:
+      🌿 Gemar alam
+      🌎 Pelestarian lingkungan hidup
+      Dengan fokus pada kegiatan outdoor seperti hiking, rafting, climbing, dan caving.
+
+  utter_boleh_gabung_mega:
+  - text: |
+      UKM MEGA terbuka untuk mahasiswa FEB yang ingin bergabung 🙌
+      Semua angkatan dan jurusan di FEB bisa ikut selama masih berstatus mahasiswa aktif.
+
+  utter_cara_daftar_mega:
+  - text: |
+      Cara daftar UKM MEGA:
+      1. Isi data diri melalui Google Form 📋
+      2. Ikuti proses wawancara seputar gemar alam
+      3. Ikuti tahap selanjutnya saat Open House atau PMB
+
+  utter_biaya_daftar_mega:
+  - text: |
+      Untuk biaya pendaftaran UKM MEGA biasanya akan diinformasikan saat proses open recruitment.
+      Silakan cek info terbaru melalui Instagram MEGA ya 👍
+
+  utter_status_pendaftaran_mega:
+  - text: |
+      Pendaftaran UKM MEGA biasanya dibuka saat:
+      - PMB
+      - Open House
+      Pantau terus Instagram MEGA untuk info terbaru 📢
+
+  utter_syarat_anggota_mega:
+  - text: |
+      Syarat bergabung di UKM MEGA:
+      - Mahasiswa aktif FEB
+      - Mengikuti wawancara
+      - Wajib mengikuti Diksar
+      - Memiliki komitmen dalam organisasi
+
+  utter_komitmen_mega:
+  - text: |
+      Di UKM MEGA, anggota diharapkan:
+      - Aktif mengikuti kegiatan
+      - Memiliki komitmen tinggi 💪
+      - Mengikuti Diksar sebagai tahap awal
+      - Bertanggung jawab dalam setiap kegiatan
+
+  utter_divisi_mega:
+  - text: |
+      Divisi di UKM MEGA terdiri dari:
+      - Pudok
+      - Humas
+      - Logistik
+      - Divisi Caving
+      - Divisi Climbing
+      - Divisi Rafting
+      - Divisi Hiking
+
+  utter_struktur_mega:
+  - text: |
+      Struktur UKM MEGA terdiri dari badan pengurus harian inti dan berbagai divisi seperti Humas, Logistik, serta divisi kegiatan alam (Caving, Climbing, Rafting, Hiking) yang saling bekerja sama dalam menjalankan program kerja.
+
+  utter_kegiatan_mega:
+  - text: |
+      Kegiatan UKM MEGA meliputi:
+      - Latihan bulanan
+      - Pendalaman divisi
+      - Open trip
+      - Diksar
+      - Open house
+      - Donor darah
+      Seru banget buat kamu yang suka aktivitas alam! 🌄
+
+  utter_latihan_bulanan_mega:
+  - text: |
+      UKM MEGA memiliki latihan rutin berupa latihan bulanan yang bertujuan untuk meningkatkan skill dan kesiapan anggota dalam kegiatan alam.
+
+  utter_jenis_kegiatan_mega:
+  - text: |
+      Jenis kegiatan di UKM MEGA antara lain:
+      - Diksar (pendidikan dasar)
+      - Open trip 🏕️
+      - Pendalaman divisi
+      - Kegiatan sosial seperti donor darah
+      - Open house
+
+  utter_jadwal_latihan_mega:
+  - text: |
+      Jadwal kegiatan UKM MEGA bersifat periodik (bulanan dan event tertentu).
+      Untuk jadwal detail, biasanya akan diinformasikan melalui Instagram resmi MEGA 📅
+
+  utter_lokasi_kegiatan_mega:
+  - text: |
+      Lokasi kegiatan UKM MEGA beragam, seperti:
+      - Kampus Untar (untuk kegiatan indoor)
+      - Puncak Bogor
+      - Jawa Barat & Jawa Tengah
+      Tergantung jenis kegiatannya 🌍
+
+  utter_event_mega:
+  - text: |
+      Event besar UKM MEGA antara lain:
+      - Open House
+      - Diksar
+      - Pendalaman Divisi
+      - Open Trip
+      - Donor Darah
+
+  utter_jadwal_event_mega:
+  - text: |
+      Jadwal event UKM MEGA:
+      - Open House: Agustus (Hall B & C Untar 2)
+      - Diksar: Oktober (Puncak Bogor)
+      - Open Trip: Oktober (Jawa Barat/Jawa Tengah)
+      - Pendalaman Divisi: Nov/Des (Jawa Barat/Jawa Tengah)
+      - Donor Darah: November (Untar 2)
+
+  utter_fasilitas_mega:
+  - text: |
+      Fasilitas UKM MEGA meliputi:
+      - Peralatan Caving
+      - Peralatan Climbing 🧗
+      - Peralatan Rafting 🚣
+      - Peralatan Hiking 🏕️
+
+  utter_benefit_mega:
+  - text: |
+      Benefit ikut UKM MEGA:
+      - Pengalaman kegiatan alam seru 🌄
+      - Melatih fisik dan mental
+      - Meningkatkan leadership dan teamwork
+      - Menambah relasi dan pengalaman organisasi
+
+  utter_media_informasi_mega:
+  - text: |
+      Untuk info lebih lanjut tentang UKM MEGA:
+      - Update kegiatan: Instagram @megauntar
+      - Contact Person: 081383889552 (Charles)
+      Kamu juga bisa langsung DM Instagram MEGA ya!

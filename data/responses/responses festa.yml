@@ -1,0 +1,131 @@
+version: "3.1"
+
+responses:
+
+  utter_tanya_ukm_festa:
+  - text: |
+      UKM FESTA adalah Unit Kegiatan Mahasiswa yang bergerak di bidang seni sulap di Universitas Tarumanagara.
+      FESTA merupakan federasi sulap yang menjadi wadah bagi mahasiswa untuk mengembangkan kemampuan, tidak hanya dalam trik sulap, tetapi juga soft skill seperti komunikasi, kreativitas, dan kepercayaan diri.
+
+  utter_fungsi_ukm_festa:
+  - text: |
+      Fungsi UKM FESTA adalah sebagai wadah pengembangan minat dan bakat mahasiswa di bidang seni sulap serta sebagai sarana untuk meningkatkan soft skill seperti public speaking, kreativitas, dan kepercayaan diri.
+
+  utter_tujuan_ukm_festa:
+  - text: |
+      Tujuan UKM FESTA adalah untuk mengembangkan kemampuan mahasiswa, baik dalam bidang sulap maupun soft skill, sehingga anggota tidak hanya mahir dalam trik sulap tetapi juga memiliki kemampuan interpersonal yang baik.
+
+  utter_misi_festa:
+  - text: |
+      Misi UKM FESTA adalah mengembangkan kemampuan anggota dalam seni sulap, meningkatkan soft skill, serta membangun komunitas yang kreatif dan kolaboratif di lingkungan kampus.
+
+  utter_visi_festa:
+  - text: |
+      Visi UKM FESTA adalah menjadi komunitas seni sulap yang aktif, kreatif, dan berprestasi di tingkat kampus maupun di luar kampus.
+
+  utter_bidang_ukm_festa:
+  - text: |
+      UKM FESTA bergerak di bidang seni sulap, yang mencakup pembelajaran trik sulap serta pengembangan kemampuan komunikasi dan pertunjukan.
+
+  utter_boleh_gabung_festa:
+  - text: |
+      UKM FESTA terbuka untuk seluruh mahasiswa aktif Universitas Tarumanagara dari berbagai jurusan dan angkatan.
+
+  utter_cara_daftar_festa:
+  - text: |
+      Pendaftaran UKM FESTA dilakukan secara online dengan mengisi formulir pendaftaran.
+      Pendaftaran biasanya dibuka pada periode PMB dan Open House (OH).
+
+  utter_biaya_daftar_festa:
+  - text: |
+      Pendaftaran UKM FESTA tidak dipungut biaya (gratis).
+
+  utter_status_pendaftaran_festa:
+  - text: |
+      Pendaftaran UKM FESTA umumnya dibuka pada periode PMB dan Open House (OH). Informasi terbaru dapat dilihat melalui media sosial resmi.
+
+  utter_syarat_anggota_festa:
+  - text: |
+      Persyaratan untuk bergabung dengan UKM FESTA adalah mahasiswa aktif Universitas Tarumanagara yang memiliki komitmen untuk mengikuti kegiatan UKM.
+
+  utter_seleksi_festa:
+  - text: |
+      Tidak terdapat proses seleksi atau audisi dalam pendaftaran UKM FESTA. Seluruh mahasiswa yang mendaftar dapat langsung bergabung.
+
+  utter_divisi_festa:
+  - text: |
+      UKM FESTA memiliki pembagian peran dalam organisasi untuk mendukung jalannya kegiatan, meskipun fokus utama tetap pada pengembangan kemampuan anggota dalam seni sulap.
+
+  utter_struktur_festa:
+  - text: |
+      Struktur organisasi UKM FESTA terdiri dari badan pengurus harian inti, serta pengurus dan anggota yang bekerja sama dalam menjalankan program kerja UKM.
+
+  utter_kegiatan_festa:
+  - text: |
+      Kegiatan UKM FESTA meliputi latihan rutin, kegiatan kebersamaan, serta berbagai event yang berkaitan dengan seni sulap dan pengembangan anggota.
+
+  utter_kegiatan_latihan_festa:
+  - text: |
+      Kegiatan rutin UKM FESTA berupa latihan sulap yang dilakukan secara berkala untuk meningkatkan kemampuan anggota.
+
+  utter_jadwal_latihan_festa:
+  - text: |
+      Jadwal latihan UKM FESTA dilaksanakan pada:
+      - Hari Rabu dan Kamis
+      - Pukul 15.00 – 16.00
+
+  utter_jenis_kegiatan_festa:
+  - text: |
+      Jenis kegiatan UKM FESTA meliputi:
+      - Latihan rutin seni sulap
+      - Kegiatan internal organisasi
+      - Event edukatif dan hiburan
+      - Kegiatan sosial seperti bakti sosial
+
+  utter_durasi_kegiatan_festa:
+  - text: |
+      Durasi kegiatan latihan UKM FESTA berlangsung sekitar 1 jam setiap pertemuan.
+
+  utter_lokasi_kegiatan_festa:
+  - text: |
+      Kegiatan UKM FESTA dilaksanakan di sekretariat FESTA yang berada di lingkungan kampus Universitas Tarumanagara.
+
+  utter_event_festa:
+  - text: |
+      UKM FESTA memiliki beberapa event utama, antara lain:
+      - Festa Welcome Party (FWP)
+      - Festa Magic Gathering (FMG)
+      - Kegiatan Bakti Sosial (Baksos)
+
+  utter_jadwal_FWP_festa:
+  - text: |
+      Festa Welcome Party (FWP) dilaksanakan sesuai dengan program kerja tahunan, biasanya pada awal periode kepengurusan.
+
+  utter_jadwal_FMG_festa:
+  - text: |
+      Festa Magic Gathering (FMG) merupakan event yang menghadirkan pesulap dan dilaksanakan sesuai dengan agenda tahunan UKM.
+
+  utter_jadwal_baksos_festa:
+  - text: |
+      Kegiatan bakti sosial (Baksos) dilaksanakan sesuai dengan program kerja UKM FESTA pada periode tertentu.
+
+  utter_fasilitas_festa:
+  - text: |
+      UKM FESTA menyediakan fasilitas berupa berbagai properti sulap yang digunakan untuk latihan dan pengembangan kemampuan anggota.
+
+  utter_lokasi_sekre_festa:
+  - text: | 
+      Lokasi ruang sekretariat Festa terletak di Untar Kampus 1, Gedung M, Lantai 2
+
+  utter_benefit_festa:
+  - text: |
+      Manfaat bergabung dengan UKM FESTA antara lain:
+      - Mengembangkan kemampuan seni sulap
+      - Meningkatkan kepercayaan diri dan kemampuan komunikasi
+      - Mengasah kreativitas dan public speaking
+      - Memperluas relasi dan pengalaman organisasi
+
+  utter_media_informasi_festa:
+  - text: |
+      Informasi terbaru mengenai UKM FESTA dapat diperoleh melalui Instagram resmi @festauntar.
+      Untuk pertanyaan lebih lanjut, dapat dilakukan melalui direct message (DM) di Instagram.

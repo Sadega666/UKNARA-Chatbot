@@ -1,0 +1,121 @@
+responses:
+
+  utter_tanya_ukm_sentra:
+  - text: |
+      UKM Sentra merupakan Unit Kegiatan Mahasiswa yang bergerak di bidang seni teater atau teatrikal. 
+      UKM ini menjadi wadah bagi mahasiswa yang memiliki minat dan bakat dalam seni peran untuk mengembangkan kemampuan akting, ekspresi, serta pertunjukan teater.
+
+  utter_fungsi_ukm_sentra:
+  - text: |
+      UKM Sentra berfungsi sebagai wadah pengembangan minat dan bakat mahasiswa di bidang seni teater serta sebagai sarana eksplorasi kreativitas dalam seni pertunjukan.
+
+  utter_tujuan_ukm_sentra:
+  - text: |
+      Tujuan UKM Sentra adalah mewadahi mahasiswa yang berminat di bidang teater agar dapat mengembangkan kemampuan seni peran dan berpartisipasi dalam berbagai kegiatan pertunjukan.
+
+  utter_misi_ukm_sentra:
+  - text: |
+      Misi UKM Sentra adalah mengembangkan kemampuan anggota dalam bidang seni teater, meningkatkan kualitas pertunjukan, serta membangun kerja sama tim dalam produksi seni.
+
+  utter_visi_ukm_sentra:
+  - text: |
+      Visi UKM Sentra adalah menjadi organisasi seni teater kampus yang kreatif, inovatif, dan mampu menghasilkan pertunjukan berkualitas.
+
+  utter_bidang_ukm_sentra:
+  - text: |
+      UKM Sentra bergerak di bidang seni teater atau teatrikal yang mencakup kegiatan akting, pementasan, workshop seni, dan produksi pertunjukan.
+
+  utter_boleh_gabung_sentra:
+  - text: |
+      UKM Sentra terbuka untuk seluruh mahasiswa dari berbagai fakultas dan semester, termasuk bagi pemula yang memiliki minat di bidang seni teater.
+
+  utter_cara_daftar_sentra:
+  - text: |
+      Pendaftaran UKM Sentra dilakukan dengan mengisi formulir pendaftaran (Google Form) pada periode PMB dan Open House.
+
+  utter_biaya_daftar_sentra:
+  - text: |
+      Biaya pendaftaran UKM Sentra sebesar Rp50.000 yang dibayarkan saat proses registrasi.
+
+  utter_status_pendaftaran_sentra:
+  - text: |
+      Pendaftaran UKM Sentra dibuka pada periode PMB dan Open House setiap tahunnya.
+
+  utter_syarat_anggota_sentra:
+  - text: |
+      Persyaratan utama menjadi anggota UKM Sentra adalah memiliki komitmen serta menunjukkan kualitas kerja dalam setiap kegiatan yang diikuti.
+
+  utter_seleksi_sentra:
+  - text: |
+      Proses seleksi UKM Sentra didasarkan pada penilaian kualitas kerja dan partisipasi calon anggota dalam kegiatan.
+
+  utter_divisi_sentra:
+  - text: |
+      Informasi mengenai divisi dalam UKM Sentra dapat diperoleh melalui pengurus atau media informasi resmi UKM Sentra.
+
+  utter_struktur_sentra:
+  - text: |
+      Struktur organisasi UKM Sentra terdiri dari badan pengurus harian inti dan anggota yang bekerja sama dalam menjalankan berbagai kegiatan teater.
+
+  utter_kegiatan_sentra:
+  - text: |
+      Kegiatan UKM Sentra meliputi berbagai program seni teater seperti house warming, workshop, pementasan inagurasi, dan pementasan tunggal.
+
+  utter_jenis_kegiatan_sentra:
+  - text: |
+      Jenis kegiatan UKM Sentra antara lain:
+      - House Warming
+      - Workshop teater
+      - Pementasan Inagurasi
+      - Pementasan Tunggal
+
+  utter_jadwal_kegiatan_sentra:
+  - text: |
+      Jadwal kegiatan UKM Sentra meliputi:
+      - House Warming: Agustus
+      - Workshop: September
+      - Pementasan Inagurasi: Desember
+      - Pementasan Tunggal: Juni
+
+  utter_durasi_kegiatan_sentra:
+  - text: |
+      Durasi kegiatan UKM Sentra menyesuaikan dengan jenis program, seperti workshop dan pementasan yang dapat berlangsung selama beberapa jam hingga beberapa hari.
+
+  utter_lokasi_kegiatan_sentra:
+  - text: |
+      Lokasi kegiatan UKM Sentra antara lain:
+      - Workshop dilaksanakan di Villa Bogor
+      - Pementasan tunggal dilaksanakan di Gedung Kesenian Jakarta
+
+  utter_event_sentra:
+  - text: |
+      Event utama UKM Sentra meliputi house warming, workshop, pementasan inagurasi, dan pementasan tunggal sebagai bentuk pertunjukan seni teater.
+
+  utter_jadwal_event_sentra:
+  - text: |
+      Event UKM Sentra dilaksanakan secara berkala setiap tahun, dengan rincian:
+      - Agustus: House Warming
+      - September: Workshop
+      - Desember: Pementasan Inagurasi
+      - Juni: Pementasan Tunggal
+
+  utter_fasilitas_sentra:
+  - text: |
+      Fasilitas UKM Sentra meliputi ruang sekretariat yang digunakan sebagai tempat berkumpul dan koordinasi anggota.
+
+  utter_lokasi_sekre_sentra:
+  - text: | 
+      Lokasi ruang sekretariat Sentra terletak di Untar Kampus 1, Gedung M, Lantai 2
+
+  utter_benefit_sentra:
+  - text: |
+      Manfaat bergabung dengan UKM Sentra antara lain:
+      - Mengembangkan kemampuan akting dan seni peran
+      - Meningkatkan kreativitas dalam seni pertunjukan
+      - Melatih kerja sama tim
+      - Mendapatkan pengalaman dalam pementasan teater
+
+  utter_media_informasi_sentra:
+  - text: |
+      Informasi terbaru UKM Sentra dapat diakses melalui media sosial Instagram @teatersentra. 
+      Untuk pertanyaan lebih lanjut, dapat menghubungi melalui direct message (DM) Instagram resmi UKM Sentra.

@@ -1,0 +1,42 @@
+version: "3.1"
+
+nlu:
+
+- intent: salam
+  examples: |
+    - halo
+    - hai
+    - hi
+    - hello
+    - selamat pagi
+    - selamat siang
+    - selamat sore
+    - selamat malam
+    - halo chatbot
+    - hai bot
+
+- intent: perpisahan
+  examples: |
+    - sampai jumpa
+    - dadah
+    - bye
+    - saya cukup
+    - sekian
+    - sampai nanti
+    - saya selesai
+    - udah cukup
+    - pamit dulu
+    - sampai ketemu lagi
+
+- intent: terima_kasih
+  examples: |
+    - terima kasih
+    - makasih banyak
+    - thanks
+    - thank you
+    - makasih
+    - sangat membantu
+    - terima kasih ya
+    - makasi
+    - oke terima kasih
+    - makasih bot

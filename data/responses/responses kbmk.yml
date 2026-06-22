@@ -1,0 +1,107 @@
+version: "3.1"
+
+responses:
+
+  utter_tanya_ukm_kbmk:
+  - text: |
+      UKM KBMK (Keluarga Besar Mahasiswa Khonghucu) adalah organisasi mahasiswa yang bergerak di bidang keagamaan Khonghucu. 
+      UKM ini menjadi wadah bagi mahasiswa untuk memperdalam ajaran, nilai spiritual, serta menjalin kebersamaan antar sesama anggota.
+
+  utter_fungsi_ukm_kbmk:
+  - text: |
+      Fungsi KBMK adalah sebagai wadah pembinaan rohani mahasiswa Khonghucu, tempat beribadah, belajar nilai moral, serta membangun kebersamaan dan solidaritas antar anggota di lingkungan kampus.
+
+  utter_tujuan_ukm_kbmk:
+  - text: |
+      Tujuan KBMK adalah untuk memperdalam ajaran agama Khonghucu, meningkatkan keimanan, serta membentuk karakter mahasiswa yang beretika, bermoral, dan memiliki nilai spiritual yang baik.
+
+  utter_misi_kbmk:
+  - text: |
+      Misi KBMK adalah membina kehidupan rohani mahasiswa, menyelenggarakan kegiatan keagamaan, serta mempererat hubungan antar anggota melalui berbagai kegiatan spiritual dan sosial.
+
+  utter_visi_kbmk:
+  - text: |
+      Visi KBMK adalah menjadi wadah pembinaan rohani mahasiswa Khonghucu yang aktif, harmonis, dan berkontribusi positif di lingkungan kampus.
+
+  utter_bidang_ukm_kbmk:
+  - text: |
+      KBMK bergerak di bidang keagamaan, khususnya agama Khonghucu, dengan fokus pada kegiatan ibadah, pembinaan spiritual, dan pengembangan nilai moral mahasiswa.
+
+  utter_boleh_gabung_kbmk:
+  - text: |
+      KBMK terbuka untuk mahasiswa, terutama yang beragama Khonghucu. 
+      Namun mahasiswa dari berbagai jurusan dan semester tetap dapat bergabung untuk mengenal dan belajar bersama.
+
+  utter_cara_daftar_kbmk:
+  - text: |
+      Cara daftar KBMK biasanya dengan mengisi data diri melalui form pendaftaran (seperti Google Form) saat open recruitment atau kegiatan kampus berlangsung.
+
+  utter_biaya_daftar_kbmk:
+  - text: |
+      Untuk informasi biaya pendaftaran KBMK, biasanya tidak disebutkan secara khusus. 
+      Kamu bisa konfirmasi langsung ke pengurus atau melalui media sosial resmi KBMK.
+
+  utter_status_pendaftaran_kbmk:
+  - text: |
+      Pendaftaran KBMK biasanya dibuka saat periode open recruitment atau kegiatan kampus seperti PMB. 
+      Untuk info terbaru, sebaiknya cek media sosial resmi KBMK.
+
+  utter_syarat_anggota_kbmk:
+  - text: |
+      Syarat menjadi anggota KBMK umumnya adalah memiliki minat dalam kegiatan rohani, bersedia mengikuti kegiatan, dan berkomitmen dalam organisasi.
+
+  utter_komitmen_kbmk:
+  - text: |
+      Anggota KBMK diharapkan memiliki komitmen untuk aktif dalam kegiatan, menjaga kebersamaan, serta berpartisipasi dalam kegiatan rohani dan organisasi.
+
+  utter_divisi_kbmk:
+  - text: |
+      KBMK memiliki beberapa divisi atau bidang yang mengatur jalannya organisasi, seperti divisi kegiatan, keagamaan, dan bidang pendukung lainnya sesuai kebutuhan organisasi.
+
+  utter_struktur_kbmk:
+  - text: |
+      Struktur KBMK terdiri dari badan pengurus harian inti, serta divisi-divisi yang membantu menjalankan program kerja organisasi.
+
+  utter_kegiatan_kbmk:
+  - text: |
+      Kegiatan KBMK meliputi ibadah, pembinaan rohani, perayaan hari besar keagamaan, serta kegiatan kebersamaan antar anggota.
+
+  utter_jenis_kegiatan_kbmk:
+  - text: |
+      Jenis kegiatan KBMK meliputi kegiatan ibadah, pembinaan spiritual, perayaan keagamaan, serta kegiatan sosial dan kebersamaan.
+
+  utter_kegiatan_rutin_kbmk:
+  - text: |
+      KBMK memiliki kegiatan rutin seperti ibadah bersama, doa, dan pembinaan rohani untuk meningkatkan keimanan anggota.
+
+  utter_jadwal_rutin_kbmk:
+  - text: |
+      Jadwal kegiatan rutin KBMK biasanya ditentukan oleh pengurus dan diumumkan melalui media informasi resmi seperti grup atau media sosial.
+
+  utter_lokasi_kegiatan_kbmk:
+  - text: |
+      Kegiatan KBMK biasanya dilaksanakan di lingkungan kampus atau tempat ibadah yang telah ditentukan.
+
+  utter_event_kbmk:
+  - text: |
+      KBMK juga menyelenggarakan berbagai event seperti perayaan hari besar keagamaan dan kegiatan kebersamaan lainnya.
+
+  utter_jadwal_event_kbmk:
+  - text: |
+      Jadwal event KBMK biasanya mengikuti kalender kegiatan keagamaan dan diumumkan melalui media informasi resmi.
+
+  utter_fasilitas_kbmk:
+  - text: |
+      KBMK menyediakan fasilitas berupa tempat berkumpul atau ruang kegiatan untuk mendukung aktivitas organisasi dan ibadah.
+
+  utter_lokasi_sekre_kbmk:
+  - text: | 
+      Lokasi ruang sekretariat KBMK terletak di Untar Kampus 1, Gedung M, Lantai 2
+
+  utter_benefit_kbmk:
+  - text: |
+      Dengan bergabung di KBMK, kamu bisa mendapatkan manfaat seperti memperdalam iman, menambah relasi, serta mengembangkan nilai moral dan spiritual.
+
+  utter_media_informasi_kbmk:
+  - text: |
+      Informasi terbaru mengenai KBMK biasanya dibagikan melalui media sosial resmi @kbmk_untar atau dapat ditanyakan langsung melalui DM Instagram.

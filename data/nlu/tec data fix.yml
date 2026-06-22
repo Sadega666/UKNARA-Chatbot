@@ -1,0 +1,439 @@
+version: "3.1"
+
+nlu:
+
+- intent: tanya_ukm_tec
+  examples: |
+    - Apa itu UKM TEC?
+    - TEC itu apa?
+    - Bisa jelaskan TEC?
+    - UKM TEC itu jenis organisasi apa?
+    - TEC di Untar itu apa?
+    - Jelaskan tentang TEC
+    - TEC fokus bidang kegiatan apa?
+    - Saya ingin tahu tentang TEC
+    - TEC itu komunitas apa?
+    - Apa itu organisasi TEC?
+    - TEC fokusnya apa?
+    - UKM TEC aktivitas utama yang dilakukan apa?
+    - TEC itu tujuan utama organisasi ini apa?
+    - Apa peran TEC di kampus?
+
+- intent: fungsi_ukm_tec
+  examples: |
+    - peranan organisasi ini bagi mahasiswa apa?
+    - fungsi utama organisasi ini apa?
+    - Apa fungsi UKM TEC?
+    - Apa fungsi TEC bagi mahasiswa?
+    - TEC berfungsi sebagai apa?
+    - Fungsi TEC?
+    - Apakah fungsi TEC?
+
+- intent: tujuan_ukm_tec
+  examples: |
+    - tujuan utama dibentuknya organisasi ini apa?
+    - organisasi ini dibuat untuk tujuan apa?
+    - Apa tujuan TEC?
+    - TEC dibuat tujuan utama organisasi ini apa?
+    - Tujuan UKM TEC apa?
+    - TEC membantu mahasiswa dalam hal apa?
+    - Apa manfaat utama TEC?
+    - TEC bertujuan apa?
+    - Kenapa TEC dibentuk?
+    - TEC fokus ke apa?
+    - Apa peran TEC bagi mahasiswa?
+    - TEC berfungsi sebagai apa?
+    - Apa kegunaan TEC?
+    - TEC untuk pengembangan apa?
+
+- intent: misi_ukm_tec
+  examples: |
+    - program misi utama organisasi ini apa?
+    - apa fokus misi organisasi ini?
+    - Apa misi TEC?
+    - Misi TEC?
+    - Apa saja misi TEC?
+    - Misi TEC apa?
+    - Misi TEC apa saja?
+
+- intent: visi_ukm_tec
+  examples: |
+    - arah visi organisasi ini bagaimana?
+    - visi utama organisasi ini apa?
+    - Apa visi TEC?
+    - Visi TEC?
+    - Apa saja visi TEC?
+    - Visi TEC apa?
+    - Visi TEC apa saja?
+
+- intent: bidang_ukm_tec
+  examples: |
+    - TEC fokus bidang kegiatan apa?
+    - Bidang UKM TEC apa?
+    - Apakah TEC fokus bahasa Inggris?
+    - TEC fokus di bidang apa?
+    - UKM TEC fokus utama kegiatan apa?
+    - Apakah TEC organisasi bahasa?
+    - TEC bidangnya apa?
+    - Apa spesialisasi TEC?
+    - TEC bergerak di bahasa Inggris?
+    - Bidang utama TEC apa?
+    - Apakah TEC belajar bahasa Inggris?
+    - Fokus TEC apa?
+    - TEC organisasi pendidikan apa?
+    - Apakah TEC tentang English?
+    - TEC terkait bahasa?
+
+- intent: boleh_gabung_tec
+  examples: |
+    - Siapa saja boleh gabung TEC?
+    - Apakah semua mahasiswa bisa join TEC?
+    - Boleh semua fakultas ikut TEC?
+    - Siapa yang bisa ikut TEC?
+    - Apakah TEC terbuka untuk semua?
+    - Mahasiswa mana yang bisa gabung?
+    - Apakah TEC khusus jurusan tertentu?
+    - Siapa yang diperbolehkan masuk TEC?
+    - Apakah umum boleh ikut TEC?
+    - Apakah semua orang bisa join TEC?
+    - TEC terbuka untuk siapa?
+    - Apakah lintas fakultas boleh?
+    - Siapa target anggota TEC?
+    - Apakah mahasiswa baru boleh?
+    - Apakah semua semester boleh?
+
+- intent: cara_daftar_tec
+  examples: |
+    - Bagaimana cara daftar TEC?
+    - Cara join TEC bagaimana?
+    - Gimana cara masuk TEC?
+    - Daftar TEC lewat apa?
+    - Bagaimana proses daftar TEC?
+    - Cara gabung TEC gimana?
+    - Saya ingin daftar TEC
+    - Apa langkah masuk TEC?
+    - Daftar TEC dimana?
+    - Prosedur join TEC bagaimana?
+    - Cara ikut TEC apa?
+    - Bagaimana registrasi TEC?
+    - Masuk TEC harus bagaimana?
+    - Cara daftar UKM TEC?
+    - Join TEC lewat gform?
+
+- intent: biaya_daftar_tec
+  examples: |
+    - Berapa biaya TEC?
+    - Daftar TEC bayar berapa?
+    - Apakah ada biaya TEC?
+    - Biaya registrasi TEC berapa?
+    - Masuk TEC bayar berapa?
+    - Apakah TEC gratis?
+    - Biaya join TEC berapa?
+    - Registrasi TEC berapa?
+    - Apakah ada uang pendaftaran?
+    - Daftar TEC perlu bayar?
+    - Berapa uang masuk TEC?
+    - Biaya anggota TEC?
+    - TEC ada biaya?
+    - Join TEC bayar?
+    - Harga daftar TEC?
+
+- intent: status_pendaftaran_tec
+  examples: |
+    - Apakah pendaftaran TEC buka?
+    - TEC masih buka pendaftaran?
+    - Kapan pendaftaran TEC dibuka?
+    - Apakah bisa daftar sekarang?
+    - Pendaftaran TEC tutup atau belum?
+    - Apakah masih bisa join TEC?
+    - TEC buka recruitment?
+    - Kapan open recruitment TEC?
+    - Apakah TEC sedang open?
+    - Jadwal pendaftaran TEC kapan?
+    - TEC buka anggota baru?
+    - Apakah rekrutmen TEC aktif?
+    - Kapan bisa daftar TEC?
+    - Apakah TEC menerima anggota baru?
+    - TEC lagi buka tidak?
+
+- intent: syarat_anggota_tec
+  examples: |
+    - Apa syarat masuk TEC?
+    - Syarat join TEC apa?
+    - Apa persyaratan TEC?
+    - Masuk TEC harus apa?
+    - Syarat jadi anggota TEC?
+    - Apa ketentuan TEC?
+    - Persyaratan umum TEC?
+    - Syarat gabung TEC apa?
+    - Apa yang harus dipenuhi?
+    - Syarat pendaftaran TEC?
+    - Ketentuan anggota TEC?
+    - Apakah ada syarat khusus?
+    - Apa saja syarat TEC?
+    - Syarat ikut TEC?
+    - Persyaratan masuk TEC?
+
+- intent: divisi_tec
+  examples: |
+    - Divisi TEC apa saja?
+    - Ada bidang apa saja?
+    - Divisi dalam TEC?
+    - Divisi apa saja?
+    - Divisi internal?
+    - Bagian organisasi?
+    - Unit dalam UKM?
+    - Divisi apa saja?
+
+- intent: struktur_tec
+  examples: |
+    - Struktur organisasi TEC?
+    - Struktur UKM TEC?
+    - Struktur kepengurusan TEC?
+    - Struktur bidang TEC?
+    - Struktur lengkap TEC?
+    - Struktur divisi TEC?
+
+- intent: fasilitas_tec
+  examples: |
+    - Fasilitas apa saja?
+    - Ada ruang sekretariat?
+    - Fasilitas TEC?
+    - Apa yang disediakan?
+    - Tempat sekretariat ada?
+    - Fasilitas UKM?
+    - Apakah ada ruangan?
+    - Tempat kumpul ada?
+    - Fasilitas lengkap?
+    - Ada sekretariat?
+    - Apa saja fasilitasnya?
+    - Ruang kegiatan ada?
+    - Tempat organisasi?
+    - Fasilitas pendukung?
+    - Ada basecamp?
+
+- intent: lokasi_sekre_tec
+  examples: |
+    - biasanya lokasi ruang sekretariat dimana
+    - boleh tanya lokasi ruang sekretariat dimana
+    - info lokasi ruang sekretariat dimana
+    - lokasi ruang sekretariat dimana
+    - sekretariat TEC dimana
+    - sekretariat TEC lantai berapa
+    - TEC sekretariatnya di lantai berapa
+    - ruang sekre TEC dimana
+    - ruang sekre TEC lantai berapa
+
+- intent: kelas_tec
+  examples: |
+    - Jadwal TEC kapan?
+    - TEC kelas hari apa?
+    - Kelas TEC kapan?
+    - Jadwal kelas TEC?
+    - kelas TEC aktif hari apa?
+    - Kapan kelas TEC?
+    - Jadwal rutin TEC?
+    - kelas TEC seminggu berapa kali?
+    - Hari kelas TEC?
+    - TEC ada kelas kapan?
+    - Jadwal belajar TEC?
+    - TEC kelas kapan?
+    - Hari apa saja kelas?
+
+- intent: durasi_kegiatan_tec
+  examples: |
+    - Berapa lama kelas TEC?
+    - Durasi kegiatan TEC?
+    - Kelas TEC berapa jam?
+    - Lama kegiatan TEC?
+    - TEC belajar berapa lama?
+    - Durasi pertemuan TEC?
+    - Satu sesi TEC berapa lama?
+    - Kelas TEC durasinya?
+    - Waktu belajar TEC?
+    - Berapa jam per kelas?
+    - TEC berapa lama pertemuan?
+    - Lama latihan TEC?
+    - Waktu kegiatan TEC?
+    - TEC belajar berapa jam?
+    - Sesi TEC berapa lama?
+
+- intent: lokasi_kegiatan_tec
+  examples: |
+    - Dimana kegiatan TEC?
+    - Lokasi TEC dimana?
+    - TEC offline dimana?
+    - Kelas TEC dimana?
+    - Tempat kegiatan TEC?
+    - TEC dilakukan dimana?
+    - Lokasi belajar TEC?
+    - Apakah TEC online?
+    - TEC di cafe?
+    - Tempat TEC dimana?
+    - Lokasi kelas TEC?
+    - TEC offline dimana?
+    - TEC online pakai apa?
+    - Tempat latihan TEC?
+    - Lokasi kegiatan UKM TEC?
+
+- intent: kegiatan_tec
+  examples: |
+    - Kegiatan TEC apa saja?
+    - Aktivitas TEC apa?
+    - TEC ada kegiatan apa?
+    - Program TEC apa?
+    - Apa saja kegiatan TEC?
+    - Event TEC apa?
+    - Aktivitas UKM TEC?
+    - TEC sering ngapain?
+    - Kegiatan rutin TEC?
+    - Program kerja TEC?
+    - Apa yang dilakukan TEC?
+    - Kegiatan anggota TEC?
+    - TEC ada event apa?
+    - Aktivitas TEC sehari-hari?
+    - Apa saja aktivitas TEC?
+
+- intent: materi_tec
+  examples: |
+    - Materi TEC apa saja?
+    - Belajar apa di TEC?
+    - Apa yang diajarkan TEC?
+    - Materi bahasa Inggris TEC?
+    - TEC mengajarkan apa?
+    - Pelajaran TEC apa?
+    - Materi pembelajaran TEC?
+    - Isi kelas TEC apa?
+    - Fokus belajar TEC?
+    - TEC belajar apa?
+    - Materi utama TEC?
+    - Apa saja pelajaran TEC?
+    - TEC mengajar apa?
+    - Materi TEC?
+    - Isi kelas TEC?
+
+- intent: materi_toefl_tec
+  examples: |
+    - Apakah ada TOEFL di TEC?
+    - TEC ajar TOEFL?
+    - Ada materi TOEFL?
+    - TEC latihan TOEFL?
+    - Kelas TOEFL TEC?
+    - Belajar TOEFL di TEC?
+    - TEC fokus TOEFL?
+    - Ada program TOEFL?
+    - TEC bantu TOEFL?
+    - TOEFL di TEC?
+    - TEC menyediakan TOEFL?
+    - Latihan TOEFL TEC?
+    - TOEFL preparation TEC?
+    - TEC belajar TOEFL?
+    - Materi TOEFL TEC?
+
+- intent: tes_toefl_tec
+  examples: |
+    - Apakah ada tes TOEFL di TEC?
+    - TEC mengadakan TOEFL?
+    - Ada ujian TOEFL?
+    - Tes TOEFL TEC?
+    - TEC menyediakan tes TOEFL?
+    - Bisa ikut TOEFL di TEC?
+    - Ujian TOEFL TEC?
+    - Apakah TEC ada tes TOEFL?
+    - TOEFL test TEC?
+    - Tes bahasa Inggris TEC?
+    - Ada ujian di TEC?
+    - TOEFL di TEC?
+    - Program tes TOEFL?
+    - TEC ada test TOEFL?
+    - TOEFL exam TEC?
+
+- intent: jadwal_tes_toefl_tec
+  examples: |
+    - Kapan tes TOEFL TEC?
+    - TOEFL diadakan kapan?
+    - Berapa kali TOEFL setahun?
+    - Jadwal TOEFL TEC?
+    - TOEFL TEC kapan?
+    - Kapan ujian TOEFL?
+    - Jadwal test TOEFL?
+    - TOEFL 2 kali setahun?
+    - Kapan TOEFL di TEC?
+    - Jadwal TOEFL?
+    - Waktu TOEFL TEC?
+    - TOEFL kapan saja?
+    - Tes TOEFL tiap kapan?
+    - TOEFL dilakukan kapan?
+    - Jadwal ujian TOEFL TEC?
+
+- intent: jenis_kelas_tec
+  examples: |
+    - Jenis kelas TEC apa?
+    - Kelas TEC apa saja?
+    - Ada kelas apa di TEC?
+    - TEC punya kelas apa?
+    - Jenis pembelajaran TEC?
+    - Kelas di TEC apa?
+    - TEC menyediakan kelas apa?
+    - Program kelas TEC?
+    - Jenis belajar TEC?
+    - Kelas bahasa TEC?
+    - Kelas apa saja?
+    - Variasi kelas TEC?
+    - Pilihan kelas TEC?
+    - TEC ada kelas apa?
+    - Kelas tersedia TEC?
+
+- intent: kelas_online_offline_tec
+  examples: |
+    - TEC online atau offline?
+    - Kelas TEC online?
+    - TEC offline dimana?
+    - Sistem kelas TEC?
+    - Belajar TEC online?
+    - TEC ada offline?
+    - Apakah hybrid?
+    - Kelas TEC bagaimana?
+    - Online atau offline?
+    - Sistem belajar TEC?
+    - TEC pakai meet?
+    - TEC di cafe?
+    - Belajar TEC dimana?
+    - TEC kelas online?
+    - TEC kelas offline?
+
+- intent: benefit_tec
+  examples: |
+    - Manfaat TEC apa?
+    - Keuntungan join TEC?
+    - Benefit TEC?
+    - Apa yang didapat?
+    - Untung ikut TEC?
+    - Kelebihan TEC?
+    - Kenapa ikut TEC?
+    - Apa manfaat TEC?
+    - Join TEC dapat apa?
+    - Apa benefit TEC?
+    - TEC membantu apa?
+    - Kegunaan TEC?
+    - Apa hasil ikut TEC?
+    - TEC berguna?
+    - Manfaat join TEC?
+
+- intent: media_informasi_tec
+  examples: |
+    - IG TEC apa?
+    - Instagram TEC?
+    - Kontak TEC?
+    - LINE TEC?
+    - Sosial media TEC?
+    - Cara hubungi TEC?
+    - Info TEC dimana?
+    - Akun TEC?
+    - Follow TEC dimana?
+    - Media TEC apa?
+    - Kontak resmi TEC?
+    - DM TEC?
+    - IG resmi TEC?
+    - LINE official TEC?
+    - Info online TEC?

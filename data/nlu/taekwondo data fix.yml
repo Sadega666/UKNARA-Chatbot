@@ -1,0 +1,317 @@
+version: "3.1"
+
+nlu:
+
+- intent: tanya_ukm_taekwondo
+  examples: |
+    - Taekwondo itu apaan sih?
+    - UKM taekwondo tuh kayak gimana sih?
+    - Taekwondo di kampus ngapain aja sih?
+    - Taekwondo itu buat apa sih?
+    - Tim taekwondo kampus itu gimana?
+    - Taekwondo tuh kegiatan apa sih?
+    - Taekwondo di Untar ngapain aja?
+    - UKM Taekwondo itu isinya apa?
+    - Apa itu UKM Taekwondo?
+    - Taekwondo itu apa?
+    - Bisa jelaskan UKM Taekwondo?
+    - UKM Taekwondo jenis organisasi apa?
+    - Taekwondo di kampus itu apa?
+    - Jelaskan tentang UKM Taekwondo
+    - Taekwondo termasuk UKM apa?
+    - Saya ingin tahu tentang Taekwondo?
+
+- intent: fungsi_ukm_taekwondo
+  examples: |
+    - peranan organisasi ini bagi mahasiswa apa?
+    - fungsi utama organisasi ini apa?
+    - Taekwondo gunanya apa sih?
+    - Ikut taekwondo kepake buat apa?
+    - Taekwondo itu ada manfaatnya ga sih?
+    - Peran taekwondo di kampus apa?
+    - Taekwondo itu ngaruh apa sih?
+    - Apa fungsi UKM Taekwondo?
+    - Apa fungsi Taekwondo bagi mahasiswa?
+    - Taekwondo berfungsi sebagai apa?
+    - Fungsi Taekwondo?
+    - Apakah fungsi Taekwondo?
+
+- intent: tujuan_ukm_taekwondo
+  examples: |
+    - tujuan utama dibentuknya organisasi ini apa?
+    - organisasi ini dibuat untuk tujuan apa?
+    - Taekwondo tujuannya apa sih?
+    - Ikut taekwondo biar apa?
+    - Taekwondo itu pengen capai apa?
+    - Ikut taekwondo dapet apa?
+    - Taekwondo buat ngembangin apa sih?
+    - Apa tujuan UKM Taekwondo?
+    - Tujuan Taekwondo kampus apa?
+    - Taekwondo dibuat tujuan utama organisasi ini apa?
+    - Apa manfaat ikut UKM Taekwondo?
+    - Tujuan utama Taekwondo apa?
+    - UKM Taekwondo bertujuan apa?
+    - Taekwondo tujuan utama organisasi ini apa?
+    - Apa kegunaan ikut Taekwondo?
+
+- intent: misi_taekwondo
+  examples: |
+    - program misi utama organisasi ini apa?
+    - apa fokus misi organisasi ini?
+    - Misi taekwondo itu apa sih?
+    - Taekwondo punya misi apa aja?
+    - Fokus utama taekwondo apa?
+    - Target taekwondo itu apa?
+    - Taekwondo mau ngapain sih tujuannya?
+    - Apa misi Taekwondo?
+    - Misi Taekwondo?
+    - Apa saja misi Taekwondo?
+
+- intent: visi_taekwondo
+  examples: |
+    - arah visi organisasi ini bagaimana?
+    - visi utama organisasi ini apa?
+    - Visi taekwondo itu apa sih?
+    - Taekwondo mau jadi apa kedepannya?
+    - Cita-cita taekwondo apa?
+    - Arah taekwondo itu kemana?
+    - Taekwondo pengen berkembang kemana?
+    - Apa visi Taekwondo?
+    - Visi Taekwondo?
+    - Apa saja visi Taekwondo?
+
+- intent: bidang_ukm_taekwondo
+  examples: |
+    - Taekwondo itu bela diri ya?
+    - Taekwondo lebih ke olahraga atau seni sih?
+    - Taekwondo itu fokusnya apa?
+    - Taekwondo ada tandingnya ga?
+    - Taekwondo itu olahraga keras ga?
+    - Taekwondo fokus bidang kegiatan apa?
+    - UKM Taekwondo bidangnya apa?
+    - Apakah Taekwondo bela diri?
+    - Taekwondo termasuk bidang apa?
+    - Taekwondo fokusnya apa?
+
+- intent: boleh_gabung_taekwondo
+  examples: |
+    - Semua orang bisa masuk taekwondo ga?
+    - Anak baru boleh ikut taekwondo ga?
+    - Pemula boleh join ga?
+    - Yang belum bisa bela diri boleh ikut?
+    - Semua jurusan bisa ikut ga?
+    - Siapa saja boleh ikut Taekwondo?
+    - Apakah semua mahasiswa bisa join?
+    - Boleh semua fakultas ikut Taekwondo?
+    - Siapa yang bisa gabung Taekwondo?
+
+- intent: cara_daftar_taekwondo
+  examples: |
+    - Cara masuk taekwondo gimana sih?
+    - Mau join taekwondo harus ngapain?
+    - Daftar taekwondo ribet ga?
+    - Ikut taekwondo mulai dari mana?
+    - Link daftarnya ada ga?
+    - Bagaimana cara daftar Taekwondo?
+    - Cara join Taekwondo?
+    - Gimana cara masuk Taekwondo?
+    - Daftar Taekwondo lewat apa?
+
+- intent: biaya_daftar_taekwondo
+  examples: |
+    - Masuk taekwondo bayar ga sih?
+    - Join taekwondo mahal ga?
+    - Taekwondo gratis atau bayar?
+    - Ada biaya bulanan ga?
+    - Ikut taekwondo keluar duit berapa?
+    - Apakah Taekwondo gratis?
+    - Biaya Taekwondo berapa?
+    - Daftar Taekwondo bayar?
+
+- intent: status_pendaftaran_taekwondo
+  examples: |
+    - Taekwondo lagi buka ga sih?
+    - Masih bisa daftar taekwondo ga?
+    - Sekarang open ga?
+    - Lagi nerima anggota baru ga?
+    - Pendaftaran masih ada?
+    - Apakah Taekwondo buka pendaftaran?
+    - Kapan open recruitment?
+    - Taekwondo masih buka?
+
+- intent: syarat_anggota_taekwondo
+  examples: |
+    - Masuk taekwondo syaratnya apa sih?
+    - Harus bisa dulu ga?
+    - Ada syarat khusus ga?
+    - Perlu skill tertentu ga?
+    - Harus ikut seleksi ga?
+    - Apa syarat masuk Taekwondo?
+    - Syarat join Taekwondo?
+    - Persyaratan Taekwondo apa?
+
+- intent: keanggotaan_taekwondo
+  examples: |
+    - Harus aktif banget ga?
+    - Wajib ikut semua kegiatan ga?
+    - Harus disiplin ya?
+    - Kalau jarang ikut gimana?
+    - Komitmennya berat ga?
+    - Apakah harus aktif?
+    - Harus komitmen?
+    - Apakah wajib latihan rutin?
+
+- intent: kegiatan_taekwondo
+  examples: |
+    - Taekwondo biasanya ngapain aja sih?
+    - Kegiatannya seru ga?
+    - Ada latihan sama tanding ya?
+    - Anak taekwondo sering ngapain?
+    - Ada event juga ga?
+    - Kegiatan Taekwondo apa saja?
+    - Aktivitas Taekwondo apa?
+
+- intent: kegiatan_latihan_taekwondo
+  examples: |
+    - Ada latihan rutin ga sih?
+    - Latihan tiap minggu ada?
+    - Sering latihan ga?
+    - Jadwal rutinnya gimana?
+    - Latihan wajib ga?
+    - Adakah latihan rutin?
+    - Apa kegiatan rutin Taekwondo?
+
+- intent: jadwal_latihan_taekwondo
+  examples: |
+    - Taekwondo latihan kapan sih?
+    - Jadwalnya hari apa?
+    - Latihan seminggu berapa kali?
+    - Kapan biasanya latihan?
+    - Jadwalnya tetap ga?
+    - Jadwal Taekwondo kapan?
+    - Latihan hari apa?
+
+- intent: durasi_kegiatan_taekwondo
+  examples: |
+    - Latihan taekwondo berapa jam sih?
+    - Sekali latihan lama ga?
+    - Durasinya berapa lama?
+    - Satu sesi berapa jam?
+    - Latihan capek ga dan lama ga?
+    - Latihan berapa jam?
+    - Durasi latihan?
+
+- intent: lokasi_kegiatan_taekwondo
+  examples: |
+    - Latihan taekwondo dimana sih?
+    - Di GOR mana latihannya?
+    - Tempat latihannya dimana?
+    - Indoor atau outdoor?
+    - Lokasinya di kampus?
+    - Latihan dimana?
+    - Lokasi Taekwondo?
+
+- intent: kejuaraan_taekwondo
+  examples: |
+    - Taekwondo ikut lomba ga sih?
+    - Ada kompetisi taekwondo ga?
+    - Bisa ikut kejuaraan?
+    - Sering tanding ga?
+    - Ada event lomba?
+    - Apakah ikut kejuaraan?
+    - Taekwondo ikut lomba?
+
+- intent: jadwal_kejuaraan_taekwondo
+  examples: |
+    - Lomba taekwondo kapan sih?
+    - Jadwal tanding kapan?
+    - Eventnya bulan apa?
+    - Ada lomba dalam waktu dekat?
+    - Kejuaraan biasanya kapan?
+    - Kejurnas kapan?
+    - Jadwal lomba kapan?
+
+- intent: ujian_kenaikan_tingkat
+  examples: |
+    - Ada ujian sabuk ga sih?
+    - Naik tingkat gimana caranya?
+    - Ada tes kenaikan?
+    - Sistem sabuknya gimana?
+    - Harus ikut ujian?
+    - Apakah ada ujian kenaikan tingkat?
+    - Ujian sabuk ada?
+
+- intent: jadwal_ujian_taekwondo
+  examples: |
+    - Ujian taekwondo kapan sih?
+    - Jadwal naik sabuk kapan?
+    - Tesnya kapan?
+    - Ada ujian dalam waktu dekat?
+    - Jadwal grading kapan?
+    - Ujian kenaikan tingkat kapan?
+
+- intent: fasilitas_taekwondo
+  examples: |
+    - Taekwondo nyediain alat ga sih?
+    - Ada fasilitas apa aja?
+    - Peralatan disediain ga?
+    - Bisa pinjam alat ga?
+    - Fasilitasnya lengkap ga?
+    - Fasilitas Taekwondo apa?
+
+- intent: lokasi_sekre_taekwondo
+  examples: |
+    - biasanya lokasi ruang sekretariat dimana
+    - boleh tanya lokasi ruang sekretariat dimana
+    - info lokasi ruang sekretariat dimana
+    - lokasi ruang sekretariat dimana
+    - sekretariat taekwondo dimana
+    - sekretariat taekwondo lantai berapa
+    - taekwondo sekretariatnya di lantai berapa
+    - ruang sekre taekwondo dimana
+    - ruang sekre taekwondo lantai berapa
+
+- intent: divisi_taekwondo
+  examples: |
+    - Di taekwondo ada divisi apa aja sih?
+    - Ada pembagian tim ga?
+    - Struktur divisinya gimana?
+    - Ada bidang khusus ga?
+    - Divisinya apa aja?
+    - Divisi Taekwondo apa saja?
+
+- intent: struktur_taekwondo
+  examples: |
+    - Struktur taekwondo gimana sih?
+    - Kepengurusannya kayak apa?
+    - Ada ketua dan divisi ya?
+    - Susunan organisasinya gimana?
+    - Struktur lengkapnya apa aja?
+    - Struktur organisasi?
+
+- intent: prestasi_taekwondo
+  examples: |
+    - Taekwondo pernah juara apa sih?
+    - Prestasinya apa aja?
+    - Pernah menang lomba?
+    - Ada pencapaian apa?
+    - Juara nasional pernah?
+    - Prestasi Taekwondo apa?
+
+- intent: benefit_taekwondo
+  examples: |
+    - Ikut taekwondo dapet apa sih?
+    - Benefitnya apa aja?
+    - Worth it ga ikut taekwondo?
+    - Bisa jadi lebih kuat ga?
+    - Melatih mental juga ga?
+    - Manfaat Taekwondo apa?
+
+- intent: media_informasi_taekwondo
+  examples: |
+    - IG taekwondo apa sih?
+    - Bisa hubungi taekwondo dimana?
+    - Ada kontak admin ga?
+    - Follow taekwondo dimana?
+    - Info lengkapnya liat dimana?
+    - IG Taekwondo apa?

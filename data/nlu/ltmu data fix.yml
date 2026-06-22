@@ -1,0 +1,563 @@
+version: "3.1"
+
+nlu:
+
+- intent: tanya_ukm_ltmu
+  examples: |
+    - LTMU itu apaan sih?
+    - UKM LTMU tuh kayak gimana sih?
+    - LTMU di kampus ngapain aja sih?
+    - LTMU itu buat apa sih?
+    - LTMU tuh isinya apa aja?
+    - Apa itu UKM LTMU?
+    - LTMU itu apa?
+    - Bisa jelaskan UKM LTMU?
+    - LTMU jenis organisasi apa?
+    - UKM LTMU fokus bidang kegiatan apa?
+    - Apa itu LTMU di kampus?
+    - Jelaskan tentang LTMU
+    - LTMU itu komunitas apa?
+    - Saya ingin tahu tentang LTMU
+
+- intent: fungsi_ukm_ltmu
+  examples: |
+    - peranan organisasi ini bagi mahasiswa apa?
+    - fungsi utama organisasi ini apa?
+    - LTMU gunanya apa sih?
+    - Peran LTMU buat mahasiswa apa?
+    - LTMU itu kepake buat apa?
+    - Fungsi LTMU di kampus apa ya?
+    - LTMU bantu apa sih?
+    - Apa fungsi UKM LTMU?
+    - Apa fungsi LTMU bagi mahasiswa?
+    - LTMU berfungsi sebagai apa?
+    - Fungsi LTMU?
+    - Apakah fungsi LTMU?
+
+- intent: tujuan_ukm_ltmu
+  examples: |
+    - tujuan utama dibentuknya organisasi ini apa?
+    - organisasi ini dibuat untuk tujuan apa?
+    - LTMU tujuannya apa sih?
+    - Ikut LTMU biar apa?
+    - LTMU itu pengen capai apa?
+    - Tujuan ikut LTMU apa ya?
+    - LTMU itu buat pengembangan apa sih?
+    - Apa tujuan LTMU?
+    - Tujuan UKM LTMU apa?
+    - LTMU dibuat tujuan utama organisasi ini apa?
+    - LTMU tujuan utama organisasi ini apa?
+    - Tujuan kegiatan LTMU apa?
+    - LTMU bertujuan apa?
+    - Apa kegunaan LTMU?
+    - Tujuan utama LTMU?
+    - Apakah untuk olahraga tenis meja?
+    - LTMU membantu apa?
+
+- intent: misi_ukm_ltmu
+  examples: |
+    - program misi utama organisasi ini apa?
+    - apa fokus misi organisasi ini?
+    - Misi LTMU itu apa sih?
+    - LTMU punya misi apa aja?
+    - Fokus utama LTMU apa?
+    - Misi tim LTMU apa ya?
+    - Target LTMU itu apa?
+    - Apa misi LTMU?
+    - Misi LTMU?
+    - Apa saja misi LTMU?
+    - Misi LTMU apa?
+    - Misi LTMU apa saja?
+
+- intent: visi_ukm_ltmu
+  examples: |
+    - arah visi organisasi ini bagaimana?
+    - visi utama organisasi ini apa?
+    - Visi LTMU itu apa sih?
+    - LTMU mau jadi apa kedepannya?
+    - Tujuan jangka panjang LTMU apa?
+    - Arah LTMU itu kemana?
+    - Cita-cita LTMU apa?
+    - Apa visi LTMU?
+    - Visi LTMU?
+    - Apa saja visi LTMU?
+    - Visi LTMU apa?
+    - Visi LTMU apa saja?
+
+- intent: bidang_ukm_ltmu
+  examples: |
+    - LTMU itu fokusnya tenis meja ya?
+    - UKM LTMU itu olahraga banget ya?
+    - LTMU lebih ke kompetisi ya?
+    - LTMU itu olahraga tim kan?
+    - Fokusnya ke fisik dan game ya?
+    - LTMU fokus bidang kegiatan apa?
+    - Bidang UKM LTMU apa?
+    - Apakah LTMU olahraga?
+    - LTMU fokus apa?
+    - UKM LTMU fokus utama kegiatan apa?
+    - Apakah LTMU organisasi tenis meja?
+    - LTMU bidangnya apa?
+    - Fokus utama LTMU?
+    - Apakah tentang olahraga?
+    - LTMU terkait tenis meja?
+    - LTMU mencakup apa saja?
+    - Apakah latihan tenis meja?
+    - LTMU termasuk UKM olahraga?
+    - LTMU fokus fisik?
+    - Bidang utama LTMU?
+
+- intent: boleh_gabung_ltmu
+  examples: |
+    - Semua orang bisa masuk LTMU ga?
+    - Anak baru boleh ikut LTMU ga?
+    - Bebas join LTMU ga sih?
+    - Semua jurusan bisa ikut ga?
+    - Yang ga jago boleh masuk ga?
+    - Siapa saja boleh gabung LTMU?
+    - Apakah semua mahasiswa bisa join?
+    - Boleh semua fakultas ikut?
+    - Siapa yang bisa join LTMU?
+    - Apakah terbuka untuk semua?
+    - Mahasiswa baru boleh ikut?
+    - Apakah lintas jurusan boleh?
+    - LTMU untuk siapa saja?
+    - Apakah semua semester boleh?
+    - Apakah umum bisa join?
+    - Siapa target anggota LTMU?
+    - Apakah bebas gabung?
+    - Siapa saja bisa daftar?
+    - Apakah LTMU terbuka untuk semua?
+    - Semua mahasiswa boleh ikut?
+
+- intent: cara_daftar_ltmu
+  examples: |
+    - Cara masuk LTMU gimana sih?
+    - Mau join LTMU harus ngapain?
+    - Daftar LTMU ribet ga?
+    - Ikut LTMU mulai dari mana?
+    - Gimana biar bisa gabung LTMU?
+    - Bagaimana cara daftar LTMU?
+    - Cara join LTMU?
+    - Gimana cara masuk LTMU?
+    - Daftar LTMU lewat apa?
+    - Bagaimana proses pendaftaran?
+    - Cara gabung LTMU gimana?
+    - Saya ingin daftar LTMU
+    - Apa langkah daftar LTMU?
+    - Daftar LTMU dimana?
+    - Join lewat gform?
+    - Cara ikut LTMU?
+    - Prosedur masuk LTMU?
+    - Cara registrasi LTMU?
+    - Masuk LTMU bagaimana?
+    - Cara daftar UKM LTMU?
+
+- intent: biaya_daftar_ltmu
+  examples: |
+    - Masuk LTMU bayar ga sih?
+    - Join LTMU mahal ga?
+    - LTMU gratis atau bayar?
+    - Ada biaya latihan ga?
+    - Ikut LTMU butuh uang berapa?
+    - Biaya LTMU berapa?
+    - Daftar LTMU bayar berapa?
+    - Apakah ada biaya LTMU?
+    - Biaya registrasi LTMU berapa?
+    - Masuk LTMU bayar berapa?
+    - Apakah LTMU gratis?
+    - Biaya join LTMU berapa?
+    - Registrasi LTMU berapa?
+    - Apakah ada uang pendaftaran?
+    - Daftar LTMU perlu bayar?
+    - Berapa uang masuk LTMU?
+    - Biaya anggota LTMU?
+    - LTMU ada biaya?
+    - Join LTMU bayar?
+    - Harga daftar LTMU?
+
+- intent: status_pendaftaran_ltmu
+  examples: |
+    - LTMU lagi buka ga sih?
+    - Masih bisa daftar LTMU ga?
+    - Sekarang LTMU open ga?
+    - Lagi nerima anggota baru ga?
+    - Rekrutmen LTMU masih ada?
+    - Apakah LTMU buka pendaftaran?
+    - LTMU masih buka?
+    - Kapan pendaftaran LTMU dibuka?
+    - Apakah bisa daftar sekarang?
+    - Pendaftaran LTMU tutup atau belum?
+    - Apakah masih bisa join?
+    - LTMU open recruitment?
+    - Kapan open LTMU?
+    - Apakah LTMU sedang open?
+    - Jadwal pendaftaran LTMU kapan?
+    - LTMU buka anggota baru?
+    - Apakah rekrutmen LTMU aktif?
+    - Kapan bisa daftar LTMU?
+    - Apakah LTMU menerima anggota baru?
+    - LTMU buka saat PMB?
+
+- intent: syarat_anggota_ltmu
+  examples: |
+    - Masuk LTMU syaratnya apa sih?
+    - Harus bisa tenis meja dulu ga?
+    - Ada syarat khusus ga?
+    - Gabung LTMU harus apa aja?
+    - Perlu pengalaman ga?
+    - Apa syarat masuk LTMU?
+    - Syarat join LTMU apa?
+    - Persyaratan LTMU?
+    - Masuk LTMU harus apa?
+    - Syarat jadi anggota?
+    - Apa ketentuan LTMU?
+    - Syarat gabung LTMU?
+    - Apa yang harus dipenuhi?
+    - Syarat ikut LTMU?
+    - Persyaratan umum LTMU?
+    - Apakah ada syarat khusus?
+    - Harus ikut kepanitiaan?
+    - Syarat pendaftaran LTMU?
+    - Ketentuan anggota LTMU?
+    - Apa saja syaratnya?
+
+- intent: keanggotaan_ltmu
+  examples: |
+    - Apakah boleh ikut UKM lain?
+    - Bisa ikut lebih dari satu UKM?
+    - Apakah bebas ikut kegiatan lain?
+    - Apakah ada Batasan?
+    - Boleh double UKM?
+    - Apakah harus fokus satu UKM?
+    - Apakah fleksibel?
+    - Apakah boleh ikut banyak kegiatan?
+    - Boleh ikut organisasi lain?
+    - Bisa ikut UKM lain juga?
+    - Boleh aktif di UKM lain?
+    - Fleksibel ikut UKM lain?
+
+- intent: komitmen_ltmu
+  examples: |
+    - Apakah harus komitmen di LTMU?
+    - Komitmen LTMU seperti apa?
+    - Harus rutin latihan?
+    - Apakah wajib aktif?
+    - Komitmen anggota LTMU?
+    - Harus ikut kegiatan?
+    - Apakah wajib ikut panitia?
+    - Komitmen penting?
+    - Harus konsisten latihan?
+    - Apakah harus disiplin?
+    - Komitmen bagaimana?
+    - Apakah harus serius?
+    - Komitmen anggota?
+    - Harus tanggung jawab?
+    - Komitmen LTMU apa?
+
+- intent: divisi_ltmu
+  examples: |
+    - Di LTMU ada divisi apa aja sih?
+    - Ada pembagian tim ga?
+    - Divisi LTMU gimana?
+    - Ada tim inti ga?
+    - Struktur timnya gimana?
+    - Divisi LTMU apa saja?
+    - Ada bidang apa saja?
+    - Divisi dalam LTMU?
+    - Divisi apa saja?
+    - Divisi internal?
+    - Bagian organisasi?
+    - Unit dalam UKM?
+    - Divisi apa saja?
+
+- intent: struktur_ltmu
+  examples: |
+    - Struktur LTMU gimana sih?
+    - Kepengurusannya kayak apa?
+    - Ada ketua tim ga?
+    - Susunan organisasinya gimana?
+    - Struktur organisasi?
+    - Struktur UKM?
+    - Struktur kepengurusan?
+    - Struktur bidang?
+    - Struktur lengkap?
+    - Struktur divisi?
+
+- intent: kegiatan_ltmu
+  examples: |
+    - LTMU biasanya ngapain aja sih?
+    - Anak LTMU sering latihan apa?
+    - Ada pertandingan juga ga?
+    - Kegiatan LTMU seru ga?
+    - LTMU sering main apa?
+    - Kegiatan LTMU apa saja?
+    - Aktivitas LTMU apa?
+    - LTMU ada kegiatan apa?
+    - Program LTMU apa?
+    - Apa saja kegiatan LTMU?
+    - Event LTMU apa?
+    - Aktivitas UKM LTMU?
+    - LTMU sering ngapain?
+    - Kegiatan rutin LTMU?
+    - Program kerja LTMU?
+    - Apa yang dilakukan LTMU?
+    - Kegiatan anggota LTMU?
+    - LTMU ada event apa?
+    - Aktivitas LTMU sehari-hari?
+    - Apa saja aktivitas LTMU?
+
+- intent: latihan_rutin_ltmu
+  examples: |
+    - Ada latihan rutin ga sih?
+    - LTMU rutin latihan ga?
+    - Latihan tiap minggu ada?
+    - Sering latihan ga?
+    - Jadwal rutinnya ada ga?
+    - Apa ada latihan rutin?
+    - Apa saja kegiatan rutinnya?
+    - Apakah ada kegiatan rutin?
+    - Ada latihan rutin?
+    - Ada kegiatan rutin?
+
+- intent: fungames_ltmu
+  examples: |
+    - Ada Fun Games lawan tim lain ga?
+    - LTMU sering Fun Games ga?
+    - Bisa tanding ga?
+    - Ada uji coba pertandingan ga?
+    - Fun Games rutin ada?
+    - Apa ada Fun Games?
+    - Apa saja kegiatan Fun Games?
+    - Apakah ada kegiatan Fun Games?
+    - Ada Fun Games?
+    - Ada kegiatan Fun Games?
+
+- intent: cup_ltmu
+  examples: |
+    - LTMU ikut Cup ga?
+    - Ada lomba tenis meja ga?
+    - Ikut kompetisi antar kampus ga?
+    - Ada event tanding ga?
+    - LTMU sering ikut lomba ga?
+    - Apa ada Cup?
+    - Apa saja kegiatan Cup?
+    - Apakah ada kegiatan Cup?
+    - Ada Cup?
+    - Ada kegiatan Cup?
+
+- intent: jenis_kegiatan_ltmu
+  examples: |
+    - Kegiatan LTMU ada apa aja sih?
+    - Ada latihan sama turnamen ya?
+    - Jenis kegiatannya apa aja?
+    - Program LTMU apa aja?
+    - Kegiatan olahraga apa aja?
+    - Jenis kegiatan LTMU?
+    - Program olahraga apa saja?
+    - Aktivitas latihan apa?
+    - Kegiatan tenis meja apa?
+    - Ada pertandingan?
+    - Program utama LTMU?
+    - Event olahraga?
+    - Apa saja jenis kegiatan?
+    - Program latihan LTMU?
+    - Kegiatan kompetisi?
+    - Aktivitas olahraga apa saja?
+
+- intent: jadwal_kegiatan_ltmu
+  examples: |
+    - LTMU biasanya latihan kapan sih?
+    - Jadwal kegiatannya gimana?
+    - Latihan hari apa?
+    - Kapan aktifnya?
+    - Kegiatannya sering kapan?
+    - Jadwal LTMU kapan?
+    - LTMU latihan hari apa?
+    - Jadwal kegiatan LTMU?
+    - LTMU aktif kapan?
+    - Jadwal latihan kapan?
+    - Jadwal rutin LTMU?
+    - LTMU ada kegiatan kapan?
+    - Kapan latihan tenis meja?
+    - Jadwal acara LTMU?
+    - Jadwal kegiatan?
+    - Kapan aktif?
+    - Jadwal program?
+    - Kapan kegiatan utama?
+    - Jadwal mingguan?
+    - Waktu kegiatan?
+
+- intent: durasi_kegiatan_ltmu
+  examples: |
+    - Latihan LTMU berapa jam sih?
+    - Sekali latihan lama ga?
+    - Durasi latihan biasanya berapa?
+    - Main tenis meja berapa lama?
+    - Satu sesi berapa jam?
+    - Berapa lama latihan LTMU?
+    - Durasi latihan?
+    - Kegiatan berapa jam?
+    - Lama kegiatan LTMU?
+    - Latihan berapa lama?
+    - Durasi per sesi?
+    - Satu sesi berapa lama?
+    - Waktu kegiatan?
+    - Berapa jam per latihan?
+    - LTMU berapa lama?
+    - Lama kegiatan?
+    - Durasi olahraga?
+    - Waktu latihan?
+    - Durasi kegiatan?
+    - Berapa lama per sesi?
+
+- intent: lokasi_kegiatan_ltmu
+  examples: |
+    - LTMU biasanya latihan dimana sih?
+    - Main tenis meja di lapangan mana?
+    - Tempat latihannya dimana?
+    - Sering latihan dimana?
+    - Lokasi LTMU dimana ya?
+    - Kegiatan LTMU dimana?
+    - Lokasi LTMU dimana?
+    - Latihan dimana?
+    - Tempat kegiatan LTMU?
+    - LTMU dilakukan dimana?
+    - Lokasi Untar Arena?
+    - Tempat latihan?
+    - Dimana lokasi LTMU?
+    - Tempat kegiatan?
+    - Lokasi latihan LTMU?
+    - Tempat olahraga?
+    - Lokasi kegiatan?
+    - LTMU di mana?
+    - Tempat pertemuan?
+    - Kegiatan di Bogor dimana?
+
+- intent: event_ltmu
+  examples: |
+    - LTMU ada event apa aja sih?
+    - Ada turnamen ga?
+    - Event besarnya apa?
+    - LTMU sering ikut lomba apa?
+    - Ada kompetisi seru ga?
+    - Event LTMU apa saja?
+    - Ada acara apa saja?
+    - Program LTMU apa?
+    - Apa itu cup internal?
+    - Apa itu makrab?
+    - Event LTMU apa saja?
+    - Acara LTMU apa?
+    - Program besar LTMU?
+    - Event tahunan LTMU?
+    - Ada kegiatan khusus?
+    - Event olahraga?
+    - Kegiatan besar LTMU?
+    - Acara utama LTMU?
+    - Event penting LTMU?
+    - Program spesial LTMU?
+
+- intent: jadwal_event_ltmu
+  examples: |
+    - Turnamen LTMU kapan sih?
+    - Event LTMU kapan?
+    - Jadwal lombanya kapan?
+    - Kompetisi diadakan kapan?
+    - Event terdekat kapan?
+    - Makrab LTMU kapan?
+    - Cup internal kapan?
+    - Jadwal event LTMU?
+    - Event bulan apa?
+    - Kapan acara LTMU?
+    - Jadwal kegiatan besar?
+    - Event diadakan kapan?
+    - Jadwal kompetisi?
+    - Kapan kegiatan utama?
+    - Event tahunan kapan?
+    - Jadwal event?
+    - Kapan acara khusus?
+    - Jadwal acara?
+    - Event kapan?
+    - Jadwal makrab?
+
+- intent: fasilitas_ltmu
+  examples: |
+    - LTMU nyediain bola ga?
+    - Ada ring sama alat ga?
+    - Fasilitasnya lengkap ga?
+    - Bisa pinjam alat ga?
+    - Tempat latihan disediain ga?
+    - Fasilitas LTMU apa?
+    - Apa saja fasilitasnya?
+    - Ada lapangan?
+    - Ada perlengkapan?
+    - Ada sekretariat?
+    - Fasilitas lengkap?
+    - Apa yang disediakan?
+    - Fasilitas UKM LTMU?
+    - Apakah ada tempat latihan?
+    - Tempat olahraga ada?
+    - Fasilitas tenis meja?
+    - Apa saja alatnya?
+    - Peralatan olahraga ada?
+    - Fasilitas pendukung?
+    - Ada tempat kumpul?
+
+- intent: lokasi_sekre_ltmu
+  examples: |
+    - biasanya lokasi ruang sekretariat dimana
+    - boleh tanya lokasi ruang sekretariat dimana
+    - info lokasi ruang sekretariat dimana
+    - lokasi ruang sekretariat dimana
+    - sekretariat LTMU dimana
+    - sekretariat LTMU lantai berapa
+    - LTMU sekretariatnya di lantai berapa
+    - ruang sekre LTMU dimana
+    - ruang sekre LTMU lantai berapa
+
+- intent: benefit_ltmu
+  examples: |
+    - Ikut LTMU dapet apa sih?
+    - Bisa jadi lebih jago ga?
+    - Benefit LTMU apa aja?
+    - Worth it ga ikut LTMU?
+    - Bisa ikut lomba ga?
+    - Manfaat LTMU apa?
+    - Keuntungan ikut LTMU?
+    - Benefit LTMU?
+    - Apa yang didapat?
+    - Untung ikut LTMU?
+    - Kelebihan LTMU?
+    - Kenapa ikut LTMU?
+    - Apa manfaat LTMU?
+    - Join LTMU dapat apa?
+    - Apa benefit LTMU?
+    - LTMU membantu apa?
+    - Kegunaan LTMU?
+    - Apa hasil ikut LTMU?
+    - LTMU berguna?
+    - Manfaat join LTMU?
+
+- intent: media_informasi_ltmu
+  examples: |
+    - IG LTMU apa sih?
+    - Bisa hubungi LTMU dimana?
+    - Ada kontak admin ga?
+    - Follow LTMU dimana?
+    - Info LTMU liat dimana?
+    - IG LTMU apa?
+    - Instagram LTMU?
+    - Kontak LTMU?
+    - Nomor LTMU?
+    - Sosial media LTMU?
+    - Cara hubungi LTMU?
+    - Info LTMU dimana?
+    - Akun LTMU?
+    - Follow LTMU dimana?
+    - Media LTMU apa?
+    - Kontak resmi LTMU?
+    - DM LTMU?
+    - IG resmi LTMU?
+    - Nomor admin?
+    - Info online LTMU?
+

@@ -1,0 +1,212 @@
+nlu:
+- intent: tanya_pengertian_ukm
+  examples: |
+    - apa itu ukm
+    - ukm singkatan dari apa 
+    - pengertian ukm
+    - apa yang dimaksud ukm
+    - jelaskan tentang ukm
+    - ukm itu apa 
+    - ukm itu apa sih
+    - definisi ukm
+    - kepanjangan ukm kampus tuh apa
+    - apa arti unit kegiatan mahasiswa
+    - jelaskan unit kegiatan mahasiswa
+    - apa itu unit kegiatan mahasiswa
+    - pengertian unit kegiatan mahasiswa
+    - ukm adalah
+    - jelaskan apa yang dimaksud ukm
+    - arti ukm
+    - kepanjangan ukm
+
+- intent: tanya_fungsi_ukm
+  examples: |
+    - peranan organisasi ini bagi mahasiswa apa?
+    - fungsi utama organisasi ini apa?
+    - fungsi ukm apa
+    - apa fungsi ukm
+    - kegunaan ukm
+    - apa fungsi ukm di kampus
+    - apa peran ukm di kampus
+    - ukm digunakan untuk apa
+    - fungsi organisasi ukm
+    - fungsi ukm
+    - peran ukm bagi mahasiswa
+
+- intent: tanya_tujuan_ukm
+  examples: |
+    - tujuan utama dibentuknya organisasi ini apa?
+    - organisasi ini dibuat untuk tujuan apa?
+    - tujuan ukm apa
+    - apa tujuan ukm
+    - tujuan dibentuknya ukm
+    - kenapa ukm dibentuk
+    - apa tujuan unit kegiatan mahasiswa
+    - tujuan ukm
+    - ukm bertujuan untuk apa
+    - alasan adanya ukm
+    - apa tujuan organisasi mahasiswa
+    - tujuan kegiatan ukm
+    - tujuan adanya ukm
+
+- intent: tanya_jenis_ukm
+  examples: |
+    - jenis jenis ukm
+    - contoh ukm kampus
+    - ada ukm apa saja
+    - daftar ukm di kampus
+    - macam macam ukm
+    - ukm apa saja yang tersedia
+    - organisasi mahasiswa apa saja
+    - contoh unit kegiatan mahasiswa
+    - ada ukm apa saja
+    - daftar ukm
+    - ukm yang tersedia
+    - pilihan ukm di untar
+
+- intent: tanya_manfaat_ikut_ukm
+  examples: |
+    - apa manfaat ikut ukm
+    - manfaat ukm bagi mahasiswa
+    - manfaat ikut ukm
+    - keuntungan mengikuti ukm
+    - apa manfaat bergabung ukm
+    - kenapa harus ikut ukm
+    - manfaat organisasi bagi mahasiswa
+    - apa keuntungan ikut organisasi kampus
+    - manfaat kegiatan ukm
+    - dampak positif ikut ukm
+    - manfaat aktif di ukm
+
+- intent: tanya_keuntungan_ikut_ukm
+  examples: |
+    - keuntungan ikut ukm
+    - apa keuntungan mengikuti ukm
+    - benefit ikut ukm
+    - apa yang didapat dari ukm
+    - kelebihan ikut organisasi kampus
+    - apa saja keuntungan aktif di ukm
+    - keuntungan menjadi anggota ukm
+    - apa yang didapat jika ikut ukm
+    - keuntungan bergabung dengan ukm
+
+- intent: tanya_kewajiban_ikut_ukm
+  examples: |
+    - apakah wajib ikut ukm
+    - ikut ukm wajib atau tidak
+    - apakah mahasiswa harus ikut ukm
+    - wajibkah mengikuti ukm
+    - apakah semua mahasiswa wajib ikut organisasi
+    - ikut ukm itu keharusan tidak
+    - apa mahasiswa diwajibkan ikut ukm
+    - apakah ukm wajib di kampus
+    - kalau tidak ikut ukm bagaimana
+    - apakah ikut ukm wajib bagi mahasiswa baru
+
+- intent: tanya_jumlah_ukm_untar
+  examples: |
+    - ada berapa ukm di untar
+    - jumlah ukm di untar
+    - ukm di untar ada berapa
+    - total ukm untar
+    - berapa banyak ukm di untar
+    - jumlah unit kegiatan mahasiswa di untar
+    - untar memiliki berapa ukm
+    - daftar jumlah ukm untar
+    - total organisasi ukm di untar
+    - apakah benar untar punya 26 ukm
+
+- intent: tanya_ukm_olahraga
+  examples: |
+    - ukm olahraga apa saja
+    - daftar ukm olahraga
+    - ada olahraga apa saja di ukm
+    - ukm bidang olahraga
+    - contoh ukm olahraga
+    - organisasi olahraga kampus apa saja
+    - cabang olahraga di ukm
+    - kegiatan olahraga mahasiswa apa saja
+    - ukm olahraga di kampus
+    - komunitas olahraga mahasiswa
+    - jenis ukm olahraga
+    - olahraga yang ada di ukm
+    - daftar organisasi olahraga mahasiswa
+    - ukm olahraga untar
+    - pilihan ukm olahraga
+
+- intent: tanya_ukm_keagamaan
+  examples: |
+    - ukm keagamaan apa saja
+    - daftar ukm keagamaan
+    - organisasi rohani kampus apa saja
+    - ukm bidang agama
+    - contoh ukm keagamaan
+    - ada ukm kerohanian apa saja
+    - komunitas agama di kampus
+    - kegiatan kerohanian mahasiswa
+    - organisasi keagamaan mahasiswa
+    - jenis ukm kerohanian
+    - ukm agama di kampus
+    - pilihan ukm keagamaan
+    - daftar organisasi rohani mahasiswa
+    - kegiatan rohani di kampus
+
+- intent: tanya_ukm_mapala
+  examples: |
+    - ukm mapala apa saja
+    - ada mapala di kampus tidak
+    - organisasi pecinta alam kampus
+    - ukm pecinta alam
+    - mapala untar
+    - kegiatan mapala apa saja
+    - komunitas pecinta alam mahasiswa
+    - ukm pendaki gunung
+    - mapala termasuk ukm apa
+    - organisasi alam bebas kampus
+    - ukm pencinta alam mahasiswa
+    - ada ukm mapala
+    - kegiatan outdoor mahasiswa
+    - komunitas alam mahasiswa
+    - ukm survival alam
+    - organisasi mapala di kampus
+    - mapala itu ukm apa
+    - kegiatan pecinta alam kampus
+    - ukm hiking mahasiswa
+    - daftar ukm mapala
+
+- intent: tanya_ukm_bakat_minat
+  examples: |
+    - ukm bakat minat apa saja
+    - daftar ukm bakat dan minat
+    - organisasi bakat mahasiswa
+    - ukm pengembangan minat
+    - kegiatan bakat minat mahasiswa
+    - contoh ukm bakat minat
+    - ukm untuk mengembangkan bakat
+    - komunitas hobi mahasiswa
+    - ukm seni dan kreativitas
+    - pilihan ukm sesuai minat
+    - ukm yang cocok untuk bakat
+    - kegiatan minat mahasiswa
+    - organisasi hobi di kampus
+    - ukm kreatif mahasiswa
+    - daftar kegiatan bakat mahasiswa
+    - ukm sesuai passion
+    - ukm untuk mahasiswa kreatif
+    - bakat dan minat di kampus
+    - jenis ukm bakat minat
+
+- intent: tanya_ukm_bela_diri
+  examples: |
+    - ukm bela diri apa saja
+    - daftar ukm bela diri
+    - organisasi bela diri kampus
+    - kegiatan bela diri mahasiswa
+    - komunitas bela diri kampus
+    - ukm bidang bela diri
+    - contoh ukm bela diri
+    - jenis bela diri di ukm
+    - organisasi olahraga bela diri
+    - pilihan ukm bela diri
+    - bela diri mahasiswa apa saja
+    - daftar organisasi bela diri mahasiswa

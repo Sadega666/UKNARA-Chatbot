@@ -1,0 +1,825 @@
+version: "3.1"
+
+stories:
+# =========================
+# KONTEKS PENDAFTARAN
+# =========================
+
+- story: konteks_pendaftaran_bar
+  steps:
+  - intent: boleh_gabung_bar
+  - action: utter_boleh_gabung_bar
+  - intent: cara_daftar_bar
+  - action: utter_cara_daftar_bar
+  - intent: biaya_daftar_bar
+  - action: utter_biaya_daftar_bar
+  - intent: status_pendaftaran_bar
+  - action: utter_status_pendaftaran_bar
+  - intent: syarat_anggota_bar
+  - action: utter_syarat_anggota_bar
+  - intent: kemampuan_anggota_bar
+  - action: utter_kemampuan_anggota_bar
+
+- story: konteks_pendaftaran_adhyatmaka
+  steps:
+  - intent: boleh_gabung_adhyatmaka
+  - action: utter_boleh_gabung_adhyatmaka
+  - intent: cara_daftar_adhyatmaka
+  - action: utter_cara_daftar_adhyatmaka
+  - intent: biaya_daftar_adhyatmaka
+  - action: utter_biaya_daftar_adhyatmaka
+  - intent: status_pendaftaran_adhyatmaka
+  - action: utter_status_pendaftaran_adhyatmaka
+  - intent: syarat_anggota_adhyatmaka
+  - action: utter_syarat_anggota_adhyatmaka
+  - intent: keanggotaan_adhyatmaka
+  - action: utter_keanggotaan_adhyatmaka
+
+- story: konteks_pendaftaran_wmkt
+  steps:
+  - intent: boleh_gabung_wmkt
+  - action: utter_boleh_gabung_wmkt
+  - intent: cara_daftar_wmkt
+  - action: utter_cara_daftar_wmkt
+  - intent: biaya_daftar_wmkt
+  - action: utter_biaya_daftar_wmkt
+  - intent: status_pendaftaran_wmkt
+  - action: utter_status_pendaftaran_wmkt
+  - intent: syarat_anggota_wmkt
+  - action: utter_syarat_anggota_wmkt
+
+- story: konteks_pendaftaran_festa
+  steps:
+  - intent: boleh_gabung_festa
+  - action: utter_boleh_gabung_festa
+  - intent: cara_daftar_festa
+  - action: utter_cara_daftar_festa
+  - intent: biaya_daftar_festa
+  - action: utter_biaya_daftar_festa
+  - intent: status_pendaftaran_festa
+  - action: utter_status_pendaftaran_festa
+  - intent: syarat_anggota_festa
+  - action: utter_syarat_anggota_festa
+
+- story: konteks_pendaftaran_futsal
+  steps:
+  - intent: boleh_gabung_futsal
+  - action: utter_boleh_gabung_futsal
+  - intent: cara_daftar_futsal
+  - action: utter_cara_daftar_futsal
+  - intent: biaya_daftar_futsal
+  - action: utter_biaya_daftar_futsal
+  - intent: status_pendaftaran_futsal
+  - action: utter_status_pendaftaran_futsal
+  - intent: syarat_anggota_futsal
+  - action: utter_syarat_anggota_futsal
+  - intent: kemampuan_anggota_futsal
+  - action: utter_kemampuan_anggota_futsal
+
+- story: konteks_pendaftaran_kbmk
+  steps:
+  - intent: boleh_gabung_kbmk
+  - action: utter_boleh_gabung_kbmk
+  - intent: cara_daftar_kbmk
+  - action: utter_cara_daftar_kbmk
+  - intent: biaya_daftar_kbmk
+  - action: utter_biaya_daftar_kbmk
+  - intent: status_pendaftaran_kbmk
+  - action: utter_status_pendaftaran_kbmk
+  - intent: syarat_anggota_kbmk
+  - action: utter_syarat_anggota_kbmk
+
+- story: konteks_pendaftaran_dharmayana
+  steps:
+  - intent: boleh_gabung_dharmayana
+  - action: utter_boleh_gabung_dharmayana
+  - intent: cara_daftar_dharmayana
+  - action: utter_cara_daftar_dharmayana
+  - intent: biaya_daftar_dharmayana
+  - action: utter_biaya_daftar_dharmayana
+  - intent: status_pendaftaran_dharmayana
+  - action: utter_status_pendaftaran_dharmayana
+  - intent: syarat_anggota_dharmayana
+  - action: utter_syarat_anggota_dharmayana
+  - intent: kemampuan_anggota_dharmayana
+  - action: utter_kemampuan_anggota_dharmayana
+
+- story: konteks_pendaftaran_mega
+  steps:
+  - intent: boleh_gabung_mega
+  - action: utter_boleh_gabung_mega
+  - intent: cara_daftar_mega
+  - action: utter_cara_daftar_mega
+  - intent: biaya_daftar_mega
+  - action: utter_biaya_daftar_mega
+  - intent: status_pendaftaran_mega
+  - action: utter_status_pendaftaran_mega
+  - intent: syarat_anggota_mega
+  - action: utter_syarat_anggota_mega
+
+- story: konteks_pendaftaran_lbut
+  steps:
+  - intent: boleh_gabung_lbut
+  - action: utter_boleh_gabung_lbut
+  - intent: cara_daftar_lbut
+  - action: utter_cara_daftar_lbut
+  - intent: biaya_daftar_lbut
+  - action: utter_biaya_daftar_lbut
+  - intent: status_pendaftaran_lbut
+  - action: utter_status_pendaftaran_lbut
+  - intent: syarat_anggota_lbut
+  - action: utter_syarat_anggota_lbut
+  - intent: kemampuan_anggota_lbut
+  - action: utter_kemampuan_anggota_lbut
+
+- story: konteks_pendaftaran_psut
+  steps:
+  - intent: boleh_gabung_psut
+  - action: utter_boleh_gabung_psut
+  - intent: cara_daftar_psut
+  - action: utter_cara_daftar_psut
+  - intent: biaya_daftar_psut
+  - action: utter_biaya_daftar_psut
+  - intent: status_pendaftaran_psut
+  - action: utter_status_pendaftaran_psut
+  - intent: syarat_anggota_psut
+  - action: utter_syarat_anggota_psut
+  - intent: kemampuan_anggota_psut
+  - action: utter_kemampuan_anggota_psut
+
+- story: konteks_pendaftaran_citrapesona
+  steps:
+  - intent: boleh_gabung_citrapesona
+  - action: utter_boleh_gabung_citrapesona
+  - intent: cara_daftar_citrapesona
+  - action: utter_cara_daftar_citrapesona
+  - intent: biaya_daftar_citrapesona
+  - action: utter_biaya_daftar_citrapesona
+  - intent: status_pendaftaran_citrapesona
+  - action: utter_status_pendaftaran_citrapesona
+  - intent: syarat_anggota_citrapesona
+  - action: utter_syarat_anggota_citrapesona
+  - intent: kemampuan_anggota_citrapesona
+  - action: utter_kemampuan_anggota_citrapesona
+
+- story: konteks_pendaftaran_marsipala
+  steps:
+  - intent: boleh_gabung_marsipala
+  - action: utter_boleh_gabung_marsipala
+  - intent: cara_daftar_marsipala
+  - action: utter_cara_daftar_marsipala
+  - intent: biaya_daftar_marsipala
+  - action: utter_biaya_daftar_marsipala
+  - intent: status_pendaftaran_marsipala
+  - action: utter_status_pendaftaran_marsipala
+  - intent: syarat_anggota_marsipala
+  - action: utter_syarat_anggota_marsipala
+
+- story: konteks_pendaftaran_ltmu
+  steps:
+  - intent: boleh_gabung_ltmu
+  - action: utter_boleh_gabung_ltmu
+  - intent: cara_daftar_ltmu
+  - action: utter_cara_daftar_ltmu
+  - intent: biaya_daftar_ltmu
+  - action: utter_biaya_daftar_ltmu
+  - intent: status_pendaftaran_ltmu
+  - action: utter_status_pendaftaran_ltmu
+  - intent: syarat_anggota_ltmu
+  - action: utter_syarat_anggota_ltmu
+  - intent: keanggotaan_ltmu
+  - action: utter_keanggotaan_ltmu
+
+- story: konteks_pendaftaran_pft
+  steps:
+  - intent: boleh_gabung_pft
+  - action: utter_boleh_gabung_pft
+  - intent: cara_daftar_pft
+  - action: utter_cara_daftar_pft
+  - intent: biaya_daftar_pft
+  - action: utter_biaya_daftar_pft
+  - intent: status_pendaftaran_pft
+  - action: utter_status_pendaftaran_pft
+  - intent: syarat_anggota_pft
+  - action: utter_syarat_anggota_pft
+  - intent: kemampuan_anggota_pft
+  - action: utter_kemampuan_anggota_pft
+  - intent: keanggotaan_pft
+  - action: utter_keanggotaan_pft
+
+- story: konteks_pendaftaran_wushu
+  steps:
+  - intent: boleh_gabung_wushu
+  - action: utter_boleh_gabung_wushu
+  - intent: cara_daftar_wushu
+  - action: utter_cara_daftar_wushu
+  - intent: biaya_daftar_wushu
+  - action: utter_biaya_daftar_wushu
+  - intent: status_pendaftaran_wushu
+  - action: utter_status_pendaftaran_wushu
+  - intent: syarat_anggota_wushu
+  - action: utter_syarat_anggota_wushu
+  - intent: kemampuan_anggota_wushu
+  - action: utter_kemampuan_anggota_wushu
+
+- story: konteks_pendaftaran_mahupa
+  steps:
+  - intent: boleh_gabung_mahupa
+  - action: utter_boleh_gabung_mahupa
+  - intent: cara_daftar_mahupa
+  - action: utter_cara_daftar_mahupa
+  - intent: biaya_daftar_mahupa
+  - action: utter_biaya_daftar_mahupa
+  - intent: status_pendaftaran_mahupa
+  - action: utter_status_pendaftaran_mahupa
+  - intent: syarat_anggota_mahupa
+  - action: utter_syarat_anggota_mahupa
+
+- story: konteks_pendaftaran_livosta
+  steps:
+  - intent: boleh_gabung_livosta
+  - action: utter_boleh_gabung_livosta
+  - intent: cara_daftar_livosta
+  - action: utter_cara_daftar_livosta
+  - intent: biaya_daftar_livosta
+  - action: utter_biaya_daftar_livosta
+  - intent: status_pendaftaran_livosta
+  - action: utter_status_pendaftaran_livosta
+  - intent: syarat_anggota_livosta
+  - action: utter_syarat_anggota_livosta
+  - intent: keanggotaan_livosta
+  - action: utter_keanggotaan_livosta
+
+- story: konteks_pendaftaran_tec
+  steps:
+  - intent: boleh_gabung_tec
+  - action: utter_boleh_gabung_tec
+  - intent: cara_daftar_tec
+  - action: utter_cara_daftar_tec
+  - intent: biaya_daftar_tec
+  - action: utter_biaya_daftar_tec
+  - intent: status_pendaftaran_tec
+  - action: utter_status_pendaftaran_tec
+  - intent: syarat_anggota_tec
+  - action: utter_syarat_anggota_tec
+
+- story: konteks_pendaftaran_sentra
+  steps:
+  - intent: boleh_gabung_sentra
+  - action: utter_boleh_gabung_sentra
+  - intent: cara_daftar_sentra
+  - action: utter_cara_daftar_sentra
+  - intent: biaya_daftar_sentra
+  - action: utter_biaya_daftar_sentra
+  - intent: status_pendaftaran_sentra
+  - action: utter_status_pendaftaran_sentra
+  - intent: syarat_anggota_sentra
+  - action: utter_syarat_anggota_sentra
+
+- story: konteks_pendaftaran_radio
+  steps:
+  - intent: boleh_gabung_radio
+  - action: utter_boleh_gabung_radio
+  - intent: cara_daftar_radio
+  - action: utter_cara_daftar_radio
+  - intent: biaya_daftar_radio
+  - action: utter_biaya_daftar_radio
+  - intent: status_pendaftaran_radio
+  - action: utter_status_pendaftaran_radio
+  - intent: syarat_anggota_radio
+  - action: utter_syarat_anggota_radio
+  - intent: kemampuan_anggota_radio
+  - action: utter_kemampuan_anggota_radio
+
+- story: konteks_pendaftaran_fut
+  steps:
+  - intent: boleh_gabung_fut
+  - action: utter_boleh_gabung_fut
+  - intent: cara_daftar_fut
+  - action: utter_cara_daftar_fut
+  - intent: biaya_daftar_fut
+  - action: utter_biaya_daftar_fut
+  - intent: status_pendaftaran_fut
+  - action: utter_status_pendaftaran_fut
+  - intent: syarat_anggota_fut
+  - action: utter_syarat_anggota_fut
+
+- story: konteks_pendaftaran_taekwondo
+  steps:
+  - intent: boleh_gabung_taekwondo
+  - action: utter_boleh_gabung_taekwondo
+  - intent: cara_daftar_taekwondo
+  - action: utter_cara_daftar_taekwondo
+  - intent: biaya_daftar_taekwondo
+  - action: utter_biaya_daftar_taekwondo
+  - intent: status_pendaftaran_taekwondo
+  - action: utter_status_pendaftaran_taekwondo
+  - intent: syarat_anggota_taekwondo
+  - action: utter_syarat_anggota_taekwondo
+  - intent: keanggotaan_taekwondo
+  - action: utter_keanggotaan_taekwondo
+
+- story: konteks_pendaftaran_libama
+  steps:
+  - intent: boleh_gabung_libama
+  - action: utter_boleh_gabung_libama
+  - intent: cara_daftar_libama
+  - action: utter_cara_daftar_libama
+  - intent: biaya_daftar_libama
+  - action: utter_biaya_daftar_libama
+  - intent: status_pendaftaran_libama
+  - action: utter_status_pendaftaran_libama
+  - intent: syarat_anggota_libama
+  - action: utter_syarat_anggota_libama
+  - intent: kemampuan_anggota_libama
+  - action: utter_kemampuan_anggota_libama
+
+- story: konteks_pendaftaran_jujitsu
+  steps:
+  - intent: boleh_gabung_jujitsu
+  - action: utter_boleh_gabung_jujitsu
+  - intent: cara_daftar_jujitsu
+  - action: utter_cara_daftar_jujitsu
+  - intent: biaya_daftar_jujitsu
+  - action: utter_biaya_daftar_jujitsu
+  - intent: status_pendaftaran_jujitsu
+  - action: utter_status_pendaftaran_jujitsu
+  - intent: syarat_anggota_jujitsu
+  - action: utter_syarat_anggota_jujitsu
+
+- story: konteks_pendaftaran_pout
+  steps:
+  - intent: boleh_gabung_pout
+  - action: utter_boleh_gabung_pout
+  - intent: cara_daftar_pout
+  - action: utter_cara_daftar_pout
+  - intent: biaya_daftar_pout
+  - action: utter_biaya_daftar_pout
+  - intent: status_pendaftaran_pout
+  - action: utter_status_pendaftaran_pout
+  - intent: syarat_anggota_pout
+  - action: utter_syarat_anggota_pout
+  - intent: kemampuan_anggota_pout
+  - action: utter_kemampuan_anggota_pout
+
+# =========================
+# KONTEKS KEGIATAN
+# =========================
+
+- story: konteks_kegiatan_bar
+  steps:
+  - intent: kegiatan_bar
+  - action: utter_kegiatan_bar
+  - intent: kegiatan_rutin_bar
+  - action: utter_kegiatan_rutin_bar
+  - intent: jadwal_latihan_bar
+  - action: utter_jadwal_latihan_bar
+  - intent: durasi_kegiatan_bar
+  - action: utter_durasi_kegiatan_bar
+  - intent: lokasi_kegiatan_bar
+  - action: utter_lokasi_kegiatan_bar
+  - intent: event_bar
+  - action: utter_event_bar
+  - intent: jadwal_event_bar
+  - action: utter_jadwal_event_bar
+
+- story: konteks_kegiatan_adhyatmaka
+  steps:
+  - intent: kegiatan_adhyatmaka
+  - action: utter_kegiatan_adhyatmaka
+  - intent: kegiatan_rutin_adhyatmaka
+  - action: utter_kegiatan_rutin_adhyatmaka
+  - intent: persekutuan_adhyatmaka
+  - action: utter_persekutuan_adhyatmaka
+  - intent: katekumen_adhyatmaka
+  - action: utter_katekumen_adhyatmaka
+  - intent: legiomaria_adhyatmaka
+  - action: utter_legiomaria_adhyatmaka
+  - intent: jadwal_rutin_adhyatmaka
+  - action: utter_jadwal_rutin_adhyatmaka
+  - intent: durasi_kegiatan_adhyatmaka
+  - action: utter_durasi_kegiatan_adhyatmaka
+  - intent: lokasi_kegiatan_adhyatmaka
+  - action: utter_lokasi_kegiatan_adhyatmaka
+  - intent: event_adhyatmaka
+  - action: utter_event_adhyatmaka
+  - intent: jadwal_retret_adhyatmaka
+  - action: utter_jadwal_retret_adhyatmaka
+  - intent: jadwal_natal_adhyatmaka
+  - action: utter_jadwal_natal_adhyatmaka
+  - intent: jadwal_paskah_adhyatmaka
+  - action: utter_jadwal_paskah_adhyatmaka
+  - intent: jadwal_misa_adhyatmaka
+  - action: utter_jadwal_misa_adhyatmaka
+  - intent: jadwal_ziarah_adhyatmaka
+  - action: utter_jadwal_ziarah_adhyatmaka
+  - intent: jadwal_baksos_adhyatmaka
+  - action: utter_jadwal_baksos_adhyatmaka
+
+- story: konteks_kegiatan_wmkt
+  steps:
+  - intent: kegiatan_wmkt
+  - action: utter_kegiatan_wmkt
+  - intent: jenis_kegiatan_wmkt
+  - action: utter_jenis_kegiatan_wmkt
+  - intent: jadwal_kegiatan_wmkt
+  - action: utter_jadwal_kegiatan_wmkt
+  - intent: lokasi_kegiatan_wmkt
+  - action: utter_lokasi_kegiatan_wmkt
+
+- story: konteks_kegiatan_festa
+  steps:
+  - intent: kegiatan_festa
+  - action: utter_kegiatan_festa
+  - intent: kegiatan_latihan_festa
+  - action: utter_kegiatan_latihan_festa
+  - intent: jadwal_latihan_festa
+  - action: utter_jadwal_latihan_festa
+  - intent: jenis_kegiatan_festa
+  - action: utter_jenis_kegiatan_festa
+  - intent: durasi_kegiatan_festa
+  - action: utter_durasi_kegiatan_festa
+  - intent: lokasi_kegiatan_festa
+  - action: utter_lokasi_kegiatan_festa
+  - intent: event_festa
+  - action: utter_event_festa
+  - intent: jadwal_FWP_festa
+  - action: utter_jadwal_FWP_festa
+  - intent: jadwal_FMG_festa
+  - action: utter_jadwal_FMG_festa
+  - intent: jadwal_baksos_festa
+  - action: utter_jadwal_baksos_festa
+
+- story: konteks_kegiatan_futsal
+  steps:
+  - intent: kegiatan_futsal
+  - action: utter_kegiatan_futsal
+  - intent: latihan_rutin_futsal
+  - action: utter_latihan_rutin_futsal
+  - intent: jenis_kegiatan_futsal
+  - action: utter_jenis_kegiatan_futsal
+  - intent: jadwal_kegiatan_futsal
+  - action: utter_jadwal_kegiatan_futsal
+  - intent: durasi_kegiatan_futsal
+  - action: utter_durasi_kegiatan_futsal
+  - intent: lokasi_kegiatan_futsal
+  - action: utter_lokasi_kegiatan_futsal
+  - intent: event_futsal
+  - action: utter_event_futsal
+  - intent: jadwal_event_futsal
+  - action: utter_jadwal_event_futsal
+
+- story: konteks_kegiatan_kbmk
+  steps:
+  - intent: kegiatan_kbmk
+  - action: utter_kegiatan_kbmk
+  - intent: jenis_kegiatan_kbmk
+  - action: utter_jenis_kegiatan_kbmk
+  - intent: kegiatan_rutin_kbmk
+  - action: utter_kegiatan_rutin_kbmk
+  - intent: jadwal_rutin_kbmk
+  - action: utter_jadwal_rutin_kbmk
+  - intent: lokasi_kegiatan_kbmk
+  - action: utter_lokasi_kegiatan_kbmk
+  - intent: event_kbmk
+  - action: utter_event_kbmk
+  - intent: jadwal_event_kbmk
+  - action: utter_jadwal_event_kbmk
+
+- story: konteks_kegiatan_dharmayana
+  steps:
+  - intent: kegiatan_dharmayana
+  - action: utter_kegiatan_dharmayana
+  - intent: kegiatan_rutin_dharmayana
+  - action: utter_kegiatan_rutin_dharmayana
+  - intent: jenis_kegiatan_dharmayana
+  - action: utter_jenis_kegiatan_dharmayana
+  - intent: jadwal_rutin_dharmayana
+  - action: utter_jadwal_rutin_dharmayana
+  - intent: durasi_kegiatan_dharmayana
+  - action: utter_durasi_kegiatan_dharmayana
+  - intent: lokasi_kegiatan_dharmayana
+  - action: utter_lokasi_kegiatan_dharmayana
+  - intent: event_dharmayana
+  - action: utter_event_dharmayana
+  - intent: jadwal_event_dharmayana
+  - action: utter_jadwal_event_dharmayana
+
+- story: konteks_kegiatan_mega
+  steps:
+  - intent: kegiatan_mega
+  - action: utter_kegiatan_mega
+  - intent: latihan_bulanan_mega
+  - action: utter_latihan_bulanan_mega
+  - intent: jenis_kegiatan_mega
+  - action: utter_jenis_kegiatan_mega
+  - intent: jadwal_latihan_mega
+  - action: utter_jadwal_latihan_mega
+  - intent: lokasi_kegiatan_mega
+  - action: utter_lokasi_kegiatan_mega
+  - intent: event_mega
+  - action: utter_event_mega
+  - intent: jadwal_event_mega
+  - action: utter_jadwal_event_mega
+
+- story: konteks_kegiatan_lbut
+  steps:
+  - intent: kegiatan_lbut
+  - action: utter_kegiatan_lbut
+  - intent: latihan_rutin_lbut
+  - action: utter_latihan_rutin_lbut
+  - intent: jenis_kegiatan_lbut
+  - action: utter_jenis_kegiatan_lbut
+  - intent: jadwal_kegiatan_lbut
+  - action: utter_jadwal_kegiatan_lbut
+  - intent: durasi_kegiatan_lbut
+  - action: utter_durasi_kegiatan_lbut
+  - intent: lokasi_kegiatan_lbut
+  - action: utter_lokasi_kegiatan_lbut
+  - intent: event_lbut
+  - action: utter_event_lbut
+  - intent: jadwal_event_lbut
+  - action: utter_jadwal_event_lbut
+
+- story: konteks_kegiatan_psut
+  steps:
+  - intent: kegiatan_psut
+  - action: utter_kegiatan_psut
+  - intent: latihan_psut
+  - action: utter_latihan_psut
+  - intent: jenis_kegiatan_psut
+  - action: utter_jenis_kegiatan_psut
+  - intent: jadwal_kegiatan_psut
+  - action: utter_jadwal_kegiatan_psut
+  - intent: durasi_kegiatan_psut
+  - action: utter_durasi_kegiatan_psut
+  - intent: lokasi_kegiatan_psut
+  - action: utter_lokasi_kegiatan_psut
+  - intent: event_psut
+  - action: utter_event_psut
+  - intent: jadwal_event_psut
+  - action: utter_jadwal_event_psut
+
+- story: konteks_kegiatan_citrapesona
+  steps:
+  - intent: kegiatan_citrapesona
+  - action: utter_kegiatan_citrapesona
+  - intent: kegiatan_rutin_citrapesona
+  - action: utter_kegiatan_rutin_citrapesona
+  - intent: jadwal_latihan_citrapesona
+  - action: utter_jadwal_latihan_citrapesona
+  - intent: durasi_kegiatan_citrapesona
+  - action: utter_durasi_kegiatan_citrapesona
+  - intent: lokasi_kegiatan_citrapesona
+  - action: utter_lokasi_kegiatan_citrapesona
+  - intent: event_citrapesona
+  - action: utter_event_citrapesona
+  - intent: event_tnf_citrapesona
+  - action: utter_event_tnf_citrapesona
+  - intent: event_gathering_citrapesona
+  - action: utter_event_gathering_citrapesona
+  - intent: jadwal_event_citrapesona
+  - action: utter_jadwal_event_citrapesona
+  - intent: jadwal_tnf_citrapesona
+  - action: utter_jadwal_tnf_citrapesona
+  - intent: jadwal_gathering_citrapesona
+  - action: utter_jadwal_gathering_citrapesona
+
+- story: konteks_kegiatan_marsipala
+  steps:
+  - intent: kegiatan_marsipala
+  - action: utter_kegiatan_marsipala
+  - intent: latihan_bulanan_marsipala
+  - action: utter_latihan_bulanan_marsipala
+  - intent: jenis_kegiatan_marsipala
+  - action: utter_jenis_kegiatan_marsipala
+  - intent: jadwal_kegiatan_marsipala
+  - action: utter_jadwal_kegiatan_marsipala
+  - intent: lokasi_kegiatan_marsipala
+  - action: utter_lokasi_kegiatan_marsipala
+  - intent: event_marsipala
+  - action: utter_event_marsipala
+  - intent: jadwal_event_marsipala
+  - action: utter_jadwal_event_marsipala
+
+- story: konteks_kegiatan_ltmu
+  steps:
+  - intent: kegiatan_ltmu
+  - action: utter_kegiatan_ltmu
+  - intent: latihan_rutin_ltmu
+  - action: utter_latihan_rutin_ltmu
+  - intent: jenis_kegiatan_ltmu
+  - action: utter_jenis_kegiatan_ltmu
+  - intent: jadwal_kegiatan_ltmu
+  - action: utter_jadwal_kegiatan_ltmu
+  - intent: durasi_kegiatan_ltmu
+  - action: utter_durasi_kegiatan_ltmu
+  - intent: lokasi_kegiatan_ltmu
+  - action: utter_lokasi_kegiatan_ltmu
+  - intent: event_ltmu
+  - action: utter_event_ltmu
+  - intent: jadwal_event_ltmu
+  - action: utter_jadwal_event_ltmu
+
+- story: konteks_kegiatan_pft
+  steps:
+  - intent: kegiatan_pft
+  - action: utter_kegiatan_pft
+  - intent: jenis_kegiatan_pft
+  - action: utter_jenis_kegiatan_pft
+  - intent: jadwal_kegiatan_pft
+  - action: utter_jadwal_kegiatan_pft
+  - intent: durasi_kegiatan_pft
+  - action: utter_durasi_kegiatan_pft
+  - intent: lokasi_kegiatan_pft
+  - action: utter_lokasi_kegiatan_pft
+  - intent: event_pft
+  - action: utter_event_pft
+  - intent: jadwal_event_pft
+  - action: utter_jadwal_event_pft
+
+- story: konteks_kegiatan_wushu
+  steps:
+  - intent: kegiatan_wushu
+  - action: utter_kegiatan_wushu
+  - intent: kegiatan_latihan_wushu
+  - action: utter_kegiatan_latihan_wushu
+  - intent: jadwal_latihan_wushu
+  - action: utter_jadwal_latihan_wushu
+  - intent: durasi_kegiatan_wushu
+  - action: utter_durasi_kegiatan_wushu
+  - intent: lokasi_kegiatan_wushu
+  - action: utter_lokasi_kegiatan_wushu
+  - intent: event_wushu
+  - action: utter_event_wushu
+  - intent: jadwal_event_wushu
+  - action: utter_jadwal_event_wushu
+
+- story: konteks_kegiatan_mahupa
+  steps:
+  - intent: kegiatan_mahupa
+  - action: utter_kegiatan_mahupa
+  - intent: latihan_bulanan_mahupa
+  - action: utter_latihan_bulanan_mahupa
+  - intent: jenis_kegiatan_mahupa
+  - action: utter_jenis_kegiatan_mahupa
+  - intent: jadwal_kegiatan_mahupa
+  - action: utter_jadwal_kegiatan_mahupa
+  - intent: lokasi_kegiatan_mahupa
+  - action: utter_lokasi_kegiatan_mahupa
+  - intent: event_mahupa
+  - action: utter_event_mahupa
+  - intent: jadwal_event_mahupa
+  - action: utter_jadwal_event_mahupa
+
+- story: konteks_kegiatan_livosta
+  steps:
+  - intent: kegiatan_livosta
+  - action: utter_kegiatan_livosta
+  - intent: latihan_rutin_livosta
+  - action: utter_latihan_rutin_livosta
+  - intent: jenis_kegiatan_livosta
+  - action: utter_jenis_kegiatan_livosta
+  - intent: jadwal_kegiatan_livosta
+  - action: utter_jadwal_kegiatan_livosta
+  - intent: durasi_kegiatan_livosta
+  - action: utter_durasi_kegiatan_livosta
+  - intent: lokasi_kegiatan_livosta
+  - action: utter_lokasi_kegiatan_livosta
+  - intent: event_livosta
+  - action: utter_event_livosta
+  - intent: jadwal_event_livosta
+  - action: utter_jadwal_event_livosta
+
+- story: konteks_kegiatan_tec
+  steps:
+  - intent: durasi_kegiatan_tec
+  - action: utter_durasi_kegiatan_tec
+  - intent: lokasi_kegiatan_tec
+  - action: utter_lokasi_kegiatan_tec
+  - intent: kegiatan_tec
+  - action: utter_kegiatan_tec
+  - intent: jadwal_tes_toefl_tec
+  - action: utter_jadwal_tes_toefl_tec
+
+- story: konteks_kegiatan_sentra
+  steps:
+  - intent: kegiatan_sentra
+  - action: utter_kegiatan_sentra
+  - intent: jenis_kegiatan_sentra
+  - action: utter_jenis_kegiatan_sentra
+  - intent: jadwal_kegiatan_sentra
+  - action: utter_jadwal_kegiatan_sentra
+  - intent: durasi_kegiatan_sentra
+  - action: utter_durasi_kegiatan_sentra
+  - intent: lokasi_kegiatan_sentra
+  - action: utter_lokasi_kegiatan_sentra
+  - intent: event_sentra
+  - action: utter_event_sentra
+  - intent: jadwal_event_sentra
+  - action: utter_jadwal_event_sentra
+
+- story: konteks_kegiatan_radio
+  steps:
+  - intent: kegiatan_radio
+  - action: utter_kegiatan_radio
+  - intent: jenis_kegiatan_radio
+  - action: utter_jenis_kegiatan_radio
+  - intent: jadwal_kegiatan_radio
+  - action: utter_jadwal_kegiatan_radio
+  - intent: durasi_kegiatan_radio
+  - action: utter_durasi_kegiatan_radio
+  - intent: lokasi_kegiatan_radio
+  - action: utter_lokasi_kegiatan_radio
+  - intent: event_radio
+  - action: utter_event_radio
+  - intent: jadwal_event_radio
+  - action: utter_jadwal_event_radio
+
+- story: konteks_kegiatan_fut
+  steps:
+  - intent: kegiatan_fut
+  - action: utter_kegiatan_fut
+  - intent: kegiatan_rutin_fut
+  - action: utter_kegiatan_rutin_fut
+  - intent: jenis_kegiatan_fut
+  - action: utter_jenis_kegiatan_fut
+  - intent: jadwal_rutin_fut
+  - action: utter_jadwal_rutin_fut
+  - intent: lokasi_kegiatan_fut
+  - action: utter_lokasi_kegiatan_fut
+  - intent: event_fut
+  - action: utter_event_fut
+  - intent: jadwal_event_fut
+  - action: utter_jadwal_event_fut
+
+- story: konteks_kegiatan_taekwondo
+  steps:
+  - intent: kegiatan_taekwondo
+  - action: utter_kegiatan_taekwondo
+  - intent: kegiatan_latihan_taekwondo
+  - action: utter_kegiatan_latihan_taekwondo
+  - intent: jadwal_latihan_taekwondo
+  - action: utter_jadwal_latihan_taekwondo
+  - intent: durasi_kegiatan_taekwondo
+  - action: utter_durasi_kegiatan_taekwondo
+  - intent: lokasi_kegiatan_taekwondo
+  - action: utter_lokasi_kegiatan_taekwondo
+  - intent: jadwal_kejuaraan_taekwondo
+  - action: utter_jadwal_kejuaraan_taekwondo
+  - intent: jadwal_ujian_taekwondo
+  - action: utter_jadwal_ujian_taekwondo
+
+- story: konteks_kegiatan_libama
+  steps:
+  - intent: kegiatan_libama
+  - action: utter_kegiatan_libama
+  - intent: latihan_rutin_libama
+  - action: utter_latihan_rutin_libama
+  - intent: jenis_kegiatan_libama
+  - action: utter_jenis_kegiatan_libama
+  - intent: jadwal_kegiatan_libama
+  - action: utter_jadwal_kegiatan_libama
+  - intent: durasi_kegiatan_libama
+  - action: utter_durasi_kegiatan_libama
+  - intent: lokasi_kegiatan_libama
+  - action: utter_lokasi_kegiatan_libama
+  - intent: event_libama
+  - action: utter_event_libama
+  - intent: jadwal_event_libama
+  - action: utter_jadwal_event_libama
+
+- story: konteks_kegiatan_jujitsu
+  steps:
+  - intent: kegiatan_jujitsu
+  - action: utter_kegiatan_jujitsu
+  - intent: kegiatan_latihan_jujitsu
+  - action: utter_kegiatan_latihan_jujitsu
+  - intent: jadwal_latihan_jujitsu
+  - action: utter_jadwal_latihan_jujitsu
+  - intent: durasi_kegiatan_jujitsu
+  - action: utter_durasi_kegiatan_jujitsu
+  - intent: lokasi_kegiatan_jujitsu
+  - action: utter_lokasi_kegiatan_jujitsu
+  - intent: event_jujitsu
+  - action: utter_event_jujitsu
+  - intent: jadwal_event_jujitsu
+  - action: utter_jadwal_event_jujitsu
+
+- story: konteks_kegiatan_pout
+  steps:
+  - intent: kegiatan_pout
+  - action: utter_kegiatan_pout
+  - intent: jenis_kegiatan_pout
+  - action: utter_jenis_kegiatan_pout
+  - intent: kegiatan_rutin_pout
+  - action: utter_kegiatan_rutin_pout
+  - intent: durasi_kegiatan_pout
+  - action: utter_durasi_kegiatan_pout
+  - intent: lokasi_kegiatan_pout
+  - action: utter_lokasi_kegiatan_pout
+  - intent: event_pout
+  - action: utter_event_pout
+  - intent: jadwal_event_pout
+  - action: utter_jadwal_event_pout
+

@@ -1,0 +1,155 @@
+version: "3.1"
+
+responses:
+
+  utter_tanya_ukm_dharmayana:
+  - text: |
+      UKM Dharmayana adalah organisasi mahasiswa yang bergerak di bidang keagamaan, khususnya agama Buddha. 
+      UKM ini menjadi wadah bagi mahasiswa untuk memperdalam ajaran Buddha serta membangun komunitas spiritual di kampus.
+
+  utter_fungsi_ukm_dharmayana:
+  - text: |
+      Fungsi UKM Dharmayana adalah sebagai sarana pembinaan spiritual dan pengembangan diri mahasiswa 
+      dalam memahami ajaran Buddha serta mempererat hubungan antar sesama anggota.
+
+  utter_tujuan_ukm_dharmayana:
+  - text: |
+      Tujuan utama UKM Dharmayana adalah memperdalam pengetahuan dan praktik ajaran agama Buddha, 
+      serta membantu mahasiswa berkembang secara spiritual dan moral.
+
+  utter_misi_dharmayana:
+  - text: |
+      Misi UKM Dharmayana adalah menyelenggarakan kegiatan keagamaan dan edukatif 
+      untuk meningkatkan pemahaman serta pengamalan ajaran Buddha.
+
+  utter_visi_dharmayana:
+  - text: |
+      Visi UKM Dharmayana adalah menjadi komunitas mahasiswa Buddhis yang aktif, 
+      solid, dan mampu mengembangkan nilai-nilai Dharma dalam kehidupan sehari-hari.
+
+  utter_bidang_ukm_dharmayana:
+  - text: |
+      UKM Dharmayana bergerak di bidang keagamaan Buddha, 
+      dengan fokus pada kegiatan spiritual, pembelajaran Dharma, dan pengabdian.
+
+  utter_boleh_gabung_dharmayana:
+  - text: |
+      UKM Dharmayana terbuka untuk seluruh mahasiswa, 
+      namun terutama diperuntukkan bagi mahasiswa yang beragama Buddha.
+
+  utter_cara_daftar_dharmayana:
+  - text: |
+      Cara mendaftar UKM Dharmayana adalah dengan mengisi data diri saat periode PMB atau open house, 
+      kemudian mengikuti proses selanjutnya seperti wawancara.
+
+  utter_biaya_daftar_dharmayana:
+  - text: |
+      Informasi biaya pendaftaran UKM Dharmayana tidak disebutkan secara khusus. 
+      Untuk detail lebih lanjut, kamu bisa menghubungi contact person.
+
+  utter_status_pendaftaran_dharmayana:
+  - text: |
+      Pendaftaran UKM Dharmayana biasanya dibuka saat periode PMB dan open house kampus.
+
+  utter_seleksi_dharmayana:
+  - text: |
+      Ya, terdapat proses seleksi berupa wawancara untuk bergabung dengan UKM Dharmayana.
+
+  utter_syarat_anggota_dharmayana:
+  - text: |
+      Syarat utama bergabung adalah memiliki komitmen untuk berkontribusi di UKM Dharmayana. 
+      Untuk posisi tertentu seperti BPH/BPHI, diperlukan syarat dan skill tambahan.
+
+  utter_kemampuan_anggota_dharmayana:
+  - text: |
+      Tidak wajib memiliki kemampuan khusus untuk menjadi anggota. 
+      Namun untuk posisi kepengurusan (BPH/BPHI), dibutuhkan skill tertentu sesuai bidangnya.
+
+  utter_divisi_dharmayana:
+  - text: |
+      Divisi di UKM Dharmayana meliputi:
+      - Bakti
+      - Banat
+      - Humas
+      - Inventaris
+      - Multimedia
+      - Pusdikes
+
+  utter_struktur_dharmayana:
+  - text: |
+      Struktur UKM Dharmayana terdiri dari badan pengurus harian inti 
+      dan berbagai divisi yang mendukung jalannya kegiatan organisasi.
+
+  utter_kegiatan_dharmayana:
+  - text: |
+      Kegiatan UKM Dharmayana antara lain:
+      - Kebaktian mingguan
+      - Welcoming Party DWP
+      - Dharmadista
+      - Katina
+      - Latihan Kepemimpinan (LK)
+      - Pekan Penghayatan Dharma
+      - Meta Day
+      - Dharmayana Buddhist Festival
+      - Berita Dharmayana
+      - DM Fun (kegiatan hiburan)
+
+  utter_kegiatan_rutin_dharmayana:
+  - text: |
+      Kegiatan rutin UKM Dharmayana adalah kebaktian mingguan yang dilaksanakan setiap hari Minggu.
+
+  utter_jenis_kegiatan_dharmayana:
+  - text: |
+      Jenis kegiatan UKM Dharmayana mencakup kegiatan spiritual, edukasi Dharma, 
+      event keagamaan, serta kegiatan sosial dan hiburan.
+
+  utter_jadwal_rutin_dharmayana:
+  - text: |
+      Kebaktian rutin dilaksanakan setiap hari Minggu pukul 10.00 – 12.00.
+
+  utter_durasi_kegiatan_dharmayana:
+  - text: |
+      Durasi kegiatan rutin seperti kebaktian berlangsung sekitar 2 jam.
+
+  utter_lokasi_kegiatan_dharmayana:
+  - text: |
+      Kegiatan UKM Dharmayana dilaksanakan di Vihara yang berada di wilayah Jabodetabek, 
+      serta beberapa kegiatan seperti Katina atau Dharmayana Buddhist Festival juga diadakan di kampus Untar.
+
+  utter_event_dharmayana:
+  - text: |
+      Event besar UKM Dharmayana meliputi:
+      - Dharmadista
+      - Katina
+      - LK
+      - Pekan Penghayatan Dharma
+      - Meta Day
+      - Dharmayana Buddhist Festival
+
+  utter_jadwal_event_dharmayana:
+  - text: |
+      Jadwal event UKM Dharmayana berbeda-beda setiap tahun, 
+      seperti Dharmadista, Katina, dan Meta Day yang diadakan pada periode tertentu. 
+      Untuk jadwal terbaru, cek Instagram resmi mereka.
+
+  utter_fasilitas_dharmayana:
+  - text: |
+      Fasilitas UKM Dharmayana meliputi ruang sekretariat yang digunakan untuk berkumpul dan koordinasi kegiatan.
+
+  utter_lokasi_sekre_dharmayana:
+  - text: | 
+      Lokasi ruang sekretariat Dharmayana terletak di Untar Kampus 1, Gedung M, Lantai 2
+
+  utter_benefit_dharmayana:
+  - text: |
+      Manfaat bergabung di UKM Dharmayana:
+      - Memperdalam ajaran Buddha
+      - Mengembangkan spiritualitas
+      - Menambah relasi dan komunitas
+      - Melatih soft skill melalui kegiatan organisasi
+
+  utter_media_informasi_dharmayana:
+  - text: |
+      Informasi terbaru UKM Dharmayana dapat diakses melalui Instagram resmi @dharmayanauntar.
+      Contact person:
+      085782607484 (Henry)

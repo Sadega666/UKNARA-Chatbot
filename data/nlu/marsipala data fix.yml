@@ -1,0 +1,497 @@
+version: "3.1"
+
+nlu:
+
+- intent: tanya_ukm_marsipala
+  examples: |
+    - Marsipala itu apaan sih?
+    - UKM Marsipala tuh kayak gimana sih?
+    - Marsipala di kampus ngapain aja sih?
+    - Marsipala itu organisasi apa ya?
+    - Marsipala tuh buat apa sih?
+    - Apa itu UKM Marsipala?
+    - Marsipala itu apa?
+    - Bisa jelaskan UKM Marsipala?
+    - Marsipala jenis organisasi apa?
+    - UKM Marsipala fokus bidang kegiatan apa?
+    - Apa itu Marsipala di kampus?
+    - Jelaskan tentang Marsipala
+    - Marsipala itu komunitas apa?
+    - Saya ingin tahu tentang Marsipala
+
+- intent: fungsi_ukm_marsipala
+  examples: |
+    - peranan organisasi ini bagi mahasiswa apa?
+    - fungsi utama organisasi ini apa?
+    - Marsipala gunanya apa sih?
+    - Fungsi Marsipala tuh buat apa?
+    - Marsipala itu membantu apa aja?
+    - Marsipala kepake buat apa?
+    - Peran Marsipala itu apa sih?
+    - Apa fungsi UKM Marsipala?
+    - Apa fungsi Marsipala bagi mahasiswa?
+    - Marsipala berfungsi sebagai apa?
+    - Fungsi Marsipala?
+    - Apakah fungsi Marsipala?
+
+- intent: tujuan_ukm_marsipala
+  examples: |
+    - tujuan utama dibentuknya organisasi ini apa?
+    - organisasi ini dibuat untuk tujuan apa?
+    - Marsipala tujuannya apa sih?
+    - Dibuatnya Marsipala buat apa?
+    - Marsipala punya tujuan apa ya?
+    - Ikut Marsipala tujuannya apa?
+    - Marsipala itu pengen capai apa?
+    - Apa tujuan Marsipala?
+    - Tujuan UKM Marsipala apa?
+    - Marsipala dibuat tujuan utama organisasi ini apa?
+    - Apa manfaat ikut Marsipala?
+    - Marsipala tujuan utama organisasi ini apa?
+    - Tujuan kegiatan Marsipala apa?
+    - Marsipala bertujuan apa?
+    - Apa kegunaan Marsipala?
+    - Tujuan utama Marsipala?
+    - Apakah untuk lingkungan?
+    - Marsipala membantu apa?
+
+- intent: misi_ukm_marsipala
+  examples: |
+    - program misi utama organisasi ini apa?
+    - apa fokus misi organisasi ini?
+    - Misi Marsipala itu apa sih?
+    - Marsipala punya misi apa aja?
+    - Tujuan kecil Marsipala apa aja?
+    - Misi utamanya Marsipala apa?
+    - Marsipala fokusnya ke apa aja?
+    - Apa misi Marsipala?
+    - Misi Marsipala?
+    - Apa saja misi Marsipala?
+    - Misi Marsipala apa?
+    - Misi Marsipala apa saja?
+
+- intent: visi_ukm_marsipala
+  examples: |
+    - arah visi organisasi ini bagaimana?
+    - visi utama organisasi ini apa?
+    - Visi Marsipala itu apa sih?
+    - Marsipala mau jadi apa kedepannya?
+    - Arah Marsipala itu kemana?
+    - Cita-cita Marsipala apa?
+    - Marsipala punya tujuan besar apa?
+    - Apa visi Marsipala?
+    - Visi Marsipala?
+    - Apa saja visi Marsipala?
+    - Visi Marsipala apa?
+    - Visi Marsipala apa saja?
+
+- intent: bidang_ukm_marsipala
+  examples: |
+    - Marsipala fokusnya di bidang apa sih?
+    - Marsipala itu anak alam ya?
+    - Marsipala tuh ke arah apa kegiatannya?
+    - Fokus Marsipala apa aja?
+    - Marsipala lebih ke outdoor ya?
+    - Marsipala fokus bidang kegiatan apa?
+    - Bidang UKM Marsipala apa?
+    - Apakah Marsipala pecinta alam?
+    - Marsipala fokus apa?
+    - UKM Marsipala fokus utama kegiatan apa?
+    - Apakah Marsipala tentang lingkungan?
+    - Marsipala bidangnya apa?
+    - Fokus utama Marsipala?
+    - Apakah tentang alam?
+    - Marsipala terkait kegiatan outdoor?
+    - Marsipala mencakup apa saja?
+    - Apakah tentang hiking?
+    - Marsipala termasuk UKM alam?
+    - Marsipala fokus kegiatan luar?
+    - Bidang utama Marsipala?
+
+- intent: boleh_gabung_marsipala
+  examples: |
+    - Semua orang bisa masuk Marsipala ga?
+    - Bebas join Marsipala ga sih?
+    - Anak jurusan apa aja boleh ikut?
+    - Semester tua boleh gabung ga?
+    - Anak baru bisa masuk Marsipala ga?
+    - Siapa saja boleh gabung Marsipala?
+    - Apakah semua mahasiswa bisa join?
+    - Boleh semua fakultas ikut?
+    - Siapa yang bisa join Marsipala?
+    - Apakah terbuka untuk semua?
+    - Mahasiswa baru boleh ikut?
+    - Apakah lintas jurusan boleh?
+    - Marsipala untuk siapa saja?
+    - Apakah semua semester boleh?
+    - Apakah umum bisa join?
+    - Siapa target anggota Marsipala?
+    - Apakah bebas gabung?
+    - Siapa saja bisa daftar?
+    - Apakah Marsipala terbuka untuk semua?
+    - Semua mahasiswa boleh ikut?
+
+- intent: cara_daftar_marsipala
+  examples: |
+    - Cara masuk Marsipala gimana sih?
+    - Mau join Marsipala harus ngapain?
+    - Daftar Marsipala ribet ga?
+    - Ikut Marsipala daftar dimana ya?
+    - Gimana biar bisa gabung Marsipala?
+    - Bagaimana cara daftar Marsipala?
+    - Cara join Marsipala?
+    - Gimana cara masuk Marsipala?
+    - Daftar Marsipala lewat apa?
+    - Bagaimana proses pendaftaran?
+    - Cara gabung Marsipala gimana?
+    - Saya ingin daftar Marsipala
+    - Apa langkah daftar Marsipala?
+    - Daftar Marsipala dimana?
+    - Join lewat gform?
+    - Cara ikut Marsipala?
+    - Prosedur masuk Marsipala?
+    - Cara registrasi Marsipala?
+    - Masuk Marsipala bagaimana?
+    - Cara daftar UKM Marsipala?
+
+- intent: biaya_daftar_marsipala
+  examples: |
+    - Masuk Marsipala bayar ga sih?
+    - Join Marsipala mahal ga?
+    - Marsipala gratis atau bayar?
+    - Ikut Marsipala butuh biaya berapa?
+    - Ada uang pendaftaran ga?
+    - Biaya Marsipala berapa?
+    - Daftar Marsipala bayar berapa?
+    - Apakah ada biaya Marsipala?
+    - Biaya registrasi Marsipala berapa?
+    - Masuk Marsipala bayar berapa?
+    - Apakah Marsipala gratis?
+    - Biaya join Marsipala berapa?
+    - Registrasi Marsipala berapa?
+    - Apakah ada uang pendaftaran?
+    - Daftar Marsipala perlu bayar?
+    - Berapa uang masuk Marsipala?
+    - Biaya anggota Marsipala?
+    - Marsipala ada biaya?
+    - Join Marsipala bayar?
+    - Harga daftar Marsipala?
+
+- intent: status_pendaftaran_marsipala
+  examples: |
+    - Marsipala lagi buka ga sih?
+    - Masih bisa daftar Marsipala ga?
+    - Sekarang Marsipala open ga?
+    - Rekrutmen Marsipala masih ada ga?
+    - Lagi nerima anggota baru ga?
+    - Apakah Marsipala buka pendaftaran?
+    - Marsipala masih buka?
+    - Kapan pendaftaran Marsipala dibuka?
+    - Apakah bisa daftar sekarang?
+    - Pendaftaran Marsipala tutup atau belum?
+    - Apakah masih bisa join?
+    - Marsipala open recruitment?
+    - Kapan open Marsipala?
+    - Apakah Marsipala sedang open?
+    - Jadwal pendaftaran Marsipala kapan?
+    - Marsipala buka anggota baru?
+    - Apakah rekrutmen Marsipala aktif?
+    - Kapan bisa daftar Marsipala?
+    - Apakah Marsipala menerima anggota baru?
+    - Marsipala buka saat PMB?
+
+- intent: syarat_anggota_marsipala
+  examples: |
+    - Masuk Marsipala syaratnya apa sih?
+    - Harus bisa apa dulu?
+    - Ada syarat khusus ga?
+    - Gabung Marsipala harus apa aja?
+    - Perlu skill tertentu ga?
+    - Apa syarat masuk Marsipala?
+    - Syarat join Marsipala apa?
+    - Persyaratan Marsipala?
+    - Masuk Marsipala harus apa?
+    - Syarat jadi anggota?
+    - Apa ketentuan Marsipala?
+    - Syarat gabung Marsipala?
+    - Apa yang harus dipenuhi?
+    - Syarat ikut Marsipala?
+    - Persyaratan umum Marsipala?
+    - Apakah ada syarat khusus?
+    - Harus ikut diksar?
+    - Syarat pendaftaran Marsipala?
+    - Ketentuan anggota Marsipala?
+    - Apa saja syaratnya?
+
+- intent: komitmen_marsipala
+  examples: |
+    - Harus aktif banget ga di Marsipala?
+    - Wajib ikut semua kegiatan ga?
+    - Komitmennya berat ga?
+    - Harus disiplin banget ya?
+    - Kalau jarang ikut gimana?
+    - Apakah harus komitmen di Marsipala?
+    - Komitmen Marsipala seperti apa?
+    - Harus aktif kegiatan?
+    - Apakah wajib ikut kegiatan?
+    - Komitmen anggota Marsipala?
+    - Harus ikut semua program?
+    - Apakah wajib diksar?
+    - Komitmen penting?
+    - Harus disiplin?
+    - Apakah harus serius?
+    - Komitmen bagaimana?
+    - Apakah harus aktif?
+    - Komitmen anggota?
+    - Harus tanggung jawab?
+    - Komitmen Marsipala apa?
+
+- intent: divisi_marsipala
+  examples: |
+    - Di Marsipala ada divisi apa aja sih?
+    - Divisinya apa aja?
+    - Ada pembagian tim ga?
+    - Struktur divisinya gimana?
+    - Ada bidang khusus ga?
+    - Divisi Marsipala apa saja?
+    - Ada bidang apa saja?
+    - Divisi dalam Marsipala?
+    - Divisi apa saja?
+    - Divisi internal?
+    - Bagian organisasi?
+    - Unit dalam UKM?
+    - Divisi apa saja?
+
+- intent: struktur_marsipala
+  examples: |
+    - Struktur Marsipala gimana sih?
+    - Kepengurusannya kayak apa?
+    - Ada ketua dan divisi ya?
+    - Susunan organisasinya gimana?
+    - Struktur lengkapnya apa aja?
+    - Struktur organisasi?
+    - Struktur UKM?
+    - Struktur kepengurusan?
+    - Struktur bidang?
+    - Struktur lengkap?
+    - Struktur divisi?
+
+- intent: kegiatan_marsipala
+  examples: |
+    - Marsipala biasanya ngapain aja sih?
+    - Kegiatan Marsipala seru ga?
+    - Anak Marsipala sering ngelakuin apa?
+    - Marsipala ada aktivitas apa aja?
+    - Kegiatan sehari-harinya apa sih?
+    - Kegiatan Marsipala apa saja?
+    - Aktivitas Marsipala apa?
+    - Marsipala ada kegiatan apa?
+    - Program Marsipala apa?
+    - Apa saja kegiatan Marsipala?
+    - Event Marsipala apa?
+    - Aktivitas UKM Marsipala?
+    - Marsipala sering ngapain?
+    - Kegiatan rutin Marsipala?
+    - Program kerja Marsipala?
+    - Apa yang dilakukan Marsipala?
+    - Kegiatan anggota Marsipala?
+    - Marsipala ada event apa?
+    - Aktivitas Marsipala sehari-hari?
+    - Apa saja aktivitas Marsipala?
+
+- intent: latihan_bulanan_marsipala
+  examples: |
+    - Ada latihan rutin ga sih?
+    - Marsipala tiap bulan ngapain?
+    - Latihan rutin ada ga?
+    - Sering kumpul ga?
+    - Ada kegiatan rutin ga?
+    - Apa ada latihan rutin?
+    - Apa saja kegiatan rutinnya?
+    - Apakah ada kegiatan rutin?
+    - Ada latihan rutin?
+    - Ada kegiatan rutin?
+
+- intent: jenis_kegiatan_marsipala
+  examples: |
+    - Kegiatan Marsipala ada apa aja sih?
+    - Ada diksar sama trip ya?
+    - Jenis kegiatannya apa aja?
+    - Marsipala ada program apa aja?
+    - Kegiatan outdoor apa aja?
+    - Apa itu open trip Marsipala?
+    - Apa itu diksar Marsipala?
+    - Apa itu pendalaman divisi?
+    - Jenis kegiatan Marsipala?
+    - Program alam apa saja?
+    - Aktivitas outdoor apa?
+    - Kegiatan hiking apa?
+    - Ada kegiatan lingkungan?
+    - Program utama Marsipala?
+    - Kegiatan fisik apa?
+    - Event alam?
+    - Apa saja jenis kegiatan?
+    - Program latihan Marsipala?
+    - Kegiatan eksplorasi?
+    - Aktivitas alam apa saja?
+
+- intent: jadwal_kegiatan_marsipala
+  examples: |
+    - Marsipala biasanya latihan kapan sih?
+    - Jadwal kegiatannya gimana?
+    - Marsipala aktifnya hari apa?
+    - Latihan rutin kapan ya?
+    - Kegiatannya seringnya kapan?
+    - Jadwal Marsipala kapan?
+    - Marsipala kegiatan hari apa?
+    - Jadwal kegiatan Marsipala?
+    - Marsipala aktif kapan?
+    - Jadwal latihan kapan?
+    - Jadwal rutin Marsipala?
+    - Marsipala ada kegiatan kapan?
+    - Kapan kegiatan alam?
+    - Jadwal acara Marsipala?
+    - Jadwal kegiatan?
+    - Kapan aktif?
+    - Jadwal program?
+    - Kapan kegiatan utama?
+    - Jadwal bulanan?
+    - Waktu kegiatan?
+
+- intent: lokasi_kegiatan_marsipala
+  examples: |
+    - Kegiatannya biasanya dimana sih?
+    - Marsipala sering latihan dimana?
+    - Lokasi kegiatannya dimana ya?
+    - Biasanya di gunung mana?
+    - Tempat kumpulnya dimana?
+    - Kegiatan Marsipala dimana?
+    - Lokasi Marsipala dimana?
+    - Kegiatan alam dimana?
+    - Tempat kegiatan Marsipala?
+    - Marsipala dilakukan dimana?
+    - Lokasi puncak?
+    - Tempat latihan?
+    - Dimana lokasi Marsipala?
+    - Tempat kegiatan?
+    - Lokasi kegiatan Marsipala?
+    - Tempat outdoor?
+    - Lokasi kegiatan?
+    - Marsipala di mana?
+    - Tempat pertemuan?
+    - Kegiatan di jawa barat dimana?
+
+- intent: event_marsipala
+  examples: |
+    - Marsipala ada acara apa aja sih?
+    - Event besarnya apa aja?
+    - Ada kegiatan tahunan ga?
+    - Marsipala sering bikin event apa?
+    - Event serunya apa aja?
+    - Event Marsipala apa saja?
+    - Ada acara apa saja?
+    - Program Marsipala apa?
+    - Apa itu open house?
+    - Apa itu donor darah?
+    - Event Marsipala apa saja?
+    - Acara Marsipala apa?
+    - Program besar Marsipala?
+    - Event tahunan Marsipala?
+    - Ada kegiatan khusus?
+    - Event alam?
+    - Kegiatan besar Marsipala?
+    - Acara utama Marsipala?
+    - Event penting Marsipala?
+    - Program spesial Marsipala?
+
+- intent: jadwal_event_marsipala
+  examples: |
+    - Event Marsipala kapan sih?
+    - Diksar biasanya kapan?
+    - Acara Marsipala diadakan kapan?
+    - Jadwal eventnya gimana?
+    - Event terdekat kapan?
+    - Open house Marsipala kapan?
+    - Diksar kapan?
+    - Jadwal event Marsipala?
+    - Event bulan apa?
+    - Kapan acara Marsipala?
+    - Jadwal kegiatan besar?
+    - Event diadakan kapan?
+    - Jadwal kegiatan alam?
+    - Kapan kegiatan utama?
+    - Event tahunan kapan?
+    - Jadwal event?
+    - Kapan acara khusus?
+    - Jadwal acara?
+    - Event kapan?
+    - Jadwal diksar?
+
+- intent: fasilitas_marsipala
+  examples: |
+    - Marsipala nyediain alat ga sih?
+    - Ada fasilitas apa aja?
+    - Peralatan disediain ga?
+    - Bisa pinjam alat ga?
+    - Fasilitasnya lengkap ga?
+    - Fasilitas Marsipala apa?
+    - Apa saja fasilitasnya?
+    - Ada alat hiking?
+    - Ada perlengkapan?
+    - Ada alat caving?
+    - Fasilitas lengkap?
+    - Apa yang disediakan?
+    - Fasilitas UKM Marsipala?
+    - Apakah ada alat climbing?
+    - Peralatan outdoor ada?
+    - Fasilitas rafting?
+    - Apa saja alatnya?
+    - Peralatan alam ada?
+    - Fasilitas pendukung?
+    - Ada alat petualangan?
+
+- intent: benefit_marsipala
+  examples: |
+    - Ikut Marsipala dapet apa sih?
+    - Benefitnya apa aja?
+    - Worth it ga ikut Marsipala?
+    - Keuntungan join Marsipala apa?
+    - Ada manfaatnya apa aja?
+    - Manfaat Marsipala apa?
+    - Keuntungan ikut Marsipala?
+    - Benefit Marsipala?
+    - Apa yang didapat?
+    - Untung ikut Marsipala?
+    - Kelebihan Marsipala?
+    - Kenapa ikut Marsipala?
+    - Apa manfaat Marsipala?
+    - Join Marsipala dapat apa?
+    - Apa benefit Marsipala?
+    - Marsipala membantu apa?
+    - Kegunaan Marsipala?
+    - Apa hasil ikut Marsipala?
+    - Marsipala berguna?
+    - Manfaat join Marsipala?
+
+- intent: media_informasi_marsipala
+  examples: |
+    - IG Marsipala apa sih?
+    - Bisa hubungi Marsipala dimana?
+    - Ada kontak adminnya ga?
+    - Follow Marsipala dimana ya?
+    - Info lengkapnya liat dimana?
+    - IG Marsipala apa?
+    - Instagram Marsipala?
+    - Kontak Marsipala?
+    - Nomor Marsipala?
+    - Sosial media Marsipala?
+    - Cara hubungi Marsipala?
+    - Info Marsipala dimana?
+    - Akun Marsipala?
+    - Follow Marsipala dimana?
+    - Media Marsipala apa?
+    - Kontak resmi Marsipala?
+    - DM Marsipala?
+    - IG resmi Marsipala?
+    - Nomor admin?
+    - Info online Marsipala?

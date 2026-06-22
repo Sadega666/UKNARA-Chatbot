@@ -1,0 +1,428 @@
+version: "3.1"
+
+nlu:
+
+- intent: tanya_ukm_dharmayana
+  examples: |
+    - Apa itu UKM Dharmayana?
+    - Dharmayana itu apa?
+    - Bisa jelaskan UKM Dharmayana?
+    - Dharmayana jenis organisasi apa?
+    - UKM Dharmayana fokus bidang kegiatan apa?
+    - Apa itu Dharmayana di kampus?
+    - Jelaskan tentang Dharmayana
+    - Dharmayana itu komunitas apa?
+    - Saya ingin tahu tentang Dharmayana
+    - Dharmayana fokusnya apa?
+    - Apa peran Dharmayana di kampus?
+    - Dharmayana itu tujuan utama organisasi ini apa?
+    - UKM Dharmayana aktivitas utama yang dilakukan apa?
+    - Apa itu komunitas Buddha Dharmayana?
+
+- intent: fungsi_ukm_dharmayana
+  examples: |
+    - peranan organisasi ini bagi mahasiswa apa?
+    - fungsi utama organisasi ini apa?
+    - Apa fungsi Dharmayana?
+    - Fungsi Dharmayana bagi mahasiswa?
+    - Dharmayana berfungsi sebagai apa?
+    - Fungsi Dharmayana?
+    - Apakah fungsi Dharmayana?
+
+- intent: tujuan_ukm_dharmayana
+  examples: |
+    - tujuan utama dibentuknya organisasi ini apa?
+    - organisasi ini dibuat untuk tujuan apa?
+    - Apa tujuan Dharmayana?
+    - Tujuan UKM Dharmayana apa?
+    - Dharmayana dibuat tujuan utama organisasi ini apa?
+    - Apa manfaat ikut Dharmayana?
+    - Dharmayana tujuan utama organisasi ini apa?
+    - Apa fungsi Dharmayana bagi mahasiswa?
+    - Tujuan kegiatan Dharmayana apa?
+    - Dharmayana bertujuan apa?
+    - Apa kegunaan Dharmayana?
+    - Tujuan utama Dharmayana?
+    - Apakah untuk belajar agama Buddha?
+    - Dharmayana membantu apa?
+
+- intent: misi_dharmayana
+  examples: |
+    - program misi utama organisasi ini apa?
+    - apa fokus misi organisasi ini?
+    - Apa misi Dharamayana?
+    - Misi Dharmayana?
+    - Apa saja misi Dharmayana?
+    - Misi Dharmayana apa?
+    - Misi Dharmayana apa saja?
+
+- intent: visi_dharmayana
+  examples: |
+    - arah visi organisasi ini bagaimana?
+    - visi utama organisasi ini apa?
+    - Apa visi Dharmayana?
+    - Visi Dharmayana?
+    - Apa saja visi Dharmayana?
+    - Visi Dharmayana apa?
+    - Visi Dharmayana apa saja?
+
+- intent: bidang_ukm_dharmayana
+  examples: |
+    - Dharmayana fokus bidang kegiatan apa?
+    - Bidang UKM Dharmayana apa?
+    - Apakah Dharmayana keagamaan?
+    - Dharmayana fokus apa?
+    - UKM Dharmayana fokus utama kegiatan apa?
+    - Apakah Dharmayana organisasi Buddha?
+    - Dharmayana bidangnya apa?
+    - Fokus utama Dharmayana?
+    - Apakah tentang agama Buddha?
+    - Dharmayana terkait keagamaan?
+    - Dharmayana mencakup apa saja?
+    - Apakah belajar dharma?
+    - Dharmayana termasuk organisasi agama?
+    - Dharmayana fokus spiritual?
+    - Bidang utama Dharmayana?
+
+- intent: boleh_gabung_dharmayana
+  examples: |
+    - Siapa saja boleh gabung Dharmayana?
+    - Apakah semua mahasiswa bisa join?
+    - Boleh non Buddha ikut?
+    - Siapa yang bisa join Dharmayana?
+    - Apakah terbuka untuk semua?
+    - Mahasiswa baru boleh ikut?
+    - Apakah lintas jurusan boleh?
+    - Dharmayana untuk siapa saja?
+    - Apakah semua semester boleh?
+    - Apakah umum bisa join?
+    - Siapa target anggota Dharmayana?
+    - Apakah bebas gabung?
+    - Siapa saja bisa daftar?
+    - Apakah Dharmayana khusus Buddha?
+    - Apakah non Buddha boleh ikut?
+
+- intent: cara_daftar_dharmayana
+  examples: |
+    - Bagaimana cara daftar Dharmayana?
+    - Cara join Dharmayana?
+    - Gimana cara masuk Dharmayana?
+    - Daftar Dharmayana lewat apa?
+    - Bagaimana proses pendaftaran?
+    - Cara gabung Dharmayana gimana?
+    - Saya ingin daftar Dharmayana
+    - Apa langkah daftar Dharmayana?
+    - Daftar Dharmayana dimana?
+    - Join lewat form?
+    - Cara ikut Dharmayana?
+    - Prosedur masuk Dharmayana?
+    - Cara registrasi Dharmayana?
+    - Masuk Dharmayana bagaimana?
+    - Cara daftar UKM Dharmayana?
+
+- intent: biaya_daftar_dharmayana
+  examples: |
+    - Biaya Dharmayana berapa?
+    - Daftar Dharmayana bayar berapa?
+    - Apakah ada biaya Dharmayana?
+    - Biaya registrasi Dharmayana berapa?
+    - Masuk Dharmayana bayar berapa?
+    - Apakah Dharmayana gratis?
+    - Biaya join Dharmayana berapa?
+    - Registrasi Dharmayana berapa?
+    - Apakah ada uang pendaftaran?
+    - Daftar Dharmayana perlu bayar?
+    - Berapa uang masuk Dharmayana?
+    - Biaya anggota Dharmayana?
+    - Dharmayana ada biaya?
+    - Join Dharmayana bayar?
+    - Gratis atau tidak?
+
+- intent: status_pendaftaran_dharmayana
+  examples: |
+    - Apakah Dharmayana buka pendaftaran?
+    - Dharmayana masih buka?
+    - Kapan pendaftaran Dharmayana dibuka?
+    - Apakah bisa daftar sekarang?
+    - Pendaftaran Dharmayana tutup atau belum?
+    - Apakah masih bisa join?
+    - Dharmayana open recruitment?
+    - Kapan open Dharmayana?
+    - Apakah Dharmayana sedang open?
+    - Jadwal pendaftaran Dharmayana kapan?
+    - Dharmayana buka anggota baru?
+    - Apakah rekrutmen Dharmayana aktif?
+    - Kapan bisa daftar Dharmayana?
+    - Apakah Dharmayana menerima anggota baru?
+    - Dharmayana buka saat PMB?
+
+- intent: seleksi_dharmayana
+  examples: |
+    - Apakah ada wawancara Dharmayana?
+    - Dharmayana pakai seleksi?
+    - Harus tes masuk Dharmayana?
+    - Ada interview Dharmayana?
+    - Seleksi masuk Dharmayana?
+    - Apakah wajib wawancara?
+    - Proses seleksi Dharmayana?
+    - Ada tahap seleksi?
+    - Apakah langsung diterima?
+    - Dharmayana ada tes?
+    - Bagaimana proses wawancara?
+    - Seleksi diperlukan?
+    - Masuk harus interview?
+    - Ada penilaian?
+    - Bagaimana seleksi Dharmayana?
+
+- intent: syarat_anggota_dharmayana
+  examples: |
+    - Apa syarat masuk Dharmayana?
+    - Syarat join Dharmayana apa?
+    - Persyaratan Dharmayana?
+    - Masuk Dharmayana harus apa?
+    - Syarat jadi anggota?
+    - Apa ketentuan Dharmayana?
+    - Syarat gabung Dharmayana?
+    - Apa yang harus dipenuhi?
+    - Syarat ikut Dharmayana?
+    - Persyaratan umum Dharmayana?
+    - Apakah ada syarat khusus?
+    - Harus komitmen?
+    - Syarat pendaftaran Dharmayana?
+    - Ketentuan anggota Dharmayana?
+    - Apa saja syaratnya?
+
+- intent: kemampuan_anggota_dharmayana
+  examples: |
+    - Apakah perlu skill khusus?
+    - Harus bisa agama Buddha?
+    - Perlu pengalaman organisasi?
+    - Skill apa yang dibutuhkan?
+    - Harus punya pengalaman?
+    - Apakah pemula boleh?
+    - Harus aktif organisasi?
+    - Perlu kemampuan tertentu?
+    - Skill untuk BPH apa?
+    - Harus punya kemampuan khusus?
+    - Apakah skill penting?
+    - Bisa belajar dari nol?
+    - Apakah ada syarat skill?
+    - Kemampuan anggota bagaimana?
+    - Skill untuk divisi apa?
+
+- intent: divisi_dharmayana
+  examples: |
+    - Divisi Dharmayana apa saja?
+    - Ada bidang apa saja?
+    - Divisi dalam Dharmayana?
+    - Divisi apa saja?
+    - Divisi internal?
+    - Bagian organisasi?
+    - Unit dalam UKM?
+    - Divisi apa saja?
+
+- intent: struktur_dharmayana
+  examples: |
+    - Struktur organisasi?
+    - Struktur UKM?
+    - Struktur kepengurusan?
+    - Struktur bidang?
+    - Struktur lengkap?
+    - Struktur divisi?
+
+- intent: kegiatan_dharmayana
+  examples: |
+    - Kegiatan Dharmayana apa saja?
+    - Aktivitas Dharmayana apa?
+    - Dharmayana ada kegiatan apa?
+    - Program Dharmayana apa?
+    - Apa saja kegiatan Dharmayana?
+    - Event Dharmayana apa?
+    - Aktivitas UKM Dharmayana?
+    - Dharmayana sering ngapain?
+    - Program kerja Dharmayana?
+    - Apa yang dilakukan Dharmayana?
+    - Kegiatan anggota Dharmayana?
+    - Dharmayana ada event apa?
+    - Apa saja aktivitas Dharmayana?
+
+- intent: kegiatan_rutin_dharmayana
+  examples: |
+    - Adakah kebaktian?
+    - Apa kegiatan rutin dharmayana?
+    - Apakah ada kegiatan rutin?
+    - Apa saja kegiatan rutin?
+    - Ada kegiatan rutin apa?
+    - Kegiatan rohani apa saja?
+    - Apa saja kegiatan iman?
+    - Apakah ada pendalaman iman?
+    - Ada kegiatan ibadah?
+    - Apa kegiatan keagamaannya?
+    - Apa kegiatan rohaninya?
+
+- intent: jenis_kegiatan_dharmayana
+  examples: |
+    - Jenis kegiatan Dharmayana?
+    - Program keagamaan apa saja?
+    - Aktivitas Dharmayana apa?
+    - Kegiatan spiritual apa?
+    - Ada kegiatan vihara?
+    - Program utama Dharmayana?
+    - Kegiatan keagamaan apa?
+    - Event keagamaan?
+    - Apa saja jenis kegiatan?
+    - Program edukasi Dharmayana?
+    - Kegiatan Buddha apa?
+
+- intent: jadwal_rutin_dharmayana
+  examples: |
+    - Jadwal Dharmayana kapan?
+    - Kegiatan rutin hari apa?
+    - Jadwal rutin?
+    - Kapan kebaktian?
+    - Jadwal kebaktian?
+    - Kebaktuan kapan?
+    - Hari apa saja kegiatan rutin?
+    - Jadwal mingguan?
+    - Kegiatan dilakukan kapan?
+    - Jadwal rutin?
+    - Hari kegiatan?
+    - Jadwal rutin kapan?
+    - Jadwal ibadah?
+
+- intent: durasi_kegiatan_dharmayana
+  examples: |
+    - Berapa lama kegiatan Dharmayana?
+    - Durasi kebaktian?
+    - Kegiatan berapa jam?
+    - Lama kegiatan Dharmayana?
+    - Kebaktian berapa lama?
+    - Durasi pertemuan?
+    - Satu sesi berapa lama?
+    - Waktu kegiatan?
+    - Berapa jam per kegiatan?
+    - Dharmayana berapa lama?
+    - Lama kegiatan?
+    - Durasi ibadah?
+    - Waktu kebaktian?
+    - Durasi kegiatan?
+    - Berapa lama per sesi?
+
+- intent: lokasi_kegiatan_dharmayana
+  examples: |
+    - Kegiatan Dharmayana dimana?
+    - Lokasi Dharmayana dimana?
+    - Kebaktian dimana?
+    - Tempat kegiatan Dharmayana?
+    - Dharmayana dilakukan dimana?
+    - Lokasi vihara dimana?
+    - Tempat ibadah?
+    - Dimana lokasi Dharmayana?
+    - Tempat kegiatan?
+    - Lokasi kebaktian?
+    - Tempat belajar?
+    - Vihara jabodetabek dimana?
+    - Lokasi kegiatan?
+    - Dharmayana di mana?
+    - Tempat pertemuan?
+
+- intent: event_dharmayana
+  examples: |
+    - Event Dharmayana apa saja?
+    - Ada acara apa saja?
+    - Program Dharmayana apa?
+    - Apa itu dharmayana festival?
+    - Event Dharmayana apa saja?
+    - Acara Dharmayana apa?
+    - Program besar Dharmayana?
+    - Event tahunan Dharmayana?
+    - Ada kegiatan khusus?
+    - Event keagamaan Dharmayana?
+    - Kegiatan besar Dharmayana?
+    - Acara utama Dharmayana?
+    - Event penting Dharmayana?
+    - Program spesial Dharmayana?
+
+- intent: jadwal_event_dharmayana
+  examples: |
+    - Dharmadista kapan?
+    - Katina kapan?
+    - Meta day kapan?
+    - Jadwal event Dharmayana?
+    - Event bulan apa?
+    - Kapan acara Dharmayana?
+    - Jadwal kegiatan besar?
+    - Event diadakan kapan?
+    - Jadwal festival?
+    - Kapan LK?
+    - Event tahunan kapan?
+    - Jadwal event?
+    - Kapan acara utama?
+    - Jadwal acara?
+    - Event kapan?
+
+- intent: fasilitas_dharmayana
+  examples: |
+    - Fasilitas Dharmayana apa?
+    - Apa saja fasilitasnya?
+    - Ada ruang sekretariat?
+    - Fasilitas lengkap?
+    - Apa yang disediakan?
+    - Fasilitas UKM Dharmayana?
+    - Apakah ada ruangan?
+    - Tempat kumpul ada?
+    - Ada basecamp?
+    - Fasilitas ibadah?
+    - Apa saja fasilitasnya?
+    - Ruang kegiatan ada?
+    - Tempat organisasi?
+    - Fasilitas pendukung?
+    - Ada tempat kegiatan?
+
+- intent: lokasi_sekre_dharmayana
+  examples: |
+    - biasanya lokasi ruang sekretariat dimana
+    - boleh tanya lokasi ruang sekretariat dimana
+    - info lokasi ruang sekretariat dimana
+    - lokasi ruang sekretariat dimana
+    - sekretariat dharmayana dimana
+    - sekretariat dharmayana lantai berapa
+    - dharmayana sekretariatnya di lantai berapa
+    - ruang sekre dharmayana dimana
+    - ruang sekre dharmayana lantai berapa
+
+- intent: benefit_dharmayana
+  examples: |
+    - Manfaat Dharmayana apa?
+    - Keuntungan ikut Dharmayana?
+    - Benefit Dharmayana?
+    - Apa yang didapat?
+    - Untung ikut Dharmayana?
+    - Kelebihan Dharmayana?
+    - Kenapa ikut Dharmayana?
+    - Apa manfaat Dharmayana?
+    - Join Dharmayana dapat apa?
+    - Apa benefit Dharmayana?
+    - Dharmayana membantu apa?
+    - Kegunaan Dharmayana?
+    - Apa hasil ikut Dharmayana?
+    - Dharmayana berguna?
+    - Manfaat join Dharmayana?
+
+- intent: media_informasi_dharmayana
+  examples: |
+    - IG Dharmayana apa?
+    - Instagram Dharmayana?
+    - Kontak Dharmayana?
+    - Nomor Dharmayana?
+    - Sosial media Dharmayana?
+    - Cara hubungi Dharmayana?
+    - Info Dharmayana dimana?
+    - Akun Dharmayana?
+    - Follow Dharmayana dimana?
+    - Media Dharmayana apa?
+    - Kontak resmi Dharmayana?
+    - DM Dharmayana?
+    - IG resmi Dharmayana?
+    - Nomor admin?
+    - Info online Dharmayana?

@@ -1,0 +1,551 @@
+version: "3.1"
+
+nlu:
+
+- intent: tanya_ukm_libama
+  examples: |
+    - Libama itu apaan sih?
+    - UKM Libama tuh kayak gimana sih?
+    - Libama di kampus ngapain aja sih?
+    - Libama itu buat apa sih?
+    - Libama tuh isinya apa aja?
+    - Apa itu UKM Libama?
+    - Libama itu apa?
+    - Bisa jelaskan UKM Libama?
+    - Libama jenis organisasi apa?
+    - UKM Libama fokus bidang kegiatan apa?
+    - Apa itu Libama di kampus?
+    - Jelaskan tentang Libama
+    - Libama itu komunitas apa?
+    - Saya ingin tahu tentang Libama
+
+- intent: fungsi_ukm_libama
+  examples: |
+    - peranan organisasi ini bagi mahasiswa apa?
+    - fungsi utama organisasi ini apa?
+    - Libama gunanya apa sih?
+    - Peran Libama buat mahasiswa apa?
+    - Libama itu kepake buat apa?
+    - Fungsi Libama di kampus apa ya?
+    - Libama bantu apa sih?
+    - Apa fungsi UKM Libama?
+    - Apa fungsi Libama bagi mahasiswa?
+    - Libama berfungsi sebagai apa?
+    - Fungsi Libama?
+    - Apakah fungsi Libama?
+
+- intent: tujuan_ukm_libama
+  examples: |
+    - tujuan utama dibentuknya organisasi ini apa?
+    - organisasi ini dibuat untuk tujuan apa?
+    - Libama tujuannya apa sih?
+    - Ikut Libama biar apa?
+    - Libama itu pengen capai apa?
+    - Tujuan ikut Libama apa ya?
+    - Libama itu buat pengembangan apa sih?
+    - Apa tujuan Libama?
+    - Tujuan UKM Libama apa?
+    - Libama dibuat tujuan utama organisasi ini apa?
+    - Libama tujuan utama organisasi ini apa?
+    - Tujuan kegiatan Libama apa?
+    - Libama bertujuan apa?
+    - Apa kegunaan Libama?
+    - Tujuan utama Libama?
+    - Apakah untuk olahraga basket?
+    - Libama membantu apa?
+
+- intent: misi_ukm_libama
+  examples: |
+    - program misi utama organisasi ini apa?
+    - apa fokus misi organisasi ini?
+    - Misi Libama itu apa sih?
+    - Libama punya misi apa aja?
+    - Fokus utama Libama apa?
+    - Misi tim Libama apa ya?
+    - Target Libama itu apa?
+    - Apa misi Libama?
+    - Misi Libama?
+    - Apa saja misi Libama?
+    - Misi Libama apa?
+    - Misi Libama apa saja?
+
+- intent: visi_ukm_libama
+  examples: |
+    - arah visi organisasi ini bagaimana?
+    - visi utama organisasi ini apa?
+    - Visi Libama itu apa sih?
+    - Libama mau jadi apa kedepannya?
+    - Tujuan jangka panjang Libama apa?
+    - Arah Libama itu kemana?
+    - Cita-cita Libama apa?
+    - Apa visi Libama?
+    - Visi Libama?
+    - Apa saja visi Libama?
+    - Visi Libama apa?
+
+- intent: bidang_ukm_libama
+  examples: |
+    - Libama itu fokusnya basket ya?
+    - UKM Libama itu olahraga banget ya?
+    - Libama lebih ke kompetisi ya?
+    - Libama itu olahraga tim kan?
+    - Fokusnya ke fisik dan game ya?
+    - Libama fokus bidang kegiatan apa?
+    - Bidang UKM Libama apa?
+    - Apakah Libama olahraga?
+    - Libama fokus apa?
+    - UKM Libama fokus utama kegiatan apa?
+    - Apakah Libama organisasi basket?
+    - Libama bidangnya apa?
+    - Fokus utama Libama?
+    - Apakah tentang olahraga?
+    - Libama terkait basket?
+    - Libama mencakup apa saja?
+    - Apakah latihan basket?
+    - Libama termasuk UKM olahraga?
+    - Libama fokus fisik?
+    - Bidang utama Libama?
+
+- intent: boleh_gabung_libama
+  examples: |
+    - Semua orang bisa masuk Libama ga?
+    - Anak baru boleh ikut Libama ga?
+    - Bebas join Libama ga sih?
+    - Semua jurusan bisa ikut ga?
+    - Yang ga jago boleh masuk ga?
+    - Siapa saja boleh gabung Libama?
+    - Apakah semua mahasiswa bisa join?
+    - Boleh semua fakultas ikut?
+    - Siapa yang bisa join Libama?
+    - Apakah terbuka untuk semua?
+    - Mahasiswa baru boleh ikut?
+    - Apakah lintas jurusan boleh?
+    - Libama untuk siapa saja?
+    - Apakah semua semester boleh?
+    - Apakah umum bisa join?
+    - Siapa target anggota Libama?
+    - Apakah bebas gabung?
+    - Siapa saja bisa daftar?
+    - Apakah Libama terbuka untuk semua?
+    - Semua mahasiswa boleh ikut?
+
+- intent: cara_daftar_libama
+  examples: |
+    - Cara masuk Libama gimana sih?
+    - Mau join Libama harus ngapain?
+    - Daftar Libama ribet ga?
+    - Ikut Libama mulai dari mana?
+    - Gimana biar bisa gabung Libama?
+    - Bagaimana cara daftar Libama?
+    - Cara join Libama?
+    - Gimana cara masuk Libama?
+    - Daftar Libama lewat apa?
+    - Bagaimana proses pendaftaran?
+    - Cara gabung Libama gimana?
+    - Saya ingin daftar Libama
+    - Apa langkah daftar Libama?
+    - Daftar Libama dimana?
+    - Join lewat gform?
+    - Cara ikut Libama?
+    - Prosedur masuk Libama?
+    - Cara registrasi Libama?
+    - Masuk Libama bagaimana?
+    - Cara daftar UKM Libama?
+
+- intent: biaya_daftar_libama
+  examples: |
+    - Masuk Libama bayar ga sih?
+    - Join Libama mahal ga?
+    - Libama gratis atau bayar?
+    - Ada biaya latihan ga?
+    - Ikut Libama butuh uang berapa?
+    - Biaya Libama berapa?
+    - Daftar Libama bayar berapa?
+    - Apakah ada biaya Libama?
+    - Biaya registrasi Libama berapa?
+    - Masuk Libama bayar berapa?
+    - Apakah Libama gratis?
+    - Biaya join Libama berapa?
+    - Registrasi Libama berapa?
+    - Apakah ada uang pendaftaran?
+    - Daftar Libama perlu bayar?
+    - Berapa uang masuk Libama?
+    - Biaya anggota Libama?
+    - Libama ada biaya?
+    - Join Libama bayar?
+    - Harga daftar Libama?
+
+- intent: status_pendaftaran_libama
+  examples: |
+    - Libama lagi buka ga sih?
+    - Masih bisa daftar Libama ga?
+    - Sekarang Libama open ga?
+    - Lagi nerima anggota baru ga?
+    - Rekrutmen Libama masih ada?
+    - Apakah Libama buka pendaftaran?
+    - Libama masih buka?
+    - Kapan pendaftaran Libama dibuka?
+    - Apakah bisa daftar sekarang?
+    - Pendaftaran Libama tutup atau belum?
+    - Apakah masih bisa join?
+    - Libama open recruitment?
+    - Kapan open Libama?
+    - Apakah Libama sedang open?
+    - Jadwal pendaftaran Libama kapan?
+    - Libama buka anggota baru?
+    - Apakah rekrutmen Libama aktif?
+    - Kapan bisa daftar Libama?
+    - Apakah Libama menerima anggota baru?
+    - Libama buka saat PMB?
+
+- intent: syarat_anggota_libama
+  examples: |
+    - Masuk Libama syaratnya apa sih?
+    - Harus bisa basket dulu ga?
+    - Ada syarat khusus ga?
+    - Gabung Libama harus apa aja?
+    - Perlu pengalaman ga?
+    - Apa syarat masuk Libama?
+    - Syarat join Libama apa?
+    - Persyaratan Libama?
+    - Masuk Libama harus apa?
+    - Syarat jadi anggota?
+    - Apa ketentuan Libama?
+    - Syarat gabung Libama?
+    - Apa yang harus dipenuhi?
+    - Syarat ikut Libama?
+    - Persyaratan umum Libama?
+    - Apakah ada syarat khusus?
+    - Harus ikut latihan?
+    - Syarat pendaftaran Libama?
+    - Ketentuan anggota Libama?
+    - Apa saja syaratnya?
+
+- intent: kemampuan_anggota_libama
+  examples: |
+    - Harus jago basket ga?
+    - Pemula boleh masuk ga?
+    - Harus bisa basic dulu ga?
+    - Bisa belajar dari nol ga?
+    - Skill penting ga sih?
+    - Apakah harus bisa basket?
+    - Perlu skill khusus?
+    - Harus jago basket?
+    - Skill apa yang dibutuhkan?
+    - Harus punya pengalaman?
+    - Apakah pemula boleh?
+    - Perlu kemampuan tertentu?
+    - Harus atlet?
+    - Skill bermain basket?
+    - Harus bisa teknik dasar?
+    - Apakah skill penting?
+    - Bisa belajar dari nol?
+    - Apakah ada seleksi skill?
+    - Kemampuan anggota bagaimana?
+    - Skill untuk Libama?
+
+- intent: divisi_libama
+  examples: |
+    - Di Libama ada divisi apa aja sih?
+    - Ada pembagian tim ga?
+    - Divisi Libama gimana?
+    - Ada tim inti ga?
+    - Struktur timnya gimana?
+    - Divisi Libama apa saja?
+    - Ada bidang apa saja?
+    - Divisi dalam Libama?
+    - Divisi apa saja?
+    - Divisi internal?
+    - Bagian organisasi?
+    - Unit dalam UKM?
+    - Divisi apa saja?
+
+- intent: struktur_libama
+  examples: |
+    - Struktur Libama gimana sih?
+    - Kepengurusannya kayak apa?
+    - Ada ketua tim ga?
+    - Susunan organisasinya gimana?
+    - Struktur organisasi?
+    - Struktur UKM?
+    - Struktur kepengurusan?
+    - Struktur bidang?
+    - Struktur lengkap?
+    - Struktur divisi?
+
+- intent: kegiatan_libama
+  examples: |
+    - Libama biasanya ngapain aja sih?
+    - Anak Libama sering latihan apa?
+    - Ada pertandingan juga ga?
+    - Kegiatan Libama seru ga?
+    - Libama sering main apa?
+    - Kegiatan Libama apa saja?
+    - Aktivitas Libama apa?
+    - Libama ada kegiatan apa?
+    - Program Libama apa?
+    - Apa saja kegiatan Libama?
+    - Event Libama apa?
+    - Aktivitas UKM Libama?
+    - Libama sering ngapain?
+    - Kegiatan rutin Libama?
+    - Program kerja Libama?
+    - Apa yang dilakukan Libama?
+    - Kegiatan anggota Libama?
+    - Libama ada event apa?
+    - Aktivitas Libama sehari-hari?
+    - Apa saja aktivitas Libama?
+
+- intent: latihan_rutin_libama
+  examples: |
+    - Ada latihan rutin ga sih?
+    - Libama rutin latihan ga?
+    - Latihan tiap minggu ada?
+    - Sering latihan ga?
+    - Jadwal rutinnya ada ga?
+    - Apa ada latihan rutin?
+    - Apa saja kegiatan rutinnya?
+    - Apakah ada kegiatan rutin?
+    - Ada latihan rutin?
+    - Ada kegiatan rutin?
+
+- intent: sparring_libama
+  examples: |
+    - Ada sparing lawan tim lain ga?
+    - Libama sering sparring ga?
+    - Bisa tanding ga?
+    - Ada uji coba pertandingan ga?
+    - Sparring rutin ada?
+    - Apa ada sparring?
+    - Apa saja kegiatan sparring?
+    - Apakah ada kegiatan sparring?
+    - Ada sparring?
+    - Ada kegiatan sparring?
+
+- intent: turnamen_libama
+  examples: |
+    - Libama ikut turnamen ga?
+    - Ada lomba basket ga?
+    - Ikut kompetisi antar kampus ga?
+    - Ada event tanding ga?
+    - Libama sering ikut lomba ga?
+    - Apa ada turnamen?
+    - Apa saja kegiatan turnamen?
+    - Apakah ada kegiatan turnamen?
+    - Ada turnamen?
+    - Ada kegiatan turnamen?
+
+- intent: jenis_kegiatan_libama
+  examples: |
+    - Kegiatan Libama ada apa aja sih?
+    - Ada latihan sama turnamen ya?
+    - Jenis kegiatannya apa aja?
+    - Program Libama apa aja?
+    - Kegiatan olahraga apa aja?
+    - Jenis kegiatan Libama?
+    - Program olahraga apa saja?
+    - Aktivitas latihan apa?
+    - Kegiatan basket apa?
+    - Ada pertandingan?
+    - Program utama Libama?
+    - Event olahraga?
+    - Apa saja jenis kegiatan?
+    - Program latihan Libama?
+    - Kegiatan kompetisi?
+    - Aktivitas olahraga apa saja?
+
+- intent: jadwal_kegiatan_libama
+  examples: |
+    - Libama biasanya latihan kapan sih?
+    - Jadwal kegiatannya gimana?
+    - Latihan hari apa?
+    - Kapan aktifnya?
+    - Kegiatannya sering kapan?
+    - Jadwal Libama kapan?
+    - Libama latihan hari apa?
+    - Jadwal kegiatan Libama?
+    - Libama aktif kapan?
+    - Jadwal latihan kapan?
+    - Jadwal rutin Libama?
+    - Libama ada kegiatan kapan?
+    - Kapan latihan basket?
+    - Jadwal acara Libama?
+    - Jadwal kegiatan?
+    - Kapan aktif?
+    - Jadwal program?
+    - Kapan kegiatan utama?
+    - Jadwal mingguan?
+    - Waktu kegiatan?
+
+- intent: durasi_kegiatan_libama
+  examples: |
+    - Latihan Libama berapa jam sih?
+    - Sekali latihan lama ga?
+    - Durasi latihan biasanya berapa?
+    - Main basket berapa lama?
+    - Satu sesi berapa jam?
+    - Berapa lama latihan Libama?
+    - Durasi latihan?
+    - Kegiatan berapa jam?
+    - Lama kegiatan Libama?
+    - Latihan berapa lama?
+    - Durasi per sesi?
+    - Satu sesi berapa lama?
+    - Waktu kegiatan?
+    - Berapa jam per latihan?
+    - Libama berapa lama?
+    - Lama kegiatan?
+    - Durasi olahraga?
+    - Waktu latihan?
+    - Durasi kegiatan?
+    - Berapa lama per sesi?
+
+- intent: lokasi_kegiatan_libama
+  examples: |
+    - Libama biasanya latihan dimana sih?
+    - Main basket di lapangan mana?
+    - Tempat latihannya dimana?
+    - Sering latihan dimana?
+    - Lokasi Libama dimana ya?
+    - Kegiatan Libama dimana?
+    - Lokasi Libama dimana?
+    - Latihan dimana?
+    - Tempat kegiatan Libama?
+    - Libama dilakukan dimana?
+    - Lokasi lapangan basket?
+    - Tempat latihan?
+    - Dimana lokasi Libama?
+    - Tempat kegiatan?
+    - Lokasi latihan Libama?
+    - Tempat olahraga?
+    - Lokasi kegiatan?
+    - Libama di mana?
+    - Tempat pertemuan?
+    - Kegiatan di kampus dimana?
+
+- intent: event_libama
+  examples: |
+    - Libama ada event apa aja sih?
+    - Ada turnamen ga?
+    - Event besarnya apa?
+    - Libama sering ikut lomba apa?
+    - Ada kompetisi seru ga?
+    - Event Libama apa saja?
+    - Ada acara apa saja?
+    - Program Libama apa?
+    - Apa itu turnamen basket?
+    - Apa itu sparring?
+    - Event Libama apa saja?
+    - Acara Libama apa?
+    - Program besar Libama?
+    - Event tahunan Libama?
+    - Ada kegiatan khusus?
+    - Event olahraga?
+    - Kegiatan besar Libama?
+    - Acara utama Libama?
+    - Event penting Libama?
+    - Program spesial Libama?
+
+- intent: jadwal_event_libama
+  examples: |
+    - Turnamen Libama kapan sih?
+    - Event Libama kapan?
+    - Jadwal lombanya kapan?
+    - Kompetisi diadakan kapan?
+    - Event terdekat kapan?
+    - Turnamen Libama kapan?
+    - Sparring kapan?
+    - Jadwal event Libama?
+    - Event bulan apa?
+    - Kapan acara Libama?
+    - Jadwal kegiatan besar?
+    - Event diadakan kapan?
+    - Jadwal kompetisi?
+    - Kapan kegiatan utama?
+    - Event tahunan kapan?
+    - Jadwal event?
+    - Kapan acara khusus?
+    - Jadwal acara?
+    - Event kapan?
+    - Jadwal turnamen?
+
+- intent: fasilitas_libama
+  examples: |
+    - Libama nyediain bola ga?
+    - Ada ring sama alat ga?
+    - Fasilitasnya lengkap ga?
+    - Bisa pinjam alat ga?
+    - Tempat latihan disediain ga?
+    - Fasilitas Libama apa?
+    - Apa saja fasilitasnya?
+    - Ada lapangan basket?
+    - Ada perlengkapan?
+    - Ada bola dan ring?
+    - Fasilitas lengkap?
+    - Apa yang disediakan?
+    - Fasilitas UKM Libama?
+    - Apakah ada tempat latihan?
+    - Tempat olahraga ada?
+    - Fasilitas basket?
+    - Apa saja alatnya?
+    - Peralatan olahraga ada?
+    - Fasilitas pendukung?
+    - Ada tempat kumpul?
+
+- intent: lokasi_sekre_libama
+  examples: |
+    - biasanya lokasi ruang sekretariat dimana
+    - boleh tanya lokasi ruang sekretariat dimana
+    - info lokasi ruang sekretariat dimana
+    - lokasi ruang sekretariat dimana
+    - sekretariat Libama dimana
+    - sekretariat Libama lantai berapa
+    - Libama sekretariatnya di lantai berapa
+    - ruang sekre Libama dimana
+    - ruang sekre Libama lantai berapa
+
+- intent: benefit_libama
+  examples: |
+    - Ikut Libama dapet apa sih?
+    - Bisa jadi lebih jago ga?
+    - Benefit Libama apa aja?
+    - Worth it ga ikut Libama?
+    - Bisa ikut lomba ga?
+    - Manfaat Libama apa?
+    - Keuntungan ikut Libama?
+    - Benefit Libama?
+    - Apa yang didapat?
+    - Untung ikut Libama?
+    - Kelebihan Libama?
+    - Kenapa ikut Libama?
+    - Apa manfaat Libama?
+    - Join Libama dapat apa?
+    - Apa benefit Libama?
+    - Libama membantu apa?
+    - Kegunaan Libama?
+    - Apa hasil ikut Libama?
+    - Libama berguna?
+    - Manfaat join Libama?
+
+- intent: media_informasi_libama
+  examples: |
+    - IG Libama apa sih?
+    - Bisa hubungi Libama dimana?
+    - Ada kontak admin ga?
+    - Follow Libama dimana?
+    - Info Libama liat dimana?
+    - IG Libama apa?
+    - Instagram Libama?
+    - Kontak Libama?
+    - Nomor Libama?
+    - Sosial media Libama?
+    - Cara hubungi Libama?
+    - Info Libama dimana?
+    - Akun Libama?
+    - Follow Libama dimana?
+    - Media Libama apa?
+    - Kontak resmi Libama?
+    - DM Libama?
+    - IG resmi Libama?
+    - Nomor admin?
+    - Info online Libama?

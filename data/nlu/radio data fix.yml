@@ -1,0 +1,415 @@
+version: "3.1"
+
+nlu:
+
+- intent: tanya_ukm_radio
+  examples: |
+    - Apa itu UKM Radio?
+    - Radio itu apa?
+    - Bisa jelaskan UKM Radio?
+    - Radio jenis organisasi apa?
+    - UKM Radio fokus bidang kegiatan apa?
+    - Apa itu Radio di kampus?
+    - Jelaskan tentang Radio
+    - Radio itu komunitas apa?
+    - Saya ingin tahu tentang Radio
+    - Apa peran Radio di kampus?
+    - Apa itu komunitas Radio?
+
+- intent: fungsi_ukm_radio
+  examples: |
+    - peranan organisasi ini bagi mahasiswa apa?
+    - fungsi utama organisasi ini apa?
+    - Apa fungsi UKM Radio?
+    - Apa fungsi Radio bagi mahasiswa?
+    - Radio berfungsi sebagai apa?
+    - Fungsi Radio?
+    - Apakah fungsi Radio?
+
+- intent: tujuan_ukm_radio
+  examples: |
+    - tujuan utama dibentuknya organisasi ini apa?
+    - organisasi ini dibuat untuk tujuan apa?
+    - Apa tujuan Radio?
+    - Tujuan UKM Radio apa?
+    - Radio dibuat tujuan utama organisasi ini apa?
+    - Apa manfaat ikut Radio?
+    - Radio tujuan utama organisasi ini apa?
+    - Tujuan kegiatan Radio apa?
+    - Radio bertujuan apa?
+    - Apa kegunaan Radio?
+    - Tujuan utama Radio?
+    - Apakah untuk belajar siaran?
+    - Radio membantu apa?
+
+- intent: misi_ukm_radio
+  examples: |
+    - program misi utama organisasi ini apa?
+    - apa fokus misi organisasi ini?
+    - Apa misi Radio?
+    - Misi Radio?
+    - Apa saja misi Radio?
+    - Misi Radio apa?
+    - Misi Radio apa saja?
+
+- intent: visi_ukm_radio
+  examples: |
+    - arah visi organisasi ini bagaimana?
+    - visi utama organisasi ini apa?
+    - Apa visi Radio?
+    - Visi Radio?
+    - Apa saja visi Radio?
+    - Visi Radio apa?
+    - Visi Radio apa saja?
+
+- intent: bidang_ukm_radio
+  examples: |
+    - Radio fokus bidang kegiatan apa?
+    - Bidang UKM Radio apa?
+    - Apakah Radio broadcasting?
+    - Radio fokus apa?
+    - UKM Radio fokus utama kegiatan apa?
+    - Apakah Radio organisasi penyiaran?
+    - Radio bidangnya apa?
+    - Fokus utama Radio?
+    - Apakah tentang siaran?
+    - Radio terkait media?
+    - Radio mencakup apa saja?
+    - Apakah belajar broadcast?
+    - Radio termasuk media?
+    - Radio fokus komunikasi?
+    - Bidang utama Radio?
+
+- intent: boleh_gabung_radio
+  examples: |
+    - Siapa saja boleh gabung Radio?
+    - Apakah semua mahasiswa bisa join?
+    - Boleh semua fakultas ikut?
+    - Siapa yang bisa join Radio?
+    - Apakah terbuka untuk semua?
+    - Mahasiswa baru boleh ikut?
+    - Apakah lintas jurusan boleh?
+    - Radio untuk siapa saja?
+    - Apakah semua semester boleh?
+    - Apakah umum bisa join?
+    - Siapa target anggota Radio?
+    - Apakah bebas gabung?
+    - Siapa saja bisa daftar?
+    - Apakah Radio terbuka untuk semua?
+    - Semua mahasiswa boleh ikut?
+
+- intent: cara_daftar_radio
+  examples: |
+    - Bagaimana cara daftar Radio?
+    - Cara join Radio?
+    - Gimana cara masuk Radio?
+    - Daftar Radio lewat apa?
+    - Bagaimana proses pendaftaran?
+    - Cara gabung Radio gimana?
+    - Saya ingin daftar Radio
+    - Apa langkah daftar Radio?
+    - Daftar Radio dimana?
+    - Join lewat gform?
+    - Cara ikut Radio?
+    - Prosedur masuk Radio?
+    - Cara registrasi Radio?
+    - Masuk Radio bagaimana?
+    - Cara daftar UKM Radio?
+
+- intent: biaya_daftar_radio
+  examples: |
+    - Biaya Radio berapa?
+    - Daftar Radio bayar berapa?
+    - Apakah ada biaya Radio?
+    - Biaya registrasi Radio berapa?
+    - Masuk Radio bayar berapa?
+    - Apakah Radio gratis?
+    - Biaya join Radio berapa?
+    - Registrasi Radio berapa?
+    - Apakah ada uang pendaftaran?
+    - Daftar Radio perlu bayar?
+    - Berapa uang masuk Radio?
+    - Biaya anggota Radio?
+    - Radio ada biaya?
+    - Join Radio bayar?
+    - Harga daftar Radio?
+
+- intent: status_pendaftaran_radio
+  examples: |
+    - Apakah Radio buka pendaftaran?
+    - Radio masih buka?
+    - Kapan pendaftaran Radio dibuka?
+    - Apakah bisa daftar sekarang?
+    - Pendaftaran Radio tutup atau belum?
+    - Apakah masih bisa join?
+    - Radio open recruitment?
+    - Kapan open Radio?
+    - Apakah Radio sedang open?
+    - Jadwal pendaftaran Radio kapan?
+    - Radio buka anggota baru?
+    - Apakah rekrutmen Radio aktif?
+    - Kapan bisa daftar Radio?
+    - Apakah Radio menerima anggota baru?
+    - Radio buka bulan apa?
+
+- intent: seleksi_radio
+  examples: |
+    - Apakah ada interview Radio?
+    - Radio pakai seleksi?
+    - Harus tes masuk Radio?
+    - Ada wawancara Radio?
+    - Seleksi masuk Radio?
+    - Apakah wajib interview?
+    - Proses seleksi Radio?
+    - Ada tahap seleksi?
+    - Apakah langsung diterima?
+    - Radio ada tes siaran?
+    - Bagaimana wawancara?
+    - Seleksi diperlukan?
+    - Masuk harus interview?
+    - Ada penilaian?
+    - Bagaimana seleksi Radio?
+
+- intent: syarat_anggota_radio
+  examples: |
+    - Apa syarat masuk Radio?
+    - Syarat join Radio apa?
+    - Persyaratan Radio?
+    - Masuk Radio harus apa?
+    - Syarat jadi anggota?
+    - Apa ketentuan Radio?
+    - Syarat gabung Radio?
+    - Apa yang harus dipenuhi?
+    - Syarat ikut Radio?
+    - Persyaratan umum Radio?
+    - Apakah ada syarat khusus?
+    - Harus komitmen 2 tahun?
+    - Syarat pendaftaran Radio?
+    - Ketentuan anggota Radio?
+    - Apa saja syaratnya?
+
+- intent: kemampuan_anggota_radio
+  examples: |
+    - Apakah harus bisa siaran?
+    - Perlu skill broadcasting?
+    - Harus jago ngomong?
+    - Apakah pemula boleh?
+    - Skill apa yang dibutuhkan?
+    - Harus punya pengalaman?
+    - Perlu kemampuan komunikasi?
+    - Apakah harus punya basic?
+    - Kemampuan apa yang diperlukan?
+    - Harus bisa public speaking?
+    - Wajib bisa siaran?
+    - Apakah skill penting?
+    - Apakah ada syarat skill?
+    - Bisa belajar dari nol?
+    - Kemampuan anggota bagaimana?
+
+- intent: divisi_radio
+  examples: |
+    - Divisi Radio apa saja?
+    - Ada bidang apa saja?
+    - Divisi dalam Radio?
+    - Divisi apa saja?
+    - Divisi internal?
+    - Bagian organisasi?
+    - Unit dalam UKM?
+    - Divisi apa saja?
+
+- intent: struktur_radio
+  examples: |
+    - Struktur organisasi?
+    - Struktur UKM?
+    - Struktur kepengurusan?
+    - Struktur bidang?
+    - Struktur lengkap?
+    - Struktur divisi?
+
+- intent: kegiatan_radio
+  examples: |
+    - Kegiatan Radio apa saja?
+    - Aktivitas Radio apa?
+    - Radio ada kegiatan apa?
+    - Program Radio apa?
+    - Apa saja kegiatan Radio?
+    - Event Radio apa?
+    - Aktivitas UKM Radio?
+    - Radio sering ngapain?
+    - Kegiatan rutin Radio?
+    - Program kerja Radio?
+    - Apa yang dilakukan Radio?
+    - Kegiatan anggota Radio?
+    - Radio ada event apa?
+    - Aktivitas Radio sehari-hari?
+    - Apa saja aktivitas Radio?
+
+- intent: siaran_radio
+  examples: |
+    - Apa ada siaran rutin?
+    - Apa saja kegiatan rutinnya?
+    - Apakah ada kegiatan rutin?
+    - Ada siaran rutin?
+    - Ada kegiatan rutin?
+
+- intent: jenis_kegiatan_radio
+  examples: |
+    - Apa itu siaran Radio?
+    - Apa itu diksar?
+    - Apa itu stuban?
+    - Apa itu ultafoms?
+    - Apa itu rac?
+    - Jenis kegiatan Radio?
+    - Program broadcasting apa saja?
+    - Aktivitas siaran apa?
+    - Kegiatan komunikasi apa?
+    - Ada pelatihan siaran?
+    - Program utama Radio?
+    - Kegiatan media?
+    - Apa saja jenis kegiatan?
+    - Program edukasi Radio?
+    - Kegiatan broadcasting apa?
+
+- intent: jadwal_kegiatan_radio
+  examples: |
+    - Jadwal Radio kapan?
+    - Radio siaran jam berapa?
+    - Jadwal kegiatan Radio?
+    - Radio aktif kapan?
+    - Jam kegiatan Radio?
+    - Kapan siaran?
+    - Jadwal rutin Radio?
+    - Radio setiap hari?
+    - Jam operasional Radio?
+    - Jadwal siaran?
+    - Radio ada kegiatan kapan?
+    - Kapan pertemuan?
+    - Jadwal mingguan?
+    - Jadwal harian?
+    - Waktu kegiatan?
+
+- intent: durasi_kegiatan_radio
+  examples: |
+    - Berapa lama kegiatan Radio?
+    - Durasi siaran Radio?
+    - Kegiatan berapa jam?
+    - Lama kegiatan Radio?
+    - Siaran berapa lama?
+    - Durasi per sesi?
+    - Satu sesi berapa lama?
+    - Waktu kegiatan?
+    - Berapa jam per siaran?
+    - Radio berapa lama?
+    - Lama kegiatan?
+    - Durasi acara?
+    - Waktu siaran?
+    - Durasi kegiatan?
+    - Berapa lama per sesi?
+
+- intent: lokasi_kegiatan_radio
+  examples: |
+    - Kegiatan Radio dimana?
+    - Lokasi Radio dimana?
+    - Siaran dimana?
+    - Tempat kegiatan Radio?
+    - Radio dilakukan dimana?
+    - Lokasi hall b c untar?
+    - Tempat siaran?
+    - Dimana lokasi Radio?
+    - Tempat kegiatan?
+    - Lokasi siaran Radio?
+    - Tempat kerja Radio?
+    - Studio Radio dimana?
+    - Lokasi kegiatan?
+    - Radio di mana?
+    - Tempat pertemuan?
+
+- intent: event_radio
+  examples: |
+    - Event Radio apa saja?
+    - Ada acara apa saja?
+    - Program Radio apa?
+    - Apa itu diksar Radio?
+    - Apa itu PPCB?
+    - Event Radio apa saja?
+    - Acara Radio apa?
+    - Program besar Radio?
+    - Event tahunan Radio?
+    - Ada kegiatan khusus?
+    - Event broadcasting?
+    - Kegiatan besar Radio?
+    - Acara utama Radio?
+    - Event penting Radio?
+    - Program spesial Radio?
+
+- intent: jadwal_event_radio
+  examples: |
+    - Diksar kapan?
+    - PPCB kapan?
+    - ULTAFOMS kapan?
+    - Jadwal event Radio?
+    - Event bulan apa?
+    - Kapan acara Radio?
+    - Jadwal kegiatan besar?
+    - Event diadakan kapan?
+    - Jadwal rapat kerja?
+    - Kapan RAC?
+    - Event tahunan kapan?
+    - Jadwal event?
+    - Kapan acara utama?
+    - Jadwal acara?
+    - Event kapan?
+
+- intent: fasilitas_radio
+  examples: |
+    - Fasilitas Radio apa?
+    - Apa saja fasilitasnya?
+    - Ada ruang siaran?
+    - Ada komputer?
+    - Ada alat audio?
+    - Fasilitas lengkap?
+    - Apa yang disediakan?
+    - Fasilitas UKM Radio?
+    - Apakah ada studio?
+    - Tempat siaran ada?
+    - Fasilitas broadcasting?
+    - Apa saja alatnya?
+    - Peralatan siaran ada?
+    - Fasilitas pendukung?
+    - Ada pantry?
+
+- intent: benefit_radio
+  examples: |
+    - Manfaat Radio apa?
+    - Keuntungan ikut Radio?
+    - Benefit Radio?
+    - Apa yang didapat?
+    - Untung ikut Radio?
+    - Kelebihan Radio?
+    - Kenapa ikut Radio?
+    - Apa manfaat Radio?
+    - Join Radio dapat apa?
+    - Apa benefit Radio?
+    - Radio membantu apa?
+    - Kegunaan Radio?
+    - Apa hasil ikut Radio?
+    - Radio berguna?
+    - Manfaat join Radio?
+
+- intent: media_informasi_radio
+  examples: |
+    - IG Radio apa?
+    - Instagram Radio?
+    - TikTok Radio?
+    - X Radio?
+    - Website Radio?
+    - Kontak Radio?
+    - Nomor Radio?
+    - Sosial media Radio?
+    - Cara hubungi Radio?
+    - Info Radio dimana?
+    - Akun Radio?
+    - Follow Radio dimana?
+    - Media Radio apa?
+    - Kontak resmi Radio?
+    - Info online Radio?

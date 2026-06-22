@@ -1,0 +1,16 @@
+responses:
+
+  utter_salam:
+    - text: "Halo! 👋 Ada yang bisa saya bantu mengenai informasi UKM?"
+    - text: "Hai! Selamat datang di layanan informasi UKM Untar 😊"
+    - text: "Halo, silakan tanyakan informasi seputar UKM yang ingin diketahui."
+
+  utter_perpisahan:
+    - text: "Sampai jumpa 👋 Semoga informasi yang diberikan membantu."
+    - text: "Terima kasih telah menggunakan chatbot UKM 😊"
+    - text: "Baik, sampai bertemu lagi dan semoga harimu menyenangkan."
+
+  utter_terima_kasih:
+    - text: "Sama-sama 😊 Senang bisa membantu."
+    - text: "Dengan senang hati 🙌"
+    - text: "Sama-sama, silakan tanyakan lagi jika masih ada yang ingin diketahui."

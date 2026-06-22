@@ -1,0 +1,96 @@
+responses:
+
+  utter_tanya_ukm_bar:
+    - text: "UKM BAR adalah Unit Kegiatan Mahasiswa di Universitas Tarumanagara yang bergerak di bidang musik dan seni pertunjukan. UKM ini menjadi wadah bagi mahasiswa untuk mengembangkan minat, bakat, kreativitas, dan kemampuan bermusik."
+
+  utter_fungsi_ukm_bar:
+    - text: "UKM BAR berfungsi sebagai wadah pengembangan bakat musik mahasiswa, tempat berorganisasi, meningkatkan kreativitas, serta membangun relasi dan pengalaman di bidang seni musik."
+
+  utter_tujuan_ukm_bar:
+    - text: "Tujuan UKM BAR adalah mengembangkan potensi mahasiswa di bidang musik, meningkatkan kreativitas, mempererat hubungan antar mahasiswa, dan menciptakan lingkungan positif bagi penggemar musik."
+
+  utter_visi_bar:
+    - text: "Visi UKM BAR adalah menjadi organisasi musik sekaligus wadah mahasiswa yang aktif, kreatif, profesional, dan mampu mengembangkan potensi mahasiswa di bidang seni musik."
+
+  utter_misi_bar:
+    - text: |
+        Misi UKM BAR:
+        1. Mengembangkan kemampuan musik anggota.
+        2. Menyelenggarakan kegiatan seni dan musik.
+        3. Menjalin kerja sama dengan organisasi lain.
+        4. Menjadi wadah kreativitas mahasiswa.
+
+  utter_bidang_ukm_bar:
+    - text: "UKM BAR bergerak di bidang seni musik, band performance, produksi musik, event musik, dan pengembangan kreativitas mahasiswa."
+
+  utter_boleh_gabung_bar:
+    - text: "UKM BAR terbuka untuk seluruh mahasiswa Universitas Tarumanagara dari semua jurusan dan angkatan, termasuk pemula yang memiliki minat di bidang musik."
+
+  utter_cara_daftar_bar:
+    - text: "Pendaftaran UKM Citra Pesona dilakukan dengan mengisi data diri melalui Google Form"
+
+  utter_biaya_daftar_bar:
+    - text: "Biaya pendaftaran UKM BAR berkisar Rp. 50.000 - Rp.100.000 namun dapat berbeda setiap periode kepengurusan. Informasi detail biasanya diumumkan saat open recruitment berlangsung."
+
+  utter_status_pendaftaran_bar:
+    - text: "Informasi pembukaan pendaftaran anggota baru UKM BAR dapat dilihat melalui media sosial resmi."
+
+  utter_syarat_anggota_bar:
+    - text: "Syarat umum bergabung dengan UKM BAR adalah mahasiswa aktif Universitas Tarumanagara, memiliki minat di bidang musik, dan mengikuti proses pendaftaran yang berlaku."
+
+  utter_kemampuan_anggota_bar:
+    - text: "Pemula tetap dapat bergabung dengan UKM BAR. Tidak semua anggota diwajibkan memiliki kemampuan musik profesional karena UKM BAR juga menjadi tempat belajar dan berkembang."
+
+  utter_divisi_bar:
+    - text: |
+        UKM BAR memiliki beberapa divisi seperti:
+        - Divisi Performer
+        - Divisi Studio
+        - Divisi Event Organizer
+        - Divisi Kreatif
+        - Divisi Keruangan
+
+  utter_struktur_bar:
+    - text: "Struktur organisasi UKM BAR terdiri dari ketua, wakil ketua, sekretaris, bendahara, dan beberapa divisi kepengurusan yang mendukung kegiatan organisasi."
+
+  utter_kegiatan_bar:
+    - text: "Kegiatan UKM BAR meliputi latihan musik, performance, event musik, gathering anggota, produksi karya musik, dan kegiatan organisasi lainnya."
+
+  utter_kegiatan_rutin_bar:
+    - text: "Kegiatan rutin UKM BAR biasanya berupa latihan musik, diskusi musik, persiapan event, dan pertemuan anggota."
+
+  utter_jadwal_latihan_bar:
+    - text: "Jadwal latihan UKM BAR biasanya disesuaikan dengan agenda anggota atau grup band masing masing."
+
+  utter_durasi_kegiatan_bar:
+    - text: "Durasi latihan atau kegiatan UKM BAR umumnya disesuaikan dengan anggota atau grup band masing masing."
+
+  utter_lokasi_kegiatan_bar:
+    - text: "Kegiatan UKM BAR biasanya dilaksanakan di studio musik bar yang terletak di Lantai 6 Geedung M Untar 1."
+
+  utter_event_bar:
+    - text: "UKM BAR sering mengadakan event musik, performance kampus, gathering anggota, produksi musik, dan kegiatan hiburan lainnya."
+
+  utter_jadwal_event_bar:
+    - text: "Jadwal event UKM BAR diumumkan melalui media sosial resmi dan informasi internal organisasi."
+
+  utter_fasilitas_bar:
+    - text: "UKM BAR menyediakan fasilitas seperti studio musik, alat musik, ruang sekretariat, dan perlengkapan pendukung kegiatan musik."
+
+  utter_lokasi_sekre_bar:
+    - text: "Lokasi ruang sekretariat adhyatmaka terletak di Lantai 2, Gedung M, Untar Kampus 1."
+
+  utter_prestasi_bar:
+    - text: "UKM BAR memiliki berbagai pengalaman tampil dan berpartisipasi dalam event maupun kompetisi musik di lingkungan kampus maupun luar kampus."
+
+  utter_benefit_bar:
+    - text: |
+        Benefit bergabung dengan UKM BAR:
+        - Mengembangkan kemampuan musik
+        - Menambah relasi pertemanan
+        - Mendapat pengalaman tampil
+        - Belajar organisasi dan teamwork
+        - Menyalurkan kreativitas di bidang musik
+
+  utter_media_informasi_bar:
+    - text: "Informasi resmi UKM BAR dapat diperoleh melalui media sosial resmi @baruntar."

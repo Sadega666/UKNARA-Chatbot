@@ -1,0 +1,157 @@
+version: "3.1"
+
+responses:
+
+  utter_tanya_ukm_mahupa:
+  - text: |
+      UKM MAHUPA adalah Unit Kegiatan Mahasiswa yang bergerak di bidang pecinta alam 🌿.
+      MAHUPA berfokus pada kegiatan outdoor, eksplorasi alam, serta pelestarian lingkungan.
+      Cocok banget buat kamu yang suka petualangan dan kegiatan di alam terbuka.
+
+  utter_fungsi_ukm_mahupa:
+  - text: |
+      Fungsi UKM MAHUPA adalah:
+      - Menjadi wadah minat mahasiswa di bidang alam 🌄
+      - Mengembangkan kemampuan fisik dan mental
+      - Meningkatkan kepedulian terhadap lingkungan
+
+  utter_tujuan_ukm_mahupa:
+  - text: |
+      Tujuan MAHUPA:
+      - Mengembangkan minat dan bakat di bidang pecinta alam
+      - Membentuk karakter yang tangguh dan mandiri 💪
+      - Menumbuhkan jiwa kepemimpinan dan teamwork
+
+  utter_misi_ukm_mahupa:
+  - text: |
+      Misi MAHUPA:
+      - Mengadakan kegiatan alam yang edukatif
+      - Melatih keterampilan survival dan outdoor
+      - Meningkatkan kepedulian lingkungan 🌍
+
+  utter_visi_ukm_mahupa:
+  - text: |
+      Visi MAHUPA adalah menjadi organisasi pecinta alam yang aktif, solid, dan berkontribusi dalam pelestarian lingkungan serta pengembangan mahasiswa.
+
+  utter_bidang_ukm_mahupa:
+  - text: |
+      MAHUPA bergerak di bidang:
+      🌿 Pecinta alam
+      🏕️ Kegiatan outdoor
+      🌎 Pelestarian lingkungan
+
+  utter_boleh_gabung_mahupa:
+  - text: |
+      MAHUPA terbuka untuk semua mahasiswa 🙌
+      Baik mahasiswa baru maupun lama dari berbagai jurusan bisa bergabung.
+
+  utter_cara_daftar_mahupa:
+  - text: |
+      Cara daftar MAHUPA:
+      1. Isi formulir pendaftaran (biasanya via GForm)
+      2. Ikuti proses seleksi atau wawancara
+      3. Mengikuti tahap selanjutnya seperti Diksar
+
+  utter_biaya_daftar_mahupa:
+  - text: |
+      Biaya pendaftaran MAHUPA biasanya akan diinformasikan saat open recruitment.
+      Silakan cek info terbaru melalui media sosial resmi MAHUPA 📢
+
+  utter_status_pendaftaran_mahupa:
+  - text: |
+      Pendaftaran MAHUPA biasanya dibuka saat:
+      - PMB
+      - Open House
+      Pantau terus info terbaru di media sosial ya 👍
+
+  utter_syarat_anggota_mahupa:
+  - text: |
+      Syarat bergabung MAHUPA:
+      - Mahasiswa aktif
+      - Mengikuti Diksar
+      - Memiliki komitmen dan tanggung jawab
+
+  utter_komitmen_mahupa:
+  - text: |
+      Komitmen di MAHUPA:
+      - Aktif dalam kegiatan
+      - Mengikuti program seperti Diksar
+      - Disiplin dan bertanggung jawab 💪
+
+  utter_divisi_mahupa:
+  - text: |
+      MAHUPA biasanya memiliki beberapa divisi seperti:
+      - Humas
+      - Logistik
+      - Divisi kegiatan alam (hiking, dll)
+
+  utter_struktur_mahupa:
+  - text: |
+      Struktur MAHUPA terdiri dari badan pengurus harian inti (ketua, wakil, sekretaris, bendahara) serta divisi-divisi yang mendukung kegiatan organisasi.
+
+  utter_kegiatan_mahupa:
+  - text: |
+      Kegiatan MAHUPA meliputi:
+      - Diksar
+      - Open trip 🏕️
+      - Pendakian gunung
+      - Kegiatan lingkungan
+      - Latihan rutin
+
+  utter_latihan_bulanan_mahupa:
+  - text: |
+      MAHUPA memiliki kegiatan rutin seperti latihan atau pertemuan berkala untuk meningkatkan kemampuan anggota.
+
+  utter_jenis_kegiatan_mahupa:
+  - text: |
+      Jenis kegiatan MAHUPA:
+      - Diksar (pendidikan dasar)
+      - Open trip
+      - Pendakian
+      - Kegiatan lingkungan 🌱
+
+  utter_jadwal_kegiatan_mahupa:
+  - text: |
+      Jadwal kegiatan MAHUPA biasanya fleksibel tergantung program.
+      Info lengkap akan diumumkan melalui media sosial atau grup internal 📅
+
+  utter_lokasi_kegiatan_mahupa:
+  - text: |
+      Lokasi kegiatan MAHUPA:
+      - Kampus (untuk pertemuan)
+      - Gunung atau alam terbuka
+      - Luar kota sesuai kegiatan 🌄
+
+  utter_event_mahupa:
+  - text: |
+      Event MAHUPA antara lain:
+      - Diksar
+      - Open trip
+      - Kegiatan lingkungan
+      - Event tahunan
+
+  utter_jadwal_event_mahupa:
+  - text: |
+      Jadwal event MAHUPA biasanya disesuaikan dengan program tahunan.
+      Informasi detail akan diumumkan melalui media resmi 📢
+
+  utter_fasilitas_mahupa:
+  - text: |
+      Fasilitas MAHUPA biasanya meliputi:
+      - Peralatan outdoor
+      - Perlengkapan pendakian
+      - Alat kegiatan alam
+
+  utter_benefit_mahupa:
+  - text: |
+      Benefit ikut MAHUPA:
+      - Pengalaman petualangan seru 🌄
+      - Melatih fisik dan mental
+      - Menambah relasi
+      - Belajar survival dan teamwork
+
+  utter_media_informasi_mahupa:
+  - text: |
+      Untuk info lebih lanjut:
+      - Cek Instagram resmi @mahupauntar 📱
+      - Hubungi admin melalui DM

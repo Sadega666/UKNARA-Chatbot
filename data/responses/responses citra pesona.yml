@@ -1,0 +1,140 @@
+version: "3.1"
+
+responses:
+
+  utter_tanya_ukm_citrapesona:
+  - text: |
+      UKM Citra Pesona (CP) adalah Unit Kegiatan Mahasiswa yang bergerak di bidang seni, khususnya tari tradisional, modern dance, hip hop, serta modeling dan event organizer (EO).
+      UKM ini menjadi wadah bagi mahasiswa untuk menyalurkan minat dan bakat di bidang seni pertunjukan dengan bimbingan coach yang berpengalaman.
+
+  utter_fungsi_ukm_citrapesona:
+  - text: |
+      Fungsi UKM Citra Pesona adalah sebagai wadah pengembangan minat dan bakat mahasiswa di bidang seni, khususnya tari dan modeling, serta sebagai sarana untuk meningkatkan kreativitas, kepercayaan diri, dan kemampuan tampil di depan umum.
+
+  utter_tujuan_ukm_citrapesona:
+  - text: |
+      Tujuan UKM Citra Pesona adalah untuk menyalurkan dan mengembangkan potensi mahasiswa di bidang seni tari dan modeling, serta membentuk anggota yang kreatif, percaya diri, dan mampu berprestasi di bidang seni pertunjukan.
+
+  utter_misi_citrapesona:
+  - text: |
+      Misi UKM Citra Pesona adalah mengembangkan kemampuan anggota dalam bidang seni tari dan modeling, meningkatkan kualitas latihan secara berkelanjutan, serta mendorong anggota untuk aktif berpartisipasi dalam berbagai kegiatan dan kompetisi seni.
+
+  utter_visi_citrapesona:
+  - text: |
+      Visi UKM Citra Pesona adalah menjadi wadah seni yang unggul, kreatif, dan berprestasi di tingkat kampus maupun di luar kampus.
+
+  utter_bidang_ukm_citrapesona:
+  - text: |
+      UKM Citra Pesona bergerak di bidang seni, khususnya seni tari dan modeling, yang mencakup tari tradisional, modern dance, hip hop, serta kegiatan event organizer (EO).
+
+  utter_boleh_gabung_citrapesona:
+  - text: |
+      UKM Citra Pesona terbuka untuk seluruh mahasiswa Universitas Tarumanagara dari berbagai jurusan dan angkatan. Mahasiswa pria maupun wanita dapat bergabung, termasuk pemula yang memiliki minat di bidang seni.
+
+  utter_cara_daftar_citrapesona:
+  - text: |
+      Pendaftaran UKM Citra Pesona dilakukan dengan mengisi data diri melalui Google Form, kemudian mengikuti proses audisi.
+      Selain itu, pendaftaran juga dapat dilakukan secara offline di Lantai 7 Gedung M.
+
+  utter_biaya_daftar_citrapesona:
+  - text: |
+      Biaya pendaftaran UKM Citra Pesona adalah sebesar Rp40.000.
+
+  utter_status_pendaftaran_citrapesona:
+  - text: |
+      Informasi mengenai pembukaan pendaftaran UKM Citra Pesona dapat dilihat melalui media sosial resmi. Umumnya pendaftaran dibuka saat periode awal semester atau saat kegiatan rekrutmen mahasiswa baru.
+
+  utter_audisi_citrapesona:
+  - text: |
+      Ya, terdapat proses audisi untuk bergabung dengan UKM Citra Pesona. Audisi bertujuan untuk mengetahui kemampuan dasar peserta, terutama dalam bidang tari.
+
+  utter_syarat_anggota_citrapesona:
+  - text: |
+      Persyaratan untuk bergabung dengan UKM Citra Pesona adalah memiliki komitmen dalam mengikuti kegiatan serta memiliki dasar kemampuan menari (basic dance).
+
+  utter_kemampuan_anggota_citrapesona:
+  - text: |
+      Anggota UKM Citra Pesona diharapkan memiliki kemampuan dasar dalam menari. Namun, kemampuan tersebut dapat terus dikembangkan melalui latihan rutin bersama coach.
+
+  utter_divisi_citrapesona:
+  - text: |
+      UKM Citra Pesona memiliki pembagian bidang kegiatan sesuai dengan jenis seni yang dikembangkan, seperti modern dance, hip hop, dan modeling.
+
+  utter_struktur_citrapesona:
+  - text: |
+      Struktur organisasi UKM Citra Pesona terdiri dari badan pengurus harian inti, serta pengurus dan anggota yang mendukung jalannya kegiatan dan program kerja UKM.
+
+  utter_kegiatan_citrapesona:
+  - text: |
+      Kegiatan UKM Citra Pesona meliputi latihan rutin tari, kegiatan pelatihan seperti Training and Fun, serta kegiatan kebersamaan seperti gathering dan event lainnya.
+
+  utter_kegiatan_rutin_citrapesona:
+  - text: |
+      Kegiatan rutin UKM Citra Pesona adalah latihan tari yang dilakukan secara berkala sesuai dengan jadwal masing-masing bidang.
+
+  utter_jadwal_latihan_citrapesona:
+  - text: |
+      Jadwal latihan UKM Citra Pesona antara lain:
+      - Modeling: hari Rabu (±2 jam)
+      - Hip hop: hari Kamis (±2 jam)
+
+  utter_durasi_kegiatan_citrapesona:
+  - text: |
+      Durasi setiap kegiatan atau latihan di UKM Citra Pesona umumnya berlangsung sekitar 2 jam per sesi.
+
+  utter_lokasi_kegiatan_citrapesona:
+  - text: |
+      Kegiatan UKM Citra Pesona dilaksanakan di Lantai 7, Gedung M, Untar Kampus 1.
+      Beberapa kegiatan khusus seperti Training and Fun diadakan di luar kota, seperti di Puncak.
+
+  utter_event_citrapesona:
+  - text: |
+      UKM Citra Pesona memiliki beberapa program dan event, antara lain:
+      - Training and Fun (LK)
+      - SPARTA
+      - Gathering
+
+  utter_event_tnf_citrapesona:
+  - text: |
+      Training and Fun (LK) adalah kegiatan pelatihan dan kebersamaan anggota UKM Citra Pesona yang biasanya dilaksanakan di luar kota untuk meningkatkan kekompakan dan kemampuan anggota.
+
+  utter_event_gathering_citrapesona:
+  - text: |
+      Gathering merupakan kegiatan kebersamaan anggota UKM Citra Pesona yang bertujuan untuk mempererat hubungan antar anggota.
+
+  utter_jadwal_event_citrapesona:
+  - text: |
+      Jadwal event UKM Citra Pesona disesuaikan dengan program kerja tahunan dan dapat berbeda setiap periode kepengurusan.
+
+  utter_jadwal_tnf_citrapesona:
+  - text: |
+      Training and Fun biasanya dilaksanakan pada periode tertentu sesuai dengan program kerja.
+
+  utter_jadwal_gathering_citrapesona:
+  - text: |
+      Gathering dilaksanakan sesuai dengan agenda internal UKM untuk mempererat hubungan antar anggota.
+
+  utter_fasilitas_citrapesona:
+  - text: |
+      UKM Citra Pesona menyediakan fasilitas berupa ruang sekretariat yang digunakan sebagai tempat berkumpul dan koordinasi kegiatan.
+
+  utter_lokasi_sekre_citrapesona:
+  - text: | 
+      Lokasi ruang sekretariat Citra Pesona terletak di Untar Kampus 1, Gedung M, Lantai 2.
+
+  utter_prestasi_citrapesona:
+  - text: |
+      Salah satu prestasi UKM Citra Pesona adalah meraih Runner Up pada kompetisi TSAC tahun 2025.
+
+  utter_benefit_citrapesona:
+  - text: |
+      Manfaat bergabung dengan UKM Citra Pesona antara lain:
+      - Mengembangkan kemampuan di bidang seni tari dan modeling
+      - Meningkatkan kepercayaan diri
+      - Mendapatkan pengalaman tampil dan mengikuti kompetisi
+      - Memperluas relasi dan pengalaman organisasi
+
+  utter_media_informasi_citrapesona:
+  - text: |
+      Informasi terbaru mengenai UKM Citra Pesona dapat diakses melalui Instagram resmi @citrapesonauntr.
+      Untuk pertanyaan lebih lanjut, dapat menghubungi contact person melalui LINE: @936mfvwf
